@@ -113,3 +113,30 @@ Keeps GitHub aligned with the implemented Figma system, avoids placeholder drift
 
 ### Revisit when
 Live full-variable re-export is run; or product adds Figma Mode tokens for status/surfaces; or brand theming changes Theme `primary-*` aliases.
+
+---
+
+## D005 — Live Figma parity: ring-offset alias + custom key stability
+
+### Context
+Live MCP re-export (2026-09-22) showed Mode `base/ring-offset` aliases Theme `colors/background-*`, not invented `colors/ring-offset-*`. Mode `custom/*` sanitizer also risked longer keys that would churn CSS names.
+
+### Options considered
+- ring-offset: (A) alias Theme background; (B) keep synthetic Theme knobs; (C) ask design to add Theme ring-offset tokens
+- custom keys: (A) keep shorter v0.4 keys; (B) accept live-derived longer keys
+
+### Decision
+- **ringOffset=A** — Semantic `ring-offset` aliases `theme.color.background-{light|dark}`; do not invent Theme `ring-offset-*`.
+- **customKeys=A** — Preserve shorter v0.4 normalized keys; keep exact Figma names in mappings; sanitizer collapses repeated stems.
+
+### Reason
+Faithful to live Figma alias graph without inventing Theme tokens; stable CSS for consumers.
+
+### Impact
+- `modeBaseThemeTargets` in curated export / semantic meta
+- CSS: `--ring-offset: var(--theme-background-light|dark)`
+- Live inventory at `tokens/_raw/figma-export.live.json`; parity documented in `docs/figma-parity.md`
+
+### Revisit when
+Design adds Theme `colors/ring-offset-*` in Figma, or product needs distinct ring-offset knobs independent of background.
+

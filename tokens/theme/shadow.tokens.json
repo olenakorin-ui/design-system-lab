@@ -5,6 +5,18 @@
     "group": "shadow+blur"
   },
   "shadow": {
+    "2xl": [
+      {
+        "$type": "shadow",
+        "$value": {
+          "offsetX": 0,
+          "offsetY": 25,
+          "blur": 50,
+          "spread": -12,
+          "color": "rgba(0,0,0,0.25)"
+        }
+      }
+    ],
     "2xs": [
       {
         "$type": "shadow",
@@ -17,26 +29,14 @@
         }
       }
     ],
-    "xs": [
+    "lg": [
       {
         "$type": "shadow",
         "$value": {
           "offsetX": 0,
-          "offsetY": 1,
-          "blur": 2,
-          "spread": 0,
-          "color": "rgba(0,0,0,0.05)"
-        }
-      }
-    ],
-    "sm": [
-      {
-        "$type": "shadow",
-        "$value": {
-          "offsetX": 0,
-          "offsetY": 1,
-          "blur": 3,
-          "spread": 0,
+          "offsetY": 10,
+          "blur": 15,
+          "spread": -3,
           "color": "rgba(0,0,0,0.1)"
         }
       },
@@ -44,9 +44,9 @@
         "$type": "shadow",
         "$value": {
           "offsetX": 0,
-          "offsetY": 1,
-          "blur": 2,
-          "spread": -1,
+          "offsetY": 4,
+          "blur": 6,
+          "spread": -4,
           "color": "rgba(0,0,0,0.1)"
         }
       }
@@ -73,14 +73,14 @@
         }
       }
     ],
-    "lg": [
+    "sm": [
       {
         "$type": "shadow",
         "$value": {
           "offsetX": 0,
-          "offsetY": 10,
-          "blur": 15,
-          "spread": -3,
+          "offsetY": 1,
+          "blur": 3,
+          "spread": 0,
           "color": "rgba(0,0,0,0.1)"
         }
       },
@@ -88,9 +88,9 @@
         "$type": "shadow",
         "$value": {
           "offsetX": 0,
-          "offsetY": 4,
-          "blur": 6,
-          "spread": -4,
+          "offsetY": 1,
+          "blur": 2,
+          "spread": -1,
           "color": "rgba(0,0,0,0.1)"
         }
       }
@@ -117,15 +117,15 @@
         }
       }
     ],
-    "2xl": [
+    "xs": [
       {
         "$type": "shadow",
         "$value": {
           "offsetX": 0,
-          "offsetY": 25,
-          "blur": 50,
-          "spread": -12,
-          "color": "rgba(0,0,0,0.25)"
+          "offsetY": 1,
+          "blur": 2,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.05)"
         }
       }
     ]

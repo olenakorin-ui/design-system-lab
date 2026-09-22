@@ -6,7 +6,10 @@
       "light",
       "dark"
     ],
-    "note": "Normalized from Mode base/*; aliases Theme colors/*-light|dark"
+    "note": "Normalized from Mode base/*; aliases Theme colors/*-light|dark (or modeBaseThemeTargets override)",
+    "modeBaseThemeTargets": {
+      "ring-offset": "background"
+    }
   },
   "light": {
     "accent": {
@@ -32,6 +35,26 @@
     "card-foreground": {
       "$type": "color",
       "$value": "{theme.color.card-foreground-light}"
+    },
+    "chart-1": {
+      "$type": "color",
+      "$value": "{theme.color.chart-1-light}"
+    },
+    "chart-2": {
+      "$type": "color",
+      "$value": "{theme.color.chart-2-light}"
+    },
+    "chart-3": {
+      "$type": "color",
+      "$value": "{theme.color.chart-3-light}"
+    },
+    "chart-4": {
+      "$type": "color",
+      "$value": "{theme.color.chart-4-light}"
+    },
+    "chart-5": {
+      "$type": "color",
+      "$value": "{theme.color.chart-5-light}"
     },
     "destructive": {
       "$type": "color",
@@ -79,7 +102,7 @@
     },
     "ring-offset": {
       "$type": "color",
-      "$value": "{theme.color.ring-offset-light}"
+      "$value": "{theme.color.background-light}"
     },
     "secondary": {
       "$type": "color",
@@ -89,41 +112,9 @@
       "$type": "color",
       "$value": "{theme.color.secondary-foreground-light}"
     },
-    "chart-1": {
-      "$type": "color",
-      "$value": "{theme.color.chart-1-light}"
-    },
-    "chart-2": {
-      "$type": "color",
-      "$value": "{theme.color.chart-2-light}"
-    },
-    "chart-3": {
-      "$type": "color",
-      "$value": "{theme.color.chart-3-light}"
-    },
-    "chart-4": {
-      "$type": "color",
-      "$value": "{theme.color.chart-4-light}"
-    },
-    "chart-5": {
-      "$type": "color",
-      "$value": "{theme.color.chart-5-light}"
-    },
     "sidebar": {
       "$type": "color",
       "$value": "{theme.color.sidebar-light}"
-    },
-    "sidebar-foreground": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-foreground-light}"
-    },
-    "sidebar-primary": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-primary-light}"
-    },
-    "sidebar-primary-foreground": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-primary-foreground-light}"
     },
     "sidebar-accent": {
       "$type": "color",
@@ -136,6 +127,18 @@
     "sidebar-border": {
       "$type": "color",
       "$value": "{theme.color.sidebar-border-light}"
+    },
+    "sidebar-foreground": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-foreground-light}"
+    },
+    "sidebar-primary": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-primary-light}"
+    },
+    "sidebar-primary-foreground": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-primary-foreground-light}"
     },
     "sidebar-ring": {
       "$type": "color",
@@ -166,6 +169,26 @@
     "card-foreground": {
       "$type": "color",
       "$value": "{theme.color.card-foreground-dark}"
+    },
+    "chart-1": {
+      "$type": "color",
+      "$value": "{theme.color.chart-1-dark}"
+    },
+    "chart-2": {
+      "$type": "color",
+      "$value": "{theme.color.chart-2-dark}"
+    },
+    "chart-3": {
+      "$type": "color",
+      "$value": "{theme.color.chart-3-dark}"
+    },
+    "chart-4": {
+      "$type": "color",
+      "$value": "{theme.color.chart-4-dark}"
+    },
+    "chart-5": {
+      "$type": "color",
+      "$value": "{theme.color.chart-5-dark}"
     },
     "destructive": {
       "$type": "color",
@@ -213,7 +236,7 @@
     },
     "ring-offset": {
       "$type": "color",
-      "$value": "{theme.color.ring-offset-dark}"
+      "$value": "{theme.color.background-dark}"
     },
     "secondary": {
       "$type": "color",
@@ -223,41 +246,9 @@
       "$type": "color",
       "$value": "{theme.color.secondary-foreground-dark}"
     },
-    "chart-1": {
-      "$type": "color",
-      "$value": "{theme.color.chart-1-dark}"
-    },
-    "chart-2": {
-      "$type": "color",
-      "$value": "{theme.color.chart-2-dark}"
-    },
-    "chart-3": {
-      "$type": "color",
-      "$value": "{theme.color.chart-3-dark}"
-    },
-    "chart-4": {
-      "$type": "color",
-      "$value": "{theme.color.chart-4-dark}"
-    },
-    "chart-5": {
-      "$type": "color",
-      "$value": "{theme.color.chart-5-dark}"
-    },
     "sidebar": {
       "$type": "color",
       "$value": "{theme.color.sidebar-dark}"
-    },
-    "sidebar-foreground": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-foreground-dark}"
-    },
-    "sidebar-primary": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-primary-dark}"
-    },
-    "sidebar-primary-foreground": {
-      "$type": "color",
-      "$value": "{theme.color.sidebar-primary-foreground-dark}"
     },
     "sidebar-accent": {
       "$type": "color",
@@ -270,6 +261,18 @@
     "sidebar-border": {
       "$type": "color",
       "$value": "{theme.color.sidebar-border-dark}"
+    },
+    "sidebar-foreground": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-foreground-dark}"
+    },
+    "sidebar-primary": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-primary-dark}"
+    },
+    "sidebar-primary-foreground": {
+      "$type": "color",
+      "$value": "{theme.color.sidebar-primary-foreground-dark}"
     },
     "sidebar-ring": {
       "$type": "color",

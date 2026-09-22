@@ -1,0 +1,17 @@
+{
+  "extractedAt": "2026-09-22T10:50:30.250Z",
+  "fileKey": "ZllxQplWi5QJcNeUHeY8T3",
+  "totalVariables": 760,
+  "textStyleCount": 309,
+  "effectStyleCount": 34,
+  "collectionCounts": {
+    "1. TailwindCSS": 440,
+    "2. Theme": 235,
+    "3. Mode": 59,
+    "4. Custom": 26
+  },
+  "chunkCount": 16,
+  "byteLength": 185688,
+  "jsonLength": 139266,
+  "method": "compact-tsv-expand"
+}

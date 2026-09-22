@@ -388,35 +388,43 @@ def build_theme(export: dict) -> tuple[dict, dict, dict, dict, dict, list[dict]]
 
 def build_semantic(export: dict) -> tuple[dict, dict, list[dict]]:
     mappings = []
+    theme_targets = export.get("modeBaseThemeTargets", {})
     semantic = {
         "meta": {
             "tier": "semantic",
             "figmaCollection": "3. Mode",
             "modes": ["light", "dark"],
-            "note": "Normalized from Mode base/*; aliases Theme colors/*-light|dark",
+            "note": "Normalized from Mode base/*; aliases Theme colors/*-light|dark (or modeBaseThemeTargets override)",
+            "modeBaseThemeTargets": theme_targets,
         },
         "light": {},
         "dark": {},
     }
-    for name in export["modeBase"]:
+    for name in sorted(export["modeBase"]):
         if name in LAB_ONLY_FORBIDDEN:
             continue
-        # Theme path: colors/{name}-light
-        semantic["light"][name] = alias(f"theme.color.{name}-light")
-        semantic["dark"][name] = alias(f"theme.color.{name}-dark")
-        mappings.append(
-            {
-                "figma": f"base/{name}",
-                "figmaCollection": "3. Mode",
-                "codePath": f"semantic.color.{{mode}}.{name}",
-                "cssVar": css_name_from_path(name),
-                "tier": "semantic",
-                "modes": ["Light", "Dark"],
-            }
-        )
+        theme_stem = theme_targets.get(name, name)
+        semantic["light"][name] = alias(f"theme.color.{theme_stem}-light")
+        semantic["dark"][name] = alias(f"theme.color.{theme_stem}-dark")
+        mapping: dict = {
+            "figma": f"base/{name}",
+            "figmaCollection": "3. Mode",
+            "codePath": f"semantic.color.{{mode}}.{name}",
+            "cssVar": css_name_from_path(name),
+            "tier": "semantic",
+            "modes": ["Light", "Dark"],
+            "themeAlias": f"colors/{theme_stem}-{{light|dark}}",
+        }
+        if theme_stem != name:
+            mapping["note"] = (
+                f"Live Figma aliases Theme colors/{theme_stem}-* "
+                f"(not colors/{name}-*); Decision ringOffset=A"
+            )
+        mappings.append(mapping)
 
     alpha = {"meta": {"tier": "semantic", "figmaCollection": "3. Mode", "group": "alpha"}, "light": {}, "dark": {}}
-    for step, modes in export["modeAlpha"].items():
+    for step in sorted(export["modeAlpha"], key=lambda s: int(s) if str(s).isdigit() else s):
+        modes = export["modeAlpha"][step]
         alpha["light"][step] = color_token(modes["Light"]["hex"], modes["Light"]["alpha"])
         alpha["dark"][step] = color_token(modes["Dark"]["hex"], modes["Dark"]["alpha"])
         mappings.append(
@@ -436,7 +444,8 @@ def build_custom(export: dict) -> tuple[dict, dict, list[dict]]:
     mappings = []
     recipes = {"meta": {"tier": "custom", "figmaCollection": "3. Mode", "group": "custom"}, "light": {}, "dark": {}}
     figma_names = export["modeCustomFigmaNames"]
-    for key, modes in export["modeCustom"].items():
+    for key in sorted(export["modeCustom"]):
+        modes = export["modeCustom"][key]
         recipes["light"][key] = ref_to_alias(modes["Light"])
         recipes["dark"][key] = ref_to_alias(modes["Dark"])
         mappings.append(
@@ -508,11 +517,14 @@ def resolve_color_value(tok: dict, stores: dict, stack: list[str] | None = None)
     if alpha is not None:
         h = hex_value.lstrip("#")
         r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
-        return f"rgba({r}, {g}, {b}, {alpha})"
+        a = float(alpha)
+        alpha_str = str(int(a)) if a == int(a) else str(a)
+        return f"rgba({r}, {g}, {b}, {alpha_str})"
     return hex_value.lower()
 
 
 def build_css(stores: dict, semantic: dict, alpha: dict, recipes: dict, prim_color: dict, theme_radius: dict, theme_type: dict, theme_shadow: dict, prim_dim: dict) -> str:
+    theme_targets = semantic.get("meta", {}).get("modeBaseThemeTargets", {})
     lines = [
         "/* GENERATED FILE — do not edit by hand.",
         " * Source: tokens/**/*.tokens.json via scripts/migrate-tokens.py",
@@ -521,25 +533,24 @@ def build_css(stores: dict, semantic: dict, alpha: dict, recipes: dict, prim_col
         "",
         ":root {",
     ]
-    # primitives colors
-    for family, scale in prim_color.items():
-        if family in ("meta", "$description"):
-            continue
+    # primitives colors — stable family order
+    for family in sorted(k for k in prim_color if k not in ("meta", "$description")):
+        scale = prim_color[family]
         if isinstance(scale, dict) and "$type" in scale:
             lines.append(f"  {css_name_from_path(f'color.{family}')}: {resolve_color_value(scale, stores)};")
         else:
-            for step, tok in scale.items():
+            for step in sorted(scale, key=lambda s: (0, int(s)) if str(s).isdigit() else (1, str(s))):
+                tok = scale[step]
                 lines.append(f"  {css_name_from_path(f'color.{family}.{step}')}: {resolve_color_value(tok, stores)};")
     lines.append("")
-    for k, tok in prim_dim["spacing"].items():
+    for k in sorted(prim_dim["spacing"], key=lambda s: (0, float(str(s).replace("-", ".")) if str(s).replace("-", "").replace(".", "").isdigit() else 1, str(s))):
+        tok = prim_dim["spacing"][k]
         lines.append(f"  {css_name_from_path(f'spacing.{k}')}: {tok['$value']};")
     lines.append("")
-    for k, tok in theme_radius.items():
-        if k == "meta":
-            continue
+    for k in sorted(k for k in theme_radius if k != "meta"):
+        tok = theme_radius[k]
         val = tok["$value"]
         if isinstance(val, str) and val.startswith("{"):
-            # alias — emit var to radius target
             inner = val[1:-1].replace("theme.radius.", "")
             lines.append(f"  {css_name_from_path(f'radius.{k}')}: var({css_name_from_path(f'radius.{inner}')});")
         else:
@@ -549,11 +560,13 @@ def build_css(stores: dict, semantic: dict, alpha: dict, recipes: dict, prim_col
         lines.append(f"  {css_name_from_path(f'font.{name}')}: {tok['$value']}, system-ui, sans-serif;")
     for name, tok in theme_type["font-weight"].items():
         lines.append(f"  {css_name_from_path(f'font-weight.{name}')}: {tok['$value']};")
-    for size, props in theme_type["text"].items():
+    for size in sorted(theme_type["text"]):
+        props = theme_type["text"][size]
         lines.append(f"  {css_name_from_path(f'text.{size}.size')}: {props['font-size']['$value']};")
         lines.append(f"  {css_name_from_path(f'text.{size}.line-height')}: {props['line-height']['$value']};")
     lines.append("")
-    for name, layers in theme_shadow["shadow"].items():
+    for name in sorted(theme_shadow["shadow"]):
+        layers = theme_shadow["shadow"][name]
         parts = []
         for layer in layers:
             v = layer["$value"]
@@ -561,30 +574,33 @@ def build_css(stores: dict, semantic: dict, alpha: dict, recipes: dict, prim_col
         lines.append(f"  {css_name_from_path(f'shadow.{name}')}: {', '.join(parts)};")
     lines.append("")
     lines.append("  /* Semantic (Mode / Light) */")
-    for name, tok in semantic["light"].items():
-        # Prefer CSS var() chain through theme for clarity
-        theme_key = f"{name}-light"
+    for name in sorted(semantic["light"]):
+        theme_stem = theme_targets.get(name, name)
+        theme_key = f"{theme_stem}-light"
         lines.append(f"  {css_name_from_path(name)}: var({css_name_from_path(f'theme.{theme_key}')});")
-    # Emit theme color vars resolved
     lines.append("")
     lines.append("  /* Theme color knobs (light-facing defaults + resolved) */")
-    for key, tok in stores["theme"]["color"].items():
-        if key == "meta":
-            continue
+    for key in sorted(k for k in stores["theme"]["color"] if k != "meta"):
+        tok = stores["theme"]["color"][key]
         lines.append(f"  {css_name_from_path(f'theme.{key}')}: {resolve_color_value(tok, stores)};")
-    for step, tok in alpha["light"].items():
+    for step in sorted(alpha["light"], key=lambda s: int(s) if str(s).isdigit() else s):
+        tok = alpha["light"][step]
         lines.append(f"  {css_name_from_path(f'alpha.{step}')}: {resolve_color_value(tok, stores)};")
-    for key, tok in recipes["light"].items():
+    for key in sorted(recipes["light"]):
+        tok = recipes["light"][key]
         lines.append(f"  {css_name_from_path(f'custom.{key}')}: {resolve_color_value(tok, stores)};")
     lines.append("}")
     lines.append("")
     lines.append(".dark {")
-    for name, tok in semantic["dark"].items():
-        theme_key = f"{name}-dark"
+    for name in sorted(semantic["dark"]):
+        theme_stem = theme_targets.get(name, name)
+        theme_key = f"{theme_stem}-dark"
         lines.append(f"  {css_name_from_path(name)}: var({css_name_from_path(f'theme.{theme_key}')});")
-    for step, tok in alpha["dark"].items():
+    for step in sorted(alpha["dark"], key=lambda s: int(s) if str(s).isdigit() else s):
+        tok = alpha["dark"][step]
         lines.append(f"  {css_name_from_path(f'alpha.{step}')}: {resolve_color_value(tok, stores)};")
-    for key, tok in recipes["dark"].items():
+    for key in sorted(recipes["dark"]):
+        tok = recipes["dark"][key]
         lines.append(f"  {css_name_from_path(f'custom.{key}')}: {resolve_color_value(tok, stores)};")
     lines.append("}")
     lines.append("")
@@ -693,14 +709,23 @@ def main() -> None:
     dump(
         TOKENS / "meta.json",
         {
-            "version": "0.4.0",
+            "version": "0.4.1",
             "architecture": "TailwindCSS → Theme → Mode",
-            "decisions": {"Decision1": "A", "Decision2": "B", "Decision3": "B", "Decision4": "A"},
+            "decisions": {
+                "Decision1": "A",
+                "Decision2": "B",
+                "Decision3": "B",
+                "Decision4": "A",
+                "ringOffset": "A",
+                "customKeys": "A",
+            },
             "source": export["meta"],
             "labOnlyRemoved": sorted(LAB_ONLY_FORBIDDEN),
             "tiers": ["primitive", "theme", "semantic", "custom", "mappings"],
             "css": "src/styles/tokens.css",
             "generator": "scripts/migrate-tokens.py",
+            "assembler": "scripts/assemble-live-export.py",
+            "liveExport": "tokens/_raw/figma-export.live.json",
         },
     )
 

@@ -2,52 +2,66 @@
   "meta": {
     "fileKey": "ZllxQplWi5QJcNeUHeY8T3",
     "source": "https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2",
-    "assembledFrom": "prior Figma MCP discovery + tokens v0.3 (repo-only migration; no new Figma writes)",
+    "extractedAt": "2026-09-22T10:50:30.250Z",
+    "assembledFrom": "live Figma MCP read-only export (figma-export.live.json)",
+    "textStyleCount": 309,
+    "effectStyleCount": 34,
+    "totalVariables": 760,
     "decisions": {
       "1": "A",
       "2": "B",
       "3": "B",
-      "4": "A"
+      "4": "A",
+      "ringOffset": "A",
+      "customKeys": "A"
     }
   },
   "collections": {
     "tailwind": {
       "name": "1. TailwindCSS",
+      "id": "VariableCollectionId:1:2",
       "modes": [
         "Default"
-      ]
+      ],
+      "variableCount": 440
     },
     "theme": {
       "name": "2. Theme",
+      "id": "VariableCollectionId:1:412",
       "modes": [
         "Default"
-      ]
+      ],
+      "variableCount": 235
     },
     "mode": {
       "name": "3. Mode",
+      "id": "VariableCollectionId:1:444",
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "variableCount": 59
     },
     "custom": {
       "name": "4. Custom",
+      "id": "VariableCollectionId:17548:88924",
       "modes": [
         "Desktop",
         "Mobile"
-      ]
+      ],
+      "variableCount": 26
     }
   },
   "primitiveColors": {
-    "white": {
-      "hex": "#FFFFFF"
-    },
     "black": {
       "hex": "#000000"
     },
+    "white": {
+      "hex": "#FFFFFF"
+    },
     "transparent": {
       "hex": "#FFFFFF",
-      "alpha": 0
+      "alpha": 0.0
     },
     "slate": {
       "50": {
@@ -155,9 +169,6 @@
       }
     },
     "neutral": {
-      "0": {
-        "hex": "#FFFFFF"
-      },
       "50": {
         "hex": "#FAFAFA"
       },
@@ -190,6 +201,9 @@
       },
       "950": {
         "hex": "#0A0A0A"
+      },
+      "0": {
+        "hex": "#FFFFFF"
       }
     },
     "stone": {
@@ -994,16 +1008,6 @@
         "500"
       ]
     },
-    "ring-offset": {
-      "Light": [
-        "white",
-        null
-      ],
-      "Dark": [
-        "neutral",
-        "950"
-      ]
-    },
     "secondary": {
       "Light": [
         "neutral",
@@ -1022,6 +1026,16 @@
       "Dark": [
         "neutral",
         "50"
+      ]
+    },
+    "ring-offset": {
+      "Light": [
+        "white",
+        null
+      ],
+      "Dark": [
+        "neutral",
+        "950"
       ]
     },
     "chart-1": {
@@ -1074,20 +1088,10 @@
         "500"
       ]
     },
-    "sidebar": {
+    "sidebar-primary-foreground": {
       "Light": [
         "neutral",
         "50"
-      ],
-      "Dark": [
-        "neutral",
-        "900"
-      ]
-    },
-    "sidebar-foreground": {
-      "Light": [
-        "neutral",
-        "950"
       ],
       "Dark": [
         "neutral",
@@ -1104,14 +1108,24 @@
         "700"
       ]
     },
-    "sidebar-primary-foreground": {
+    "sidebar-foreground": {
+      "Light": [
+        "neutral",
+        "950"
+      ],
+      "Dark": [
+        "neutral",
+        "50"
+      ]
+    },
+    "sidebar": {
       "Light": [
         "neutral",
         "50"
       ],
       "Dark": [
         "neutral",
-        "50"
+        "900"
       ]
     },
     "sidebar-accent": {
@@ -1155,67 +1169,10 @@
       ]
     }
   },
+  "modeBaseThemeTargets": {
+    "ring-offset": "background"
+  },
   "modeCustom": {
-    "outline": {
-      "Light": {
-        "hex": "#A3A3A3",
-        "alpha": 0.5
-      },
-      "Dark": {
-        "hex": "#737373",
-        "alpha": 0.5
-      }
-    },
-    "blue-500-dark-blue-600": {
-      "Light": [
-        "blue",
-        "500"
-      ],
-      "Dark": [
-        "blue",
-        "600"
-      ]
-    },
-    "destructive-20-dark-40": {
-      "Light": {
-        "hex": "#DC2626",
-        "alpha": 0.2
-      },
-      "Dark": {
-        "hex": "#F87171",
-        "alpha": 0.4
-      }
-    },
-    "destructive-40-dark-60": {
-      "Light": {
-        "hex": "#DC2626",
-        "alpha": 0.4
-      },
-      "Dark": {
-        "hex": "#F87171",
-        "alpha": 0.6
-      }
-    },
-    "outline-10-dark-20": {
-      "Light": {
-        "hex": "#A3A3A3",
-        "alpha": 0.1
-      },
-      "Dark": {
-        "hex": "#737373",
-        "alpha": 0.2
-      }
-    },
-    "input-dark-80": {
-      "Light": [
-        "neutral",
-        "200"
-      ],
-      "Dark": {
-        "hex": "#FFFFFF",
-        "alpha": 0.12
-      }
-    },
     "background-dark-input-30": {
       "Light": [
         "white",
@@ -1234,6 +1191,16 @@
       "Dark": {
         "hex": "#FFFFFF",
         "alpha": 0.075
+      }
+    },
+    "outline": {
+      "Light": {
+        "hex": "#A3A3A3",
+        "alpha": 0.5
+      },
+      "Dark": {
+        "hex": "#737373",
+        "alpha": 0.5
       }
     },
     "destructive-dark-70": {
@@ -1269,11 +1236,51 @@
     "dark-input": {
       "Light": {
         "hex": "#FFFFFF",
-        "alpha": 0
+        "alpha": 0.0
       },
       "Dark": {
         "hex": "#FFFFFF",
         "alpha": 0.15
+      }
+    },
+    "input-dark-80": {
+      "Light": [
+        "neutral",
+        "200"
+      ],
+      "Dark": {
+        "hex": "#FFFFFF",
+        "alpha": 0.12
+      }
+    },
+    "destructive-20-dark-40": {
+      "Light": {
+        "hex": "#DC2626",
+        "alpha": 0.2
+      },
+      "Dark": {
+        "hex": "#F87171",
+        "alpha": 0.4
+      }
+    },
+    "destructive-40-dark-60": {
+      "Light": {
+        "hex": "#DC2626",
+        "alpha": 0.4
+      },
+      "Dark": {
+        "hex": "#F87171",
+        "alpha": 0.6
+      }
+    },
+    "outline-10-dark-20": {
+      "Light": {
+        "hex": "#A3A3A3",
+        "alpha": 0.1
+      },
+      "Dark": {
+        "hex": "#737373",
+        "alpha": 0.2
       }
     },
     "accent-dark-calendar-50": {
@@ -1295,6 +1302,16 @@
         "hex": "#FFFFFF",
         "alpha": 0.045
       }
+    },
+    "blue-500-dark-blue-600": {
+      "Light": [
+        "blue",
+        "500"
+      ],
+      "Dark": [
+        "blue",
+        "600"
+      ]
     },
     "border-dark-input": {
       "Light": [
@@ -1318,20 +1335,20 @@
     }
   },
   "modeCustomFigmaNames": {
-    "outline": "custom/outline",
-    "blue-500-dark-blue-600": "custom/blue-500 dark:blue-600",
-    "destructive-20-dark-40": "custom/destructive\\20 dark:destructive\\40",
-    "destructive-40-dark-60": "custom/destructive\\40 dark:destructive\\60",
-    "outline-10-dark-20": "custom/outline\\10 dark:outline\\20",
-    "input-dark-80": "custom/input dark:input\\80",
     "background-dark-input-30": "custom/background dark:input\\30",
     "accent-dark-input-50": "custom/accent dark:input\\50",
+    "outline": "custom/outline",
     "destructive-dark-70": "custom/destructive dark:destructive\\70",
     "destructive-dark-90": "custom/destructive dark:destructive\\90",
     "destructive-dark-60": "custom/destructive dark:destructive\\60",
     "dark-input": "custom/dark:input",
+    "input-dark-80": "custom/input dark:input\\80",
+    "destructive-20-dark-40": "custom/destructive\\20 dark:destructive\\40",
+    "destructive-40-dark-60": "custom/destructive\\40 dark:destructive\\60",
+    "outline-10-dark-20": "custom/outline\\10 dark:outline\\20",
     "accent-dark-calendar-50": "custom/accent dark:calendar\\50",
     "background-dark-calendar-30": "custom/background dark:calendar\\30",
+    "blue-500-dark-blue-600": "custom/blue-500 dark:blue-600",
     "border-dark-input": "custom/border dark:input-dark",
     "ring-dark-input": "custom/ring dark:input-dark"
   },
@@ -1438,18 +1455,6 @@
     }
   },
   "spacing": {
-    "0": "0px",
-    "px": "1px",
-    "0-5": "2px",
-    "1": "4px",
-    "1-5": "6px",
-    "2": "8px",
-    "2-5": "10px",
-    "3": "12px",
-    "3-5": "14px",
-    "4": "16px",
-    "5": "20px",
-    "6": "24px",
     "7": "28px",
     "8": "32px",
     "9": "36px",
@@ -1470,9 +1475,21 @@
     "56": "224px",
     "60": "240px",
     "64": "256px",
+    "0": "0px",
     "72": "288px",
     "80": "320px",
-    "96": "384px"
+    "96": "384px",
+    "px": "1px",
+    "0-5": "2px",
+    "1-5": "6px",
+    "2-5": "10px",
+    "3-5": "14px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px"
   },
   "breakpoints": {
     "sm": "640px",
@@ -1497,36 +1514,6 @@
     "7xl": "1280px"
   },
   "layout": {
-    "container-padding-x": {
-      "desktop": {
-        "$type": "dimension",
-        "$value": "24px"
-      },
-      "mobile": {
-        "$type": "dimension",
-        "$value": "24px"
-      }
-    },
-    "section-padding-y": {
-      "desktop": {
-        "$type": "dimension",
-        "$value": "96px"
-      },
-      "mobile": {
-        "$type": "dimension",
-        "$value": "64px"
-      }
-    },
-    "section-title-gap-xl": {
-      "desktop": {
-        "$type": "dimension",
-        "$value": "24px"
-      },
-      "mobile": {
-        "$type": "dimension",
-        "$value": "16px"
-      }
-    },
     "section-title-gap-lg": {
       "desktop": {
         "$type": "dimension",
@@ -1556,25 +1543,55 @@
         "$type": "dimension",
         "$value": "16px"
       }
+    },
+    "container-padding-x": {
+      "desktop": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "mobile": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "section-padding-y": {
+      "desktop": {
+        "$type": "dimension",
+        "$value": "96px"
+      },
+      "mobile": {
+        "$type": "dimension",
+        "$value": "64px"
+      }
+    },
+    "section-title-gap-xl": {
+      "desktop": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "mobile": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
     }
   },
   "radius": {
     "none": "0px",
-    "xs": "2px",
-    "sm": "6px",
-    "md": "8px",
-    "lg": "10px",
-    "xl": "14px",
+    "full": "9999px",
     "2xl": "16px",
     "3xl": "24px",
     "4xl": "32px",
-    "full": "9999px"
+    "sm": "6px",
+    "xs": "2px",
+    "lg": "10px",
+    "xl": "14px",
+    "md": "8px"
   },
   "typography": {
     "meta": {
       "name": "Design System V2 Typography Tokens",
-      "version": "0.3.0",
-      "source": "https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2?node-id=580-9181",
+      "version": "0.4.0",
+      "source": "live Figma MCP export",
       "collection": "2. Theme / font + text, 4. Custom headings"
     },
     "font": {
@@ -1630,86 +1647,6 @@
       }
     },
     "text": {
-      "xs": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "12px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "16px"
-        }
-      },
-      "sm": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "14px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "20px"
-        }
-      },
-      "base": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "16px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "24px"
-        }
-      },
-      "lg": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "18px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "28px"
-        }
-      },
-      "xl": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "20px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "28px"
-        }
-      },
-      "2xl": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "24px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "32px"
-        }
-      },
-      "3xl": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "30px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "36px"
-        }
-      },
-      "4xl": {
-        "font-size": {
-          "$type": "dimension",
-          "$value": "36px"
-        },
-        "line-height": {
-          "$type": "dimension",
-          "$value": "40px"
-        }
-      },
       "5xl": {
         "font-size": {
           "$type": "dimension",
@@ -1759,11 +1696,95 @@
           "$type": "dimension",
           "$value": "128px"
         }
+      },
+      "xl": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "20px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "28px"
+        }
+      },
+      "2xl": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "32px"
+        }
+      },
+      "sm": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "14px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "20px"
+        }
+      },
+      "lg": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "18px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "28px"
+        }
+      },
+      "xs": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "16px"
+        }
+      },
+      "base": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "24px"
+        }
+      },
+      "4xl": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "36px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "40px"
+        }
+      },
+      "3xl": {
+        "font-size": {
+          "$type": "dimension",
+          "$value": "30px"
+        },
+        "line-height": {
+          "$type": "dimension",
+          "$value": "36px"
+        }
       }
     },
     "heading": {
       "xl": {
         "desktop": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "48px"
@@ -1771,10 +1792,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "48px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1786,6 +1803,10 @@
           }
         },
         "mobile": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "30px"
@@ -1793,10 +1814,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "36px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1810,6 +1827,10 @@
       },
       "lg": {
         "desktop": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "36px"
@@ -1817,10 +1838,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "40px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1832,6 +1849,10 @@
           }
         },
         "mobile": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "30px"
@@ -1839,10 +1860,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "36px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1856,6 +1873,10 @@
       },
       "md": {
         "desktop": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "30px"
@@ -1863,10 +1884,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "36px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1878,6 +1895,10 @@
           }
         },
         "mobile": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "30px"
@@ -1885,10 +1906,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "36px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1902,6 +1919,10 @@
       },
       "sm": {
         "desktop": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "24px"
@@ -1909,10 +1930,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "32px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1924,6 +1941,10 @@
           }
         },
         "mobile": {
+          "font-family": {
+            "$type": "fontFamily",
+            "$value": "Geist"
+          },
           "font-size": {
             "$type": "dimension",
             "$value": "24px"
@@ -1931,10 +1952,6 @@
           "line-height": {
             "$type": "dimension",
             "$value": "32px"
-          },
-          "font-family": {
-            "$type": "fontFamily",
-            "$value": "Geist"
           },
           "font-weight": {
             "$type": "fontWeight",
@@ -1951,11 +1968,23 @@
   "shadow": {
     "meta": {
       "name": "Design System V2 Shadow Tokens",
-      "version": "0.3.0",
-      "source": "https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2?node-id=580-9181",
+      "version": "0.4.0",
+      "source": "live Figma MCP export",
       "collection": "2. Theme / shadow"
     },
     "shadow": {
+      "2xl": [
+        {
+          "$type": "shadow",
+          "$value": {
+            "offsetX": 0,
+            "offsetY": 25,
+            "blur": 50,
+            "spread": -12,
+            "color": "rgba(0,0,0,0.25)"
+          }
+        }
+      ],
       "2xs": [
         {
           "$type": "shadow",
@@ -1968,26 +1997,14 @@
           }
         }
       ],
-      "xs": [
+      "lg": [
         {
           "$type": "shadow",
           "$value": {
             "offsetX": 0,
-            "offsetY": 1,
-            "blur": 2,
-            "spread": 0,
-            "color": "rgba(0,0,0,0.05)"
-          }
-        }
-      ],
-      "sm": [
-        {
-          "$type": "shadow",
-          "$value": {
-            "offsetX": 0,
-            "offsetY": 1,
-            "blur": 3,
-            "spread": 0,
+            "offsetY": 10,
+            "blur": 15,
+            "spread": -3,
             "color": "rgba(0,0,0,0.1)"
           }
         },
@@ -1995,9 +2012,9 @@
           "$type": "shadow",
           "$value": {
             "offsetX": 0,
-            "offsetY": 1,
-            "blur": 2,
-            "spread": -1,
+            "offsetY": 4,
+            "blur": 6,
+            "spread": -4,
             "color": "rgba(0,0,0,0.1)"
           }
         }
@@ -2024,14 +2041,14 @@
           }
         }
       ],
-      "lg": [
+      "sm": [
         {
           "$type": "shadow",
           "$value": {
             "offsetX": 0,
-            "offsetY": 10,
-            "blur": 15,
-            "spread": -3,
+            "offsetY": 1,
+            "blur": 3,
+            "spread": 0,
             "color": "rgba(0,0,0,0.1)"
           }
         },
@@ -2039,9 +2056,9 @@
           "$type": "shadow",
           "$value": {
             "offsetX": 0,
-            "offsetY": 4,
-            "blur": 6,
-            "spread": -4,
+            "offsetY": 1,
+            "blur": 2,
+            "spread": -1,
             "color": "rgba(0,0,0,0.1)"
           }
         }
@@ -2068,15 +2085,15 @@
           }
         }
       ],
-      "2xl": [
+      "xs": [
         {
           "$type": "shadow",
           "$value": {
             "offsetX": 0,
-            "offsetY": 25,
-            "blur": 50,
-            "spread": -12,
-            "color": "rgba(0,0,0,0.25)"
+            "offsetY": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.05)"
           }
         }
       ]
@@ -2113,69 +2130,9 @@
     }
   },
   "themeColors": {
-    "accent-light": [
-      "neutral",
-      "100"
-    ],
-    "accent-dark": [
-      "neutral",
-      "700"
-    ],
-    "accent-foreground-light": [
-      "neutral",
-      "900"
-    ],
-    "accent-foreground-dark": [
-      "neutral",
-      "50"
-    ],
-    "background-light": [
-      "white",
-      null
-    ],
-    "background-dark": [
-      "neutral",
-      "950"
-    ],
-    "border-light": [
-      "neutral",
-      "200"
-    ],
-    "border-dark": {
-      "hex": "#FFFFFF",
-      "alpha": 0.1
-    },
-    "card-light": [
-      "white",
-      null
-    ],
-    "card-dark": [
-      "neutral",
-      "900"
-    ],
-    "card-foreground-light": [
-      "neutral",
-      "950"
-    ],
-    "card-foreground-dark": [
-      "neutral",
-      "50"
-    ],
-    "destructive-light": [
-      "red",
+    "primary-light": [
+      "blue",
       "600"
-    ],
-    "destructive-dark": [
-      "red",
-      "400"
-    ],
-    "destructive-foreground-light": [
-      "red",
-      "50"
-    ],
-    "destructive-foreground-dark": [
-      "red",
-      "50"
     ],
     "foreground-light": [
       "neutral",
@@ -2201,14 +2158,6 @@
       "neutral",
       "800"
     ],
-    "muted-foreground-light": [
-      "neutral",
-      "500"
-    ],
-    "muted-foreground-dark": [
-      "neutral",
-      "400"
-    ],
     "popover-light": [
       "white",
       null
@@ -2224,14 +2173,6 @@
     "popover-foreground-dark": [
       "neutral",
       "50"
-    ],
-    "primary-light": [
-      "blue",
-      "600"
-    ],
-    "primary-dark": [
-      "neutral",
-      "200"
     ],
     "primary-foreground-light": [
       "neutral",
@@ -2249,14 +2190,6 @@
       "neutral",
       "500"
     ],
-    "ring-offset-light": [
-      "white",
-      null
-    ],
-    "ring-offset-dark": [
-      "neutral",
-      "950"
-    ],
     "secondary-light": [
       "neutral",
       "100"
@@ -2272,6 +2205,14 @@
     "secondary-foreground-dark": [
       "neutral",
       "50"
+    ],
+    "muted-foreground-light": [
+      "neutral",
+      "500"
+    ],
+    "muted-foreground-dark": [
+      "neutral",
+      "400"
     ],
     "chart-1-light": [
       "orange",
@@ -2313,6 +2254,78 @@
       "rose",
       "500"
     ],
+    "primary-dark": [
+      "neutral",
+      "200"
+    ],
+    "accent-light": [
+      "neutral",
+      "100"
+    ],
+    "accent-foreground-dark": [
+      "neutral",
+      "50"
+    ],
+    "background-light": [
+      "white",
+      null
+    ],
+    "background-dark": [
+      "neutral",
+      "950"
+    ],
+    "border-light": [
+      "neutral",
+      "200"
+    ],
+    "border-dark": {
+      "hex": "#FFFFFF",
+      "alpha": 0.1
+    },
+    "card-light": [
+      "white",
+      null
+    ],
+    "card-dark": [
+      "neutral",
+      "900"
+    ],
+    "accent-dark": [
+      "neutral",
+      "700"
+    ],
+    "card-foreground-light": [
+      "neutral",
+      "950"
+    ],
+    "card-foreground-dark": [
+      "neutral",
+      "50"
+    ],
+    "destructive-light": [
+      "red",
+      "600"
+    ],
+    "destructive-dark": [
+      "red",
+      "400"
+    ],
+    "destructive-foreground-light": [
+      "red",
+      "50"
+    ],
+    "destructive-foreground-dark": [
+      "red",
+      "50"
+    ],
+    "accent-foreground-light": [
+      "neutral",
+      "900"
+    ],
+    "sidebar-foreground-light": [
+      "neutral",
+      "950"
+    ],
     "sidebar-light": [
       "neutral",
       "50"
@@ -2320,10 +2333,6 @@
     "sidebar-dark": [
       "neutral",
       "900"
-    ],
-    "sidebar-foreground-light": [
-      "neutral",
-      "950"
     ],
     "sidebar-foreground-dark": [
       "neutral",
@@ -2377,5 +2386,14 @@
       "neutral",
       "600"
     ]
+  },
+  "live": {
+    "note": "Canonical full variable inventory is tokens/_raw/figma-export.live.json",
+    "variableCounts": {
+      "tailwind": 440,
+      "theme": 235,
+      "mode": 59,
+      "custom": 26
+    }
   }
 }

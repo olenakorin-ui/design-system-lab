@@ -5,17 +5,17 @@
   },
   "mappings": [
     {
-      "figma": "tailwind colors/base/white",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.color.white",
-      "cssVar": "--color-white",
-      "tier": "primitive"
-    },
-    {
       "figma": "tailwind colors/base/black",
       "figmaCollection": "1. TailwindCSS",
       "codePath": "primitive.color.black",
       "cssVar": "--color-black",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/base/white",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.white",
+      "cssVar": "--color-white",
       "tier": "primitive"
     },
     {
@@ -257,14 +257,6 @@
       "tier": "primitive"
     },
     {
-      "figma": "tailwind colors/base/white",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.color.neutral.0",
-      "cssVar": "--color-neutral-0",
-      "tier": "primitive",
-      "note": "normalized convenience alias of white"
-    },
-    {
       "figma": "tailwind colors/neutral/50",
       "figmaCollection": "1. TailwindCSS",
       "codePath": "primitive.color.neutral.50",
@@ -340,6 +332,14 @@
       "codePath": "primitive.color.neutral.950",
       "cssVar": "--color-neutral-950",
       "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/base/white",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.0",
+      "cssVar": "--color-neutral-0",
+      "tier": "primitive",
+      "note": "normalized convenience alias of white"
     },
     {
       "figma": "tailwind colors/stone/50",
@@ -1728,90 +1728,6 @@
       "tier": "primitive"
     },
     {
-      "figma": "spacing/0",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.0",
-      "cssVar": "--spacing-0",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/px",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.px",
-      "cssVar": "--spacing-px",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/0-5",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.0-5",
-      "cssVar": "--spacing-0-5",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/1",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.1",
-      "cssVar": "--spacing-1",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/1-5",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.1-5",
-      "cssVar": "--spacing-1-5",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/2",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.2",
-      "cssVar": "--spacing-2",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/2-5",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.2-5",
-      "cssVar": "--spacing-2-5",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/3",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.3",
-      "cssVar": "--spacing-3",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/3-5",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.3-5",
-      "cssVar": "--spacing-3-5",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/4",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.4",
-      "cssVar": "--spacing-4",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/5",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.5",
-      "cssVar": "--spacing-5",
-      "tier": "primitive"
-    },
-    {
-      "figma": "spacing/6",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "primitive.dimension.spacing.6",
-      "cssVar": "--spacing-6",
-      "tier": "primitive"
-    },
-    {
       "figma": "spacing/7",
       "figmaCollection": "1. TailwindCSS",
       "codePath": "primitive.dimension.spacing.7",
@@ -1952,6 +1868,13 @@
       "tier": "primitive"
     },
     {
+      "figma": "spacing/0",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.0",
+      "cssVar": "--spacing-0",
+      "tier": "primitive"
+    },
+    {
       "figma": "spacing/72",
       "figmaCollection": "1. TailwindCSS",
       "codePath": "primitive.dimension.spacing.72",
@@ -1970,6 +1893,83 @@
       "figmaCollection": "1. TailwindCSS",
       "codePath": "primitive.dimension.spacing.96",
       "cssVar": "--spacing-96",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/px",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.px",
+      "cssVar": "--spacing-px",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/0-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.0-5",
+      "cssVar": "--spacing-0-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/1-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.1-5",
+      "cssVar": "--spacing-1-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/2-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.2-5",
+      "cssVar": "--spacing-2-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/3-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.3-5",
+      "cssVar": "--spacing-3-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/1",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.1",
+      "cssVar": "--spacing-1",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/2",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.2",
+      "cssVar": "--spacing-2",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/3",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.3",
+      "cssVar": "--spacing-3",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/4",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.4",
+      "cssVar": "--spacing-4",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.5",
+      "cssVar": "--spacing-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/6",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.6",
+      "cssVar": "--spacing-6",
       "tier": "primitive"
     },
     {
@@ -2225,115 +2225,10 @@
       "tier": "primitive"
     },
     {
-      "figma": "colors/accent-light",
+      "figma": "colors/primary-light",
       "figmaCollection": "2. Theme",
-      "codePath": "theme.color.accent-light",
-      "cssVar": "--theme-accent-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/accent-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.accent-dark",
-      "cssVar": "--theme-accent-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/accent-foreground-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.accent-foreground-light",
-      "cssVar": "--theme-accent-foreground-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/accent-foreground-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.accent-foreground-dark",
-      "cssVar": "--theme-accent-foreground-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/background-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.background-light",
-      "cssVar": "--theme-background-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/background-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.background-dark",
-      "cssVar": "--theme-background-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/border-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.border-light",
-      "cssVar": "--theme-border-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/border-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.border-dark",
-      "cssVar": "--theme-border-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/card-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.card-light",
-      "cssVar": "--theme-card-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/card-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.card-dark",
-      "cssVar": "--theme-card-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/card-foreground-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.card-foreground-light",
-      "cssVar": "--theme-card-foreground-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/card-foreground-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.card-foreground-dark",
-      "cssVar": "--theme-card-foreground-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/destructive-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.destructive-light",
-      "cssVar": "--theme-destructive-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/destructive-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.destructive-dark",
-      "cssVar": "--theme-destructive-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/destructive-foreground-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.destructive-foreground-light",
-      "cssVar": "--theme-destructive-foreground-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/destructive-foreground-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.destructive-foreground-dark",
-      "cssVar": "--theme-destructive-foreground-dark",
+      "codePath": "theme.color.primary-light",
+      "cssVar": "--theme-primary-light",
       "tier": "theme"
     },
     {
@@ -2379,20 +2274,6 @@
       "tier": "theme"
     },
     {
-      "figma": "colors/muted-foreground-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.muted-foreground-light",
-      "cssVar": "--theme-muted-foreground-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/muted-foreground-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.muted-foreground-dark",
-      "cssVar": "--theme-muted-foreground-dark",
-      "tier": "theme"
-    },
-    {
       "figma": "colors/popover-light",
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.popover-light",
@@ -2418,20 +2299,6 @@
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.popover-foreground-dark",
       "cssVar": "--theme-popover-foreground-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/primary-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.primary-light",
-      "cssVar": "--theme-primary-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/primary-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.primary-dark",
-      "cssVar": "--theme-primary-dark",
       "tier": "theme"
     },
     {
@@ -2463,20 +2330,6 @@
       "tier": "theme"
     },
     {
-      "figma": "colors/ring-offset-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.ring-offset-light",
-      "cssVar": "--theme-ring-offset-light",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/ring-offset-dark",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.ring-offset-dark",
-      "cssVar": "--theme-ring-offset-dark",
-      "tier": "theme"
-    },
-    {
       "figma": "colors/secondary-light",
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.secondary-light",
@@ -2502,6 +2355,20 @@
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.secondary-foreground-dark",
       "cssVar": "--theme-secondary-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-foreground-light",
+      "cssVar": "--theme-muted-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-foreground-dark",
+      "cssVar": "--theme-muted-foreground-dark",
       "tier": "theme"
     },
     {
@@ -2575,6 +2442,132 @@
       "tier": "theme"
     },
     {
+      "figma": "colors/primary-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.primary-dark",
+      "cssVar": "--theme-primary-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-light",
+      "cssVar": "--theme-accent-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-foreground-dark",
+      "cssVar": "--theme-accent-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/background-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.background-light",
+      "cssVar": "--theme-background-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/background-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.background-dark",
+      "cssVar": "--theme-background-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/border-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.border-light",
+      "cssVar": "--theme-border-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/border-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.border-dark",
+      "cssVar": "--theme-border-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-light",
+      "cssVar": "--theme-card-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-dark",
+      "cssVar": "--theme-card-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-dark",
+      "cssVar": "--theme-accent-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-foreground-light",
+      "cssVar": "--theme-card-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-foreground-dark",
+      "cssVar": "--theme-card-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-light",
+      "cssVar": "--theme-destructive-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-dark",
+      "cssVar": "--theme-destructive-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-foreground-light",
+      "cssVar": "--theme-destructive-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-foreground-dark",
+      "cssVar": "--theme-destructive-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-foreground-light",
+      "cssVar": "--theme-accent-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-foreground-light",
+      "cssVar": "--theme-sidebar-foreground-light",
+      "tier": "theme"
+    },
+    {
       "figma": "colors/sidebar-light",
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.sidebar-light",
@@ -2586,13 +2579,6 @@
       "figmaCollection": "2. Theme",
       "codePath": "theme.color.sidebar-dark",
       "cssVar": "--theme-sidebar-dark",
-      "tier": "theme"
-    },
-    {
-      "figma": "colors/sidebar-foreground-light",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.color.sidebar-foreground-light",
-      "cssVar": "--theme-sidebar-foreground-light",
       "tier": "theme"
     },
     {
@@ -2694,38 +2680,10 @@
       "tier": "theme"
     },
     {
-      "figma": "radius/xs",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.radius.xs",
-      "cssVar": "--radius-xs",
-      "tier": "theme"
-    },
-    {
-      "figma": "radius/sm",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.radius.sm",
-      "cssVar": "--radius-sm",
-      "tier": "theme"
-    },
-    {
-      "figma": "radius/md",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.radius.md",
-      "cssVar": "--radius-md",
-      "tier": "theme"
-    },
-    {
-      "figma": "radius/lg",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.radius.lg",
-      "cssVar": "--radius-lg",
-      "tier": "theme"
-    },
-    {
-      "figma": "radius/xl",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.radius.xl",
-      "cssVar": "--radius-xl",
+      "figma": "border-radius/rounded-full",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "theme.radius.full",
+      "cssVar": "--radius-full",
       "tier": "theme"
     },
     {
@@ -2750,10 +2708,38 @@
       "tier": "theme"
     },
     {
-      "figma": "border-radius/rounded-full",
-      "figmaCollection": "1. TailwindCSS",
-      "codePath": "theme.radius.full",
-      "cssVar": "--radius-full",
+      "figma": "radius/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.sm",
+      "cssVar": "--radius-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.xs",
+      "cssVar": "--radius-xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.lg",
+      "cssVar": "--radius-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.xl",
+      "cssVar": "--radius-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.md",
+      "cssVar": "--radius-md",
       "tier": "theme"
     },
     {
@@ -2841,118 +2827,6 @@
       "tier": "theme"
     },
     {
-      "figma": "text/xs/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.xs.font-size",
-      "cssVar": "--text-xs-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/xs/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.xs.line-height",
-      "cssVar": "--text-xs-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/sm/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.sm.font-size",
-      "cssVar": "--text-sm-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/sm/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.sm.line-height",
-      "cssVar": "--text-sm-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/base/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.base.font-size",
-      "cssVar": "--text-base-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/base/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.base.line-height",
-      "cssVar": "--text-base-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/lg/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.lg.font-size",
-      "cssVar": "--text-lg-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/lg/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.lg.line-height",
-      "cssVar": "--text-lg-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/xl/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.xl.font-size",
-      "cssVar": "--text-xl-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/xl/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.xl.line-height",
-      "cssVar": "--text-xl-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/2xl/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.2xl.font-size",
-      "cssVar": "--text-2xl-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/2xl/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.2xl.line-height",
-      "cssVar": "--text-2xl-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/3xl/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.3xl.font-size",
-      "cssVar": "--text-3xl-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/3xl/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.3xl.line-height",
-      "cssVar": "--text-3xl-line-height",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/4xl/font-size",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.4xl.font-size",
-      "cssVar": "--text-4xl-size",
-      "tier": "theme"
-    },
-    {
-      "figma": "text/4xl/line-height",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.typography.text.4xl.line-height",
-      "cssVar": "--text-4xl-line-height",
-      "tier": "theme"
-    },
-    {
       "figma": "text/5xl/font-size",
       "figmaCollection": "2. Theme",
       "codePath": "theme.typography.text.5xl.font-size",
@@ -3023,31 +2897,129 @@
       "tier": "theme"
     },
     {
+      "figma": "text/xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xl.font-size",
+      "cssVar": "--text-xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xl.line-height",
+      "cssVar": "--text-xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/2xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.2xl.font-size",
+      "cssVar": "--text-2xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/2xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.2xl.line-height",
+      "cssVar": "--text-2xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/sm/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.sm.font-size",
+      "cssVar": "--text-sm-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/sm/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.sm.line-height",
+      "cssVar": "--text-sm-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/lg/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.lg.font-size",
+      "cssVar": "--text-lg-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/lg/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.lg.line-height",
+      "cssVar": "--text-lg-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xs/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xs.font-size",
+      "cssVar": "--text-xs-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xs/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xs.line-height",
+      "cssVar": "--text-xs-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/base/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.base.font-size",
+      "cssVar": "--text-base-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/base/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.base.line-height",
+      "cssVar": "--text-base-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/4xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.4xl.font-size",
+      "cssVar": "--text-4xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/4xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.4xl.line-height",
+      "cssVar": "--text-4xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/3xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.3xl.font-size",
+      "cssVar": "--text-3xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/3xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.3xl.line-height",
+      "cssVar": "--text-3xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.2xl",
+      "cssVar": "--shadow-2xl",
+      "tier": "theme"
+    },
+    {
       "figma": "shadow/2xs",
       "figmaCollection": "2. Theme",
       "codePath": "theme.shadow.shadow.2xs",
       "cssVar": "--shadow-2xs",
-      "tier": "theme"
-    },
-    {
-      "figma": "shadow/xs",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.shadow.shadow.xs",
-      "cssVar": "--shadow-xs",
-      "tier": "theme"
-    },
-    {
-      "figma": "shadow/sm",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.shadow.shadow.sm",
-      "cssVar": "--shadow-sm",
-      "tier": "theme"
-    },
-    {
-      "figma": "shadow/md",
-      "figmaCollection": "2. Theme",
-      "codePath": "theme.shadow.shadow.md",
-      "cssVar": "--shadow-md",
       "tier": "theme"
     },
     {
@@ -3058,6 +3030,20 @@
       "tier": "theme"
     },
     {
+      "figma": "shadow/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.md",
+      "cssVar": "--shadow-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.sm",
+      "cssVar": "--shadow-sm",
+      "tier": "theme"
+    },
+    {
       "figma": "shadow/xl",
       "figmaCollection": "2. Theme",
       "codePath": "theme.shadow.shadow.xl",
@@ -3065,10 +3051,10 @@
       "tier": "theme"
     },
     {
-      "figma": "shadow/2xl",
+      "figma": "shadow/xs",
       "figmaCollection": "2. Theme",
-      "codePath": "theme.shadow.shadow.2xl",
-      "cssVar": "--shadow-2xl",
+      "codePath": "theme.shadow.shadow.xs",
+      "cssVar": "--shadow-xs",
       "tier": "theme"
     },
     {
@@ -3255,7 +3241,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/accent-{light|dark}"
     },
     {
       "figma": "base/accent-foreground",
@@ -3266,7 +3253,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/accent-foreground-{light|dark}"
     },
     {
       "figma": "base/background",
@@ -3277,7 +3265,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/background-{light|dark}"
     },
     {
       "figma": "base/border",
@@ -3288,7 +3277,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/border-{light|dark}"
     },
     {
       "figma": "base/card",
@@ -3299,7 +3289,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/card-{light|dark}"
     },
     {
       "figma": "base/card-foreground",
@@ -3310,161 +3301,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
-    },
-    {
-      "figma": "base/destructive",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.destructive",
-      "cssVar": "--destructive",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/destructive-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.destructive-foreground",
-      "cssVar": "--destructive-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.foreground",
-      "cssVar": "--foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/input",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.input",
-      "cssVar": "--input",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/muted",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.muted",
-      "cssVar": "--muted",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/muted-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.muted-foreground",
-      "cssVar": "--muted-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/popover",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.popover",
-      "cssVar": "--popover",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/popover-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.popover-foreground",
-      "cssVar": "--popover-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/primary",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.primary",
-      "cssVar": "--primary",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/primary-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.primary-foreground",
-      "cssVar": "--primary-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/ring",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.ring",
-      "cssVar": "--ring",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/ring-offset",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.ring-offset",
-      "cssVar": "--ring-offset",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/secondary",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.secondary",
-      "cssVar": "--secondary",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/secondary-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.secondary-foreground",
-      "cssVar": "--secondary-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
+      ],
+      "themeAlias": "colors/card-foreground-{light|dark}"
     },
     {
       "figma": "base/chart-1",
@@ -3475,7 +3313,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/chart-1-{light|dark}"
     },
     {
       "figma": "base/chart-2",
@@ -3486,7 +3325,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/chart-2-{light|dark}"
     },
     {
       "figma": "base/chart-3",
@@ -3497,7 +3337,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/chart-3-{light|dark}"
     },
     {
       "figma": "base/chart-4",
@@ -3508,7 +3349,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/chart-4-{light|dark}"
     },
     {
       "figma": "base/chart-5",
@@ -3519,7 +3361,177 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/chart-5-{light|dark}"
+    },
+    {
+      "figma": "base/destructive",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.destructive",
+      "cssVar": "--destructive",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/destructive-{light|dark}"
+    },
+    {
+      "figma": "base/destructive-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.destructive-foreground",
+      "cssVar": "--destructive-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/destructive-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.foreground",
+      "cssVar": "--foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/foreground-{light|dark}"
+    },
+    {
+      "figma": "base/input",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.input",
+      "cssVar": "--input",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/input-{light|dark}"
+    },
+    {
+      "figma": "base/muted",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.muted",
+      "cssVar": "--muted",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/muted-{light|dark}"
+    },
+    {
+      "figma": "base/muted-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.muted-foreground",
+      "cssVar": "--muted-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/muted-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/popover",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.popover",
+      "cssVar": "--popover",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/popover-{light|dark}"
+    },
+    {
+      "figma": "base/popover-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.popover-foreground",
+      "cssVar": "--popover-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/popover-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/primary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.primary",
+      "cssVar": "--primary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/primary-{light|dark}"
+    },
+    {
+      "figma": "base/primary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.primary-foreground",
+      "cssVar": "--primary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/primary-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/ring",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.ring",
+      "cssVar": "--ring",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/ring-{light|dark}"
+    },
+    {
+      "figma": "base/ring-offset",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.ring-offset",
+      "cssVar": "--ring-offset",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/background-{light|dark}",
+      "note": "Live Figma aliases Theme colors/background-* (not colors/ring-offset-*); Decision ringOffset=A"
+    },
+    {
+      "figma": "base/secondary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.secondary",
+      "cssVar": "--secondary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/secondary-{light|dark}"
+    },
+    {
+      "figma": "base/secondary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.secondary-foreground",
+      "cssVar": "--secondary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/secondary-foreground-{light|dark}"
     },
     {
       "figma": "base/sidebar",
@@ -3530,40 +3542,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
-    },
-    {
-      "figma": "base/sidebar-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.sidebar-foreground",
-      "cssVar": "--sidebar-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/sidebar-primary",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.sidebar-primary",
-      "cssVar": "--sidebar-primary",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "base/sidebar-primary-foreground",
-      "figmaCollection": "3. Mode",
-      "codePath": "semantic.color.{mode}.sidebar-primary-foreground",
-      "cssVar": "--sidebar-primary-foreground",
-      "tier": "semantic",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
+      ],
+      "themeAlias": "colors/sidebar-{light|dark}"
     },
     {
       "figma": "base/sidebar-accent",
@@ -3574,7 +3554,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/sidebar-accent-{light|dark}"
     },
     {
       "figma": "base/sidebar-accent-foreground",
@@ -3585,7 +3566,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/sidebar-accent-foreground-{light|dark}"
     },
     {
       "figma": "base/sidebar-border",
@@ -3596,7 +3578,44 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/sidebar-border-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-foreground",
+      "cssVar": "--sidebar-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-primary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-primary",
+      "cssVar": "--sidebar-primary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-primary-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-primary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-primary-foreground",
+      "cssVar": "--sidebar-primary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-primary-foreground-{light|dark}"
     },
     {
       "figma": "base/sidebar-ring",
@@ -3607,7 +3626,8 @@
       "modes": [
         "Light",
         "Dark"
-      ]
+      ],
+      "themeAlias": "colors/sidebar-ring-{light|dark}"
     },
     {
       "figma": "alpha/5",
@@ -3720,10 +3740,43 @@
       ]
     },
     {
-      "figma": "custom/outline",
+      "figma": "custom/accent dark:calendar\\50",
       "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.outline",
-      "cssVar": "--custom-outline",
+      "codePath": "custom.mode-recipes.{mode}.accent-dark-calendar-50",
+      "cssVar": "--custom-accent-dark-calendar-50",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/accent dark:input\\50",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.accent-dark-input-50",
+      "cssVar": "--custom-accent-dark-input-50",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/background dark:calendar\\30",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.background-dark-calendar-30",
+      "cssVar": "--custom-background-dark-calendar-30",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/background dark:input\\30",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.background-dark-input-30",
+      "cssVar": "--custom-background-dark-input-30",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3735,6 +3788,28 @@
       "figmaCollection": "3. Mode",
       "codePath": "custom.mode-recipes.{mode}.blue-500-dark-blue-600",
       "cssVar": "--custom-blue-500-dark-blue-600",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/border dark:input-dark",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.border-dark-input",
+      "cssVar": "--custom-border-dark-input",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/dark:input",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.dark-input",
+      "cssVar": "--custom-dark-input",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3764,43 +3839,10 @@
       ]
     },
     {
-      "figma": "custom/outline\\10 dark:outline\\20",
+      "figma": "custom/destructive dark:destructive\\60",
       "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.outline-10-dark-20",
-      "cssVar": "--custom-outline-10-dark-20",
-      "tier": "custom",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "custom/input dark:input\\80",
-      "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.input-dark-80",
-      "cssVar": "--custom-input-dark-80",
-      "tier": "custom",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "custom/background dark:input\\30",
-      "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.background-dark-input-30",
-      "cssVar": "--custom-background-dark-input-30",
-      "tier": "custom",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "custom/accent dark:input\\50",
-      "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.accent-dark-input-50",
-      "cssVar": "--custom-accent-dark-input-50",
+      "codePath": "custom.mode-recipes.{mode}.destructive-dark-60",
+      "cssVar": "--custom-destructive-dark-60",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3830,10 +3872,10 @@
       ]
     },
     {
-      "figma": "custom/destructive dark:destructive\\60",
+      "figma": "custom/input dark:input\\80",
       "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.destructive-dark-60",
-      "cssVar": "--custom-destructive-dark-60",
+      "codePath": "custom.mode-recipes.{mode}.input-dark-80",
+      "cssVar": "--custom-input-dark-80",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3841,10 +3883,10 @@
       ]
     },
     {
-      "figma": "custom/dark:input",
+      "figma": "custom/outline",
       "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.dark-input",
-      "cssVar": "--custom-dark-input",
+      "codePath": "custom.mode-recipes.{mode}.outline",
+      "cssVar": "--custom-outline",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3852,32 +3894,10 @@
       ]
     },
     {
-      "figma": "custom/accent dark:calendar\\50",
+      "figma": "custom/outline\\10 dark:outline\\20",
       "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.accent-dark-calendar-50",
-      "cssVar": "--custom-accent-dark-calendar-50",
-      "tier": "custom",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "custom/background dark:calendar\\30",
-      "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.background-dark-calendar-30",
-      "cssVar": "--custom-background-dark-calendar-30",
-      "tier": "custom",
-      "modes": [
-        "Light",
-        "Dark"
-      ]
-    },
-    {
-      "figma": "custom/border dark:input-dark",
-      "figmaCollection": "3. Mode",
-      "codePath": "custom.mode-recipes.{mode}.border-dark-input",
-      "cssVar": "--custom-border-dark-input",
+      "codePath": "custom.mode-recipes.{mode}.outline-10-dark-20",
+      "cssVar": "--custom-outline-10-dark-20",
       "tier": "custom",
       "modes": [
         "Light",
@@ -3952,48 +3972,6 @@
       "tier": "custom"
     },
     {
-      "figma": "container-padding-x",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.desktop.container-padding-x",
-      "cssVar": "--layout-container-padding-x-desktop",
-      "tier": "custom"
-    },
-    {
-      "figma": "container-padding-x",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.mobile.container-padding-x",
-      "cssVar": "--layout-container-padding-x-mobile",
-      "tier": "custom"
-    },
-    {
-      "figma": "section-padding-y",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.desktop.section-padding-y",
-      "cssVar": "--layout-section-padding-y-desktop",
-      "tier": "custom"
-    },
-    {
-      "figma": "section-padding-y",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.mobile.section-padding-y",
-      "cssVar": "--layout-section-padding-y-mobile",
-      "tier": "custom"
-    },
-    {
-      "figma": "section-title-gap-xl",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.desktop.section-title-gap-xl",
-      "cssVar": "--layout-section-title-gap-xl-desktop",
-      "tier": "custom"
-    },
-    {
-      "figma": "section-title-gap-xl",
-      "figmaCollection": "4. Custom",
-      "codePath": "custom.layout.mobile.section-title-gap-xl",
-      "cssVar": "--layout-section-title-gap-xl-mobile",
-      "tier": "custom"
-    },
-    {
       "figma": "section-title-gap-lg",
       "figmaCollection": "4. Custom",
       "codePath": "custom.layout.desktop.section-title-gap-lg",
@@ -4033,6 +4011,48 @@
       "figmaCollection": "4. Custom",
       "codePath": "custom.layout.mobile.section-title-gap-sm",
       "cssVar": "--layout-section-title-gap-sm-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "container-padding-x",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.container-padding-x",
+      "cssVar": "--layout-container-padding-x-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "container-padding-x",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.container-padding-x",
+      "cssVar": "--layout-container-padding-x-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-padding-y",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-padding-y",
+      "cssVar": "--layout-section-padding-y-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-padding-y",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-padding-y",
+      "cssVar": "--layout-section-padding-y-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-xl",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-title-gap-xl",
+      "cssVar": "--layout-section-title-gap-xl-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-xl",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-title-gap-xl",
+      "cssVar": "--layout-section-title-gap-xl-mobile",
       "tier": "custom"
     }
   ]

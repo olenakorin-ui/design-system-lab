@@ -1,21 +1,29 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "architecture": "TailwindCSS \u2192 Theme \u2192 Mode",
   "decisions": {
     "Decision1": "A",
     "Decision2": "B",
     "Decision3": "B",
-    "Decision4": "A"
+    "Decision4": "A",
+    "ringOffset": "A",
+    "customKeys": "A"
   },
   "source": {
     "fileKey": "ZllxQplWi5QJcNeUHeY8T3",
     "source": "https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2",
-    "assembledFrom": "prior Figma MCP discovery + tokens v0.3 (repo-only migration; no new Figma writes)",
+    "extractedAt": "2026-09-22T10:50:30.250Z",
+    "assembledFrom": "live Figma MCP read-only export (figma-export.live.json)",
+    "textStyleCount": 309,
+    "effectStyleCount": 34,
+    "totalVariables": 760,
     "decisions": {
       "1": "A",
       "2": "B",
       "3": "B",
-      "4": "A"
+      "4": "A",
+      "ringOffset": "A",
+      "customKeys": "A"
     }
   },
   "labOnlyRemoved": [
@@ -47,5 +55,7 @@
     "mappings"
   ],
   "css": "src/styles/tokens.css",
-  "generator": "scripts/migrate-tokens.py"
+  "generator": "scripts/migrate-tokens.py",
+  "assembler": "scripts/assemble-live-export.py",
+  "liveExport": "tokens/_raw/figma-export.live.json"
 }

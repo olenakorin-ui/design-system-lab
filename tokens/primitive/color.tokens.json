@@ -4,18 +4,18 @@
     "figmaCollection": "1. TailwindCSS"
   },
   "$description": "Figma collection 1. TailwindCSS \u2014 color primitives (normalized)",
-  "white": {
-    "$type": "color",
-    "$value": "#FFFFFF"
-  },
   "black": {
     "$type": "color",
     "$value": "#000000"
   },
+  "white": {
+    "$type": "color",
+    "$value": "#FFFFFF"
+  },
   "transparent": {
     "$type": "color",
     "$value": "#FFFFFF",
-    "alpha": 0
+    "alpha": 0.0
   },
   "slate": {
     "50": {
@@ -156,10 +156,6 @@
     }
   },
   "neutral": {
-    "0": {
-      "$type": "color",
-      "$value": "#FFFFFF"
-    },
     "50": {
       "$type": "color",
       "$value": "#FAFAFA"
@@ -203,6 +199,10 @@
     "950": {
       "$type": "color",
       "$value": "#0A0A0A"
+    },
+    "0": {
+      "$type": "color",
+      "$value": "#FFFFFF"
     }
   },
   "stone": {

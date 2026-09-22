@@ -5,14 +5,34 @@
     "group": "custom"
   },
   "light": {
-    "outline": {
+    "accent-dark-calendar-50": {
       "$type": "color",
-      "$value": "#A3A3A3",
-      "alpha": 0.5
+      "$value": "{primitive.color.neutral.100}"
+    },
+    "accent-dark-input-50": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.100}"
+    },
+    "background-dark-calendar-30": {
+      "$type": "color",
+      "$value": "{primitive.color.white}"
+    },
+    "background-dark-input-30": {
+      "$type": "color",
+      "$value": "{primitive.color.white}"
     },
     "blue-500-dark-blue-600": {
       "$type": "color",
       "$value": "{primitive.color.blue.500}"
+    },
+    "border-dark-input": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.200}"
+    },
+    "dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.0
     },
     "destructive-20-dark-40": {
       "$type": "color",
@@ -24,22 +44,9 @@
       "$value": "#DC2626",
       "alpha": 0.4
     },
-    "outline-10-dark-20": {
+    "destructive-dark-60": {
       "$type": "color",
-      "$value": "#A3A3A3",
-      "alpha": 0.1
-    },
-    "input-dark-80": {
-      "$type": "color",
-      "$value": "{primitive.color.neutral.200}"
-    },
-    "background-dark-input-30": {
-      "$type": "color",
-      "$value": "{primitive.color.white}"
-    },
-    "accent-dark-input-50": {
-      "$type": "color",
-      "$value": "{primitive.color.neutral.100}"
+      "$value": "{primitive.color.red.600}"
     },
     "destructive-dark-70": {
       "$type": "color",
@@ -49,26 +56,19 @@
       "$type": "color",
       "$value": "{primitive.color.red.600}"
     },
-    "destructive-dark-60": {
-      "$type": "color",
-      "$value": "{primitive.color.red.600}"
-    },
-    "dark-input": {
-      "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0
-    },
-    "accent-dark-calendar-50": {
-      "$type": "color",
-      "$value": "{primitive.color.neutral.100}"
-    },
-    "background-dark-calendar-30": {
-      "$type": "color",
-      "$value": "{primitive.color.white}"
-    },
-    "border-dark-input": {
+    "input-dark-80": {
       "$type": "color",
       "$value": "{primitive.color.neutral.200}"
+    },
+    "outline": {
+      "$type": "color",
+      "$value": "#A3A3A3",
+      "alpha": 0.5
+    },
+    "outline-10-dark-20": {
+      "$type": "color",
+      "$value": "#A3A3A3",
+      "alpha": 0.1
     },
     "ring-dark-input": {
       "$type": "color",
@@ -76,14 +76,39 @@
     }
   },
   "dark": {
-    "outline": {
+    "accent-dark-calendar-50": {
       "$type": "color",
-      "$value": "#737373",
-      "alpha": 0.5
+      "$value": "#FFFFFF",
+      "alpha": 0.075
+    },
+    "accent-dark-input-50": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.075
+    },
+    "background-dark-calendar-30": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.045
+    },
+    "background-dark-input-30": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.045
     },
     "blue-500-dark-blue-600": {
       "$type": "color",
       "$value": "{primitive.color.blue.600}"
+    },
+    "border-dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.15
+    },
+    "dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.15
     },
     "destructive-20-dark-40": {
       "$type": "color",
@@ -95,25 +120,10 @@
       "$value": "#F87171",
       "alpha": 0.6
     },
-    "outline-10-dark-20": {
+    "destructive-dark-60": {
       "$type": "color",
-      "$value": "#737373",
-      "alpha": 0.2
-    },
-    "input-dark-80": {
-      "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.12
-    },
-    "background-dark-input-30": {
-      "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.045
-    },
-    "accent-dark-input-50": {
-      "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.075
+      "$value": "#F87171",
+      "alpha": 0.6
     },
     "destructive-dark-70": {
       "$type": "color",
@@ -125,30 +135,20 @@
       "$value": "#F87171",
       "alpha": 0.9
     },
-    "destructive-dark-60": {
-      "$type": "color",
-      "$value": "#F87171",
-      "alpha": 0.6
-    },
-    "dark-input": {
+    "input-dark-80": {
       "$type": "color",
       "$value": "#FFFFFF",
-      "alpha": 0.15
+      "alpha": 0.12
     },
-    "accent-dark-calendar-50": {
+    "outline": {
       "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.075
+      "$value": "#737373",
+      "alpha": 0.5
     },
-    "background-dark-calendar-30": {
+    "outline-10-dark-20": {
       "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.045
-    },
-    "border-dark-input": {
-      "$type": "color",
-      "$value": "#FFFFFF",
-      "alpha": 0.15
+      "$value": "#737373",
+      "alpha": 0.2
     },
     "ring-dark-input": {
       "$type": "color",
