@@ -1,6 +1,8 @@
 # Design System Lab — Agent Guide
 
-AI implementation partner for the Product Design workflow in this repository.
+Repository-wide, tool-independent rules for agents working in this project.
+
+Cursor-specific working behavior lives in `.cursor/rules/` — do not duplicate procedural formats here.
 
 ## Project
 
@@ -12,26 +14,11 @@ AI implementation partner for the Product Design workflow in this repository.
 
 **ChatGPT owns:** product strategy, discovery, research planning, IA, flows, screen requirements, interaction models, experiments, sprint planning, business decisions, requirements, acceptance criteria, UX copy, analytics definitions.
 
-**This agent owns:** repository implementation, Figma token extraction/normalization/codegen, Figma↔code parity, shadcn customization, React components, Storybook, coded prototypes, accessibility implementation, automated tests, git branches/commits, implementation docs, debugging, deployment prep.
+**Implementation agents own:** repository work, token extraction/normalization/codegen, Figma↔code parity, shadcn customization, React components, Storybook, prototypes, accessibility implementation, tests, git, implementation docs, debugging, deployment prep.
 
-## Decision boundary
+Unresolved UX/product/business choices are not decided by implementation agents. Use the `DECISION REQUIRED` workflow defined in `.cursor/rules/implementation-partner.mdc`.
 
-Do not make product, UX, or business decisions silently. Do not invent product functionality to make implementation easier.
-
-If implementation exposes an undefined UX/product choice, stop and report:
-
-```text
-DECISION REQUIRED
-- Question
-- Why it matters
-- Option A
-- Option B
-- Technical implications
-```
-
-The user will resolve with ChatGPT and return a decision.
-
-## Source model
+## Source of truth
 
 ```text
 Figma
@@ -47,140 +34,56 @@ Storybook
 Product prototypes
 ```
 
-Figma Design System V2 is the starting design reference.
+- Figma Design System V2 is the starting design reference during migration.
+- Inspect Figma (variables, collections, modes, aliases, scopes, styles, conventions) before changing it or the token architecture.
+- Produce a gap report before changing token architecture.
+- Preserve Figma naming unless a documented decision says otherwise.
+- Do not invent design-system tokens or replace real Figma tokens with placeholders.
+- Do not invent component behavior that is not in the design system or UX spec.
+- After migration parity is validated, **GitHub is the durable versioned source layer**.
+- When Figma and code disagree, report the discrepancy before choosing a winner.
 
-### Migration / parity
+Canonical token files: `tokens/*.tokens.json`. Keep generated CSS synchronized with them.
 
-1. Inspect Figma first (variables, collections, modes, aliases, scopes, styles, component conventions).
-2. Compare with the repository.
-3. Produce a gap report before changing token architecture.
-4. Preserve existing Figma naming unless documented otherwise.
-5. Do not replace real Figma tokens with placeholder lab tokens.
-6. After parity validation, GitHub is the durable versioned source layer.
-
-When Figma and code disagree, report the discrepancy before choosing which version wins.
-
-## Token rules
+## Token policy
 
 1. Prefer semantic tokens over raw values.
-2. Components must not hardcode product colors.
-3. Do not replace semantic tokens with raw primitives in product UI.
-4. Preserve primitive → semantic → component relationships.
-5. Preserve Figma aliases where possible.
-6. Support Light/Dark modes if they exist in Figma.
-7. Keep token naming deterministic.
-8. Generate CSS from token definitions; do not maintain duplicated values manually.
-9. Never silently change token semantics; record decisions in `docs/decisions.md`.
-10. Treat `tokens/*.tokens.json` as the canonical token source; keep CSS mappings in sync.
-11. Use `border` for low-emphasis separation; use `input` / `border-strong` for stronger control boundaries.
-12. Prefer semantic status tokens (`success`, `warning`, `destructive`, `info`) over status primitives in product UI.
+2. Components must not hardcode product colors or use raw primitives in product UI.
+3. Preserve primitive → semantic → component relationships and Figma aliases where possible.
+4. Support Light/Dark modes when they exist in Figma.
+5. Keep token naming deterministic.
+6. Generate CSS from token definitions; do not hand-maintain duplicate values.
+7. Never silently change token semantics; record decisions in `docs/decisions.md`.
+8. Use `border` for low-emphasis separation; use `input` / `border-strong` for stronger control boundaries.
+9. Prefer semantic status tokens (`success`, `warning`, `destructive`, `info`) over status primitives in product UI.
 
-## Figma MCP
-
-Before creating or modifying anything in Figma:
-
-- inspect the existing file;
-- inspect variables and collections;
-- inspect component conventions;
-- reuse existing system structures.
-
-Do not recreate tokens or components that already exist.
-
-## shadcn/ui
-
-Use shadcn/ui as a code foundation, not the visual source of truth. Customize through our tokens and component APIs.
-
-Do not:
-
-- copy arbitrary shadcn colors into the system;
-- hardcode Tailwind colors (e.g. `bg-blue-500`) when a semantic token exists;
-- create duplicate components when an existing one can be extended;
-- modify generated component APIs without documenting meaningful changes.
-
-## Component parity
-
-Aim for conceptual parity between Figma and code (variant, size, state, icon, loading, disabled). APIs need not be identical, but they should represent the same design-system concepts.
-
-Rules for UI work:
+## Component policy
 
 1. Reuse an existing design-system component before creating a new one.
-2. Keep Figma-facing names and code-facing APIs conceptually aligned.
+2. Keep Figma concepts and code APIs conceptually aligned (variant, size, state, icon, loading, disabled).
 3. Treat loading, empty, disabled, error, hover, focus, and selected as first-class states where relevant.
-4. Do not create a new variant until checking whether an existing prop/state can represent the need.
-5. Update Storybook when component behavior or states change.
+4. Do not create a new variant until an existing prop/state cannot represent the need.
+5. Non-happy-path states are required when specified in the UX spec — do not omit them because the first screenshot is happy-path only.
+6. Update Storybook when component behavior or states change.
 
-## Storybook
-
-Storybook is the coded behavior/documentation layer. Production-ready components should include stories for:
-
-- default, variants, sizes
-- hover, focus, disabled, loading
-- error where relevant
-- long content
-- accessibility edge cases
-
-Verify implementation in Storybook; screenshots alone are not sufficient evidence.
+shadcn/ui is a code foundation, not the visual source of truth. Customize through our tokens and APIs. See `.cursor/rules/design-system.mdc` for Cursor implementation constraints.
 
 ## Accessibility
 
-Preserve:
-
-- keyboard navigation
-- visible focus
-- semantic HTML
-- accessible names
-- contrast
-- disabled semantics
-- touch/click target requirements
-- screen reader compatibility where relevant
-
-Do not remove accessibility behavior inherited from Radix/shadcn.
+Preserve keyboard navigation, visible focus, semantic HTML, accessible names, contrast, disabled semantics, touch/click targets, and screen reader compatibility where relevant. Do not remove accessibility behavior inherited from Radix/shadcn.
 
 ## Git workflow
 
-Before implementation:
+Before implementation: check git status; read `README.md`, this file, `docs/token-spec.md`, and `docs/decisions.md`.
 
-1. inspect repository status;
-2. read `README.md`, this file, `docs/token-spec.md`, `docs/decisions.md`.
-
-Branch naming:
-
-- `ds/<task>`
-- `prototype/<feature>`
-- `fix/<issue>`
-- `experiment/<experiment>`
+Branches: `ds/<task>`, `prototype/<feature>`, `fix/<issue>`, `experiment/<experiment>`.
 
 Use small, understandable commits. Do not mix unrelated refactors into feature commits.
 
 ## Documentation
 
-Update docs when changing token architecture, component APIs, naming, source-of-truth rules, or Figma/code mappings.
-
-Architectural decisions belong in `docs/decisions.md`. Do not rely only on chat history.
-
-## Implementing UX specs from ChatGPT
-
-Treat the provided UX specification as the product source for that implementation.
-
-Before coding, summarize:
-
-```text
-IMPLEMENTATION PLAN
-- screens
-- components
-- states
-- interactions
-- data assumptions
-- technical assumptions
-- unresolved UX questions
-```
-
-For each screen, include where specified: default, loading, empty, error, permission states, responsive behavior, accessibility, analytics hooks.
-
-Do not omit non-happy-path states because the first screenshot only shows the happy path.
+Update docs when changing token architecture, component APIs, naming, source-of-truth rules, or Figma/code mappings. Architectural decisions belong in `docs/decisions.md`. Do not rely only on chat history.
 
 ## Principle
 
-The goal is not to show that AI can generate lots of code. The goal is a coherent product UI that correctly uses the design system, documented components, semantic tokens, accessibility rules, and UX specifications.
-
-Prefer reuse and correctness over code volume.
+Prefer reuse and correctness over code volume. The goal is a coherent product UI that uses the design system, semantic tokens, accessibility rules, and UX specifications — not demonstrating that AI can generate lots of code.
