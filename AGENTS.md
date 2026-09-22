@@ -43,7 +43,7 @@ Product prototypes
 - After migration parity is validated, **GitHub is the durable versioned source layer**.
 - When Figma and code disagree, report the discrepancy before choosing a winner.
 
-Canonical token files: `tokens/*.tokens.json`. Keep generated CSS synchronized with them.
+Canonical token files: `tokens/{primitive,theme,semantic,custom}/**/*.tokens.json` plus `tokens/mappings/`. Keep generated CSS (`src/styles/tokens.css`) synchronized via `scripts/migrate-tokens.py`.
 
 ## Token policy
 
@@ -54,8 +54,8 @@ Canonical token files: `tokens/*.tokens.json`. Keep generated CSS synchronized w
 5. Keep token naming deterministic.
 6. Generate CSS from token definitions; do not hand-maintain duplicate values.
 7. Never silently change token semantics; record decisions in `docs/decisions.md`.
-8. Use `border` for low-emphasis separation; use `input` / `border-strong` for stronger control boundaries.
-9. Prefer semantic status tokens (`success`, `warning`, `destructive`, `info`) over status primitives in product UI.
+8. Use Mode semantic tokens for surfaces and controls (`border`, `input`, `ring`) as defined in Figma — do not invent extra boundary tokens unless they exist in Figma or an approved decision adds them.
+9. Do not invent status tokens (`success`, `warning`, `info`, …) in the production set until they exist in Figma Mode (see D004 / Decision2=B). Use `destructive` and other Mode `base/*` tokens that already exist.
 
 ## Component policy
 
