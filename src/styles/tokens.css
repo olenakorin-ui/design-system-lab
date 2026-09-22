@@ -1,0 +1,145 @@
+/* Design System Lab color tokens v0.2
+   Canonical values: /tokens/color.tokens.json
+   This file is the CSS implementation mirror. */
+
+:root {
+  --neutral-0: #ffffff;
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f4f9;
+  --neutral-200: #e3e8f0;
+  --neutral-300: #ccd4e0;
+  --neutral-400: #8996a7;
+  --neutral-500: #68758a;
+  --neutral-600: #4b576a;
+  --neutral-700: #364153;
+  --neutral-800: #232c3a;
+  --neutral-900: #151c28;
+  --neutral-950: #0b1018;
+
+  --brand-50: #f7f5ff;
+  --brand-100: #efeaff;
+  --brand-200: #e0d7ff;
+  --brand-300: #c9b8ff;
+  --brand-400: #ad92ff;
+  --brand-500: #8f6bf8;
+  --brand-600: #7353f3;
+  --brand-700: #5e3fd7;
+  --brand-800: #4b33ad;
+  --brand-900: #3e2d87;
+  --brand-950: #24184f;
+
+  --green-50: #f0fdf4;
+  --green-200: #bbf7d0;
+  --green-400: #4ade80;
+  --green-700: #15803d;
+  --green-800: #166534;
+  --green-950: #052e16;
+
+  --amber-50: #fffbeb;
+  --amber-200: #fde68a;
+  --amber-400: #fbbf24;
+  --amber-700: #b45309;
+  --amber-900: #78350f;
+  --amber-950: #451a03;
+
+  --red-50: #fef2f2;
+  --red-200: #fecaca;
+  --red-400: #f87171;
+  --red-600: #dc2626;
+  --red-800: #991b1b;
+  --red-950: #450a0a;
+
+  --blue-50: #eff6ff;
+  --blue-200: #bfdbfe;
+  --blue-400: #60a5fa;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-950: #172554;
+
+  /* Light semantic mappings */
+  --background: var(--neutral-0);
+  --foreground: var(--neutral-950);
+  --card: var(--neutral-0);
+  --card-foreground: var(--neutral-950);
+  --popover: var(--neutral-0);
+  --popover-foreground: var(--neutral-950);
+  --primary: var(--brand-600);
+  --primary-foreground: var(--neutral-0);
+  --secondary: var(--neutral-100);
+  --secondary-foreground: var(--neutral-900);
+  --muted: var(--neutral-100);
+  --muted-foreground: var(--neutral-600);
+  --accent: var(--brand-50);
+  --accent-foreground: var(--brand-800);
+  --destructive: var(--red-600);
+  --destructive-foreground: var(--neutral-0);
+  --border: var(--neutral-200);
+  --border-strong: var(--neutral-400);
+  --input: var(--neutral-400);
+  --ring: var(--brand-500);
+  --focus-ring: var(--brand-500);
+  --surface-raised: var(--neutral-0);
+  --surface-sunken: var(--neutral-50);
+
+  --success: var(--green-700);
+  --success-foreground: var(--neutral-0);
+  --success-subtle: var(--green-50);
+  --success-subtle-foreground: var(--green-800);
+
+  --warning: var(--amber-700);
+  --warning-foreground: var(--neutral-0);
+  --warning-subtle: var(--amber-50);
+  --warning-subtle-foreground: var(--amber-900);
+
+  --info: var(--blue-700);
+  --info-foreground: var(--neutral-0);
+  --info-subtle: var(--blue-50);
+  --info-subtle-foreground: var(--blue-800);
+
+  --error-subtle: var(--red-50);
+  --error-subtle-foreground: var(--red-800);
+}
+
+.dark {
+  --background: var(--neutral-950);
+  --foreground: var(--neutral-50);
+  --card: var(--neutral-900);
+  --card-foreground: var(--neutral-50);
+  --popover: var(--neutral-900);
+  --popover-foreground: var(--neutral-50);
+  --primary: var(--brand-400);
+  --primary-foreground: var(--neutral-950);
+  --secondary: var(--neutral-800);
+  --secondary-foreground: var(--neutral-50);
+  --muted: var(--neutral-800);
+  --muted-foreground: var(--neutral-400);
+  --accent: var(--brand-900);
+  --accent-foreground: var(--brand-100);
+  --destructive: var(--red-400);
+  --destructive-foreground: var(--neutral-950);
+  --border: var(--neutral-800);
+  --border-strong: var(--neutral-600);
+  --input: var(--neutral-500);
+  --ring: var(--brand-400);
+  --focus-ring: var(--brand-400);
+  --surface-raised: var(--neutral-900);
+  --surface-sunken: var(--neutral-950);
+
+  --success: var(--green-400);
+  --success-foreground: var(--neutral-950);
+  --success-subtle: var(--green-950);
+  --success-subtle-foreground: var(--green-200);
+
+  --warning: var(--amber-400);
+  --warning-foreground: var(--neutral-950);
+  --warning-subtle: var(--amber-950);
+  --warning-subtle-foreground: var(--amber-200);
+
+  --info: var(--blue-400);
+  --info-foreground: var(--neutral-950);
+  --info-subtle: var(--blue-950);
+  --info-subtle-foreground: var(--blue-200);
+
+  --error-subtle: var(--red-950);
+  --error-subtle-foreground: var(--red-200);
+}
