@@ -26,6 +26,21 @@ Regenerate: `python3 scripts/migrate-tokens.py`
 Parity notes: `docs/figma-parity.md`  
 Agent rules: `AGENTS.md`
 
+## Coded components (v0.1)
+
+Pipeline: Figma → tokens → semantic CSS → shadcn → React → Storybook.
+
+| Component | Status | Docs |
+|---|---|---|
+| Button | Implemented | [`docs/components/button.md`](docs/components/button.md) |
+| Input, Checkbox, Select, Badge, Alert, Dialog, Tabs | Planned | — |
+
+```bash
+npm install
+npm run dev          # Vite app
+npm run storybook    # Storybook (Light/Dark toolbar)
+npm run build        # Typecheck + production build
+```
+
 ## v0.1 scope
-Foundations first: color, typography, spacing, radius, shadow, motion, light/dark modes.
-Components follow only after token foundations are stable.
+Token foundations are stable (v0.4.1 live Figma parity). Component work starts with **Button only**.

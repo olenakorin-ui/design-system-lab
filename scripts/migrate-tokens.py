@@ -527,7 +527,7 @@ def build_css(stores: dict, semantic: dict, alpha: dict, recipes: dict, prim_col
     theme_targets = semantic.get("meta", {}).get("modeBaseThemeTargets", {})
     lines = [
         "/* GENERATED FILE — do not edit by hand.",
-        " * Source: tokens/**/*.tokens.json via scripts/migrate-tokens.py",
+        " * Source: tokens/{primitive,theme,semantic,custom}/*.tokens.json via scripts/migrate-tokens.py",
         " * Figma: Design System V2 (TailwindCSS → Theme → Mode)",
         " */",
         "",
