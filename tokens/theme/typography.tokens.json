@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "tier": "theme",
+    "figmaCollection": "2. Theme",
+    "group": "font+text"
+  },
+  "font": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": "Geist"
+    },
+    "serif": {
+      "$type": "fontFamily",
+      "$value": "Georgia"
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": "Geist Mono"
+    }
+  },
+  "font-weight": {
+    "thin": {
+      "$type": "fontWeight",
+      "$value": 100
+    },
+    "extralight": {
+      "$type": "fontWeight",
+      "$value": 200
+    },
+    "light": {
+      "$type": "fontWeight",
+      "$value": 300
+    },
+    "normal": {
+      "$type": "fontWeight",
+      "$value": 400
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": 500
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": 600
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": 700
+    },
+    "extrabold": {
+      "$type": "fontWeight",
+      "$value": 800
+    },
+    "black": {
+      "$type": "fontWeight",
+      "$value": 900
+    }
+  },
+  "text": {
+    "5xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "48px"
+      }
+    },
+    "6xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "60px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "60px"
+      }
+    },
+    "7xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "72px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "72px"
+      }
+    },
+    "8xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "96px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "96px"
+      }
+    },
+    "9xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "128px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "128px"
+      }
+    },
+    "xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "28px"
+      }
+    },
+    "2xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "32px"
+      }
+    },
+    "sm": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "20px"
+      }
+    },
+    "lg": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "28px"
+      }
+    },
+    "xs": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
+    },
+    "base": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "24px"
+      }
+    },
+    "4xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "40px"
+      }
+    },
+    "3xl": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": "30px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "36px"
+      }
+    }
+  }
+}

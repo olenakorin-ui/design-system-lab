@@ -1,0 +1,4059 @@
+{
+  "meta": {
+    "purpose": "Explicit Figma \u2192 repo/CSS mappings (Decision3=B)",
+    "naming": "Figma paths preserved in `figma`; code uses normalized paths"
+  },
+  "mappings": [
+    {
+      "figma": "tailwind colors/base/black",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.black",
+      "cssVar": "--color-black",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/base/white",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.white",
+      "cssVar": "--color-white",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/base/transparent",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.transparent",
+      "cssVar": "--color-transparent",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.50",
+      "cssVar": "--color-slate-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.100",
+      "cssVar": "--color-slate-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.200",
+      "cssVar": "--color-slate-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.300",
+      "cssVar": "--color-slate-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.400",
+      "cssVar": "--color-slate-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.500",
+      "cssVar": "--color-slate-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.600",
+      "cssVar": "--color-slate-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.700",
+      "cssVar": "--color-slate-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.800",
+      "cssVar": "--color-slate-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.900",
+      "cssVar": "--color-slate-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/slate/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.slate.950",
+      "cssVar": "--color-slate-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.50",
+      "cssVar": "--color-gray-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.100",
+      "cssVar": "--color-gray-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.200",
+      "cssVar": "--color-gray-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.300",
+      "cssVar": "--color-gray-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.400",
+      "cssVar": "--color-gray-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.500",
+      "cssVar": "--color-gray-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.600",
+      "cssVar": "--color-gray-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.700",
+      "cssVar": "--color-gray-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.800",
+      "cssVar": "--color-gray-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.900",
+      "cssVar": "--color-gray-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/gray/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.gray.950",
+      "cssVar": "--color-gray-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.50",
+      "cssVar": "--color-zinc-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.100",
+      "cssVar": "--color-zinc-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.200",
+      "cssVar": "--color-zinc-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.300",
+      "cssVar": "--color-zinc-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.400",
+      "cssVar": "--color-zinc-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.500",
+      "cssVar": "--color-zinc-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.600",
+      "cssVar": "--color-zinc-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.700",
+      "cssVar": "--color-zinc-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.800",
+      "cssVar": "--color-zinc-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.900",
+      "cssVar": "--color-zinc-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/zinc/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.zinc.950",
+      "cssVar": "--color-zinc-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.50",
+      "cssVar": "--color-neutral-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.100",
+      "cssVar": "--color-neutral-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.200",
+      "cssVar": "--color-neutral-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.300",
+      "cssVar": "--color-neutral-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.400",
+      "cssVar": "--color-neutral-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.500",
+      "cssVar": "--color-neutral-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.600",
+      "cssVar": "--color-neutral-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.700",
+      "cssVar": "--color-neutral-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.800",
+      "cssVar": "--color-neutral-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.900",
+      "cssVar": "--color-neutral-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/neutral/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.950",
+      "cssVar": "--color-neutral-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/base/white",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.neutral.0",
+      "cssVar": "--color-neutral-0",
+      "tier": "primitive",
+      "note": "normalized convenience alias of white"
+    },
+    {
+      "figma": "tailwind colors/stone/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.50",
+      "cssVar": "--color-stone-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.100",
+      "cssVar": "--color-stone-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.200",
+      "cssVar": "--color-stone-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.300",
+      "cssVar": "--color-stone-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.400",
+      "cssVar": "--color-stone-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.500",
+      "cssVar": "--color-stone-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.600",
+      "cssVar": "--color-stone-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.700",
+      "cssVar": "--color-stone-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.800",
+      "cssVar": "--color-stone-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.900",
+      "cssVar": "--color-stone-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/stone/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.stone.950",
+      "cssVar": "--color-stone-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.50",
+      "cssVar": "--color-red-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.100",
+      "cssVar": "--color-red-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.200",
+      "cssVar": "--color-red-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.300",
+      "cssVar": "--color-red-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.400",
+      "cssVar": "--color-red-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.500",
+      "cssVar": "--color-red-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.600",
+      "cssVar": "--color-red-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.700",
+      "cssVar": "--color-red-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.800",
+      "cssVar": "--color-red-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.900",
+      "cssVar": "--color-red-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/red/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.red.950",
+      "cssVar": "--color-red-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.50",
+      "cssVar": "--color-orange-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.100",
+      "cssVar": "--color-orange-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.200",
+      "cssVar": "--color-orange-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.300",
+      "cssVar": "--color-orange-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.400",
+      "cssVar": "--color-orange-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.500",
+      "cssVar": "--color-orange-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.600",
+      "cssVar": "--color-orange-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.700",
+      "cssVar": "--color-orange-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.800",
+      "cssVar": "--color-orange-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.900",
+      "cssVar": "--color-orange-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/orange/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.orange.950",
+      "cssVar": "--color-orange-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.50",
+      "cssVar": "--color-amber-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.100",
+      "cssVar": "--color-amber-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.200",
+      "cssVar": "--color-amber-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.300",
+      "cssVar": "--color-amber-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.400",
+      "cssVar": "--color-amber-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.500",
+      "cssVar": "--color-amber-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.600",
+      "cssVar": "--color-amber-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.700",
+      "cssVar": "--color-amber-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.800",
+      "cssVar": "--color-amber-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.900",
+      "cssVar": "--color-amber-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/amber/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.amber.950",
+      "cssVar": "--color-amber-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.50",
+      "cssVar": "--color-yellow-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.100",
+      "cssVar": "--color-yellow-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.200",
+      "cssVar": "--color-yellow-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.300",
+      "cssVar": "--color-yellow-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.400",
+      "cssVar": "--color-yellow-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.500",
+      "cssVar": "--color-yellow-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.600",
+      "cssVar": "--color-yellow-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.700",
+      "cssVar": "--color-yellow-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.800",
+      "cssVar": "--color-yellow-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.900",
+      "cssVar": "--color-yellow-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/yellow/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.yellow.950",
+      "cssVar": "--color-yellow-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.50",
+      "cssVar": "--color-lime-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.100",
+      "cssVar": "--color-lime-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.200",
+      "cssVar": "--color-lime-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.300",
+      "cssVar": "--color-lime-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.400",
+      "cssVar": "--color-lime-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.500",
+      "cssVar": "--color-lime-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.600",
+      "cssVar": "--color-lime-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.700",
+      "cssVar": "--color-lime-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.800",
+      "cssVar": "--color-lime-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.900",
+      "cssVar": "--color-lime-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/lime/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.lime.950",
+      "cssVar": "--color-lime-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.50",
+      "cssVar": "--color-green-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.100",
+      "cssVar": "--color-green-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.200",
+      "cssVar": "--color-green-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.300",
+      "cssVar": "--color-green-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.400",
+      "cssVar": "--color-green-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.500",
+      "cssVar": "--color-green-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.600",
+      "cssVar": "--color-green-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.700",
+      "cssVar": "--color-green-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.800",
+      "cssVar": "--color-green-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.900",
+      "cssVar": "--color-green-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/green/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.green.950",
+      "cssVar": "--color-green-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.50",
+      "cssVar": "--color-emerald-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.100",
+      "cssVar": "--color-emerald-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.200",
+      "cssVar": "--color-emerald-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.300",
+      "cssVar": "--color-emerald-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.400",
+      "cssVar": "--color-emerald-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.500",
+      "cssVar": "--color-emerald-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.600",
+      "cssVar": "--color-emerald-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.700",
+      "cssVar": "--color-emerald-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.800",
+      "cssVar": "--color-emerald-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.900",
+      "cssVar": "--color-emerald-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/emerald/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.emerald.950",
+      "cssVar": "--color-emerald-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.50",
+      "cssVar": "--color-teal-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.100",
+      "cssVar": "--color-teal-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.200",
+      "cssVar": "--color-teal-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.300",
+      "cssVar": "--color-teal-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.400",
+      "cssVar": "--color-teal-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.500",
+      "cssVar": "--color-teal-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.600",
+      "cssVar": "--color-teal-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.700",
+      "cssVar": "--color-teal-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.800",
+      "cssVar": "--color-teal-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.900",
+      "cssVar": "--color-teal-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/teal/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.teal.950",
+      "cssVar": "--color-teal-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.50",
+      "cssVar": "--color-cyan-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.100",
+      "cssVar": "--color-cyan-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.200",
+      "cssVar": "--color-cyan-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.300",
+      "cssVar": "--color-cyan-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.400",
+      "cssVar": "--color-cyan-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.500",
+      "cssVar": "--color-cyan-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.600",
+      "cssVar": "--color-cyan-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.700",
+      "cssVar": "--color-cyan-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.800",
+      "cssVar": "--color-cyan-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.900",
+      "cssVar": "--color-cyan-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/cyan/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.cyan.950",
+      "cssVar": "--color-cyan-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.50",
+      "cssVar": "--color-sky-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.100",
+      "cssVar": "--color-sky-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.200",
+      "cssVar": "--color-sky-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.300",
+      "cssVar": "--color-sky-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.400",
+      "cssVar": "--color-sky-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.500",
+      "cssVar": "--color-sky-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.600",
+      "cssVar": "--color-sky-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.700",
+      "cssVar": "--color-sky-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.800",
+      "cssVar": "--color-sky-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.900",
+      "cssVar": "--color-sky-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/sky/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.sky.950",
+      "cssVar": "--color-sky-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.50",
+      "cssVar": "--color-blue-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.100",
+      "cssVar": "--color-blue-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.200",
+      "cssVar": "--color-blue-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.300",
+      "cssVar": "--color-blue-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.400",
+      "cssVar": "--color-blue-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.500",
+      "cssVar": "--color-blue-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.600",
+      "cssVar": "--color-blue-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.700",
+      "cssVar": "--color-blue-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.800",
+      "cssVar": "--color-blue-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.900",
+      "cssVar": "--color-blue-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/blue/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.blue.950",
+      "cssVar": "--color-blue-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.50",
+      "cssVar": "--color-indigo-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.100",
+      "cssVar": "--color-indigo-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.200",
+      "cssVar": "--color-indigo-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.300",
+      "cssVar": "--color-indigo-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.400",
+      "cssVar": "--color-indigo-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.500",
+      "cssVar": "--color-indigo-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.600",
+      "cssVar": "--color-indigo-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.700",
+      "cssVar": "--color-indigo-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.800",
+      "cssVar": "--color-indigo-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.900",
+      "cssVar": "--color-indigo-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/indigo/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.indigo.950",
+      "cssVar": "--color-indigo-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.50",
+      "cssVar": "--color-violet-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.100",
+      "cssVar": "--color-violet-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.200",
+      "cssVar": "--color-violet-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.300",
+      "cssVar": "--color-violet-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.400",
+      "cssVar": "--color-violet-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.500",
+      "cssVar": "--color-violet-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.600",
+      "cssVar": "--color-violet-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.700",
+      "cssVar": "--color-violet-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.800",
+      "cssVar": "--color-violet-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.900",
+      "cssVar": "--color-violet-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/violet/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.violet.950",
+      "cssVar": "--color-violet-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.50",
+      "cssVar": "--color-purple-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.100",
+      "cssVar": "--color-purple-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.200",
+      "cssVar": "--color-purple-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.300",
+      "cssVar": "--color-purple-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.400",
+      "cssVar": "--color-purple-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.500",
+      "cssVar": "--color-purple-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.600",
+      "cssVar": "--color-purple-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.700",
+      "cssVar": "--color-purple-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.800",
+      "cssVar": "--color-purple-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.900",
+      "cssVar": "--color-purple-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/purple/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.purple.950",
+      "cssVar": "--color-purple-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.50",
+      "cssVar": "--color-fuchsia-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.100",
+      "cssVar": "--color-fuchsia-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.200",
+      "cssVar": "--color-fuchsia-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.300",
+      "cssVar": "--color-fuchsia-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.400",
+      "cssVar": "--color-fuchsia-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.500",
+      "cssVar": "--color-fuchsia-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.600",
+      "cssVar": "--color-fuchsia-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.700",
+      "cssVar": "--color-fuchsia-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.800",
+      "cssVar": "--color-fuchsia-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.900",
+      "cssVar": "--color-fuchsia-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/fuchsia/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.fuchsia.950",
+      "cssVar": "--color-fuchsia-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.50",
+      "cssVar": "--color-pink-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.100",
+      "cssVar": "--color-pink-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.200",
+      "cssVar": "--color-pink-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.300",
+      "cssVar": "--color-pink-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.400",
+      "cssVar": "--color-pink-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.500",
+      "cssVar": "--color-pink-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.600",
+      "cssVar": "--color-pink-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.700",
+      "cssVar": "--color-pink-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.800",
+      "cssVar": "--color-pink-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.900",
+      "cssVar": "--color-pink-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/pink/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.pink.950",
+      "cssVar": "--color-pink-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.50",
+      "cssVar": "--color-rose-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.100",
+      "cssVar": "--color-rose-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/200",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.200",
+      "cssVar": "--color-rose-200",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/300",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.300",
+      "cssVar": "--color-rose-300",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/400",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.400",
+      "cssVar": "--color-rose-400",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/500",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.500",
+      "cssVar": "--color-rose-500",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/600",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.600",
+      "cssVar": "--color-rose-600",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/700",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.700",
+      "cssVar": "--color-rose-700",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/800",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.800",
+      "cssVar": "--color-rose-800",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/900",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.900",
+      "cssVar": "--color-rose-900",
+      "tier": "primitive"
+    },
+    {
+      "figma": "tailwind colors/rose/950",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.color.rose.950",
+      "cssVar": "--color-rose-950",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/7",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.7",
+      "cssVar": "--spacing-7",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/8",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.8",
+      "cssVar": "--spacing-8",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/9",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.9",
+      "cssVar": "--spacing-9",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/10",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.10",
+      "cssVar": "--spacing-10",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/11",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.11",
+      "cssVar": "--spacing-11",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/12",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.12",
+      "cssVar": "--spacing-12",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/14",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.14",
+      "cssVar": "--spacing-14",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/16",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.16",
+      "cssVar": "--spacing-16",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/20",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.20",
+      "cssVar": "--spacing-20",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/24",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.24",
+      "cssVar": "--spacing-24",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/28",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.28",
+      "cssVar": "--spacing-28",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/32",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.32",
+      "cssVar": "--spacing-32",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/36",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.36",
+      "cssVar": "--spacing-36",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/40",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.40",
+      "cssVar": "--spacing-40",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/44",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.44",
+      "cssVar": "--spacing-44",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/48",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.48",
+      "cssVar": "--spacing-48",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/52",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.52",
+      "cssVar": "--spacing-52",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/56",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.56",
+      "cssVar": "--spacing-56",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/60",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.60",
+      "cssVar": "--spacing-60",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/64",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.64",
+      "cssVar": "--spacing-64",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/0",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.0",
+      "cssVar": "--spacing-0",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/72",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.72",
+      "cssVar": "--spacing-72",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/80",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.80",
+      "cssVar": "--spacing-80",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/96",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.96",
+      "cssVar": "--spacing-96",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/px",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.px",
+      "cssVar": "--spacing-px",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/0-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.0-5",
+      "cssVar": "--spacing-0-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/1-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.1-5",
+      "cssVar": "--spacing-1-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/2-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.2-5",
+      "cssVar": "--spacing-2-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/3-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.3-5",
+      "cssVar": "--spacing-3-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/1",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.1",
+      "cssVar": "--spacing-1",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/2",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.2",
+      "cssVar": "--spacing-2",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/3",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.3",
+      "cssVar": "--spacing-3",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/4",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.4",
+      "cssVar": "--spacing-4",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.5",
+      "cssVar": "--spacing-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "spacing/6",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.spacing.6",
+      "cssVar": "--spacing-6",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-0",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.0",
+      "cssVar": "--opacity-0",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-5",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.5",
+      "cssVar": "--opacity-5",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-10",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.10",
+      "cssVar": "--opacity-10",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-15",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.15",
+      "cssVar": "--opacity-15",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-20",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.20",
+      "cssVar": "--opacity-20",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-25",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.25",
+      "cssVar": "--opacity-25",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-30",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.30",
+      "cssVar": "--opacity-30",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-35",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.35",
+      "cssVar": "--opacity-35",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-40",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.40",
+      "cssVar": "--opacity-40",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-45",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.45",
+      "cssVar": "--opacity-45",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-50",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.50",
+      "cssVar": "--opacity-50",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-55",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.55",
+      "cssVar": "--opacity-55",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-60",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.60",
+      "cssVar": "--opacity-60",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-65",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.65",
+      "cssVar": "--opacity-65",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-70",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.70",
+      "cssVar": "--opacity-70",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-75",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.75",
+      "cssVar": "--opacity-75",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-80",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.80",
+      "cssVar": "--opacity-80",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-85",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.85",
+      "cssVar": "--opacity-85",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-90",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.90",
+      "cssVar": "--opacity-90",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-95",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.95",
+      "cssVar": "--opacity-95",
+      "tier": "primitive"
+    },
+    {
+      "figma": "opacity/opacity-100",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.opacity.100",
+      "cssVar": "--opacity-100",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-width/border-0",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.border-width.0",
+      "cssVar": "--border-width-0",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-width/border",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.border-width.DEFAULT",
+      "cssVar": "--border-width-default",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-width/border-2",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.border-width.2",
+      "cssVar": "--border-width-2",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-width/border-4",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.border-width.4",
+      "cssVar": "--border-width-4",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-width/border-8",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.border-width.8",
+      "cssVar": "--border-width-8",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-none",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.none",
+      "cssVar": "--rounded-none",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-full",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.full",
+      "cssVar": "--rounded-full",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-xs",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.xs",
+      "cssVar": "--rounded-xs",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-sm",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.sm",
+      "cssVar": "--rounded-sm",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-md",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.md",
+      "cssVar": "--rounded-md",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-lg",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.lg",
+      "cssVar": "--rounded-lg",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-xl",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.xl",
+      "cssVar": "--rounded-xl",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-2xl",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.2xl",
+      "cssVar": "--rounded-2xl",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-3xl",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.3xl",
+      "cssVar": "--rounded-3xl",
+      "tier": "primitive"
+    },
+    {
+      "figma": "border-radius/rounded-4xl",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "primitive.dimension.rounded.4xl",
+      "cssVar": "--rounded-4xl",
+      "tier": "primitive"
+    },
+    {
+      "figma": "colors/primary-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.primary-light",
+      "cssVar": "--theme-primary-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.foreground-light",
+      "cssVar": "--theme-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.foreground-dark",
+      "cssVar": "--theme-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/input-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.input-light",
+      "cssVar": "--theme-input-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/input-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.input-dark",
+      "cssVar": "--theme-input-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-light",
+      "cssVar": "--theme-muted-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-dark",
+      "cssVar": "--theme-muted-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/popover-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.popover-light",
+      "cssVar": "--theme-popover-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/popover-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.popover-dark",
+      "cssVar": "--theme-popover-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/popover-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.popover-foreground-light",
+      "cssVar": "--theme-popover-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/popover-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.popover-foreground-dark",
+      "cssVar": "--theme-popover-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/primary-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.primary-foreground-light",
+      "cssVar": "--theme-primary-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/primary-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.primary-foreground-dark",
+      "cssVar": "--theme-primary-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/ring-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.ring-light",
+      "cssVar": "--theme-ring-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/ring-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.ring-dark",
+      "cssVar": "--theme-ring-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/secondary-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.secondary-light",
+      "cssVar": "--theme-secondary-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/secondary-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.secondary-dark",
+      "cssVar": "--theme-secondary-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/secondary-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.secondary-foreground-light",
+      "cssVar": "--theme-secondary-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/secondary-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.secondary-foreground-dark",
+      "cssVar": "--theme-secondary-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-foreground-light",
+      "cssVar": "--theme-muted-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/muted-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.muted-foreground-dark",
+      "cssVar": "--theme-muted-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-1-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-1-light",
+      "cssVar": "--theme-chart-1-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-1-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-1-dark",
+      "cssVar": "--theme-chart-1-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-2-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-2-light",
+      "cssVar": "--theme-chart-2-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-2-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-2-dark",
+      "cssVar": "--theme-chart-2-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-3-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-3-light",
+      "cssVar": "--theme-chart-3-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-3-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-3-dark",
+      "cssVar": "--theme-chart-3-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-4-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-4-light",
+      "cssVar": "--theme-chart-4-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-4-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-4-dark",
+      "cssVar": "--theme-chart-4-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-5-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-5-light",
+      "cssVar": "--theme-chart-5-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/chart-5-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.chart-5-dark",
+      "cssVar": "--theme-chart-5-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/primary-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.primary-dark",
+      "cssVar": "--theme-primary-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-light",
+      "cssVar": "--theme-accent-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-foreground-dark",
+      "cssVar": "--theme-accent-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/background-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.background-light",
+      "cssVar": "--theme-background-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/background-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.background-dark",
+      "cssVar": "--theme-background-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/border-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.border-light",
+      "cssVar": "--theme-border-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/border-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.border-dark",
+      "cssVar": "--theme-border-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-light",
+      "cssVar": "--theme-card-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-dark",
+      "cssVar": "--theme-card-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-dark",
+      "cssVar": "--theme-accent-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-foreground-light",
+      "cssVar": "--theme-card-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/card-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.card-foreground-dark",
+      "cssVar": "--theme-card-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-light",
+      "cssVar": "--theme-destructive-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-dark",
+      "cssVar": "--theme-destructive-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-foreground-light",
+      "cssVar": "--theme-destructive-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/destructive-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.destructive-foreground-dark",
+      "cssVar": "--theme-destructive-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/accent-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.accent-foreground-light",
+      "cssVar": "--theme-accent-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-foreground-light",
+      "cssVar": "--theme-sidebar-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-light",
+      "cssVar": "--theme-sidebar-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-dark",
+      "cssVar": "--theme-sidebar-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-foreground-dark",
+      "cssVar": "--theme-sidebar-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-primary-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-primary-light",
+      "cssVar": "--theme-sidebar-primary-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-primary-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-primary-dark",
+      "cssVar": "--theme-sidebar-primary-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-primary-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-primary-foreground-light",
+      "cssVar": "--theme-sidebar-primary-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-primary-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-primary-foreground-dark",
+      "cssVar": "--theme-sidebar-primary-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-accent-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-accent-light",
+      "cssVar": "--theme-sidebar-accent-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-accent-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-accent-dark",
+      "cssVar": "--theme-sidebar-accent-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-accent-foreground-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-accent-foreground-light",
+      "cssVar": "--theme-sidebar-accent-foreground-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-accent-foreground-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-accent-foreground-dark",
+      "cssVar": "--theme-sidebar-accent-foreground-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-border-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-border-light",
+      "cssVar": "--theme-sidebar-border-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-border-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-border-dark",
+      "cssVar": "--theme-sidebar-border-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-ring-light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-ring-light",
+      "cssVar": "--theme-sidebar-ring-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "colors/sidebar-ring-dark",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.color.sidebar-ring-dark",
+      "cssVar": "--theme-sidebar-ring-dark",
+      "tier": "theme"
+    },
+    {
+      "figma": "border-radius/rounded-none",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "theme.radius.none",
+      "cssVar": "--radius-none",
+      "tier": "theme"
+    },
+    {
+      "figma": "border-radius/rounded-full",
+      "figmaCollection": "1. TailwindCSS",
+      "codePath": "theme.radius.full",
+      "cssVar": "--radius-full",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.2xl",
+      "cssVar": "--radius-2xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/3xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.3xl",
+      "cssVar": "--radius-3xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/4xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.4xl",
+      "cssVar": "--radius-4xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.sm",
+      "cssVar": "--radius-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.xs",
+      "cssVar": "--radius-xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.lg",
+      "cssVar": "--radius-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.xl",
+      "cssVar": "--radius-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "radius/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.radius.md",
+      "cssVar": "--radius-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "font/font-sans",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font.sans",
+      "cssVar": "--font-sans",
+      "tier": "theme"
+    },
+    {
+      "figma": "font/font-serif",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font.serif",
+      "cssVar": "--font-serif",
+      "tier": "theme"
+    },
+    {
+      "figma": "font/font-mono",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font.mono",
+      "cssVar": "--font-mono",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/thin",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.thin",
+      "cssVar": "--font-weight-thin",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/extralight",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.extralight",
+      "cssVar": "--font-weight-extralight",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/light",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.light",
+      "cssVar": "--font-weight-light",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/normal",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.normal",
+      "cssVar": "--font-weight-normal",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/medium",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.medium",
+      "cssVar": "--font-weight-medium",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/semibold",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.semibold",
+      "cssVar": "--font-weight-semibold",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/bold",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.bold",
+      "cssVar": "--font-weight-bold",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/extrabold",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.extrabold",
+      "cssVar": "--font-weight-extrabold",
+      "tier": "theme"
+    },
+    {
+      "figma": "font-weight/black",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.font-weight.black",
+      "cssVar": "--font-weight-black",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/5xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.5xl.font-size",
+      "cssVar": "--text-5xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/5xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.5xl.line-height",
+      "cssVar": "--text-5xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/6xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.6xl.font-size",
+      "cssVar": "--text-6xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/6xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.6xl.line-height",
+      "cssVar": "--text-6xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/7xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.7xl.font-size",
+      "cssVar": "--text-7xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/7xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.7xl.line-height",
+      "cssVar": "--text-7xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/8xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.8xl.font-size",
+      "cssVar": "--text-8xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/8xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.8xl.line-height",
+      "cssVar": "--text-8xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/9xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.9xl.font-size",
+      "cssVar": "--text-9xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/9xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.9xl.line-height",
+      "cssVar": "--text-9xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xl.font-size",
+      "cssVar": "--text-xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xl.line-height",
+      "cssVar": "--text-xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/2xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.2xl.font-size",
+      "cssVar": "--text-2xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/2xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.2xl.line-height",
+      "cssVar": "--text-2xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/sm/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.sm.font-size",
+      "cssVar": "--text-sm-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/sm/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.sm.line-height",
+      "cssVar": "--text-sm-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/lg/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.lg.font-size",
+      "cssVar": "--text-lg-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/lg/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.lg.line-height",
+      "cssVar": "--text-lg-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xs/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xs.font-size",
+      "cssVar": "--text-xs-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/xs/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.xs.line-height",
+      "cssVar": "--text-xs-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/base/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.base.font-size",
+      "cssVar": "--text-base-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/base/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.base.line-height",
+      "cssVar": "--text-base-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/4xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.4xl.font-size",
+      "cssVar": "--text-4xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/4xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.4xl.line-height",
+      "cssVar": "--text-4xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/3xl/font-size",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.3xl.font-size",
+      "cssVar": "--text-3xl-size",
+      "tier": "theme"
+    },
+    {
+      "figma": "text/3xl/line-height",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.typography.text.3xl.line-height",
+      "cssVar": "--text-3xl-line-height",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.2xl",
+      "cssVar": "--shadow-2xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/2xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.2xs",
+      "cssVar": "--shadow-2xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.lg",
+      "cssVar": "--shadow-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.md",
+      "cssVar": "--shadow-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.sm",
+      "cssVar": "--shadow-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.xl",
+      "cssVar": "--shadow-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "shadow/xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.shadow.xs",
+      "cssVar": "--shadow-xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.xs",
+      "cssVar": "--blur-xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.sm",
+      "cssVar": "--blur-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.md",
+      "cssVar": "--blur-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.lg",
+      "cssVar": "--blur-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.xl",
+      "cssVar": "--blur-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.2xl",
+      "cssVar": "--blur-2xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "blur/3xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.shadow.blur.3xl",
+      "cssVar": "--blur-3xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "breakpoint/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.breakpoint.sm",
+      "cssVar": "--breakpoint-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "breakpoint/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.breakpoint.md",
+      "cssVar": "--breakpoint-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "breakpoint/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.breakpoint.lg",
+      "cssVar": "--breakpoint-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "breakpoint/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.breakpoint.xl",
+      "cssVar": "--breakpoint-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "breakpoint/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.breakpoint.2xl",
+      "cssVar": "--breakpoint-2xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/3xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.3xs",
+      "cssVar": "--container-3xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/2xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.2xs",
+      "cssVar": "--container-2xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/xs",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.xs",
+      "cssVar": "--container-xs",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/sm",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.sm",
+      "cssVar": "--container-sm",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/md",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.md",
+      "cssVar": "--container-md",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/lg",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.lg",
+      "cssVar": "--container-lg",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.xl",
+      "cssVar": "--container-xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/2xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.2xl",
+      "cssVar": "--container-2xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/3xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.3xl",
+      "cssVar": "--container-3xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/4xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.4xl",
+      "cssVar": "--container-4xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/5xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.5xl",
+      "cssVar": "--container-5xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/6xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.6xl",
+      "cssVar": "--container-6xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "container/7xl",
+      "figmaCollection": "2. Theme",
+      "codePath": "theme.layout.container.7xl",
+      "cssVar": "--container-7xl",
+      "tier": "theme"
+    },
+    {
+      "figma": "base/accent",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.accent",
+      "cssVar": "--accent",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/accent-{light|dark}"
+    },
+    {
+      "figma": "base/accent-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.accent-foreground",
+      "cssVar": "--accent-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/accent-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/background",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.background",
+      "cssVar": "--background",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/background-{light|dark}"
+    },
+    {
+      "figma": "base/border",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.border",
+      "cssVar": "--border",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/border-{light|dark}"
+    },
+    {
+      "figma": "base/card",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.card",
+      "cssVar": "--card",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/card-{light|dark}"
+    },
+    {
+      "figma": "base/card-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.card-foreground",
+      "cssVar": "--card-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/card-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/chart-1",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.chart-1",
+      "cssVar": "--chart-1",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/chart-1-{light|dark}"
+    },
+    {
+      "figma": "base/chart-2",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.chart-2",
+      "cssVar": "--chart-2",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/chart-2-{light|dark}"
+    },
+    {
+      "figma": "base/chart-3",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.chart-3",
+      "cssVar": "--chart-3",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/chart-3-{light|dark}"
+    },
+    {
+      "figma": "base/chart-4",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.chart-4",
+      "cssVar": "--chart-4",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/chart-4-{light|dark}"
+    },
+    {
+      "figma": "base/chart-5",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.chart-5",
+      "cssVar": "--chart-5",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/chart-5-{light|dark}"
+    },
+    {
+      "figma": "base/destructive",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.destructive",
+      "cssVar": "--destructive",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/destructive-{light|dark}"
+    },
+    {
+      "figma": "base/destructive-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.destructive-foreground",
+      "cssVar": "--destructive-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/destructive-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.foreground",
+      "cssVar": "--foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/foreground-{light|dark}"
+    },
+    {
+      "figma": "base/input",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.input",
+      "cssVar": "--input",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/input-{light|dark}"
+    },
+    {
+      "figma": "base/muted",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.muted",
+      "cssVar": "--muted",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/muted-{light|dark}"
+    },
+    {
+      "figma": "base/muted-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.muted-foreground",
+      "cssVar": "--muted-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/muted-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/popover",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.popover",
+      "cssVar": "--popover",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/popover-{light|dark}"
+    },
+    {
+      "figma": "base/popover-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.popover-foreground",
+      "cssVar": "--popover-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/popover-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/primary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.primary",
+      "cssVar": "--primary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/primary-{light|dark}"
+    },
+    {
+      "figma": "base/primary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.primary-foreground",
+      "cssVar": "--primary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/primary-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/ring",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.ring",
+      "cssVar": "--ring",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/ring-{light|dark}"
+    },
+    {
+      "figma": "base/ring-offset",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.ring-offset",
+      "cssVar": "--ring-offset",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/background-{light|dark}",
+      "note": "Live Figma aliases Theme colors/background-* (not colors/ring-offset-*); Decision ringOffset=A"
+    },
+    {
+      "figma": "base/secondary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.secondary",
+      "cssVar": "--secondary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/secondary-{light|dark}"
+    },
+    {
+      "figma": "base/secondary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.secondary-foreground",
+      "cssVar": "--secondary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/secondary-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar",
+      "cssVar": "--sidebar",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-accent",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-accent",
+      "cssVar": "--sidebar-accent",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-accent-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-accent-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-accent-foreground",
+      "cssVar": "--sidebar-accent-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-accent-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-border",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-border",
+      "cssVar": "--sidebar-border",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-border-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-foreground",
+      "cssVar": "--sidebar-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-primary",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-primary",
+      "cssVar": "--sidebar-primary",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-primary-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-primary-foreground",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-primary-foreground",
+      "cssVar": "--sidebar-primary-foreground",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-primary-foreground-{light|dark}"
+    },
+    {
+      "figma": "base/sidebar-ring",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.color.{mode}.sidebar-ring",
+      "cssVar": "--sidebar-ring",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "themeAlias": "colors/sidebar-ring-{light|dark}"
+    },
+    {
+      "figma": "alpha/5",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.5",
+      "cssVar": "--alpha-5",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/10",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.10",
+      "cssVar": "--alpha-10",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/20",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.20",
+      "cssVar": "--alpha-20",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/30",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.30",
+      "cssVar": "--alpha-30",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/40",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.40",
+      "cssVar": "--alpha-40",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/50",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.50",
+      "cssVar": "--alpha-50",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/60",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.60",
+      "cssVar": "--alpha-60",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/70",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.70",
+      "cssVar": "--alpha-70",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/80",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.80",
+      "cssVar": "--alpha-80",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "alpha/90",
+      "figmaCollection": "3. Mode",
+      "codePath": "semantic.alpha.{mode}.90",
+      "cssVar": "--alpha-90",
+      "tier": "semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/accent dark:calendar\\50",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.accent-dark-calendar-50",
+      "cssVar": "--custom-accent-dark-calendar-50",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/accent dark:input\\50",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.accent-dark-input-50",
+      "cssVar": "--custom-accent-dark-input-50",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/background dark:calendar\\30",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.background-dark-calendar-30",
+      "cssVar": "--custom-background-dark-calendar-30",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/background dark:input\\30",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.background-dark-input-30",
+      "cssVar": "--custom-background-dark-input-30",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/blue-500 dark:blue-600",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.blue-500-dark-blue-600",
+      "cssVar": "--custom-blue-500-dark-blue-600",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/border dark:input-dark",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.border-dark-input",
+      "cssVar": "--custom-border-dark-input",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/dark:input",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.dark-input",
+      "cssVar": "--custom-dark-input",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/destructive\\20 dark:destructive\\40",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.destructive-20-dark-40",
+      "cssVar": "--custom-destructive-20-dark-40",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/destructive\\40 dark:destructive\\60",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.destructive-40-dark-60",
+      "cssVar": "--custom-destructive-40-dark-60",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/destructive dark:destructive\\60",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.destructive-dark-60",
+      "cssVar": "--custom-destructive-dark-60",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/destructive dark:destructive\\70",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.destructive-dark-70",
+      "cssVar": "--custom-destructive-dark-70",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/destructive dark:destructive\\90",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.destructive-dark-90",
+      "cssVar": "--custom-destructive-dark-90",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/input dark:input\\80",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.input-dark-80",
+      "cssVar": "--custom-input-dark-80",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/outline",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.outline",
+      "cssVar": "--custom-outline",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/outline\\10 dark:outline\\20",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.outline-10-dark-20",
+      "cssVar": "--custom-outline-10-dark-20",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "custom/ring dark:input-dark",
+      "figmaCollection": "3. Mode",
+      "codePath": "custom.mode-recipes.{mode}.ring-dark-input",
+      "cssVar": "--custom-ring-dark-input",
+      "tier": "custom",
+      "modes": [
+        "Light",
+        "Dark"
+      ]
+    },
+    {
+      "figma": "heading-xl/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.heading.xl",
+      "cssVar": "--heading-xl-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-xl/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.heading.xl",
+      "cssVar": "--heading-xl-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-lg/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.heading.lg",
+      "cssVar": "--heading-lg-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-lg/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.heading.lg",
+      "cssVar": "--heading-lg-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-md/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.heading.md",
+      "cssVar": "--heading-md-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-md/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.heading.md",
+      "cssVar": "--heading-md-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-sm/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.heading.sm",
+      "cssVar": "--heading-sm-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "heading-sm/*",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.heading.sm",
+      "cssVar": "--heading-sm-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-lg",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-title-gap-lg",
+      "cssVar": "--layout-section-title-gap-lg-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-lg",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-title-gap-lg",
+      "cssVar": "--layout-section-title-gap-lg-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-md",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-title-gap-md",
+      "cssVar": "--layout-section-title-gap-md-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-md",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-title-gap-md",
+      "cssVar": "--layout-section-title-gap-md-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-sm",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-title-gap-sm",
+      "cssVar": "--layout-section-title-gap-sm-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-sm",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-title-gap-sm",
+      "cssVar": "--layout-section-title-gap-sm-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "container-padding-x",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.container-padding-x",
+      "cssVar": "--layout-container-padding-x-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "container-padding-x",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.container-padding-x",
+      "cssVar": "--layout-container-padding-x-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-padding-y",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-padding-y",
+      "cssVar": "--layout-section-padding-y-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-padding-y",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-padding-y",
+      "cssVar": "--layout-section-padding-y-mobile",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-xl",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.desktop.section-title-gap-xl",
+      "cssVar": "--layout-section-title-gap-xl-desktop",
+      "tier": "custom"
+    },
+    {
+      "figma": "section-title-gap-xl",
+      "figmaCollection": "4. Custom",
+      "codePath": "custom.layout.mobile.section-title-gap-xl",
+      "cssVar": "--layout-section-title-gap-xl-mobile",
+      "tier": "custom"
+    }
+  ]
+}

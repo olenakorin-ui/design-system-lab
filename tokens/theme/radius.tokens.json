@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "tier": "theme",
+    "figmaCollection": "2. Theme",
+    "group": "radius"
+  },
+  "none": {
+    "$type": "dimension",
+    "$value": "0px"
+  },
+  "full": {
+    "$type": "dimension",
+    "$value": "9999px"
+  },
+  "2xl": {
+    "$type": "dimension",
+    "$value": "16px"
+  },
+  "3xl": {
+    "$type": "dimension",
+    "$value": "24px"
+  },
+  "4xl": {
+    "$type": "dimension",
+    "$value": "32px"
+  },
+  "sm": {
+    "$type": "dimension",
+    "$value": "6px"
+  },
+  "xs": {
+    "$type": "dimension",
+    "$value": "2px"
+  },
+  "lg": {
+    "$type": "dimension",
+    "$value": "10px"
+  },
+  "xl": {
+    "$type": "dimension",
+    "$value": "14px"
+  },
+  "md": {
+    "$type": "dimension",
+    "$value": "8px"
+  }
+}

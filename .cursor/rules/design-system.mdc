@@ -17,9 +17,10 @@ Operational constraints while implementing in this repo. Canonical policy: `AGEN
 ## Tokens
 
 - Consume semantic tokens; never hardcode product colors (e.g. `bg-blue-500`) when a semantic token exists
-- Edit `tokens/*.tokens.json` as source; generate CSS — do not hand-duplicate values
+- Edit `tokens/{primitive,theme,semantic,custom}/**`; generate CSS via `scripts/migrate-tokens.py` — do not hand-duplicate values
+- Do not invent lab-only tokens (see D004); use Mode `base/*` semantics
 - Preserve aliases and Light/Dark when present in Figma
-- Gap-report before token architecture changes; preserve Figma naming unless documented
+- Gap-report before token architecture changes; Figma paths live in `tokens/mappings/`
 - Log semantic meaning changes in `docs/decisions.md`
 
 ## shadcn / components

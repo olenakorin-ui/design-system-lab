@@ -1,0 +1,55 @@
+{
+  "total": 760,
+  "batches": 19,
+  "batchSize": 40,
+  "colMeta": [
+    {
+      "id": "VariableCollectionId:1:2",
+      "name": "1. TailwindCSS",
+      "modes": [
+        {
+          "id": "1:0",
+          "name": "Default"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:412",
+      "name": "2. Theme",
+      "modes": [
+        {
+          "id": "1:1",
+          "name": "Default"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:444",
+      "name": "3. Mode",
+      "modes": [
+        {
+          "id": "1:7",
+          "name": "Light"
+        },
+        {
+          "id": "28:0",
+          "name": "Dark"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:17548:88924",
+      "name": "4. Custom",
+      "modes": [
+        {
+          "id": "17548:0",
+          "name": "Desktop"
+        },
+        {
+          "id": "17548:1",
+          "name": "Mobile"
+        }
+      ]
+    }
+  ]
+}

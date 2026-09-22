@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "tier": "theme",
+    "figmaCollection": "2. Theme",
+    "group": "breakpoint+container"
+  },
+  "breakpoint": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "640px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "768px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1024px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "1280px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "1536px"
+    }
+  },
+  "container": {
+    "3xs": {
+      "$type": "dimension",
+      "$value": "256px"
+    },
+    "2xs": {
+      "$type": "dimension",
+      "$value": "288px"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "320px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "384px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "448px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "512px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "576px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "672px"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "768px"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "896px"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "1024px"
+    },
+    "6xl": {
+      "$type": "dimension",
+      "$value": "1152px"
+    },
+    "7xl": {
+      "$type": "dimension",
+      "$value": "1280px"
+    }
+  }
+}

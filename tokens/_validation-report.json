@@ -1,0 +1,15 @@
+{
+  "unresolvedAliases": [],
+  "missingMappings": [],
+  "duplicateNormalizedNames": [],
+  "labOnlyLeaks": [],
+  "tokenCounts": {
+    "primitive": 317,
+    "theme": 137,
+    "semantic": 86,
+    "custom": 84
+  },
+  "parityStatus": "PASS",
+  "mappingCount": 540,
+  "cssBytes": 18471
+}

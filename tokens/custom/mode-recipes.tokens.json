@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "tier": "custom",
+    "figmaCollection": "3. Mode",
+    "group": "custom"
+  },
+  "light": {
+    "accent-dark-calendar-50": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.100}"
+    },
+    "accent-dark-input-50": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.100}"
+    },
+    "background-dark-calendar-30": {
+      "$type": "color",
+      "$value": "{primitive.color.white}"
+    },
+    "background-dark-input-30": {
+      "$type": "color",
+      "$value": "{primitive.color.white}"
+    },
+    "blue-500-dark-blue-600": {
+      "$type": "color",
+      "$value": "{primitive.color.blue.500}"
+    },
+    "border-dark-input": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.200}"
+    },
+    "dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.0
+    },
+    "destructive-20-dark-40": {
+      "$type": "color",
+      "$value": "#DC2626",
+      "alpha": 0.2
+    },
+    "destructive-40-dark-60": {
+      "$type": "color",
+      "$value": "#DC2626",
+      "alpha": 0.4
+    },
+    "destructive-dark-60": {
+      "$type": "color",
+      "$value": "{primitive.color.red.600}"
+    },
+    "destructive-dark-70": {
+      "$type": "color",
+      "$value": "{primitive.color.red.600}"
+    },
+    "destructive-dark-90": {
+      "$type": "color",
+      "$value": "{primitive.color.red.600}"
+    },
+    "input-dark-80": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.200}"
+    },
+    "outline": {
+      "$type": "color",
+      "$value": "#A3A3A3",
+      "alpha": 0.5
+    },
+    "outline-10-dark-20": {
+      "$type": "color",
+      "$value": "#A3A3A3",
+      "alpha": 0.1
+    },
+    "ring-dark-input": {
+      "$type": "color",
+      "$value": "{primitive.color.neutral.400}"
+    }
+  },
+  "dark": {
+    "accent-dark-calendar-50": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.075
+    },
+    "accent-dark-input-50": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.075
+    },
+    "background-dark-calendar-30": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.045
+    },
+    "background-dark-input-30": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.045
+    },
+    "blue-500-dark-blue-600": {
+      "$type": "color",
+      "$value": "{primitive.color.blue.600}"
+    },
+    "border-dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.15
+    },
+    "dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.15
+    },
+    "destructive-20-dark-40": {
+      "$type": "color",
+      "$value": "#F87171",
+      "alpha": 0.4
+    },
+    "destructive-40-dark-60": {
+      "$type": "color",
+      "$value": "#F87171",
+      "alpha": 0.6
+    },
+    "destructive-dark-60": {
+      "$type": "color",
+      "$value": "#F87171",
+      "alpha": 0.6
+    },
+    "destructive-dark-70": {
+      "$type": "color",
+      "$value": "#F87171",
+      "alpha": 0.7
+    },
+    "destructive-dark-90": {
+      "$type": "color",
+      "$value": "#F87171",
+      "alpha": 0.9
+    },
+    "input-dark-80": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.12
+    },
+    "outline": {
+      "$type": "color",
+      "$value": "#737373",
+      "alpha": 0.5
+    },
+    "outline-10-dark-20": {
+      "$type": "color",
+      "$value": "#737373",
+      "alpha": 0.2
+    },
+    "ring-dark-input": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": 0.15
+    }
+  }
+}
