@@ -12,3 +12,8 @@ When creating or editing UI in this repository:
 8. Do not create a new component variant until checking whether an existing prop/state can represent the need.
 9. Update Storybook stories when component behavior or states change.
 10. Do not silently change token meaning. Document semantic-token changes in the decision log.
+
+
+11. Treat `tokens/color.tokens.json` as the canonical color-value source. Keep CSS and Figma mappings synchronized with it.
+12. Use `border` for low-emphasis structural separation and `input` / `border-strong` when a UI control boundary needs stronger visibility.
+13. Prefer semantic status tokens (success, warning, destructive, info) over direct status primitives in product components.
