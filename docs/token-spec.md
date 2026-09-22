@@ -114,3 +114,130 @@ No component is added to the v0.1 library until:
 - light/dark behavior is defined;
 - focus/disabled/error behavior is understood;
 - code API and Figma property model can be aligned.
+
+
+---
+
+## Color tokens v0.2 — Cool-neutral + Indigo/Violet
+
+Canonical file: `/tokens/color.tokens.json`  
+CSS mirror: `/src/styles/tokens.css`
+
+### Neutral palette
+
+| Token | Hex |
+|---|---|
+| neutral/0 | #FFFFFF |
+| neutral/50 | #F8FAFC |
+| neutral/100 | #F1F4F9 |
+| neutral/200 | #E3E8F0 |
+| neutral/300 | #CCD4E0 |
+| neutral/400 | #8996A7 |
+| neutral/500 | #68758A |
+| neutral/600 | #4B576A |
+| neutral/700 | #364153 |
+| neutral/800 | #232C3A |
+| neutral/900 | #151C28 |
+| neutral/950 | #0B1018 |
+
+### Brand palette
+
+| Token | Hex |
+|---|---|
+| brand/50 | #F7F5FF |
+| brand/100 | #EFEAFF |
+| brand/200 | #E0D7FF |
+| brand/300 | #C9B8FF |
+| brand/400 | #AD92FF |
+| brand/500 | #8F6BF8 |
+| brand/600 | #7353F3 |
+| brand/700 | #5E3FD7 |
+| brand/800 | #4B33AD |
+| brand/900 | #3E2D87 |
+| brand/950 | #24184F |
+
+Status primitives use green, amber, red, and blue scales. See the canonical token file for complete values.
+
+### Light semantic mapping
+
+| Semantic token | Primitive |
+|---|---|
+| background | neutral/0 |
+| foreground | neutral/950 |
+| card | neutral/0 |
+| card-foreground | neutral/950 |
+| primary | brand/600 |
+| primary-foreground | neutral/0 |
+| secondary | neutral/100 |
+| secondary-foreground | neutral/900 |
+| muted | neutral/100 |
+| muted-foreground | neutral/600 |
+| accent | brand/50 |
+| accent-foreground | brand/800 |
+| destructive | red/600 |
+| destructive-foreground | neutral/0 |
+| border | neutral/200 |
+| border-strong | neutral/400 |
+| input | neutral/400 |
+| ring / focus-ring | brand/500 |
+| surface-raised | neutral/0 |
+| surface-sunken | neutral/50 |
+
+### Dark semantic mapping
+
+| Semantic token | Primitive |
+|---|---|
+| background | neutral/950 |
+| foreground | neutral/50 |
+| card | neutral/900 |
+| card-foreground | neutral/50 |
+| primary | brand/400 |
+| primary-foreground | neutral/950 |
+| secondary | neutral/800 |
+| secondary-foreground | neutral/50 |
+| muted | neutral/800 |
+| muted-foreground | neutral/400 |
+| accent | brand/900 |
+| accent-foreground | brand/100 |
+| destructive | red/400 |
+| destructive-foreground | neutral/950 |
+| border | neutral/800 |
+| border-strong | neutral/600 |
+| input | neutral/500 |
+| ring / focus-ring | brand/400 |
+| surface-raised | neutral/900 |
+| surface-sunken | neutral/950 |
+
+### Status semantics
+
+Each status supports both a solid pair and a subtle pair:
+
+- success / success-foreground / success-subtle / success-subtle-foreground
+- warning / warning-foreground / warning-subtle / warning-subtle-foreground
+- destructive / destructive-foreground / error-subtle / error-subtle-foreground
+- info / info-foreground / info-subtle / info-subtle-foreground
+
+### Contrast audit
+
+Initial WCAG contrast checks:
+
+| Pair | Ratio |
+|---|---:|
+| Light foreground / background | 19.06:1 |
+| Light muted foreground / background | 7.32:1 |
+| Light primary foreground / primary | 4.93:1 |
+| Light destructive foreground / destructive | 4.83:1 |
+| Light accent foreground / accent | 8.19:1 |
+| Dark foreground / background | 18.22:1 |
+| Dark muted foreground / background | 6.34:1 |
+| Dark primary foreground / primary | 7.56:1 |
+| Dark destructive foreground / destructive | 6.89:1 |
+| Dark accent foreground / accent | 9.27:1 |
+| Light focus ring / background | 3.73:1 |
+| Dark focus ring / background | 7.56:1 |
+| Light interactive input border / white background | 3.01:1 |
+
+Notes:
+- Decorative borders may intentionally use lower contrast than interactive boundaries.
+- `input` is mapped to a stronger neutral than `border` so form controls remain identifiable.
+- These checks validate token pairs, not every future component state. Component-level QA is still required.
