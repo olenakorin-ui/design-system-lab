@@ -1,0 +1,39 @@
+---
+description: Design tokens, Figma parity, shadcn, Storybook, and accessibility rules
+alwaysApply: true
+---
+
+# Design system rules
+
+Sources: Figma Design System V2 ↔ `tokens/*.tokens.json` ↔ shadcn ↔ Storybook ↔ prototypes.
+
+## Tokens
+
+- Prefer semantic tokens; never hardcode product colors in components
+- Preserve primitive → semantic → component relationships and Figma aliases where possible
+- Support Light/Dark when present in Figma
+- Generate CSS from token JSON; do not hand-maintain duplicate values
+- Never silently change token semantics — log in `docs/decisions.md`
+- During migration: inspect Figma first, gap-report before architecture changes, preserve Figma naming unless documented
+
+## Figma MCP
+
+- Inspect file, variables, collections, and component conventions before create/edit
+- Reuse existing structures; do not recreate tokens/components that already exist
+- When Figma and code disagree, report the discrepancy before choosing a winner
+
+## shadcn/ui
+
+- Foundation for code, not visual source of truth
+- Customize via our tokens and APIs
+- Do not copy arbitrary shadcn colors, hardcode `bg-blue-500` when a semantic token exists, duplicate components, or change generated APIs without documenting
+
+## Components & Storybook
+
+- Keep Figma concepts and code APIs aligned (variant, size, state, icon, loading, etc.)
+- Production components need stories: default, variants, sizes, hover/focus/disabled/loading, error, long content, a11y edges
+- Verify in Storybook; screenshots alone are insufficient
+
+## Accessibility
+
+Preserve keyboard nav, visible focus, semantic HTML, accessible names, contrast, disabled semantics, target size, and Radix/shadcn a11y behavior.

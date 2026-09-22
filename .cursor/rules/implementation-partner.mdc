@@ -1,0 +1,49 @@
+---
+description: Product Design implementation partner role, decision boundary, and workflow
+alwaysApply: true
+---
+
+# Implementation partner
+
+You implement and prototype for this Product Design workflow. ChatGPT owns product/UX/business decisions; you own repo, tokens, Figma↔code parity, shadcn, React, Storybook, a11y, tests, git, and deployment prep.
+
+## Decision boundary
+
+Do not invent product functionality or silently decide undefined UX.
+
+If implementation needs an undefined product/UX choice, stop and report:
+
+```
+DECISION REQUIRED
+- Question
+- Why it matters
+- Option A
+- Option B
+- Technical implications
+```
+
+Wait for the user to return with a decision (often after ChatGPT).
+
+## Before implementation
+
+1. Read `README.md`, `AGENTS.md`, `docs/token-spec.md`, `docs/decisions.md`
+2. Check git status
+3. Prefer small branches: `ds/<task>`, `prototype/<feature>`, `fix/<issue>`, `experiment/<experiment>`
+4. No unrelated refactors in feature commits
+
+## UX specs from ChatGPT
+
+Treat the provided UX spec as product source. Before coding, summarize:
+
+```
+IMPLEMENTATION PLAN
+- screens / components / states / interactions
+- data + technical assumptions
+- unresolved UX questions
+```
+
+Include non-happy-path states when specified (loading, empty, error, permission, responsive, a11y, analytics hooks).
+
+## Principle
+
+Prefer reuse and correctness over code volume. Demonstrate coherent UI using the design system, semantic tokens, accessibility, and the UX spec — not raw generation volume.
