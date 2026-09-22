@@ -33,7 +33,10 @@ Pipeline: Figma → tokens → semantic CSS → shadcn → React → Storybook.
 | Component | Status | Docs |
 |---|---|---|
 | Button | Implemented | [`docs/components/button.md`](docs/components/button.md) |
-| Input, Checkbox, Select, Badge, Alert, Dialog, Tabs | Planned | — |
+| Input | Implemented | [`docs/components/input.md`](docs/components/input.md) |
+| Checkbox | Implemented | [`docs/components/checkbox.md`](docs/components/checkbox.md) |
+| Badge | Implemented | [`docs/components/badge.md`](docs/components/badge.md) |
+| Select, Alert, Dialog, Tabs | Planned | — |
 
 ```bash
 npm install
