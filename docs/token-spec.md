@@ -1,4 +1,4 @@
-# Design System Token Specification v0.1
+# Design System Token Specification v0.3
 
 ## Principles
 - Repository is the durable source layer.
@@ -17,7 +17,7 @@
 - green/50...950
 - blue/50...950
 
-Raw primitive values are intentionally TBD until the visual direction is selected.
+Canonical primitive values come from Figma collection `1. TailwindCSS`. See v0.3 below.
 
 ### Semantic color tokens
 Core shadcn-compatible tokens:
@@ -45,7 +45,7 @@ Additional system tokens:
 Modes: Light, Dark.
 
 ## Typography
-Temporary implementation font: Inter until brand typography is selected.
+Implementation font from Figma Theme: Geist (sans), Georgia (serif), Geist Mono (mono).
 
 Suggested semantic styles:
 - display-lg: 48/56, 600
@@ -74,13 +74,16 @@ Suggested semantic styles:
 - space/16 = 64px
 
 ## Radius
-Working scale; validate after visual direction is selected.
+From Figma Theme / radius:
 - radius/none = 0
+- radius/xs = 2px
 - radius/sm = 6px
 - radius/md = 8px
 - radius/lg = 10px
 - radius/xl = 14px
-- radius/2xl = 18px
+- radius/2xl = 16px
+- radius/3xl = 24px
+- radius/4xl = 32px
 - radius/full = 9999px
 
 ## Shadows
@@ -89,7 +92,7 @@ Working scale; validate after visual direction is selected.
 - shadow/md: menus/popovers
 - shadow/lg: dialogs/large overlays
 
-Exact values remain TBD until component visual QA.
+Canonical shadow values live in `/tokens/shadow.tokens.json` (Figma Theme / shadow).
 
 ## Motion
 - duration/fast = 100ms
@@ -100,11 +103,11 @@ Exact values remain TBD until component visual QA.
 - easing/emphasized = cubic-bezier(0.2, 0, 0, 1)
 
 ## Figma mapping
-Recommended collections:
-1. Primitives — Value mode
-2. Color — Light / Dark modes
-3. Spacing — Value mode
-4. Radius — Value mode
+Design System V2 collections:
+1. `1. TailwindCSS` — Default mode (primitives: spacing, radius, Tailwind color scales)
+2. `2. Theme` — Default mode (semantic light/dark color pairs, type, shadow)
+3. `3. Mode` — Light / Dark modes (component-facing aliases)
+4. `4. Custom` — Desktop / Mobile modes (heading and section layout)
 
 Every semantic Figma color variable should alias a primitive variable and receive matching web code syntax, e.g. `var(--primary)`.
 
@@ -241,3 +244,80 @@ Notes:
 - Decorative borders may intentionally use lower contrast than interactive boundaries.
 - `input` is mapped to a stronger neutral than `border` so form controls remain identifiable.
 - These checks validate token pairs, not every future component state. Component-level QA is still required.
+
+---
+
+## Color tokens v0.3 — Extracted from Design System V2
+
+Source: [Design System V2](https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2?node-id=580-9181)  
+Canonical files: `/tokens/*.tokens.json`  
+CSS mirror: `/src/styles/tokens.css`
+
+This replaces the v0.2 cool-neutral + indigo/violet placeholder with the Figma shadcn/ui variable set. See D003.
+
+### Neutral palette (Tailwind Neutral)
+
+| Token | Hex |
+|---|---|
+| white / neutral/0 | #FFFFFF |
+| neutral/50 | #FAFAFA |
+| neutral/100 | #F5F5F5 |
+| neutral/200 | #E5E5E5 |
+| neutral/300 | #D4D4D4 |
+| neutral/400 | #A3A3A3 |
+| neutral/500 | #737373 |
+| neutral/600 | #525252 |
+| neutral/700 | #404040 |
+| neutral/800 | #262626 |
+| neutral/900 | #171717 |
+| neutral/950 | #0A0A0A |
+
+`brand/*` aliases `blue/*`. Full Tailwind palettes (slate through rose) are in the canonical color file.
+
+### Light Mode mapping
+
+| Semantic token | Figma alias |
+|---|---|
+| background | white |
+| foreground | neutral/950 |
+| card | white |
+| primary | blue/600 |
+| primary-foreground | neutral/50 |
+| secondary / muted / accent | neutral/100 |
+| muted-foreground | neutral/500 |
+| destructive | red/600 |
+| destructive-foreground | red/50 |
+| border / input | neutral/200 |
+| ring | neutral/400 |
+| sidebar | neutral/50 |
+| sidebar-primary | neutral/900 |
+
+### Dark Mode mapping
+
+| Semantic token | Figma alias |
+|---|---|
+| background | neutral/950 |
+| foreground | neutral/50 |
+| card | neutral/900 |
+| popover | neutral/800 |
+| primary | neutral/200 |
+| primary-foreground | neutral/900 |
+| secondary / muted | neutral/800 |
+| accent | neutral/700 |
+| destructive | red/400 |
+| border | white @ 10% |
+| input | white @ 15% |
+| ring | neutral/500 |
+| sidebar | neutral/900 |
+| sidebar-primary | blue/700 |
+
+### Additional Figma tokens
+
+- Chart: `chart-1` … `chart-5` (mode-aware)
+- Sidebar: `sidebar`, `sidebar-foreground`, `sidebar-primary`, `sidebar-accent`, `sidebar-border`, `sidebar-ring`
+- Alpha overlays: `alpha/5` … `alpha/90`
+- Type: Geist / Georgia / Geist Mono, `text/xs` … `text/9xl`
+- Radius: none, xs, sm, md, lg, xl, 2xl, 3xl, 4xl, full
+- Shadow: 2xs, xs, sm, md, lg, xl, 2xl
+
+Lab extensions kept on top of Figma: `success`, `warning`, `info`, `border-strong`, `surface-raised`, `surface-sunken`.

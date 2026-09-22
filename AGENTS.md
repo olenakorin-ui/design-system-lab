@@ -14,6 +14,6 @@ When creating or editing UI in this repository:
 10. Do not silently change token meaning. Document semantic-token changes in the decision log.
 
 
-11. Treat `tokens/color.tokens.json` as the canonical color-value source. Keep CSS and Figma mappings synchronized with it.
+11. Treat `tokens/*.tokens.json` as the canonical token source, extracted from Figma Design System V2. Keep CSS mappings synchronized with those files.
 12. Use `border` for low-emphasis structural separation and `input` / `border-strong` when a UI control boundary needs stronger visibility.
 13. Prefer semantic status tokens (success, warning, destructive, info) over direct status primitives in product components.

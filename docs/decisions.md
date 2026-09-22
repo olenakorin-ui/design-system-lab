@@ -59,3 +59,29 @@ Component recipes must use `input` for interactive control boundaries rather tha
 
 ### Revisit when
 Component accessibility QA indicates stronger or weaker boundaries are needed.
+
+---
+
+## D003 — Import Design System V2 Figma tokens as v0.3 source
+
+### Context
+The lab v0.2 palette (cool-neutral + indigo/violet) was a placeholder direction. The working Figma file [Design System V2](https://www.figma.com/design/ZllxQplWi5QJcNeUHeY8T3/Design-System-V2?node-id=580-9181) already contains a complete shadcn/ui variable set.
+
+### Options considered
+- Keep v0.2 lab values and only document Figma separately
+- Extract Figma variables into the repository as the canonical token source
+
+### Decision
+Extract Figma collections `1. TailwindCSS`, `2. Theme`, `3. Mode`, and `4. Custom` into `/tokens/*.tokens.json` and mirror them in `/src/styles/tokens.css`.
+
+### Reason
+The Figma file is the implemented visual system. Aligning code tokens with Mode/Theme aliases prevents drift between design and code.
+
+### Impact
+- Neutral primitives switch from cool-neutral to Tailwind Neutral.
+- Brand/primary in light mode aliases `blue/600` (`#2563EB`); dark primary aliases `neutral/200`.
+- Spacing, radius, typography, shadows, chart, and sidebar tokens are now first-class.
+- Lab-only status tokens (`success`, `warning`, `info`, `border-strong`, `surface-*`) remain as extensions on top of the Figma set.
+
+### Revisit when
+A custom brand palette replaces the default shadcn blue/neutral theme in Figma.
