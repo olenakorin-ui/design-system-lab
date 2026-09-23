@@ -4,8 +4,8 @@
 
 Separate **Design System component validation** from **product workflow validation**.
 
-- **Storybook** documents and regresses reusable UI primitives.
-- **Prototype Lab** is a deployable web app for product pages, flows, mocked scenarios, and external sharing.
+- **Storybook** = Design System component validation only (docs, states, Figma parity, a11y, regression).
+- **Prototype Lab** = product-flow runtime (pages, mocks, scenarios, external sharing).
 
 ## 2. Storybook vs Prototype Lab
 
@@ -17,6 +17,13 @@ Separate **Design System component validation** from **product workflow validati
 | Branching | `ds/*` | `prototype/*`, `experiment/*`, `concept/*` |
 
 **ADR (summary):** Storybook = component validation environment. Prototype Lab = product workflow validation environment. See `docs/decisions.md` D006.
+
+**Stable vs preview (after lab-shell on `main`):**
+
+- `main` = stable Prototype Lab (Vercel Production)
+- `prototype/*` = new workflow previews
+- `concept/*` = alternative concept previews
+- Storybook = DS component validation only (not the sharing surface)
 
 ## 3. Folder structure
 
