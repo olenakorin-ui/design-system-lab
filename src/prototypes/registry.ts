@@ -18,6 +18,14 @@ export const prototypes: PrototypeMeta[] = [
     route: '/prototypes/access-request',
     designSystemVersion: 'v0.1.0',
   },
+  {
+    id: 'user-access-management',
+    name: 'User Access Management',
+    description: 'Admin directory for reviewing, filtering, and acting on user accounts.',
+    status: 'in-progress',
+    route: '/prototypes/user-access-management',
+    designSystemVersion: 'v0.1.0',
+  },
 ]
 
 export function getPrototypeById(id: string): PrototypeMeta | undefined {

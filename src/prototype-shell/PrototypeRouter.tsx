@@ -6,7 +6,11 @@ import {
   parseAccessRequestScenario,
   type AccessRequestScenarioId,
 } from '@/prototypes/access-request-review/mocks/scenarios'
-import { getPrototypeByRoute } from '@/prototypes/registry'
+import { UserAccessManagementPage } from '@/prototypes/user-access-management/pages/UserAccessManagementPage'
+import {
+  parseUamScenario,
+  type UamScenarioId,
+} from '@/prototypes/user-access-management/mocks/scenarios'
 
 import { PrototypeIndex, usePersistedTheme } from './PrototypeIndex'
 
@@ -40,6 +44,17 @@ function buildAccessRequestPath(scenario: AccessRequestScenarioId) {
   return qs ? `/prototypes/access-request?${qs}` : '/prototypes/access-request'
 }
 
+function buildUamPath(scenario: UamScenarioId) {
+  const params = new URLSearchParams()
+  if (scenario !== 'default') {
+    params.set('scenario', scenario)
+  }
+  const qs = params.toString()
+  return qs
+    ? `/prototypes/user-access-management?${qs}`
+    : '/prototypes/user-access-management'
+}
+
 export function PrototypeRouter() {
   const [location, setLocation] = useState<LocationState>(readLocation)
   const [theme, setTheme] = usePersistedTheme('light')
@@ -56,11 +71,11 @@ export function PrototypeRouter() {
   }, [])
 
   const params = new URLSearchParams(location.search)
-  const scenario = parseAccessRequestScenario(params.get('scenario'))
+  const accessScenario = parseAccessRequestScenario(params.get('scenario'))
+  const uamScenario = parseUamScenario(params.get('scenario'))
 
-  const isAccessRequest =
-    location.pathname === '/prototypes/access-request' ||
-    Boolean(getPrototypeByRoute(location.pathname)?.id === 'access-request-review')
+  const isAccessRequest = location.pathname === '/prototypes/access-request'
+  const isUam = location.pathname === '/prototypes/user-access-management'
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -88,10 +103,17 @@ export function PrototypeRouter() {
         <PrototypeIndex onOpen={(route) => go(route)} />
       ) : isAccessRequest ? (
         <AccessRequestPage
-          scenario={scenario}
+          scenario={accessScenario}
           onScenarioChange={(next) => go(buildAccessRequestPath(next))}
           onBack={() => go('/')}
           onRetryError={() => go(buildAccessRequestPath('pending'), { replace: true })}
+        />
+      ) : isUam ? (
+        <UserAccessManagementPage
+          scenario={uamScenario}
+          onScenarioChange={(next) => go(buildUamPath(next))}
+          onBack={() => go('/')}
+          onRetryError={() => go(buildUamPath('default'), { replace: true })}
         />
       ) : (
         <div className="mx-auto flex w-full max-w-3xl flex-col gap-4 p-8">
