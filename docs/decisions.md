@@ -184,13 +184,23 @@ Prototype Lab needs SPA fallback for client routes (`/`, `/prototypes/...`, scen
 ### Decision
 **B — Vercel.** Use `vercel.json` rewrites so non-asset paths fall back to `index.html`. Build output remains Vite `dist/`.
 
+**Deployment method (2026-09-23):** Connect the GitHub repository in the Vercel dashboard via **Git integration** (not local CLI login).
+
+| Git ref | Vercel deployment |
+|---|---|
+| `main` | Production — stable Prototype Lab |
+| `prototype/*` | Preview — new flows |
+| `concept/*` | Preview — alternative concepts |
+| `experiment/*` | Optional preview |
+
 ### Reason
-Matches the approved host choice for first external sharing of Prototype Lab.
+Matches the approved host choice for first external sharing of Prototype Lab. Git integration gives branch previews without requiring a local Vercel CLI session.
 
 ### Impact
 - `vercel.json` checked in on `prototype/lab-shell`
 - Netlify `_redirects` not used
-- Deploy still manual / project-linked; this decision only locks SPA fallback config
+- First preview requires a one-time Vercel ↔ GitHub project import (human dashboard step)
+- External reviewers get Prototype Lab URLs, not Storybook
 
 ### Revisit when
 Hosting moves off Vercel, or Storybook needs a separate deploy target.

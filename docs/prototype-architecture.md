@@ -66,7 +66,9 @@ Example: `prototype/user-access-management`
 | `concept/*` | Preview deployments for alternative concepts |
 | `experiment/*` | Optional previews for DS usage experiments |
 
-Do not merge `prototype/*` to `main` before hosted validation of the flow.
+**How previews are created:** Vercel **Git integration** with the GitHub repo (dashboard import). Pushing `prototype/*` / `concept/*` opens preview deployments; `main` is production. Do not merge `prototype/*` to `main` before hosted validation.
+
+One-time setup: [Import Git Repository](https://vercel.com/new) → select `olenakorin-ui/design-system-lab` → Framework Vite, Output `dist`, Build `npm run build`. Confirm `vercel.json` is picked up for SPA rewrites.
 
 ## 6. Scenario / mocking strategy
 
