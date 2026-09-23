@@ -25,11 +25,14 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { cn } from '@/lib/utils'
 
-import { trackAccessRequest } from './analytics'
+import { trackAccessRequest } from '../analytics'
 
 export type RequestStatus = 'pending' | 'approved' | 'rejected'
 export type ReviewerRole = 'reviewer' | 'viewer'
 export type LoadState = 'loaded' | 'error'
+
+const ACCESS_LEVELS = ['Viewer', 'Editor', 'Administrator'] as const
+export type AccessLevel = (typeof ACCESS_LEVELS)[number]
 
 export type AccessRequestReviewProps = {
   requestId?: string
@@ -38,13 +41,15 @@ export type AccessRequestReviewProps = {
   loadState?: LoadState
   /** Long-name stress for layout */
   longNames?: boolean
+  requestor?: string
+  department?: string
+  system?: string
+  defaultAccessLevel?: AccessLevel
+  defaultTicket?: string
   className?: string
   onRetry?: () => void
   onBack?: () => void
 }
-
-const ACCESS_LEVELS = ['Viewer', 'Editor', 'Administrator'] as const
-type AccessLevel = (typeof ACCESS_LEVELS)[number]
 
 function statusBadge(status: RequestStatus) {
   // DS GAP: no pending/success status badges — map to existing Badge variants only.
@@ -64,6 +69,11 @@ export function AccessRequestReview({
   role = 'reviewer',
   loadState = 'loaded',
   longNames = false,
+  requestor: requestorProp,
+  department: departmentProp,
+  system: systemProp,
+  defaultAccessLevel = 'Administrator',
+  defaultTicket = 'SEC-2841',
   className,
   onRetry,
   onBack,
@@ -72,8 +82,8 @@ export function AccessRequestReview({
   const readOnlyDecisions = isViewer || initialStatus !== 'pending'
 
   const [status, setStatus] = useState<RequestStatus>(initialStatus)
-  const [accessLevel, setAccessLevel] = useState<AccessLevel>('Administrator')
-  const [ticket, setTicket] = useState('SEC-2841')
+  const [accessLevel, setAccessLevel] = useState<AccessLevel>(defaultAccessLevel)
+  const [ticket, setTicket] = useState(defaultTicket)
   const [confirmed, setConfirmed] = useState(false)
   const [feedback, setFeedback] = useState<string | null>(null)
   const [approveOpen, setApproveOpen] = useState(false)
@@ -84,15 +94,19 @@ export function AccessRequestReview({
   const ticketId = useId()
   const accessId = useId()
 
-  const requestor = longNames
-    ? 'Alexandra Montgomery-Cartwright III'
-    : 'Alex Morgan'
-  const department = longNames
-    ? 'Global Product Operations & Customer Success Enablement'
-    : 'Product Operations'
-  const system = longNames
-    ? 'Enterprise Analytics Workspace — EMEA Regional Cluster'
-    : 'Analytics Workspace'
+  const requestor =
+    requestorProp ??
+    (longNames ? 'Alexandra Montgomery-Cartwright III' : 'Alex Morgan')
+  const department =
+    departmentProp ??
+    (longNames
+      ? 'Global Product Operations & Customer Success Enablement'
+      : 'Product Operations')
+  const system =
+    systemProp ??
+    (longNames
+      ? 'Enterprise Analytics Workspace — EMEA Regional Cluster'
+      : 'Analytics Workspace')
 
   const canDecide =
     !isViewer && status === 'pending' && confirmed && accessLevel.length > 0
@@ -110,9 +124,9 @@ export function AccessRequestReview({
     setStatus(initialStatus)
     setFeedback(null)
     setConfirmed(false)
-    setAccessLevel('Administrator')
-    setTicket('SEC-2841')
-  }, [initialStatus, role, loadState])
+    setAccessLevel(defaultAccessLevel)
+    setTicket(defaultTicket)
+  }, [initialStatus, role, loadState, defaultAccessLevel, defaultTicket])
 
   if (loadState === 'error') {
     return (

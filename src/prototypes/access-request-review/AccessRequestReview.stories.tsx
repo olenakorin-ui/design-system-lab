@@ -1,85 +1,84 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
-import { useState } from 'react'
 
-import {
-  AccessRequestReview,
-  type LoadState,
-} from '@/prototypes/access-request-review/AccessRequestReview'
+import { AccessRequestReview } from '@/prototypes/access-request-review/components/AccessRequestReview'
+import { getAccessRequestScenario } from '@/prototypes/access-request-review/mocks/scenarios'
 
+/**
+ * Regression-only Storybook coverage for the Access Request Review UI.
+ * Primary runtime and sharing: Prototype Lab (`npm run dev` → /prototypes/access-request).
+ */
 const meta = {
-  title: 'Prototypes/Access Request Review',
+  title: 'Prototypes/Access Request Review (regression)',
   component: AccessRequestReview,
-  parameters: { layout: 'fullscreen' },
+  parameters: {
+    layout: 'fullscreen',
+    docs: {
+      description: {
+        component:
+          'Internal regression story. Use the Prototype Lab app to run and share this product flow.',
+      },
+    },
+  },
   tags: ['autodocs'],
 } satisfies Meta<typeof AccessRequestReview>
 
 export default meta
 type Story = StoryObj<typeof meta>
 
+function fromScenario(id: Parameters<typeof getAccessRequestScenario>[0]) {
+  const s = getAccessRequestScenario(id)
+  return {
+    requestId: s.requestId,
+    initialStatus: s.initialStatus,
+    role: s.role,
+    loadState: s.loadState,
+    longNames: s.longNames,
+    requestor: s.requestor,
+    department: s.department,
+    system: s.system,
+    defaultAccessLevel: s.accessLevelDefault,
+    defaultTicket: s.referenceTicket,
+  }
+}
+
 export const PendingReviewer: Story = {
-  args: {
-    initialStatus: 'pending',
-    role: 'reviewer',
-    loadState: 'loaded',
-  },
+  args: fromScenario('pending'),
 }
 
 export const Approved: Story = {
-  args: {
-    initialStatus: 'approved',
-    role: 'reviewer',
-  },
+  args: fromScenario('approved'),
 }
 
 export const Rejected: Story = {
-  args: {
-    initialStatus: 'rejected',
-    role: 'reviewer',
-  },
+  args: fromScenario('rejected'),
 }
 
 export const ViewerReadOnly: Story = {
-  args: {
-    initialStatus: 'pending',
-    role: 'viewer',
-  },
+  args: fromScenario('viewer'),
 }
 
 export const ErrorState: Story = {
-  render: () => {
-    const [loadState, setLoadState] = useState<LoadState>('error')
-    return (
-      <AccessRequestReview
-        loadState={loadState}
-        onRetry={() => setLoadState('loaded')}
-      />
-    )
-  },
+  args: fromScenario('error'),
 }
 
 export const LongNames: Story = {
   args: {
-    initialStatus: 'pending',
-    role: 'reviewer',
+    ...fromScenario('pending'),
     longNames: true,
+    requestor: undefined,
+    department: undefined,
+    system: undefined,
   },
 }
 
 export const DarkMode: Story = {
   globals: { theme: 'dark' },
-  args: {
-    initialStatus: 'pending',
-    role: 'reviewer',
-  },
+  args: fromScenario('pending'),
 }
 
 export const NarrowViewport: Story = {
   parameters: {
     viewport: { defaultViewport: 'mobile1' },
   },
-  args: {
-    initialStatus: 'pending',
-    role: 'reviewer',
-    longNames: true,
-  },
+  args: fromScenario('pending'),
 }

@@ -140,3 +140,58 @@ Faithful to live Figma alias graph without inventing Theme tokens; stable CSS fo
 ### Revisit when
 Design adds Theme `colors/ring-offset-*` in Figma, or product needs distinct ring-offset knobs independent of background.
 
+---
+
+## D006 — Storybook vs Prototype Lab
+
+### Context
+Experiment 01 (Access Request Review) was first exercised heavily via Storybook. Product workflows need deployable sharing, routing, mocked scenarios, and end-to-end interaction that do not belong in component documentation.
+
+### Options considered
+- Keep prototypes primarily in Storybook (pages as stories)
+- Dedicated Prototype Lab SPA + Storybook for DS only
+- Separate repository for prototypes
+
+### Decision
+- **Storybook** = component documentation, states, Figma parity, accessibility validation, component regression.
+- **Prototype Lab** (`src/prototype-shell` + `src/prototypes`) = pages, product flows, mocked data, product states, E2E interactions, external sharing, experiment validation.
+- Prototype Storybook stories may remain as **internal regression only**, not the primary runtime or sharing path.
+
+### Reason
+Preserves Storybook as the DS contract surface while giving product experiments a normal web app lifecycle (routes, query scenarios, deployable `dist/`).
+
+### Impact
+- App entry mounts `PrototypeRouter` (hub + client History routes).
+- Registry at `src/prototypes/registry.ts`.
+- Architecture guide: `docs/prototype-architecture.md`.
+- Branches: prefer `prototype/<flow-name>` for durable flows; `experiment/*` for DS usage experiments.
+
+### Revisit when
+Multiple apps need isolation, or deployment/auth requirements exceed a static SPA.
+
+---
+
+## D007 — Prototype Lab host: Vercel
+
+### Context
+Prototype Lab needs SPA fallback for client routes (`/`, `/prototypes/...`, scenario query deep links). Host choice determines rewrite config.
+
+### Options considered
+- A — Netlify (`public/_redirects`)
+- B — Vercel (`vercel.json` rewrites)
+- C — Defer deploy; local/preview only
+
+### Decision
+**B — Vercel.** Use `vercel.json` rewrites so non-asset paths fall back to `index.html`. Build output remains Vite `dist/`.
+
+### Reason
+Matches the approved host choice for first external sharing of Prototype Lab.
+
+### Impact
+- `vercel.json` checked in on `prototype/lab-shell`
+- Netlify `_redirects` not used
+- Deploy still manual / project-linked; this decision only locks SPA fallback config
+
+### Revisit when
+Hosting moves off Vercel, or Storybook needs a separate deploy target.
+

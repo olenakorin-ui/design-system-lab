@@ -14,4 +14,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // Prototype Lab is a client-routed SPA; preview must fall back to index.html.
+  appType: 'spa',
 })
