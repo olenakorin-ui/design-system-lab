@@ -205,3 +205,30 @@ Matches the approved host choice for first external sharing of Prototype Lab. Gi
 ### Revisit when
 Hosting moves off Vercel, or Storybook needs a separate deploy target.
 
+---
+
+## D008 — Preview sharing: protected + shareable bypass
+
+### Context
+Experiment 02 Preview URLs required Vercel SSO login, blocking unauthenticated/incognito external reviewers.
+
+### Options considered
+- A — Keep SSO only (collaborators with Vercel/GitHub access)
+- B — Disable Deployment Protection on Preview (fully public)
+- C — Keep protection; use a shareable external-access method
+
+### Decision
+**C.** Previews stay protected (SSO remains for default visitors). External reviewers receive a **shareable Protection Bypass** URL (or equivalent password/share link from the Vercel dashboard), not a fully public Preview.
+
+### Reason
+Balances Prototype Lab confidentiality with the need to share flows outside the Vercel org without making every Preview world-readable.
+
+### Impact
+- Project setting: **Protection Bypass** enabled for `design-system-lab` (automation/share secret).
+- Share pattern: append `x-vercel-protection-bypass=<secret>` (and optionally `x-vercel-set-bypass-cookie=true`) to Prototype Lab Preview URLs — **never commit the secret**.
+- Production on custom domains can remain separately reachable per existing SSO `all_except_custom_domains` setting.
+- Documented in `docs/prototype-architecture.md` § External sharing.
+
+### Revisit when
+Team standardizes on Password Protection instead of Bypass, or Preview Protection is relaxed for `prototype/*` only.
+

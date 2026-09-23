@@ -88,12 +88,16 @@ One-time setup: [Import Git Repository](https://vercel.com/new) → select `olen
 ## 7. External sharing model
 
 **Hosting:** Vercel  
-**SPA config:** `vercel.json` rewrites non-asset paths to `/index.html` (D007).
+**SPA config:** `vercel.json` rewrites non-asset paths to `/index.html` (D007).  
+**Preview access:** Protected + shareable bypass (D008).
 
 1. `npm run build` produces a static SPA (`dist/`).
 2. Deep links are first-class (hub, prototype routes, `?scenario=` variants).
 3. Theme preference may persist in `localStorage` (`prototype-lab:theme`); flow state remains in-memory until a storage adapter is added.
+4. **Default Preview access** requires Vercel authentication (SSO).
+5. **External reviewers** get a shareable link that includes the project **Protection Bypass** secret (query `x-vercel-protection-bypass`, optional `x-vercel-set-bypass-cookie=true`), or a dashboard Shareable Link / password if the team switches to that mechanism. **Do not commit bypass secrets to git.**
+6. Manage / rotate secrets in the Vercel project: Deployment Protection → Protection Bypass (CLI: `vercel project protection`).
 
-**External reviewers must receive Prototype Lab URLs, not Storybook URLs.**
+**External reviewers must receive Prototype Lab URLs (with bypass when needed), not Storybook URLs.**
 
 Storybook remains the Design System validation environment (components, Figma parity, a11y). Prototype Lab remains the product-flow runtime and sharing surface.
