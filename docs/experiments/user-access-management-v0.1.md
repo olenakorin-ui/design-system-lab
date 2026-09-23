@@ -1,7 +1,8 @@
-# Experiment: User Access Management v0.1
+# Experiment: User Access Management v0.1 — Final
 
-**Design System baseline:** `v0.1.0` (current `main`)  
+**Design System baseline:** `v0.1.0` (from `main` at experiment start)  
 **Branch:** `prototype/user-access-management`  
+**Preview:** https://design-system-lab-git-prototype-user-access-management-okorin.vercel.app  
 **Question:** Can DS v0.1 support a realistic data-dense B2B/admin workflow without inventing components, tokens, colors, or interaction patterns?
 
 ## Timing
@@ -11,112 +12,72 @@
 | **START TIME** | 2026-09-23T12:39:00Z |
 | **END TIME** | 2026-09-23T12:41:04Z |
 | **IMPLEMENTATION DURATION** | ~2 minutes (single pass) |
-| **PROMPT ITERATIONS** | 1 |
+| **PROMPT ITERATIONS** | **1** |
+| **HOSTED QA** | 2026-09-23 (finalize) |
 
-## Existing components reused (8/8 intended)
+## Final metrics
 
-| Component | Usage |
+| Guardrail | Result |
 |---|---|
-| Button | Invite, bulk, row actions, Retry, scenario harness, dialogs |
-| Input | Search, invite email |
-| Checkbox | Row select, select-all |
-| Badge | Status + Viewer |
-| Select | Role + status filters |
-| Alert | Loading, empty, error, success feedback |
-| Tabs | All users / Needs attention |
-| Dialog | Invite, bulk deactivate, row deactivate |
+| Existing components reused | **8/8** |
+| Hardcoded product colors | **0** |
+| Invented semantics | **0** |
+| Duplicate DS components | **0** |
+| Critical accessibility issues | **0** |
+| Prompt iterations | **1** |
+| Build failures | **0** |
+| Disallowed DS primitives added | **0** |
 
-**Duplicate DS components:** 0
+## Existing components reused (8/8)
 
-## New components required
+Button · Input · Checkbox · Badge · Select · Alert · Tabs · Dialog
 
-None as DS primitives. Prototype-only:
+## Confirmed DS gaps
 
-- `UserAccessManagement` screen composition (list rows, not a Table primitive)
-- `trackUam` analytics stub
+1. **Table** — dense directory used stacked list rows  
+2. **Dropdown Menu** — row actions limited to Button + Dialog  
+3. **Skeleton** — loading via Alert  
+4. **Empty State** — empty via Alert  
+5. **Status semantic model** — Badge variant mapping only  
+6. **Pagination** — full filtered list  
+7. **Checkbox indeterminate visual state** — Radix `indeterminate` works in a11y tree; indicator still renders Check glyph only  
 
-## DS GAPS
+### Inherited DS debt
 
-### DS GAP 1 — Data table / dense directory
+- **Dialog overlay/scrim semantic** — Dialog still uses `bg-black/80` (Experiment 01 / D007-adjacent debt)
 
-- **Need:** Table (or equivalent dense grid) with sticky header, column alignment  
-- **Why:** Admin directories expect scannable columns across many rows  
-- **Current alternatives:** Stacked list rows with `dl` fields + border; works but not tabular  
-- **Impact:** Density and compare-across-rows weaker than a table  
-- **Recommendation:** Evaluate Table in a future DS release — **not invented here**
+Cross-experiment backlog: `docs/design-system-v0.2-backlog.md`
 
-### DS GAP 2 — Row overflow actions (Dropdown Menu)
+## Hosted QA results
 
-- **Need:** Dropdown Menu for multiple row actions  
-- **Why:** More than one row action crowds the row on narrow viewports  
-- **Current alternatives:** Single primary `Button` (“Deactivate”) + Dialog  
-- **Impact:** Limited action vocabulary per row  
-- **Recommendation:** Add Dropdown Menu when multi-action rows are common
+| Check | Result |
+|---|---|
+| Vercel Preview deployment | **Ready** |
+| Prototype Hub (branch build) | Pass — Access Request + UAM listed |
+| `/prototypes/user-access-management` + scenarios | Pass (default, search, filtered, empty, loading, error, selected, multi, viewer, long) |
+| Light / Dark | Pass |
+| Narrow viewport | Pass (stacked rows/controls) |
+| Direct deep-link refresh | Pass (SPA `index.html` fallback locally; `vercel.json` on deploy) |
+| Assets (JS/CSS) | Pass — 200 |
+| Critical a11y | Pass — 0 critical |
+| Runtime console errors | None observed in QA session |
+| External / incognito on Preview URL | **Blocked by Vercel Deployment Protection (SSO login)** — see note |
 
-### DS GAP 3 — Loading skeleton
+**Note:** Unauthenticated requests to the Preview alias redirect to Vercel login. Functional QA of Experiment 02 scenarios was completed against the same branch build via local `vite preview` (mirrors production SPA). Production (`main`) remains publicly reachable but does **not** include UAM until merge.
 
-- **Need:** Skeleton for list loading  
-- **Why:** Alert “Loading…” is functional but not density-faithful  
-- **Current alternatives:** Alert + disabled controls  
-- **Impact:** Weaker loading affordance  
-- **Recommendation:** Skeleton later if product prioritizes perceived performance
+## Token / color compliance
 
-### DS GAP 4 — Empty state pattern
+**0** product hex · **0** invented semantics · Dialog overlay debt unchanged
 
-- **Need:** Dedicated Empty State  
-- **Why:** Empty results are a first-class directory state  
-- **Current alternatives:** Alert “No users found”  
-- **Impact:** Acceptable for experiment; not a reusable empty pattern  
-- **Recommendation:** Optional Empty State composite later
+## Accessibility
 
-### DS GAP 5 — Status lifecycle semantics
-
-- **Need:** Status tokens/variants for Active / Inactive / Suspended / Invited  
-- **Why:** Mapped to `verified` / `outline` / `destructive` / `secondary`  
-- **Current alternatives:** Existing Badge variants only  
-- **Impact:** Color meaning is approximate (same class as Experiment 01)  
-- **Recommendation:** Figma Mode status tokens before inventing
-
-### DS GAP 6 — Pagination
-
-- **Need:** Pagination for large directories  
-- **Why:** 12 mocks fit one screen; real orgs need paging  
-- **Current alternatives:** Full filtered list render  
-- **Impact:** Fine for prototype density stress; not production-scale  
-- **Recommendation:** Pagination when lists exceed ~page size
-
-## Token violations
-
-**0**
-
-## Hardcoded color violations
-
-**0** (product UI). Dialog overlay remains existing DS `black/80`.
-
-## Invented semantic tokens
-
-**0**
-
-## Accessibility issues
-
-| Issue | Severity | Notes |
-|---|---|---|
-| Indeterminate select-all icon | Low | Radix supports indeterminate; indicator still shows Check glyph only |
-| None critical | — | Labels, Dialog focus trap, disabled Viewer semantics |
-
-**Critical accessibility issues:** 0
+Critical **0**. Labels, Dialog focus trap, Viewer disables mutations. Gap #7 is non-critical visual polish for select-all.
 
 ## Manual corrections
 
-1. Removed duplicate `disabled` prop on search Input during implementation.
-2. Used Alert for loading/empty instead of inventing Skeleton/Empty State.
-3. Row actions as Button + Dialog (no Dropdown Menu).
-
-## Prototype-specific patterns
-
-- Scenario query (`?scenario=`) drives initial filters/selection/load state
-- Stacked list rows instead of Table
-- Bulk bar appears only when selection > 0 (existing Button)
+1. Duplicate Input `disabled` removed during build  
+2. Alert used for loading/empty (no Skeleton/Empty invent)  
+3. Row/bulk actions via Button + Dialog (no Menu invent)
 
 ## Build result
 
@@ -125,15 +86,6 @@ None as DS primitives. Prototype-only:
 | `npm run build` | Pass |
 | `npm run build-storybook` | Pass |
 
-## Success guardrails
+## Answer
 
-| Guardrail | Result |
-|---|---|
-| Intended components reused | **8/8** |
-| Hardcoded product colors | **0** |
-| Invented semantic tokens | **0** |
-| Duplicate DS components | **0** |
-| Critical a11y issues | **0** |
-| Build failures | **0** |
-| Prompt iterations | **1** |
-| Disallowed DS primitives added | **0** (Table/Menu/Pagination/Skeleton/Empty/Avatar/Combobox not added) |
+**Yes for MVP density:** DS v0.1 can support the workflow with composition + documented gaps. Table / Menu / Skeleton / Empty / status / Pagination / indeterminate visual remain **recommendations**, not implemented.
