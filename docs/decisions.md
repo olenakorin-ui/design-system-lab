@@ -218,17 +218,25 @@ Experiment 02 Preview URLs required Vercel SSO login, blocking unauthenticated/i
 - C — Keep protection; use a shareable external-access method
 
 ### Decision
-**C.** Previews stay protected (SSO remains for default visitors). External reviewers receive a **shareable Protection Bypass** URL (or equivalent password/share link from the Vercel dashboard), not a fully public Preview.
+**C.** Previews stay protected by default. External reviewers receive a **shareable Protection Bypass** (or dashboard Shareable Link / password)—**without repository access**. Production (`main`) remains the **public** stable Prototype Lab.
+
+| Ref | Environment | Access |
+|---|---|---|
+| `main` | Production | Public |
+| `prototype/*` | Preview | Protected + shareable bypass |
+| `concept/*` | Preview | Protected + shareable bypass (same model) |
+
+Storybook is not the external product-prototype environment.
 
 ### Reason
-Balances Prototype Lab confidentiality with the need to share flows outside the Vercel org without making every Preview world-readable.
+Balances Prototype Lab confidentiality for WIP with portfolio-ready public Production and external review without granting GitHub access.
 
 ### Impact
 - Project setting: **Protection Bypass** enabled for `design-system-lab` (automation/share secret).
-- Share pattern: append `x-vercel-protection-bypass=<secret>` (and optionally `x-vercel-set-bypass-cookie=true`) to Prototype Lab Preview URLs — **never commit the secret**.
-- Production on custom domains can remain separately reachable per existing SSO `all_except_custom_domains` setting.
-- Documented in `docs/prototype-architecture.md` § External sharing.
+- Share pattern: append `x-vercel-protection-bypass=<secret>` (and optionally `x-vercel-set-bypass-cookie=true`) to Preview URLs — **never commit the secret**.
+- Production custom-domain / public Production URL remains suitable for portfolio sharing.
+- Documented in `docs/prototype-architecture.md` (lifecycle + access model).
 
 ### Revisit when
-Team standardizes on Password Protection instead of Bypass, or Preview Protection is relaxed for `prototype/*` only.
+Team standardizes on Password Protection instead of Bypass, or Preview Protection scope changes for `prototype/*` only.
 

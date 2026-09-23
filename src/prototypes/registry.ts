@@ -22,7 +22,7 @@ export const prototypes: PrototypeMeta[] = [
     id: 'user-access-management',
     name: 'User Access Management',
     description: 'Admin directory for reviewing, filtering, and acting on user accounts.',
-    status: 'in-progress',
+    status: 'validated',
     route: '/prototypes/user-access-management',
     designSystemVersion: 'v0.1.0',
   },
