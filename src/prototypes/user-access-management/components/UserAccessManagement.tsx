@@ -1,5 +1,5 @@
 import { useEffect, useId, useMemo, useState } from 'react'
-import { ArrowLeft, CircleAlert } from 'lucide-react'
+import { ArrowLeft, CircleAlert, MoreHorizontal } from 'lucide-react'
 
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge } from '@/components/ui/badge'
@@ -14,6 +14,13 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
 import { Input } from '@/components/ui/input'
 import {
   Select,
@@ -22,6 +29,15 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { cn } from '@/lib/utils'
 
@@ -338,82 +354,126 @@ export function UserAccessManagement({
               </AlertDescription>
             </Alert>
           ) : (
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2 border-b border-border pb-2">
-                <Checkbox
-                  checked={
-                    allVisibleSelected ? true : someVisibleSelected ? 'indeterminate' : false
-                  }
-                  disabled={isViewer}
-                  onCheckedChange={(value) => toggleAllVisible(value === true)}
-                  aria-label="Select all visible users"
-                />
-                <span className="text-sm text-muted-foreground">
-                  {visibleUsers.length} user{visibleUsers.length === 1 ? '' : 's'}
-                </span>
-              </div>
-
-              <ul className="flex flex-col gap-2" aria-label="Users">
+            <Table>
+              <TableCaption className="sr-only">
+                User directory. Narrow viewports scroll horizontally (D009).
+              </TableCaption>
+              <TableHeader>
+                <TableRow>
+                  <TableHead className="w-10">
+                    <Checkbox
+                      checked={
+                        allVisibleSelected
+                          ? true
+                          : someVisibleSelected
+                            ? 'indeterminate'
+                            : false
+                      }
+                      disabled={isViewer}
+                      onCheckedChange={(value) => toggleAllVisible(value === true)}
+                      aria-label="Select all visible users"
+                    />
+                  </TableHead>
+                  <TableHead>Name</TableHead>
+                  <TableHead>Email</TableHead>
+                  <TableHead>Role</TableHead>
+                  <TableHead>Access</TableHead>
+                  <TableHead>Status</TableHead>
+                  <TableHead>Last active</TableHead>
+                  <TableHead className="w-12">
+                    <span className="sr-only">Actions</span>
+                  </TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
                 {visibleUsers.map((user) => {
                   const selected = selectedIds.includes(user.id)
                   return (
-                    <li
+                    <TableRow
                       key={user.id}
-                      className="rounded-md border border-border px-3 py-3"
+                      data-state={selected ? 'selected' : undefined}
                     >
-                      <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
-                        <div className="flex min-w-0 flex-1 gap-3">
-                          <Checkbox
-                            checked={selected}
-                            disabled={isViewer}
-                            onCheckedChange={(value) => toggleUser(user.id, value === true)}
-                            aria-label={`Select ${user.name}`}
-                            className="mt-1"
-                          />
-                          <div className="min-w-0 flex flex-1 flex-col gap-2">
-                            <div className="flex flex-wrap items-center gap-2">
-                              <p className="break-words text-sm font-medium text-foreground">
-                                {user.name}
-                              </p>
-                              {statusBadge(user.status)}
-                            </div>
-                            <p className="break-all text-sm text-muted-foreground">{user.email}</p>
-                            <dl className="grid gap-2 text-sm sm:grid-cols-3">
-                              <div>
-                                <dt className="text-muted-foreground">Role</dt>
-                                <dd className="text-foreground">{user.role}</dd>
-                              </div>
-                              <div>
-                                <dt className="text-muted-foreground">Access level</dt>
-                                <dd className="text-foreground">{user.accessLevel}</dd>
-                              </div>
-                              <div>
-                                <dt className="text-muted-foreground">Last active</dt>
-                                <dd className="text-foreground">{user.lastActive}</dd>
-                              </div>
-                            </dl>
-                          </div>
-                        </div>
-                        <div className="flex flex-wrap gap-2 lg:justify-end">
-                          <Button
-                            type="button"
-                            variant="outline"
-                            size="sm"
-                            disabled={isViewer}
-                            onClick={() => {
-                              trackUam('uam_row_action', { action: 'deactivate', userId: user.id })
-                              setRowActionUser(user)
-                            }}
-                          >
-                            Deactivate
-                          </Button>
-                        </div>
-                      </div>
-                    </li>
+                      <TableCell>
+                        <Checkbox
+                          checked={selected}
+                          disabled={isViewer}
+                          onCheckedChange={(value) =>
+                            toggleUser(user.id, value === true)
+                          }
+                          aria-label={`Select ${user.name}`}
+                        />
+                      </TableCell>
+                      <TableCell className="font-medium whitespace-nowrap">
+                        {user.name}
+                      </TableCell>
+                      <TableCell className="max-w-[16rem] truncate" title={user.email}>
+                        {user.email}
+                      </TableCell>
+                      <TableCell className="whitespace-nowrap">{user.role}</TableCell>
+                      <TableCell className="whitespace-nowrap">
+                        {user.accessLevel}
+                      </TableCell>
+                      <TableCell>{statusBadge(user.status)}</TableCell>
+                      <TableCell className="whitespace-nowrap text-muted-foreground">
+                        {user.lastActive}
+                      </TableCell>
+                      <TableCell>
+                        <DropdownMenu>
+                          <DropdownMenuTrigger asChild>
+                            <Button
+                              type="button"
+                              variant="ghost"
+                              size="icon"
+                              disabled={isViewer}
+                              aria-label={`Actions for ${user.name}`}
+                            >
+                              <MoreHorizontal aria-hidden="true" />
+                            </Button>
+                          </DropdownMenuTrigger>
+                          <DropdownMenuContent align="end">
+                            <DropdownMenuItem
+                              onSelect={() => {
+                                trackUam('uam_row_action', {
+                                  action: 'view',
+                                  userId: user.id,
+                                })
+                                setFeedback(`Viewing ${user.name} (prototype).`)
+                              }}
+                            >
+                              View
+                            </DropdownMenuItem>
+                            <DropdownMenuItem
+                              onSelect={() => {
+                                trackUam('uam_row_action', {
+                                  action: 'edit_access',
+                                  userId: user.id,
+                                })
+                                setFeedback(`Edit access for ${user.name} (prototype).`)
+                              }}
+                            >
+                              Edit access
+                            </DropdownMenuItem>
+                            <DropdownMenuSeparator />
+                            <DropdownMenuItem
+                              variant="destructive"
+                              onSelect={() => {
+                                trackUam('uam_row_action', {
+                                  action: 'deactivate',
+                                  userId: user.id,
+                                })
+                                setRowActionUser(user)
+                              }}
+                            >
+                              Deactivate
+                            </DropdownMenuItem>
+                          </DropdownMenuContent>
+                        </DropdownMenu>
+                      </TableCell>
+                    </TableRow>
                   )
                 })}
-              </ul>
-            </div>
+              </TableBody>
+            </Table>
           )}
         </TabsContent>
       </Tabs>

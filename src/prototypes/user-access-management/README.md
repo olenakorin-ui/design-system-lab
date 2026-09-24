@@ -4,9 +4,11 @@ Admin directory workflow: search, filter, select, and act on users.
 
 | | |
 |---|---|
-| **Status** | In progress (Experiment 02) |
-| **Design System** | v0.1.0 |
+| **Status** | Migration validation (v0.2) |
+| **Design System** | v0.2 data foundation (Table, Dropdown Menu, Checkbox indeterminate) |
 | **Primary runtime** | Prototype Lab — `/prototypes/user-access-management` |
+| **Branch** | `prototype/user-access-management-v0.2` |
+| **Experiment log** | `docs/experiments/user-access-management-v0.2-migration.md` |
 | **Storybook** | Not primary (no dedicated story required) |
 
 ## Scenarios
