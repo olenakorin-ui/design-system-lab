@@ -1,10 +1,11 @@
-# Experiment: User Access Management v0.2 — Migration validation
+# Experiment: User Access Management v0.2 — Migration validation (Final)
 
 **Design System baseline:** `main` after DS v0.2 Sprint 1 (`ds/v0.2-data-foundation` merged)  
-**Branch:** `prototype/user-access-management-v0.2`  
-**Preview:** https://design-system-lab-git-prototype-user-access-manag-3e801d-okorin.vercel.app  
-**Deployment:** https://design-system-x1u9htv6y-okorin.vercel.app (**Ready**)  
-**Route:** `/prototypes/user-access-management` (same route; migrated implementation)  
+**Branch:** `prototype/user-access-management-v0.2` → **merged to `main`**  
+**Production:** https://design-system-lab-weld.vercel.app (**Ready**)  
+**Preview (historical):** https://design-system-lab-git-prototype-user-access-manag-3e801d-okorin.vercel.app  
+**Route:** `/prototypes/user-access-management`  
+**Hub status:** **validated** · Design System **v0.2**  
 **Question:** Does migrating Exp 02 from v0.1 workarounds to validated Table / Dropdown Menu / Checkbox indeterminate improve density UX without inventing new DS APIs?
 
 ## Timing
@@ -12,9 +13,10 @@
 | | |
 |---|---|
 | **START TIME** | 2026-09-24T11:43:00Z |
-| **END TIME** | 2026-09-24T11:48:00Z |
+| **END TIME** | 2026-09-24T11:55:00Z |
 | **IMPLEMENTATION DURATION** | ~5 minutes (single pass after merge) |
 | **PROMPT ITERATIONS** | **1** |
+| **HOSTED QA** | 2026-09-24 (finalize) |
 
 ## Before vs after
 
@@ -37,10 +39,22 @@
 | **SELECTION LOGIC** | Unchanged: per-row, select-all, clear, bulk bar; header Checkbox uses `indeterminate` |
 | **ROW ACTION LOGIC** | Menu items; Deactivate still opens existing Dialog |
 | **A11Y ISSUES** | **0** critical introduced; labelled checkboxes; menu trigger `aria-label`; caption `sr-only` |
-| **MANUAL CORRECTIONS** | `icon-sm` avoided (use `size="icon"`); truncate + `title` on long emails |
+| **MANUAL CORRECTIONS** | Email `truncate` + `title`; `size="icon"` (not `icon-sm`) |
 | **PROMPT ITERATIONS** | **1** |
 | **BUILD FAILURES** | **0** |
 | **RESPONSIVE COMPLEXITY** | Low — Table container `overflow-x-auto` only; no card conversion |
+
+## Hosted QA results
+
+| Check | Result |
+|---|---|
+| Vercel Production | **Ready** (`design-system-lab-weld.vercel.app`) |
+| Hub + UAM deep routes | **200** (default, search, filtered, selected, multi, viewer, long, empty) |
+| Assets (JS/CSS) | **200** |
+| Direct deep-link refresh | Pass (SPA `vercel.json` rewrites) |
+| Preview branch (pre-merge) | **Ready** |
+| Critical a11y | **0** critical observed |
+| Console / broken assets | None observed in finalize QA |
 
 ## Qualitative assessment
 
@@ -50,19 +64,6 @@
 | Column alignment | Native table headers associate fields |
 | Selection clarity | Header + row checkboxes; indeterminate Minus visible |
 | Action discoverability | Overflow menu groups View / Edit / Deactivate |
-
-## Validation checklist
-
-| Scenario | Expected |
-|---|---|
-| default | Table lists mock users |
-| search / filtered | Same filter logic; table updates |
-| selected / multi-select | Row `data-state=selected`; bulk bar |
-| partial select-all | Header Checkbox `indeterminate` |
-| viewer | Invite, checkboxes, menu disabled |
-| long content | Truncate email + horizontal scroll |
-| Light / Dark | Semantic tokens only |
-| narrow viewport | Horizontal scroll, no stacked cards |
 
 ## Remaining DS gaps (unchanged / deferred)
 
@@ -76,4 +77,4 @@
 
 ## Answer
 
-**Yes:** Exp 02 migrates cleanly onto Sprint 1 data foundation. Density and action discoverability improve without new tokens, status semantics, or core DS APIs.
+**Yes:** Exp 02 migrates cleanly onto Sprint 1 data foundation. Density and action discoverability improve without new tokens, status semantics, or core DS APIs. **Validated on `main` / Production.**
