@@ -12,7 +12,10 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     disabled: { control: 'boolean' },
-    checked: { control: 'boolean' },
+    checked: {
+      control: 'select',
+      options: [false, true, 'indeterminate'],
+    },
   },
 } satisfies Meta<typeof Checkbox>
 
@@ -56,6 +59,16 @@ export const Checked: Story = {
   render: () => <Checkbox defaultChecked aria-label="Checked sample" />,
 }
 
+export const Indeterminate: Story = {
+  render: () => <Checkbox checked="indeterminate" aria-label="Indeterminate sample" />,
+}
+
+export const DisabledIndeterminate: Story = {
+  render: () => (
+    <Checkbox checked="indeterminate" disabled aria-label="Disabled indeterminate" />
+  ),
+}
+
 export const DisabledUnchecked: Story = {
   render: () => <Checkbox disabled aria-label="Disabled unchecked" />,
 }
@@ -76,13 +89,13 @@ export const FocusVisible: Story = {
 
 export const WithLabel: Story = {
   render: () => {
-    const [checked, setChecked] = useState(false)
+    const [checked, setChecked] = useState<boolean | 'indeterminate'>(false)
     return (
       <CheckboxField
         label="Checkbox Text"
         description="This is a checkbox description."
         checked={checked}
-        onCheckedChange={(v) => setChecked(v === true)}
+        onCheckedChange={(v) => setChecked(v === 'indeterminate' ? 'indeterminate' : v === true)}
       />
     )
   },
@@ -102,10 +115,13 @@ export const LongLabel: Story = {
 export const DarkMode: Story = {
   globals: { theme: 'dark' },
   render: () => (
-    <CheckboxField
-      label="Checkbox Text"
-      description="Dark mode checkbox chrome."
-      defaultChecked
-    />
+    <div className="flex flex-col gap-4">
+      <CheckboxField label="Checked" description="Dark mode checked." defaultChecked />
+      <CheckboxField
+        label="Indeterminate"
+        description="Dark mode mixed selection."
+        checked="indeterminate"
+      />
+    </div>
   ),
 }
