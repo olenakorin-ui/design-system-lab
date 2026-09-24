@@ -2,6 +2,8 @@
 
 **Design System baseline:** `main` after DS v0.2 Sprint 1 (`ds/v0.2-data-foundation` merged)  
 **Branch:** `prototype/user-access-management-v0.2`  
+**Preview:** https://design-system-lab-git-prototype-user-access-manag-3e801d-okorin.vercel.app  
+**Deployment:** https://design-system-x1u9htv6y-okorin.vercel.app (**Ready**)  
 **Route:** `/prototypes/user-access-management` (same route; migrated implementation)  
 **Question:** Does migrating Exp 02 from v0.1 workarounds to validated Table / Dropdown Menu / Checkbox indeterminate improve density UX without inventing new DS APIs?
 
@@ -10,8 +12,8 @@
 | | |
 |---|---|
 | **START TIME** | 2026-09-24T11:43:00Z |
-| **END TIME** | 2026-09-24T11:55:00Z |
-| **IMPLEMENTATION DURATION** | ~12 minutes (single pass after merge) |
+| **END TIME** | 2026-09-24T11:48:00Z |
+| **IMPLEMENTATION DURATION** | ~5 minutes (single pass after merge) |
 | **PROMPT ITERATIONS** | **1** |
 
 ## Before vs after
