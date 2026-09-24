@@ -240,3 +240,31 @@ Balances Prototype Lab confidentiality for WIP with portfolio-ready public Produ
 ### Revisit when
 Team standardizes on Password Protection instead of Bypass, or Preview Protection scope changes for `prototype/*` only.
 
+---
+
+## D009 — Table narrow viewport: horizontal scroll
+
+### Context
+Table foundation (v0.2 Sprint 1) needed a global responsive rule for dense admin tables. Options were horizontal scroll vs stacked mobile rows.
+
+### Options considered
+- A — Horizontal scroll (`overflow-x-auto` on the table container)
+- B — Stacked mobile rows (card-like; may leave native `<table>` on small screens)
+
+### Decision
+**A — Horizontal scroll.**
+
+**Global DS rule:** Base Table preserves native table structure across breakpoints. When content exceeds the viewport: keep native `<table>` semantics, preserve columns, use horizontal overflow; do not auto-convert rows to cards, auto-hide columns, or create duplicate mobile markup. Figma min-width / overflow remains the visual baseline.
+
+### Reason
+Preserves column alignment and native table semantics for data-dense admin workflows (Exp 02). Matches Figma dense table / min-width patterns. Stacked rows would need a separate layout recipe and is not the default foundation behavior.
+
+### Impact
+- `Table` keeps `overflow-x-auto` as the canonical narrow-viewport behavior
+- Documented in `docs/components/table.md`; `NarrowViewport` Storybook story remains the validation surface
+- No `responsive="cards"` (or equivalent) on the core Table API in v0.2
+- Stacked / card-row recipes deferred as a separate pattern/component investigation (backlog)
+
+### Revisit when
+Future prototype evidence requires stacked mobile data presentation as its own pattern, or Figma ships an explicit stacked-table recipe that should become a second composition (not a Table API prop).
+

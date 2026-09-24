@@ -238,32 +238,96 @@ export const Empty: Story = {
 
 export const NarrowViewport: Story = {
   parameters: { viewport: { defaultViewport: 'mobile1' } },
-  render: () => (
-    <Table>
-      <TableCaption>
-        Narrow viewport uses horizontal scroll container (Sprint 1 default — see DECISION REQUIRED
-        for stacked rows).
-      </TableCaption>
-      <TableHeader>
-        <TableRow>
-          <TableHead>Name</TableHead>
-          <TableHead>Email</TableHead>
-          <TableHead>Role</TableHead>
-          <TableHead>Status</TableHead>
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {SAMPLE.map((row) => (
-          <TableRow key={row.id}>
-            <TableCell>{row.name}</TableCell>
-            <TableCell>{row.email}</TableCell>
-            <TableCell>{row.role}</TableCell>
-            <TableCell>{row.status}</TableCell>
+  render: () => {
+    const [selected, setSelected] = useState<string[]>(['1'])
+    const rows = [
+      ...SAMPLE,
+      {
+        id: '4',
+        name: 'Christopher Montgomery-Whitfield III',
+        email: 'christopher.montgomery.whitfield@enterprise-long-domain.example.com',
+        role: 'Editor',
+        status: 'Active',
+      },
+    ]
+    return (
+      <Table>
+        <TableCaption>
+          Narrow viewport: horizontal scroll (D009). Selection and row actions stay reachable inside
+          the scrollport; no stacked cards or hidden columns.
+        </TableCaption>
+        <TableHeader>
+          <TableRow>
+            <TableHead className="w-10">
+              <Checkbox
+                checked={
+                  rows.every((r) => selected.includes(r.id))
+                    ? true
+                    : selected.length
+                      ? 'indeterminate'
+                      : false
+                }
+                onCheckedChange={(v) =>
+                  setSelected(v === true ? rows.map((r) => r.id) : [])
+                }
+                aria-label="Select all"
+              />
+            </TableHead>
+            <TableHead>Name</TableHead>
+            <TableHead>Email</TableHead>
+            <TableHead>Role</TableHead>
+            <TableHead>Status</TableHead>
+            <TableHead className="w-12">
+              <span className="sr-only">Actions</span>
+            </TableHead>
           </TableRow>
-        ))}
-      </TableBody>
-    </Table>
-  ),
+        </TableHeader>
+        <TableBody>
+          {rows.map((row) => {
+            const isSelected = selected.includes(row.id)
+            return (
+              <TableRow key={row.id} data-state={isSelected ? 'selected' : undefined}>
+                <TableCell>
+                  <Checkbox
+                    checked={isSelected}
+                    onCheckedChange={(v) =>
+                      setSelected((prev) =>
+                        v === true ? [...prev, row.id] : prev.filter((id) => id !== row.id),
+                      )
+                    }
+                    aria-label={`Select ${row.name}`}
+                  />
+                </TableCell>
+                <TableCell className="font-medium whitespace-nowrap">{row.name}</TableCell>
+                <TableCell className="whitespace-nowrap">{row.email}</TableCell>
+                <TableCell>{row.role}</TableCell>
+                <TableCell>
+                  <Badge variant={row.status === 'Active' ? 'verified' : 'outline'}>
+                    {row.status}
+                  </Badge>
+                </TableCell>
+                <TableCell>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="icon" aria-label={`Actions for ${row.name}`}>
+                        <MoreHorizontal />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuItem>Edit</DropdownMenuItem>
+                      <DropdownMenuItem>View</DropdownMenuItem>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuItem variant="destructive">Remove</DropdownMenuItem>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </TableCell>
+              </TableRow>
+            )
+          })}
+        </TableBody>
+      </Table>
+    )
+  },
 }
 
 export const DarkMode: Story = {

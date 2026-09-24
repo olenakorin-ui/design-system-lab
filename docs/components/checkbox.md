@@ -42,8 +42,17 @@ Unchecked, Checked, Indeterminate, DisabledIndeterminate, DisabledUnchecked, Dis
 | Focus visible | 3px `--custom-outline` |
 | Disabled | native disabled |
 
+## Figma follow-up
+
+| Item | Status |
+|---|---|
+| `checked="indeterminate"` in code | **Validated** (Radix; Minus icon; `aria-checked="mixed"`) |
+| Figma Checkbox `Status` axis | Active / Inactive only — **Indeterminate missing** |
+| Design follow-up | Add **Indeterminate** to the Figma Checkbox Status axis |
+| React API | **No new prop required** — use existing Radix `checked="indeterminate"` |
+
 ## Known differences
 
-1. **Indeterminate is a code extension** — Figma Status axis is still Active/Inactive only; recommend adding Status=Indeterminate in Figma for full visual ownership.
+1. **Indeterminate is a code extension** until Figma owns Status=Indeterminate visually.
 2. Label/description remain composed in stories (control-only API).
 3. Radius 4px literal (no exact Mode radius token).
