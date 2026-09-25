@@ -2,6 +2,8 @@
 
 **Design System baseline:** `main` (Sprint 2 Empty State / Skeleton / Pagination available)  
 **Branch:** `prototype/user-access-management-v0.2-states`  
+**Preview:** https://design-system-lab-git-prototype-user-access-manag-458d39-okorin.vercel.app  
+**Deployment:** https://design-system-dc2dd26lj-okorin.vercel.app (**Ready**)  
 **Route:** `/prototypes/user-access-management`  
 **Question:** Do Empty State, Skeleton, and Pagination replace Alert / full-list workarounds without redesigning UAM or inventing DS APIs?
 
