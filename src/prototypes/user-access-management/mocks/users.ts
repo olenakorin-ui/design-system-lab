@@ -122,6 +122,33 @@ export const MOCK_USERS: MockUser[] = [
     status: 'Active',
     lastActive: '6 hours ago',
   },
+  {
+    id: 'u-13',
+    name: 'Noah Kim',
+    email: 'noah.kim@example.com',
+    role: 'Editor',
+    accessLevel: 'Standard',
+    status: 'Active',
+    lastActive: '9 hours ago',
+  },
+  {
+    id: 'u-14',
+    name: 'Elena Rossi',
+    email: 'elena.rossi@example.com',
+    role: 'Viewer',
+    accessLevel: 'Read-only',
+    status: 'Invited',
+    lastActive: 'Never',
+  },
+  {
+    id: 'u-15',
+    name: 'Omar Haddad',
+    email: 'omar.haddad@example.com',
+    role: 'Admin',
+    accessLevel: 'Full',
+    status: 'Active',
+    lastActive: '30 minutes ago',
+  },
 ]
 
 export const ROLE_OPTIONS = ['All roles', 'Admin', 'Editor', 'Viewer', 'Security'] as const

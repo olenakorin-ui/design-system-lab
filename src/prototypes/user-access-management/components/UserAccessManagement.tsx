@@ -1,5 +1,5 @@
-import { useEffect, useId, useMemo, useState } from 'react'
-import { ArrowLeft, CircleAlert, MoreHorizontal } from 'lucide-react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
+import { ArrowLeft, CircleAlert, Inbox, MoreHorizontal, Search } from 'lucide-react'
 
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { Badge } from '@/components/ui/badge'
@@ -21,7 +21,24 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import {
+  EmptyState,
+  EmptyStateActions,
+  EmptyStateDescription,
+  EmptyStateHeader,
+  EmptyStateIcon,
+  EmptyStateTitle,
+} from '@/components/ui/empty-state'
 import { Input } from '@/components/ui/input'
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from '@/components/ui/pagination'
 import {
   Select,
   SelectContent,
@@ -29,6 +46,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import { Skeleton } from '@/components/ui/skeleton'
 import {
   Table,
   TableBody,
@@ -48,7 +66,7 @@ import {
   type MockUser,
   type UserStatus,
 } from '../mocks/users'
-import type { UamScenario } from '../mocks/scenarios'
+import { UAM_PAGE_SIZE, type UamScenario } from '../mocks/scenarios'
 
 export type UserAccessManagementProps = {
   scenario: UamScenario
@@ -57,6 +75,12 @@ export type UserAccessManagementProps = {
   className?: string
 }
 
+/**
+ * Selection model (documented):
+ * - `selectedIds` persist across pages.
+ * - Header “Select all” toggles only rows on the **current page**.
+ * - Bulk bar counts all selected ids across pages.
+ */
 function statusBadge(status: UserStatus) {
   // DS GAP: no product status tokens — map to existing Badge variants only.
   switch (status) {
@@ -93,6 +117,53 @@ function filterUsers(
   })
 }
 
+function pageWindow(current: number, total: number): (number | 'ellipsis')[] {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1)
+  }
+  const pages: (number | 'ellipsis')[] = [1]
+  const start = Math.max(2, current - 1)
+  const end = Math.min(total - 1, current + 1)
+  if (start > 2) pages.push('ellipsis')
+  for (let p = start; p <= end; p += 1) pages.push(p)
+  if (end < total - 1) pages.push('ellipsis')
+  pages.push(total)
+  return pages
+}
+
+function DirectorySkeleton() {
+  return (
+    <div
+      className="flex flex-col gap-3"
+      aria-busy="true"
+      aria-live="polite"
+      aria-label="Loading users"
+    >
+      <div className="flex items-center gap-3 border-b border-border pb-3">
+        <Skeleton className="size-4 shrink-0 rounded-sm" />
+        <Skeleton className="h-4 w-16" />
+        <Skeleton className="h-4 w-28" />
+        <Skeleton className="h-4 w-14" />
+        <Skeleton className="h-4 w-16" />
+        <Skeleton className="h-4 w-16" />
+        <Skeleton className="h-4 w-20" />
+      </div>
+      {Array.from({ length: UAM_PAGE_SIZE }).map((_, i) => (
+        <div key={i} className="flex items-center gap-3 py-1">
+          <Skeleton className="size-4 shrink-0 rounded-sm" />
+          <Skeleton className="h-4 w-28" />
+          <Skeleton className="h-4 min-w-0 flex-1" />
+          <Skeleton className="h-4 w-14" />
+          <Skeleton className="h-4 w-16" />
+          <Skeleton className="h-5 w-16 rounded-full" />
+          <Skeleton className="h-4 w-20" />
+          <Skeleton className="size-8 shrink-0 rounded-md" />
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export function UserAccessManagement({
   scenario,
   onBack,
@@ -110,13 +181,21 @@ export function UserAccessManagement({
   const [statusFilter, setStatusFilter] = useState(scenario.initialStatusFilter)
   const [selectedIds, setSelectedIds] = useState<string[]>(scenario.initialSelectedIds)
   const [tab, setTab] = useState('all')
+  const [page, setPage] = useState(() => Math.max(1, scenario.initialPage))
   const [inviteOpen, setInviteOpen] = useState(false)
   const [bulkOpen, setBulkOpen] = useState(false)
   const [rowActionUser, setRowActionUser] = useState<MockUser | null>(null)
   const [inviteEmail, setInviteEmail] = useState('')
   const [feedback, setFeedback] = useState<string | null>(null)
+  const skipFilterPageReset = useRef(true)
 
   const sourceUsers = scenario.users ?? []
+  const hasDirectoryData = sourceUsers.length > 0
+  const hasActiveFilters =
+    query.trim() !== '' ||
+    roleFilter !== 'All roles' ||
+    statusFilter !== 'All statuses' ||
+    tab !== 'all'
 
   useEffect(() => {
     setQuery(scenario.initialQuery)
@@ -124,8 +203,10 @@ export function UserAccessManagement({
     setStatusFilter(scenario.initialStatusFilter)
     setSelectedIds(scenario.initialSelectedIds)
     setTab('all')
+    setPage(Math.max(1, scenario.initialPage))
     setFeedback(null)
     setInviteEmail('')
+    skipFilterPageReset.current = true
     trackUam('uam_viewed', { scenario: scenario.id, role: scenario.role })
   }, [scenario])
 
@@ -134,9 +215,34 @@ export function UserAccessManagement({
     [sourceUsers, query, roleFilter, statusFilter, tab],
   )
 
-  const allVisibleSelected =
-    visibleUsers.length > 0 && visibleUsers.every((u) => selectedIds.includes(u.id))
-  const someVisibleSelected = visibleUsers.some((u) => selectedIds.includes(u.id))
+  const totalPages = Math.max(1, Math.ceil(visibleUsers.length / UAM_PAGE_SIZE))
+
+  useEffect(() => {
+    setPage((prev) => Math.min(Math.max(1, prev), totalPages))
+  }, [totalPages])
+
+  useEffect(() => {
+    if (skipFilterPageReset.current) {
+      skipFilterPageReset.current = false
+      return
+    }
+    setPage(1)
+  }, [query, roleFilter, statusFilter, tab])
+
+  const goToPage = (next: number) => {
+    const clamped = Math.min(Math.max(1, next), totalPages)
+    setPage(clamped)
+    trackUam('user_directory_page_changed', { page: clamped, totalPages })
+  }
+
+  const pageUsers = useMemo(() => {
+    const start = (page - 1) * UAM_PAGE_SIZE
+    return visibleUsers.slice(start, start + UAM_PAGE_SIZE)
+  }, [visibleUsers, page])
+
+  const allPageSelected =
+    pageUsers.length > 0 && pageUsers.every((u) => selectedIds.includes(u.id))
+  const somePageSelected = pageUsers.some((u) => selectedIds.includes(u.id))
 
   const toggleUser = (id: string, checked: boolean) => {
     setSelectedIds((prev) => {
@@ -146,15 +252,30 @@ export function UserAccessManagement({
     })
   }
 
-  const toggleAllVisible = (checked: boolean) => {
+  const toggleAllPage = (checked: boolean) => {
     setSelectedIds((prev) => {
-      const visibleIds = visibleUsers.map((u) => u.id)
+      const pageIds = pageUsers.map((u) => u.id)
       const next = checked
-        ? [...new Set([...prev, ...visibleIds])]
-        : prev.filter((id) => !visibleIds.includes(id))
-      trackUam('uam_selection_changed', { count: next.length, selectAll: checked })
+        ? [...new Set([...prev, ...pageIds])]
+        : prev.filter((id) => !pageIds.includes(id))
+      trackUam('uam_selection_changed', {
+        count: next.length,
+        selectAll: checked,
+        scope: 'page',
+      })
       return next
     })
+  }
+
+  const clearFilters = () => {
+    skipFilterPageReset.current = true
+    setQuery('')
+    setRoleFilter('All roles')
+    setStatusFilter('All statuses')
+    setTab('all')
+    setPage(1)
+    trackUam('user_directory_filters_cleared', {})
+    trackUam('uam_filter_changed', { filter: 'clear_all', value: '' })
   }
 
   if (scenario.loadState === 'error') {
@@ -216,17 +337,6 @@ export function UserAccessManagement({
         </Alert>
       ) : null}
 
-      {scenario.loadState === 'loading' ? (
-        <Alert>
-          <CircleAlert aria-hidden="true" />
-          <AlertTitle>Loading users…</AlertTitle>
-          <AlertDescription>
-            {/* DS GAP: no Skeleton primitive — Alert used as loading feedback. */}
-            Fetching the directory. Controls are temporarily unavailable.
-          </AlertDescription>
-        </Alert>
-      ) : null}
-
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
         <div className="flex min-w-0 flex-1 flex-col gap-2">
           <label htmlFor={searchId} className="text-sm font-medium text-foreground">
@@ -237,7 +347,7 @@ export function UserAccessManagement({
             type="search"
             placeholder="Search by name or email"
             value={query}
-            disabled={scenario.loadState === 'loading'}
+            disabled={scenario.loadState === 'loading' || !hasDirectoryData}
             onChange={(e) => {
               const next = e.target.value
               setQuery(next)
@@ -251,7 +361,7 @@ export function UserAccessManagement({
           </label>
           <Select
             value={roleFilter}
-            disabled={scenario.loadState === 'loading'}
+            disabled={scenario.loadState === 'loading' || !hasDirectoryData}
             onValueChange={(value) => {
               setRoleFilter(value)
               trackUam('uam_filter_changed', { filter: 'role', value })
@@ -275,7 +385,7 @@ export function UserAccessManagement({
           </label>
           <Select
             value={statusFilter}
-            disabled={scenario.loadState === 'loading'}
+            disabled={scenario.loadState === 'loading' || !hasDirectoryData}
             onValueChange={(value) => {
               setStatusFilter(value)
               trackUam('uam_filter_changed', { filter: 'status', value })
@@ -297,9 +407,7 @@ export function UserAccessManagement({
 
       {!isViewer && selectedIds.length > 0 && scenario.loadState === 'loaded' ? (
         <div className="flex flex-wrap items-center gap-3 rounded-md border border-border px-3 py-2">
-          <p className="text-sm text-foreground">
-            {selectedIds.length} selected
-          </p>
+          <p className="text-sm text-foreground">{selectedIds.length} selected</p>
           <Button
             type="button"
             variant="outline"
@@ -333,152 +441,241 @@ export function UserAccessManagement({
         }}
       >
         <TabsList>
-          <TabsTrigger value="all" disabled={scenario.loadState === 'loading'}>
+          <TabsTrigger
+            value="all"
+            disabled={scenario.loadState === 'loading' || !hasDirectoryData}
+          >
             All users
           </TabsTrigger>
-          <TabsTrigger value="needs-attention" disabled={scenario.loadState === 'loading'}>
+          <TabsTrigger
+            value="needs-attention"
+            disabled={scenario.loadState === 'loading' || !hasDirectoryData}
+          >
             Needs attention
           </TabsTrigger>
         </TabsList>
 
-        <TabsContent value={tab} className="mt-4">
+        <TabsContent value={tab} className="mt-4 flex flex-col gap-4">
           {scenario.loadState === 'loading' ? (
-            <p className="text-sm text-muted-foreground">User list will appear when loading finishes.</p>
+            <DirectorySkeleton />
+          ) : !hasDirectoryData ? (
+            <EmptyState className="mx-auto">
+              <EmptyStateIcon>
+                <Inbox aria-hidden="true" />
+              </EmptyStateIcon>
+              <EmptyStateHeader>
+                <EmptyStateTitle>No users yet</EmptyStateTitle>
+                <EmptyStateDescription>
+                  Invite your first user to start managing access.
+                </EmptyStateDescription>
+              </EmptyStateHeader>
+              {!isViewer ? (
+                <EmptyStateActions>
+                  <Button
+                    type="button"
+                    onClick={() => {
+                      trackUam('user_directory_empty_action_clicked', {
+                        action: 'invite_user',
+                      })
+                      trackUam('uam_invite_started')
+                      setInviteOpen(true)
+                    }}
+                  >
+                    Invite user
+                  </Button>
+                </EmptyStateActions>
+              ) : null}
+            </EmptyState>
           ) : visibleUsers.length === 0 ? (
-            <Alert>
-              <CircleAlert aria-hidden="true" />
-              <AlertTitle>No users found</AlertTitle>
-              <AlertDescription>
-                {/* DS GAP: no Empty State component — Alert used for empty results. */}
-                Try adjusting search or filters.
-              </AlertDescription>
-            </Alert>
+            <EmptyState className="mx-auto">
+              <EmptyStateIcon>
+                <Search aria-hidden="true" />
+              </EmptyStateIcon>
+              <EmptyStateHeader>
+                <EmptyStateTitle>No users found</EmptyStateTitle>
+                <EmptyStateDescription>
+                  Try changing your search or filters.
+                </EmptyStateDescription>
+              </EmptyStateHeader>
+              {hasActiveFilters ? (
+                <EmptyStateActions>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => {
+                      trackUam('user_directory_empty_action_clicked', {
+                        action: 'clear_filters',
+                      })
+                      clearFilters()
+                    }}
+                  >
+                    Clear filters
+                  </Button>
+                </EmptyStateActions>
+              ) : null}
+            </EmptyState>
           ) : (
-            <Table>
-              <TableCaption className="sr-only">
-                User directory. Narrow viewports scroll horizontally (D009).
-              </TableCaption>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="w-10">
-                    <Checkbox
-                      checked={
-                        allVisibleSelected
-                          ? true
-                          : someVisibleSelected
-                            ? 'indeterminate'
-                            : false
-                      }
-                      disabled={isViewer}
-                      onCheckedChange={(value) => toggleAllVisible(value === true)}
-                      aria-label="Select all visible users"
-                    />
-                  </TableHead>
-                  <TableHead>Name</TableHead>
-                  <TableHead>Email</TableHead>
-                  <TableHead>Role</TableHead>
-                  <TableHead>Access</TableHead>
-                  <TableHead>Status</TableHead>
-                  <TableHead>Last active</TableHead>
-                  <TableHead className="w-12">
-                    <span className="sr-only">Actions</span>
-                  </TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {visibleUsers.map((user) => {
-                  const selected = selectedIds.includes(user.id)
-                  return (
-                    <TableRow
-                      key={user.id}
-                      data-state={selected ? 'selected' : undefined}
-                    >
-                      <TableCell>
-                        <Checkbox
-                          checked={selected}
-                          disabled={isViewer}
-                          onCheckedChange={(value) =>
-                            toggleUser(user.id, value === true)
-                          }
-                          aria-label={`Select ${user.name}`}
-                        />
-                      </TableCell>
-                      <TableCell className="font-medium whitespace-nowrap">
-                        {user.name}
-                      </TableCell>
-                      <TableCell className="max-w-[16rem] truncate" title={user.email}>
-                        {user.email}
-                      </TableCell>
-                      <TableCell className="whitespace-nowrap">{user.role}</TableCell>
-                      <TableCell className="whitespace-nowrap">
-                        {user.accessLevel}
-                      </TableCell>
-                      <TableCell>{statusBadge(user.status)}</TableCell>
-                      <TableCell className="whitespace-nowrap text-muted-foreground">
-                        {user.lastActive}
-                      </TableCell>
-                      <TableCell>
-                        <DropdownMenu>
-                          <DropdownMenuTrigger asChild>
-                            <Button
-                              type="button"
-                              variant="ghost"
-                              size="icon"
-                              disabled={isViewer}
-                              aria-label={`Actions for ${user.name}`}
-                            >
-                              <MoreHorizontal aria-hidden="true" />
-                            </Button>
-                          </DropdownMenuTrigger>
-                          <DropdownMenuContent align="end">
-                            <DropdownMenuItem
-                              onSelect={() => {
-                                trackUam('uam_row_action', {
-                                  action: 'view',
-                                  userId: user.id,
-                                })
-                                setFeedback(`Viewing ${user.name} (prototype).`)
-                              }}
-                            >
-                              View
-                            </DropdownMenuItem>
-                            <DropdownMenuItem
-                              onSelect={() => {
-                                trackUam('uam_row_action', {
-                                  action: 'edit_access',
-                                  userId: user.id,
-                                })
-                                setFeedback(`Edit access for ${user.name} (prototype).`)
-                              }}
-                            >
-                              Edit access
-                            </DropdownMenuItem>
-                            <DropdownMenuSeparator />
-                            <DropdownMenuItem
-                              variant="destructive"
-                              onSelect={() => {
-                                trackUam('uam_row_action', {
-                                  action: 'deactivate',
-                                  userId: user.id,
-                                })
-                                setRowActionUser(user)
-                              }}
-                            >
-                              Deactivate
-                            </DropdownMenuItem>
-                          </DropdownMenuContent>
-                        </DropdownMenu>
-                      </TableCell>
-                    </TableRow>
-                  )
-                })}
-              </TableBody>
-            </Table>
+            <>
+              <Table>
+                <TableCaption className="sr-only">
+                  User directory. Narrow viewports scroll horizontally (D009). Page {page} of{' '}
+                  {totalPages}.
+                </TableCaption>
+                <TableHeader>
+                  <TableRow>
+                    <TableHead className="w-10">
+                      <Checkbox
+                        checked={
+                          allPageSelected ? true : somePageSelected ? 'indeterminate' : false
+                        }
+                        disabled={isViewer}
+                        onCheckedChange={(value) => toggleAllPage(value === true)}
+                        aria-label="Select all users on this page"
+                      />
+                    </TableHead>
+                    <TableHead>Name</TableHead>
+                    <TableHead>Email</TableHead>
+                    <TableHead>Role</TableHead>
+                    <TableHead>Access</TableHead>
+                    <TableHead>Status</TableHead>
+                    <TableHead>Last active</TableHead>
+                    <TableHead className="w-12">
+                      <span className="sr-only">Actions</span>
+                    </TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  {pageUsers.map((user) => {
+                    const selected = selectedIds.includes(user.id)
+                    return (
+                      <TableRow
+                        key={user.id}
+                        data-state={selected ? 'selected' : undefined}
+                      >
+                        <TableCell>
+                          <Checkbox
+                            checked={selected}
+                            disabled={isViewer}
+                            onCheckedChange={(value) =>
+                              toggleUser(user.id, value === true)
+                            }
+                            aria-label={`Select ${user.name}`}
+                          />
+                        </TableCell>
+                        <TableCell className="font-medium whitespace-nowrap">
+                          {user.name}
+                        </TableCell>
+                        <TableCell className="max-w-[16rem] truncate" title={user.email}>
+                          {user.email}
+                        </TableCell>
+                        <TableCell className="whitespace-nowrap">{user.role}</TableCell>
+                        <TableCell className="whitespace-nowrap">
+                          {user.accessLevel}
+                        </TableCell>
+                        <TableCell>{statusBadge(user.status)}</TableCell>
+                        <TableCell className="whitespace-nowrap text-muted-foreground">
+                          {user.lastActive}
+                        </TableCell>
+                        <TableCell>
+                          <DropdownMenu>
+                            <DropdownMenuTrigger asChild>
+                              <Button
+                                type="button"
+                                variant="ghost"
+                                size="icon"
+                                disabled={isViewer}
+                                aria-label={`Actions for ${user.name}`}
+                              >
+                                <MoreHorizontal aria-hidden="true" />
+                              </Button>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent align="end">
+                              <DropdownMenuItem
+                                onSelect={() => {
+                                  trackUam('uam_row_action', {
+                                    action: 'view',
+                                    userId: user.id,
+                                  })
+                                  setFeedback(`Viewing ${user.name} (prototype).`)
+                                }}
+                              >
+                                View
+                              </DropdownMenuItem>
+                              <DropdownMenuItem
+                                onSelect={() => {
+                                  trackUam('uam_row_action', {
+                                    action: 'edit_access',
+                                    userId: user.id,
+                                  })
+                                  setFeedback(`Edit access for ${user.name} (prototype).`)
+                                }}
+                              >
+                                Edit access
+                              </DropdownMenuItem>
+                              <DropdownMenuSeparator />
+                              <DropdownMenuItem
+                                variant="destructive"
+                                onSelect={() => {
+                                  trackUam('uam_row_action', {
+                                    action: 'deactivate',
+                                    userId: user.id,
+                                  })
+                                  setRowActionUser(user)
+                                }}
+                              >
+                                Deactivate
+                              </DropdownMenuItem>
+                            </DropdownMenuContent>
+                          </DropdownMenu>
+                        </TableCell>
+                      </TableRow>
+                    )
+                  })}
+                </TableBody>
+              </Table>
+
+              {visibleUsers.length > UAM_PAGE_SIZE ? (
+                <Pagination>
+                  <PaginationContent>
+                    <PaginationItem>
+                      <PaginationPrevious
+                        aria-label="Go to previous page"
+                        disabled={page <= 1}
+                        onClick={() => goToPage(page - 1)}
+                      />
+                    </PaginationItem>
+                    {pageWindow(page, totalPages).map((item, index) =>
+                      item === 'ellipsis' ? (
+                        <PaginationItem key={`e-${index}`}>
+                          <PaginationEllipsis />
+                        </PaginationItem>
+                      ) : (
+                        <PaginationItem key={item}>
+                          <PaginationLink
+                            isActive={page === item}
+                            aria-label={`Page ${item}`}
+                            onClick={() => goToPage(item)}
+                          >
+                            {item}
+                          </PaginationLink>
+                        </PaginationItem>
+                      ),
+                    )}
+                    <PaginationItem>
+                      <PaginationNext
+                        aria-label="Go to next page"
+                        disabled={page >= totalPages}
+                        onClick={() => goToPage(page + 1)}
+                      />
+                    </PaginationItem>
+                  </PaginationContent>
+                </Pagination>
+              ) : null}
+            </>
           )}
         </TabsContent>
       </Tabs>
 
-      {/* Invite dialog */}
       <Dialog open={inviteOpen} onOpenChange={setInviteOpen}>
         <DialogContent>
           <DialogHeader>
@@ -525,7 +722,6 @@ export function UserAccessManagement({
         </DialogContent>
       </Dialog>
 
-      {/* Bulk deactivate */}
       <Dialog open={bulkOpen} onOpenChange={setBulkOpen}>
         <DialogContent>
           <DialogHeader>
@@ -561,7 +757,6 @@ export function UserAccessManagement({
         </DialogContent>
       </Dialog>
 
-      {/* Row deactivate */}
       <Dialog
         open={rowActionUser !== null}
         onOpenChange={(open) => {

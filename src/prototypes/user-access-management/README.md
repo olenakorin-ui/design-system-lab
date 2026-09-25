@@ -1,31 +1,27 @@
 # User Access Management
 
-Admin directory workflow: search, filter, select, and act on users.
+Admin directory workflow: search, filter, select, paginate, and act on users.
 
 | | |
 |---|---|
-| **Status** | Validated (v0.2 migration) |
-| **Design System** | v0.2 data foundation (Table, Dropdown Menu, Checkbox indeterminate) |
+| **Status** | Content-states migration (v0.2) — Preview |
+| **Design System** | v0.2 (Table, Menu, Checkbox indeterminate, Empty State, Skeleton, Pagination) |
 | **Primary runtime** | Prototype Lab — `/prototypes/user-access-management` |
-| **Branch** | Merged to `main` from `prototype/user-access-management-v0.2` |
-| **Experiment log** | `docs/experiments/user-access-management-v0.2-migration.md` |
-| **Storybook** | Not primary (no dedicated story required) |
+| **Branch** | `prototype/user-access-management-v0.2-states` |
+| **Experiment log** | `docs/experiments/user-access-management-v0.2-states-migration.md` |
+
+## Selection across pages
+
+- Selection **persists** when changing pages.
+- **Select all** applies to the **current page only**.
+- Bulk actions use the full selected set (all pages).
 
 ## Scenarios
 
 `?scenario=<id>`
 
-default · search · filtered · empty · loading · error · selected · multi · viewer · long
+default · search · filtered · empty · search-no-results · loading · error · selected · multi · multi-page-selection · page-first · page-middle · page-last · viewer · long
 
-## Structure
+## Product analytics
 
-```text
-user-access-management/
-  README.md
-  analytics.ts
-  components/UserAccessManagement.tsx
-  pages/UserAccessManagementPage.tsx
-  mocks/users.ts
-  mocks/scenarios.ts
-  state/types.ts
-```
+See `analytics.ts` and the experiment doc. Events are prototype CustomEvents / console — **not** Vercel Hobby custom events.
