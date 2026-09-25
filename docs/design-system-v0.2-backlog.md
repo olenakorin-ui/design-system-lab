@@ -2,60 +2,64 @@
 
 Evidence-driven backlog from Product Usage Experiments 01–02.  
 Sprint 1: `ds/v0.2-data-foundation` (merged).  
-Sprint 2: `ds/v0.2-content-states`.
+Sprint 2: `ds/v0.2-content-states` (merged).  
+**Release:** Design System **v0.2.0** — data foundation and content states.
 
 Source experiments:
 
 - Experiment 01 — Access Request Review (`docs/experiments/access-request-review-v0.1.md`)
 - Experiment 02 — User Access Management (`docs/experiments/user-access-management-v0.1.md`)
-- Migration — UAM v0.2 (`docs/experiments/user-access-management-v0.2-migration.md`) **validated**
+- Migration — UAM v0.2 table/menu (`docs/experiments/user-access-management-v0.2-migration.md`) **validated**
+- Migration — UAM v0.2 content states (`docs/experiments/user-access-management-v0.2-states-migration.md`) **validated**
 
-**Status legend:** Validated · In progress · Research · Debt · Deferred
-
----
-
-## Validated (Sprint 1)
-
-### Checkbox Indeterminate — **Validated** (code); Figma follow-up pending
-
-### Table foundation — **Validated**
-
-### Dropdown Menu — **Validated**
+**Status legend:** Validated · Research · Debt · Deferred
 
 ---
 
-## In progress (Sprint 2)
+## Release notes — Design System v0.2.0
 
-### Empty State — **In progress**
+**Theme:** data-dense B2B/admin workflows
 
-| | |
+Ships the v0.2 data foundation and content-state primitives needed for directory-style admin flows (search, filter, select, paginate, empty/loading), without inventing status or overlay tokens.
+
+### Included
+
+| Area | Scope |
 |---|---|
-| **Need** | Non-error empty content (replace Alert-as-empty) |
-| **Evidence** | Exp 01/02 empty workarounds |
-| **Implementation** | `empty-state.tsx`; docs/components/empty-state.md |
-| **Figma** | Pro Blocks / Empty Content `11002:8898` |
+| Checkbox Indeterminate | `checked="indeterminate"` for page-scoped select-all |
+| Table | Foundation + horizontal scroll on narrow viewports (**D009**) |
+| Dropdown Menu | Row actions / overflow menus |
+| Empty State | Non-error empty + no-results compositions |
+| Skeleton | Loading placeholders for directory content |
+| Pagination | Paged dataset navigation chrome |
 
-### Skeleton — **In progress**
+### Validated in product usage
 
-| | |
-|---|---|
-| **Need** | Loading placeholder primitive |
-| **Evidence** | Exp 02 loading via Alert |
-| **Implementation** | `skeleton.tsx`; docs/components/skeleton.md |
-| **Figma** | Skeleton `295:462` |
+User Access Management v0.2 on Production (`/prototypes/user-access-management`): loading, empty, no-results, pagination edges, filter/search page reset, cross-page selection, current-page select-all, Viewer/read-only, Light/Dark.
 
-### Pagination — **In progress**
+### Not in v0.2.0
 
-| | |
-|---|---|
-| **Need** | Paged dataset navigation chrome |
-| **Evidence** | Exp 02 full-list workaround |
-| **Implementation** | `pagination.tsx`; docs/components/pagination.md |
-| **Figma** | Pagination `208:1701` + PaginationItem |
+Status semantic model · Overlay/Scrim semantic · FormField · Figma Checkbox Indeterminate variant · stacked mobile table pattern (**D009** deferred)
 
 ---
 
-## Research
+## Validated (v0.2.0)
+
+### Checkbox Indeterminate — **VALIDATED** (code); Figma follow-up pending
+
+### Table — **VALIDATED**
+
+### Dropdown Menu — **VALIDATED**
+
+### Empty State — **VALIDATED**
+
+### Skeleton — **VALIDATED**
+
+### Pagination — **VALIDATED**
+
+---
+
+## Research (open)
 
 ### Status semantic model — Research
 
@@ -63,7 +67,7 @@ Source experiments:
 
 ---
 
-## Debt
+## Debt (open)
 
 ### Overlay / Scrim semantic — Debt
 
@@ -81,7 +85,7 @@ Source experiments:
 
 ---
 
-## Deferred
+## Deferred (open)
 
 ### Stacked mobile data layout pattern — Deferred (**D009**)
 
