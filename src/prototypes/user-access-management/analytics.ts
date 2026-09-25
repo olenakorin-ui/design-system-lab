@@ -1,3 +1,11 @@
+/**
+ * Product analytics for User Access Management (Prototype Lab).
+ *
+ * Events are dispatched as `ds-experiment-analytics` CustomEvents and logged
+ * to the console for experiment measurement. They are **not** sent as Vercel
+ * Web Analytics custom events (Hobby plan does not support custom events).
+ */
+
 export type UamAnalyticsEvent =
   | 'uam_viewed'
   | 'uam_search_changed'
@@ -11,6 +19,12 @@ export type UamAnalyticsEvent =
   | 'uam_bulk_confirmed'
   | 'uam_row_action'
   | 'uam_tab_changed'
+  /** Directory page index changed via Pagination */
+  | 'user_directory_page_changed'
+  /** Empty-state primary CTA (Invite user / Clear filters) */
+  | 'user_directory_empty_action_clicked'
+  /** Filters/search/tab reset from empty-state Clear filters */
+  | 'user_directory_filters_cleared'
 
 export function trackUam(
   event: UamAnalyticsEvent,
