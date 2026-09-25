@@ -93,7 +93,7 @@ One-time setup: [Import Git Repository](https://vercel.com/new) → select `olen
 ## 7. External sharing model
 
 **Hosting:** Vercel  
-**SPA config:** `vercel.json` rewrites non-asset paths to `/index.html` (D007).  
+**SPA config:** `vercel.json` rewrites non-asset paths to `/index.html` (D007). Paths under `/assets/` and `/_vercel/` are excluded so static assets and Vercel Analytics / Speed Insights endpoints are not swallowed by the SPA fallback.  
 **Preview access:** Option C — protected Preview + shareable external access (D008).
 
 1. `npm run build` produces a static SPA (`dist/`).
