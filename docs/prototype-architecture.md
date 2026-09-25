@@ -105,3 +105,38 @@ One-time setup: [Import Git Repository](https://vercel.com/new) → select `olen
 7. Manage / rotate secrets: Vercel → Deployment Protection → Protection Bypass (`vercel project protection`).
 
 **External reviewers must receive Prototype Lab URLs (Production or Preview+bypass), not Storybook URLs.**
+
+## 8. Analytics
+
+Prototype Lab ships **Vercel Web Analytics** and **Speed Insights** once at the application root (`src/App.tsx`), beside `PrototypeRouter`. Packages: `@vercel/analytics` and `@vercel/speed-insights` (React / Vite entrypoints — not Next.js).
+
+Do **not** mount analytics inside individual prototypes, Design System components, or Storybook.
+
+### Web Analytics
+
+Automatic audience metrics (no custom `track` calls on Hobby):
+
+- page views
+- visitors
+- bounce rate
+- pages / routes
+- hostnames
+- referrers
+- country
+- device
+- browser
+- OS
+
+### Speed Insights
+
+Real-user performance metrics where available:
+
+- LCP
+- INP
+- CLS
+- FCP
+- TTFB
+
+### Plan limitation
+
+**Custom events are not available on the current Vercel Hobby plan.** Do not add Pro-only analytics APIs, a second analytics provider, or product event wiring into UI components until a plan/decision change.
