@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Prototype Lab  AI-Powered Product Design">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#2563EB"/>
+  <text x="80" y="200" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" fill="#64748B" letter-spacing="4">PROTOTYPE LAB</text>
+  <text x="80" y="290" font-family="ui-sans-serif, system-ui, sans-serif" font-size="56" font-weight="600" fill="#0F172A">AI-Powered Product Design</text>
+  <text x="80" y="360" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" fill="#475569">Figma ’ tokens ’ React ’ Storybook ’ prototypes</text>
+  <text x="80" y="540" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" fill="#64748B">Olena Korin · Product Designer</text>
+</svg>

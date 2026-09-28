@@ -74,8 +74,19 @@ export function PrototypeRouter() {
   const accessScenario = parseAccessRequestScenario(params.get('scenario'))
   const uamScenario = parseUamScenario(params.get('scenario'))
 
+  const isHome = location.pathname === '/' || location.pathname === ''
   const isAccessRequest = location.pathname === '/prototypes/access-request'
   const isUam = location.pathname === '/prototypes/user-access-management'
+
+  if (isHome) {
+    return (
+      <PrototypeIndex
+        onOpen={(route) => go(route)}
+        theme={theme}
+        onThemeChange={setTheme}
+      />
+    )
+  }
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -86,6 +97,7 @@ export function PrototypeRouter() {
           size="sm"
           variant={theme === 'light' ? 'secondary' : 'outline'}
           onClick={() => setTheme('light')}
+          aria-pressed={theme === 'light'}
         >
           Light
         </Button>
@@ -94,14 +106,13 @@ export function PrototypeRouter() {
           size="sm"
           variant={theme === 'dark' ? 'secondary' : 'outline'}
           onClick={() => setTheme('dark')}
+          aria-pressed={theme === 'dark'}
         >
           Dark
         </Button>
       </div>
 
-      {location.pathname === '/' || location.pathname === '' ? (
-        <PrototypeIndex onOpen={(route) => go(route)} />
-      ) : isAccessRequest ? (
+      {isAccessRequest ? (
         <AccessRequestPage
           scenario={accessScenario}
           onScenarioChange={(next) => go(buildAccessRequestPath(next))}
