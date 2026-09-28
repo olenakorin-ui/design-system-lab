@@ -56,70 +56,53 @@ function ThemeToggle({
 
 function ProcessFlow({ items }: { items: readonly string[] }) {
   return (
-    <>
-      {/* Mobile: vertical */}
-      <ol className="flex flex-col gap-3 md:hidden" aria-label="System workflow">
-        {items.map((item, index) => (
-          <li key={item} className="flex flex-col gap-3">
-            <div className="border border-border bg-card px-4 py-3 text-sm font-medium text-card-foreground">
-              {item}
-            </div>
-            {index < items.length - 1 ? (
-              <span className="px-1 text-muted-foreground" aria-hidden="true">
+    <ol
+      className="flex flex-col gap-3 md:flex-row md:flex-wrap md:items-center md:gap-x-2 md:gap-y-3"
+      aria-label="System workflow"
+    >
+      {items.map((item, index) => (
+        <li key={item} className="flex flex-col gap-3 md:flex-row md:items-center md:gap-2">
+          <span className="border border-border bg-card px-4 py-3 text-sm font-medium text-card-foreground md:px-3 md:py-2">
+            {item}
+          </span>
+          {index < items.length - 1 ? (
+            <>
+              <span className="px-1 text-muted-foreground md:hidden" aria-hidden="true">
                 ↓
               </span>
-            ) : null}
-          </li>
-        ))}
-      </ol>
-      {/* Desktop / tablet: horizontal wrap */}
-      <ol
-        className="hidden flex-wrap items-center gap-x-2 gap-y-3 md:flex"
-        aria-label="System workflow"
-      >
-        {items.map((item, index) => (
-          <li key={item} className="flex items-center gap-2">
-            <span className="border border-border bg-card px-3 py-2 text-sm font-medium text-card-foreground">
-              {item}
-            </span>
-            {index < items.length - 1 ? (
-              <span className="text-muted-foreground" aria-hidden="true">
+              <span className="hidden text-muted-foreground md:inline" aria-hidden="true">
                 →
               </span>
-            ) : null}
-          </li>
-        ))}
-      </ol>
-    </>
+            </>
+          ) : null}
+        </li>
+      ))}
+    </ol>
   )
 }
 
 function FeedbackFlow({ items }: { items: readonly string[] }) {
   return (
-    <>
-      <ol className="flex flex-col gap-3 md:hidden" aria-label="Evidence feedback loop">
-        {items.map((item, index) => (
-          <li key={item} className="flex flex-col gap-3">
-            <span className="text-sm font-medium text-foreground">{item}</span>
-            {index < items.length - 1 ? (
-              <span className="text-muted-foreground" aria-hidden="true">
+    <ol
+      className="flex flex-col gap-3 md:flex-row md:flex-wrap md:items-baseline md:gap-x-1 md:gap-y-2"
+      aria-label="Evidence feedback loop"
+    >
+      {items.map((item, index) => (
+        <li key={item} className="flex flex-col gap-3 md:flex-row md:items-baseline md:gap-1">
+          <span className="text-sm font-medium text-foreground">{item}</span>
+          {index < items.length - 1 ? (
+            <>
+              <span className="text-muted-foreground md:hidden" aria-hidden="true">
                 ↓
               </span>
-            ) : null}
-          </li>
-        ))}
-      </ol>
-      <p className="hidden text-sm leading-relaxed text-foreground md:block">
-        {items.map((item, index) => (
-          <span key={item}>
-            <span className="font-medium">{item}</span>
-            {index < items.length - 1 ? (
-              <span className="text-muted-foreground"> → </span>
-            ) : null}
-          </span>
-        ))}
-      </p>
-    </>
+              <span className="hidden text-muted-foreground md:inline" aria-hidden="true">
+                →
+              </span>
+            </>
+          ) : null}
+        </li>
+      ))}
+    </ol>
   )
 }
 
