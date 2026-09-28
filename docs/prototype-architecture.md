@@ -78,6 +78,8 @@ Example: `prototype/user-access-management`
 | **Production** (`main`) | Stable/public prototype library |
 | **Preview** (`prototype/*`, `concept/*`) | Work-in-progress / review environment |
 
+**Showcase homepage (`/`):** Prototype Lab Showcase v1 is **Validated / Production** — see `docs/experiments/showcase-home-v1.md`.
+
 **How deploys are created:** Vercel **Git integration** with the GitHub repo. Pushing `prototype/*` / `concept/*` opens Preview deployments; merging to `main` updates Production. Do not merge `prototype/*` to `main` before hosted Preview validation and approval.
 
 One-time setup: [Import Git Repository](https://vercel.com/new) → select `olenakorin-ui/design-system-lab` → Framework Vite, Output `dist`, Build `npm run build`. Confirm `vercel.json` is picked up for SPA rewrites.

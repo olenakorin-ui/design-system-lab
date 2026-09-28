@@ -1,6 +1,9 @@
 /**
  * Public site configuration for Prototype Lab showcase.
  *
+ * Showcase v1 status: Validated / Production
+ * @see docs/experiments/showcase-home-v1.md
+ *
  * Set real absolute URLs when available. Leave null to hide the corresponding
  * public CTA/link — never ship hash placeholders or invented URLs.
  */
