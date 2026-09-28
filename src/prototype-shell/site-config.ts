@@ -1,6 +1,8 @@
 /**
  * Public site configuration for Prototype Lab showcase.
- * Replace placeholder values before linking from portfolio / LinkedIn / CV.
+ *
+ * Set real absolute URLs when available. Leave null to hide the corresponding
+ * public CTA/link — never ship hash placeholders or invented URLs.
  */
 
 /** Production origin used for canonical + Open Graph. */
@@ -16,12 +18,14 @@ export const OG_TITLE = 'Prototype Lab — AI-Powered Product Design'
 export const OG_DESCRIPTION =
   'Explore interactive B2B workflows built from a reusable Figma-to-code design system and validated through real product experiments.'
 
-/** Replace with the final portfolio case-study URL when available. */
-export const CASE_STUDY_HREF = '#case-study-placeholder'
+/**
+ * Absolute URL to the portfolio case study.
+ * null → hide “Read the case study” CTA (do not use hash placeholders).
+ */
+export const CASE_STUDY_HREF: string | null = null
 
 /**
- * Social / portfolio links. Leave null until a real URL exists — do not invent.
- * Footer renders labels as text when null.
+ * Social / portfolio links. null → omit from footer (do not invent URLs).
  */
 export const SOCIAL_LINKS = {
   portfolio: null as string | null,
@@ -31,3 +35,18 @@ export const SOCIAL_LINKS = {
 
 export const AUTHOR_NAME = 'Olena Korin'
 export const AUTHOR_ROLE = 'Product Designer'
+
+/**
+ * Open Graph image path (served from /public).
+ * Current fallback: SVG placeholder. Final 1200×630 raster is non-blocking
+ * public polish — metadata already points here; replace file when ready.
+ */
+export const OG_IMAGE_PATH = '/og-image.svg'
+
+/** True when a real public href is configured (absolute http(s) URL). */
+export function hasPublicHref(href: string | null | undefined): href is string {
+  if (!href) return false
+  const trimmed = href.trim()
+  if (!trimmed) return false
+  return /^https?:\/\//i.test(trimmed)
+}

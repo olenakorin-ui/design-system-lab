@@ -15,6 +15,7 @@ import {
   AUTHOR_ROLE,
   CASE_STUDY_HREF,
   SOCIAL_LINKS,
+  hasPublicHref,
 } from './site-config'
 
 export type PrototypeIndexProps = {
@@ -106,34 +107,30 @@ function FeedbackFlow({ items }: { items: readonly string[] }) {
   )
 }
 
-function SocialPlaceholder({
-  label,
-  href,
-}: {
-  label: string
-  href: string | null
-}) {
-  if (href) {
-    return (
-      <a
-        href={href}
-        className="text-sm text-foreground underline-offset-4 outline-none hover:underline focus-visible:shadow-[0_0_0_3px_var(--custom-outline)]"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        {label}
-      </a>
-    )
-  }
-
+function SocialLink({ label, href }: { label: string; href: string }) {
   return (
-    <span className="text-sm text-muted-foreground" title={`${label} URL pending`}>
+    <a
+      href={href}
+      className="text-sm text-foreground underline-offset-4 outline-none hover:underline focus-visible:shadow-[0_0_0_3px_var(--custom-outline)]"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
       {label}
-    </span>
+    </a>
   )
 }
 
 export function PrototypeIndex({ onOpen, theme, onThemeChange }: PrototypeIndexProps) {
+  const socialEntries = (
+    [
+      { label: 'Portfolio', href: SOCIAL_LINKS.portfolio },
+      { label: 'LinkedIn', href: SOCIAL_LINKS.linkedin },
+      { label: 'GitHub', href: SOCIAL_LINKS.github },
+    ] as const
+  ).flatMap((entry) =>
+    hasPublicHref(entry.href) ? [{ label: entry.label, href: entry.href }] : [],
+  )
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <a
@@ -214,9 +211,11 @@ export function PrototypeIndex({ onOpen, theme, onThemeChange }: PrototypeIndexP
                 <Button asChild className="w-full sm:w-auto">
                   <a href="#prototypes">Explore prototypes</a>
                 </Button>
-                <Button asChild variant="outline" className="w-full sm:w-auto">
-                  <a href={CASE_STUDY_HREF}>Read the case study</a>
-                </Button>
+                {hasPublicHref(CASE_STUDY_HREF) ? (
+                  <Button asChild variant="outline" className="w-full sm:w-auto">
+                    <a href={CASE_STUDY_HREF}>Read the case study</a>
+                  </Button>
+                ) : null}
               </div>
             </div>
           </div>
@@ -275,6 +274,7 @@ export function PrototypeIndex({ onOpen, theme, onThemeChange }: PrototypeIndexP
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     {prototype.description}
                   </p>
+                  <p className="text-sm leading-relaxed text-foreground">{prototype.evidence}</p>
                   <p className="text-xs text-muted-foreground">
                     {prototype.metadata.join(' · ')}
                   </p>
@@ -385,11 +385,13 @@ export function PrototypeIndex({ onOpen, theme, onThemeChange }: PrototypeIndexP
             <p className="text-sm font-semibold text-foreground">{AUTHOR_NAME}</p>
             <p className="text-sm text-muted-foreground">{AUTHOR_ROLE}</p>
           </div>
-          <nav aria-label="Author links" className="flex flex-wrap gap-4">
-            <SocialPlaceholder label="Portfolio" href={SOCIAL_LINKS.portfolio} />
-            <SocialPlaceholder label="LinkedIn" href={SOCIAL_LINKS.linkedin} />
-            <SocialPlaceholder label="GitHub" href={SOCIAL_LINKS.github} />
-          </nav>
+          {socialEntries.length > 0 ? (
+            <nav aria-label="Author links" className="flex flex-wrap gap-4">
+              {socialEntries.map(({ label, href }) => (
+                <SocialLink key={label} label={label} href={href} />
+              ))}
+            </nav>
+          ) : null}
         </div>
       </footer>
     </div>

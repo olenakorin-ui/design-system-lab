@@ -47,6 +47,8 @@ export type ShowcasePrototype = {
   name: string
   status: 'Validated'
   description: string
+  /** One-line evidence of DS learning from the experiment */
+  evidence: string
   metadata: string[]
   capabilities: string[]
   route: string
@@ -60,6 +62,8 @@ export const showcasePrototypes: ShowcasePrototype[] = [
     status: 'Validated',
     description:
       'An admin approval workflow for reviewing elevated system access, permissions, and risk before making a decision.',
+    evidence:
+      'Validated the v0.1 component foundation across forms, state, permissions, and decision flows.',
     metadata: ['Detail workflow', 'DS v0.1 experiment'],
     capabilities: ['Forms', 'Tabs', 'Alerts', 'Dialogs', 'Permissions'],
     route: '/prototypes/access-request',
@@ -71,6 +75,8 @@ export const showcasePrototypes: ShowcasePrototype[] = [
     status: 'Validated',
     description:
       'A data-dense admin workflow for searching, filtering, selecting, and managing user access at scale.',
+    evidence:
+      'Exposed data-density gaps that shaped v0.2: Table, Dropdown Menu, Empty State, Skeleton, and Pagination.',
     metadata: ['Data-dense workflow', 'DS v0.2'],
     capabilities: [
       'Table',
