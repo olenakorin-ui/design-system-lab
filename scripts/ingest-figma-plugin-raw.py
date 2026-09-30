@@ -98,13 +98,24 @@ def check_complete(raw: dict) -> list[str]:
 def reference_report(raw: dict) -> dict[str, dict]:
     styles = raw.get("styles") or {}
     icons = raw.get("icons") or {}
+    icon_list = icons.get("icons") or []
+    icon_ids = {i.get("id") for i in icon_list if i.get("id")}
+    # Raw A/B exports may dual-list Icons-page nodes under components[];
+    # inventory baseline is standalone non-icon only.
+    standalone = [
+        c
+        for c in (raw.get("components") or [])
+        if c.get("id") not in icon_ids
+        and (c.get("page") if not isinstance(c.get("page"), dict) else (c.get("page") or {}).get("name"))
+        != "Icons"
+    ]
     actual = {
         "variables": len(raw.get("variables") or []),
         "componentSets": len(raw.get("componentSets") or []),
-        "components": len(raw.get("components") or []),
+        "components": len(standalone),
         "textStyles": len(styles.get("text") or []),
         "effectStyles": len(styles.get("effect") or []),
-        "icons": len(icons.get("icons") or []),
+        "icons": len(icon_list),
     }
     out = {}
     for k, ref in REFERENCE.items():

@@ -347,8 +347,9 @@ async function exportComponentsAndIcons(pages) {
             page: page.name,
             description: node.description || "",
           });
-        }
-        if (!parentIsSet) {
+          // Icons-page nodes are inventory-only under icons[]; never dual-listed
+          // as standalone components (1753 total COMPONENT − 1468 icons = 285).
+        } else if (!parentIsSet) {
           components.push(packStandaloneComponent(node, page));
         }
       }

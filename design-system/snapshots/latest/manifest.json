@@ -1,0 +1,36 @@
+{
+  "capturedAt":null,
+  "contentHash":"b9d6dcf77e1b452755b6100eca75ca318560adef871cecf45655f4cc53db0de2",
+  "counts":{
+    "collections":4,
+    "componentSets":405,
+    "components":285,
+    "effectStyles":34,
+    "gridStyles":0,
+    "icons":1468,
+    "mappings":540,
+    "paintStyles":0,
+    "textStyles":309,
+    "variables":760
+  },
+  "file":{
+    "key":"ZllxQplWi5QJcNeUHeY8T3",
+    "name":"Design System V2"
+  },
+  "files":[
+    "components.json",
+    "icons.json",
+    "mappings.json",
+    "styles.json",
+    "variables.json"
+  ],
+  "schemaVersion":"1.0",
+  "sourceCapabilities":{
+    "components":"complete",
+    "icons":"complete",
+    "previews":"deferred",
+    "structuralAudit":"deferred",
+    "styles":"complete",
+    "variables":"complete"
+  }
+}

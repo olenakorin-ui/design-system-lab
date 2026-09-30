@@ -268,3 +268,29 @@ Preserves column alignment and native table semantics for data-dense admin workf
 ### Revisit when
 Future prototype evidence requires stacked mobile data presentation as its own pattern, or Figma ships an explicit stacked-table recipe that should become a second composition (not a Table API prop).
 
+---
+
+## D010 — Snapshot Architecture / Schema v1.0 freeze
+
+### Context
+Sprint 01 needed a durable, deterministic Figma Design System V2 snapshot after MCP bulk transport failed (~20 KB truncation).
+
+### Options considered
+- MCP-only bulk extraction
+- Plugin bulk transport + MCP targeted audit + Git canonical history
+- Defer freeze until mapping collisions = 0
+
+### Decision
+Freeze **Snapshot Architecture v1** and **Snapshot Schema v1.0**: Plugin = bulk transport; MCP = targeted audit; Git = durable canonical source. Canonical identity excludes `exportedAt` / `capturedAt`. Mapping collisions remain warnings (token-mapping debt), not blockers.
+
+### Reason
+A/B plugin exports proved source semantic and repository canonical determinism (hash match, diff 0). MCP remains valuable for inspection but is not viable as complete transport.
+
+### Impact
+- Schema `1.0` frozen under `design-system/snapshots/schema/`
+- Pipeline: ingest → normalize → validate → SHA-256 → `latest/` + `history/`
+- Docs: `docs/snapshot-architecture.md`, `docs/experiments/design-system-snapshot-v1.md`
+
+### Revisit when
+Opening Schema v1.1 (new entity types, preview layer, or stricter mapping-collision policy).
+

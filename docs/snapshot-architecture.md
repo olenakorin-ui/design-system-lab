@@ -1,5 +1,8 @@
 # Design System Snapshot — Architecture
 
+**Status:** Snapshot Architecture **v1 frozen** (Sprint 01)  
+**Schema:** `1.0` (`design-system/snapshots/schema/snapshot-v1.schema.json`)
+
 ## Purpose
 
 Produce a **deterministic, versioned, machine-readable** snapshot of Figma Design System V2 for the Design System Lab repository.
@@ -12,13 +15,30 @@ design-system/snapshots/
   latest/{manifest,variables,components,styles,icons,mappings}.json
   history/<contentHash>/…
   _raw/
-    figma-snapshot.raw.json      # plugin bulk export (source evidence)
+    figma-snapshot.raw.json      # latest plugin bulk export (working copy)
     figma-export.latest.json     # adapted input for normalizer
+    plugin/
+      figma-snapshot.raw.A.json  # Sprint 01 determinism evidence
+      figma-snapshot.raw.B.json
     batches/…                    # MCP batch experiment evidence (fallback/audit)
     mcp/…                        # MCP extraction leftovers (fallback/audit)
 ```
 
-## Transport architecture
+## Snapshot Architecture v1 (frozen)
+
+```text
+Figma
+├─ Snapshot Plugin → bulk complete raw JSON
+└─ MCP → targeted audit / investigation
+
+Raw JSON
+→ ingestion
+→ normalizer
+→ validator
+→ canonical snapshot
+→ SHA-256
+→ Git history
+```
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -58,9 +78,17 @@ design-system/snapshots/
 └─────────────────────┘
 ```
 
+### Layer responsibilities (frozen)
+
+| Layer | Role |
+| --- | --- |
+| **Plugin** | Bulk Figma snapshot transport |
+| **MCP** | Targeted inspection / structural audit |
+| **Git** | Durable versioned canonical source |
+
 ### Why the plugin is primary transport
 
-Sprint 01 MCP experiments showed `use_figma` / MCP responses **truncate at approximately 20 KB**. Full inventories (760 variables, 309 text styles, 405 component sets with variants, 1468 icons) cannot be returned in a single MCP payload. Batched MCP extraction is preserved under `_raw/batches/` and `_raw/mcp/` as **experiment evidence and fallback**, not the production path.
+Sprint 01 MCP experiments showed `use_figma` / MCP responses **truncate at approximately 20 KB**. Full inventories cannot be returned in a single MCP payload. Batched MCP extraction is preserved under `_raw/batches/` and `_raw/mcp/` as **experiment evidence and fallback**, not the production path.
 
 ### MCP still used for
 
@@ -78,12 +106,15 @@ Sprint 01 MCP experiments showed `use_figma` / MCP responses **truncate at appro
 
 ## Raw vs canonical
 
-- **Raw** (`figma-snapshot.raw.json`): exporter evidence; may include extra fields (`exporter`, `documentationLinks`, `variantProperties`, `remote`).
-- **Canonical** (`latest/*.json`): sorted, volatile-stripped, schema-aligned; **content hash excludes `capturedAt`**.
+- **Raw** (`figma-snapshot.raw.json`): exporter evidence; may include `exporter.exportedAt` and extra fields (`documentationLinks`, `variantProperties`, `remote`).
+- **Canonical** (`latest/*.json`): sorted, volatile-stripped, schema-aligned.
+- **Identity:** content hash is SHA-256 over canonical bodies (`variables`, `components`, `styles`, `icons`, `mappings`) in fixed order. **Excludes** `capturedAt` and raw `exporter.exportedAt`.
 
 ## Icons rule
 
 Only `COMPONENT` / `COMPONENT_SET` nodes on the page named exactly **`Icons`** are classified as icons. No inference from names, sizes, or vectors.
+
+Standalone `components` in the canonical snapshot **exclude** Icons-page nodes (inventory: 285 non-icon + 1468 icons).
 
 ## Component set default variant
 
@@ -101,12 +132,14 @@ Do not assume a `defaultVariantId` field exists on the Plugin API object.
 2. Ingest + normalize each.
 3. Require `manifest.contentHash` A == B and `diff -rq` of canonical trees == 0.
 
+Sprint 01 result: **PASS** (see `docs/experiments/design-system-snapshot-v1.md`).
+
 ## Commands
 
 ```bash
 # After downloading plugin export:
 python3 scripts/ingest-figma-plugin-raw.py \
-  --raw design-system/snapshots/_raw/figma-snapshot.raw.json \
+  --raw design-system/snapshots/_raw/plugin/figma-snapshot.raw.A.json \
   --normalize --validate
 
 # Or separately:

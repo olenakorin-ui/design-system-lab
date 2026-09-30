@@ -118,9 +118,24 @@ def normalize_variables(raw: dict) -> dict:
     }
 
 
-def normalize_components(raw: dict) -> dict:
+def _page_name(page: object) -> str | None:
+    if isinstance(page, dict):
+        name = page.get("name")
+        return str(name) if name is not None else None
+    if page is None:
+        return None
+    return str(page)
+
+
+def normalize_components(raw: dict, *, exclude_ids: set[str] | None = None) -> dict:
+    """Normalize component sets + standalone non-icon components.
+
+    Icons-page nodes belong in icons.json only. Raw plugin exports may still
+    list them under components[]; exclude by Icons page name and/or icon ids.
+    """
     sets_in = raw.get("componentSets") or []
     comps_in = raw.get("components") or []
+    excluded = exclude_ids or set()
 
     component_sets = []
     for s in sets_in:
@@ -156,6 +171,11 @@ def normalize_components(raw: dict) -> dict:
 
     components = []
     for c in comps_in:
+        cid = c.get("id")
+        if cid in excluded:
+            continue
+        if _page_name(c.get("page")) == "Icons":
+            continue
         components.append(
             {
                 "id": c["id"],
@@ -286,9 +306,13 @@ def main() -> int:
     if "collections" in raw and "variables" in raw and "variablesPayload" not in raw:
         variables = normalize_variables(raw)
 
-    components = normalize_components(raw.get("componentsPayload") or raw)
     styles = normalize_styles(raw.get("stylesPayload") or raw.get("styles") or {})
     icons = normalize_icons(raw.get("iconsPayload") or raw.get("icons") or {})
+    icon_ids = {i["id"] for i in icons.get("icons") or [] if i.get("id")}
+    components = normalize_components(
+        raw.get("componentsPayload") or raw,
+        exclude_ids=icon_ids,
+    )
     mappings = normalize_mappings()
     capabilities = build_source_capabilities(raw)
 
