@@ -1,0 +1,328 @@
+{
+  "items": [
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 0,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:f8956b5bc1c59f3bd21bf7f0a8215b7a54597a44,",
+      "key": "f8956b5bc1c59f3bd21bf7f0a8215b7a54597a44",
+      "name": "shadow/2xs",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 2,
+            "showShadowBehindNode": true,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:00e35ff27250e21751015ff8a98bf34b924dac7e,",
+      "key": "00e35ff27250e21751015ff8a98bf34b924dac7e",
+      "name": "shadow/xs",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 2,
+            "showShadowBehindNode": true,
+            "spread": -1,
+            "type": "DROP_SHADOW",
+            "visible": true
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 3,
+            "showShadowBehindNode": true,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:dc9624baba6c7cc76fecdfc0087ed229471303e7,",
+      "key": "dc9624baba6c7cc76fecdfc0087ed229471303e7",
+      "name": "shadow/sm",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "radius": 4,
+            "showShadowBehindNode": true,
+            "spread": -2,
+            "type": "DROP_SHADOW",
+            "visible": true
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "radius": 6,
+            "showShadowBehindNode": true,
+            "spread": -1,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:dbefc7c0d966c54a3ccab25ce8b92ba5210c050f,",
+      "key": "dbefc7c0d966c54a3ccab25ce8b92ba5210c050f",
+      "name": "shadow/md",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "radius": 6,
+            "showShadowBehindNode": true,
+            "spread": -4,
+            "type": "DROP_SHADOW",
+            "visible": true
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 10
+            },
+            "radius": 15,
+            "showShadowBehindNode": true,
+            "spread": -3,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:5710c91b250adfb3d402bd4f879542459d2dfa9f,",
+      "key": "5710c91b250adfb3d402bd4f879542459d2dfa9f",
+      "name": "shadow/lg",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 8
+            },
+            "radius": 10,
+            "showShadowBehindNode": true,
+            "spread": -6,
+            "type": "DROP_SHADOW",
+            "visible": true
+          },
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 20
+            },
+            "radius": 25,
+            "showShadowBehindNode": true,
+            "spread": -5,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:98ee048705ace6e0d7143f0bf705252df8a4271b,",
+      "key": "98ee048705ace6e0d7143f0bf705252df8a4271b",
+      "name": "shadow/xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.25,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 25
+            },
+            "radius": 50,
+            "showShadowBehindNode": true,
+            "spread": -12,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:da00b2cc2881f6251b5178fcd5998d22f7b7270d,",
+      "key": "da00b2cc2881f6251b5178fcd5998d22f7b7270d",
+      "name": "shadow/2xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 0,
+            "spread": 0,
+            "type": "INNER_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:39f1642169742f4d4f6b691f58678ced3ce1a33e,",
+      "key": "39f1642169742f4d4f6b691f58678ced3ce1a33e",
+      "name": "inset-shadow/2xs",
+      "styleType": "EFFECT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 0,
+    "category": "effect-styles",
+    "firstStableId": "S:f8956b5bc1c59f3bd21bf7f0a8215b7a54597a44,",
+    "hash": "8afbd9309344f126c676d017bfd616bd884473badfef07b4d2669f60eab46b16",
+    "ids": [
+      "S:f8956b5bc1c59f3bd21bf7f0a8215b7a54597a44,",
+      "S:00e35ff27250e21751015ff8a98bf34b924dac7e,",
+      "S:dc9624baba6c7cc76fecdfc0087ed229471303e7,",
+      "S:dbefc7c0d966c54a3ccab25ce8b92ba5210c050f,",
+      "S:5710c91b250adfb3d402bd4f879542459d2dfa9f,",
+      "S:98ee048705ace6e0d7143f0bf705252df8a4271b,",
+      "S:da00b2cc2881f6251b5178fcd5998d22f7b7270d,",
+      "S:39f1642169742f4d4f6b691f58678ced3ce1a33e,"
+    ],
+    "lastStableId": "S:39f1642169742f4d4f6b691f58678ced3ce1a33e,",
+    "receivedCount": 8,
+    "requestedCount": 8,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

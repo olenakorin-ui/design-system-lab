@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Badge Text#26:6": {
+          "defaultValue": "Badge",
+          "type": "TEXT"
+        },
+        "Left Icon#17100:22": {
+          "defaultValue": "5197:4029",
+          "preferredValues": [],
+          "type": "INSTANCE_SWAP"
+        },
+        "Right Icon#17100:33": {
+          "defaultValue": "5197:4221",
+          "preferredValues": [],
+          "type": "INSTANCE_SWAP"
+        },
+        "Show Left Icon#17100:0": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "Show Right Icon#17100:11": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus"
+          ]
+        },
+        "Variant": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Secondary",
+            "Outline",
+            "Destructive",
+            "Verified"
+          ]
+        }
+      },
+      "defaultVariantId": "23:1001",
+      "id": "26:169",
+      "key": "b24cc0243fa7d319edbee32a2c91262a3fb2beab",
+      "name": "Badge",
+      "page": "Badge",
+      "variantOffset": 0,
+      "variantTotal": 13,
+      "variants": [
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Variant": "Default"
+          },
+          "id": "23:1001",
+          "name": "Variant=Default, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Hover",
+            "Variant": "Default"
+          },
+          "id": "296:4996",
+          "name": "Variant=Default, State=Hover"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Variant": "Secondary"
+          },
+          "id": "26:170",
+          "name": "Variant=Secondary, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Variant": "Outline"
+          },
+          "id": "26:181",
+          "name": "Variant=Outline, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Variant": "Destructive"
+          },
+          "id": "26:185",
+          "name": "Variant=Destructive, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Hover",
+            "Variant": "Destructive"
+          },
+          "id": "296:5000",
+          "name": "Variant=Destructive, State=Hover"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Variant": "Default"
+          },
+          "id": "991:18657",
+          "name": "Variant=Default, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Variant": "Secondary"
+          },
+          "id": "991:18656",
+          "name": "Variant=Secondary, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Variant": "Outline"
+          },
+          "id": "991:18655",
+          "name": "Variant=Outline, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Variant": "Destructive"
+          },
+          "id": "991:18654",
+          "name": "Variant=Destructive, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Variant": "Verified"
+          },
+          "id": "18435:7511",
+          "name": "Variant=Verified, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Hover",
+            "Variant": "Verified"
+          },
+          "id": "1843:7515",
+          "name": "Variant=Verified, State=Hover"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Variant": "Verified"
+          },
+          "id": "1843:7519",
+          "name": "Variant=Verified, State=Focus"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Description Text#48:20": {
+          "defaultValue": "This is a checkbox description.",
+          "type": "TEXT"
+        },
+        "Label Text#53:4": {
+          "defaultValue": "Checkbox Text",
+          "type": "TEXT"
+        },
+        "Show Description#48:23": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Show Label#266:18": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Focus",
+            "Disabled",
+            "Pressed"
+          ]
+        },
+        "Status": {
+          "defaultValue": "Active",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Inactive",
+            "Active"
+          ]
+        }
+      },
+      "defaultVariantId": "46:110",
+      "id": "46:112",
+      "key": "bf1c8f05828619f074c35526c68fa7d49a6d37d8",
+      "name": "Checkbox",
+      "page": "Checkbox",
+      "variantOffset": 0,
+      "variantTotal": 8,
+      "variants": [
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Status": "Active"
+          },
+          "id": "46:110",
+          "name": "Status=Active, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Status": "Active"
+          },
+          "id": "17427:172697",
+          "name": "Status=Active, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Default",
+            "Status": "Inactive"
+          },
+          "id": "46:111",
+          "name": "Status=Inactive, State=Default"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Disabled",
+            "Status": "Active"
+          },
+          "id": "60:427",
+          "name": "Status=Active, State=Disabled"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Focus",
+            "Status": "Inactive"
+          },
+          "id": "17427:172703",
+          "name": "Status=Inactive, State=Focus"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Disabled",
+            "Status": "Inactive"
+          },
+          "id": "53:29",
+          "name": "Status=Inactive, State=Disabled"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Pressed",
+            "Status": "Active"
+          },
+          "id": "18437:67522",
+          "name": "Status=Active, State=Pressed"
+        },
+        {
+          "componentPropertyValues": {
+            "State": "Pressed",
+            "Status": "Inactive"
+          },
+          "id": "18437:67528",
+          "name": "Status=Inactive, State=Pressed"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 900,
+    "category": "component-sets",
+    "firstStableId": "26:169",
+    "hash": "6e58b7203b19ebc1c88657b6ecba8dcf28f81f80f24eb563186f9c7ec05a62fd",
+    "ids": [
+      "26:169",
+      "46:112"
+    ],
+    "lastStableId": "46:112",
+    "receivedCount": 2,
+    "requestedCount": 2,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

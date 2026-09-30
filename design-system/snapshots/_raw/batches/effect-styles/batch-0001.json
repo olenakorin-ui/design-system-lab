@@ -1,0 +1,231 @@
+{
+  "items": [
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 1,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:929e219375744ccee50b1ea6f6625d568b2bba0e,",
+      "key": "929e219375744ccee50b1ea6f6625d568b2bba0e",
+      "name": "drop-shadow/xs",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.15000000596046448,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 2,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:090aae30440c24a7f1d03fe0a22aff52f862d242,",
+      "key": "090aae30440c24a7f1d03fe0a22aff52f862d242",
+      "name": "drop-shadow/sm",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.11999999731779099,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 3
+            },
+            "radius": 3,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:ea4620d80c736a4f78c4ce69ab80479f1580bc32,",
+      "key": "ea4620d80c736a4f78c4ce69ab80479f1580bc32",
+      "name": "drop-shadow/md",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.15000000596046448,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "radius": 4,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:e874bbaaf32307f2d97f374932b47d95b7834d64,",
+      "key": "e874bbaaf32307f2d97f374932b47d95b7834d64",
+      "name": "drop-shadow/lg",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.10000000149011612,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 9
+            },
+            "radius": 7,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:3d54264228d5c9d66e97b6a19fdafdcca59e5f61,",
+      "key": "3d54264228d5c9d66e97b6a19fdafdcca59e5f61",
+      "name": "drop-shadow/xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.15000000596046448,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 25
+            },
+            "radius": 25,
+            "showShadowBehindNode": false,
+            "spread": 0,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:240a73da24f272584b5cace05ae6a5f939b62020,",
+      "key": "240a73da24f272584b5cace05ae6a5f939b62020",
+      "name": "drop-shadow/2xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 0,
+            "type": "LAYER_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:5c31e21aa7690b8adc190b8713acb696293ca560,",
+      "key": "5c31e21aa7690b8adc190b8713acb696293ca560",
+      "name": "blur/none",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 4,
+            "type": "LAYER_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:8974b5f4149a418bda7200b86d1f1509a36455d0,",
+      "key": "8974b5f4149a418bda7200b86d1f1509a36455d0",
+      "name": "blur/xs",
+      "styleType": "EFFECT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 1,
+    "category": "effect-styles",
+    "firstStableId": "S:929e219375744ccee50b1ea6f6625d568b2bba0e,",
+    "hash": "482548c54b1bd474f7cfde33a5fc85b617086fbaa1e7e03cd0699b195f473a22",
+    "ids": [
+      "S:929e219375744ccee50b1ea6f6625d568b2bba0e,",
+      "S:090aae30440c24a7f1d03fe0a22aff52f862d242,",
+      "S:ea4620d80c736a4f78c4ce69ab80479f1580bc32,",
+      "S:e874bbaaf32307f2d97f374932b47d95b7834d64,",
+      "S:3d54264228d5c9d66e97b6a19fdafdcca59e5f61,",
+      "S:240a73da24f272584b5cace05ae6a5f939b62020,",
+      "S:5c31e21aa7690b8adc190b8713acb696293ca560,",
+      "S:8974b5f4149a418bda7200b86d1f1509a36455d0,"
+    ],
+    "lastStableId": "S:8974b5f4149a418bda7200b86d1f1509a36455d0,",
+    "receivedCount": 8,
+    "requestedCount": 8,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

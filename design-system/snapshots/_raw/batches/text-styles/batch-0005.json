@@ -1,0 +1,1097 @@
+{
+  "items": [
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Bold"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:5ebcd3720d1fb5475cdc374c6dc7197132982c5a,",
+      "key": "5ebcd3720d1fb5475cdc374c6dc7197132982c5a",
+      "name": "text-5xl/leading-normal/bold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Black"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:3e57da9b4b3067f58efad5d2455c468b1ec149ad,",
+      "key": "3e57da9b4b3067f58efad5d2455c468b1ec149ad",
+      "name": "text-5xl/leading-normal/extrabold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraBold"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:d5c391607b85e8c589b257ceaf8e49ac0e7bf3e5,",
+      "key": "d5c391607b85e8c589b257ceaf8e49ac0e7bf3e5",
+      "name": "text-5xl/leading-normal/black",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:528d1061f7d341166d2eaf64724323ef6b84c3a1,",
+      "key": "528d1061f7d341166d2eaf64724323ef6b84c3a1",
+      "name": "text-5xl/leading-normal/italic",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE"
+      },
+      "id": "S:18d9d07ddcee21c355e0a943d5ae678b3977f26b,",
+      "key": "18d9d07ddcee21c355e0a943d5ae678b3977f26b",
+      "name": "text-5xl/leading-normal/underlined",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 48
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "STRIKETHROUGH"
+      },
+      "id": "S:07dc05e5f719718ab8c18ae214819625ddb90dd6,",
+      "key": "07dc05e5f719718ab8c18ae214819625ddb90dd6",
+      "name": "text-5xl/leading-normal/strikethrough",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:6f2c2b3e159980ad2d5e9c4dd13bf1bdff885062,",
+      "key": "6f2c2b3e159980ad2d5e9c4dd13bf1bdff885062",
+      "name": "text-5xl/leading-none/thin",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:8bf1a1eafda834ed4db3d8932ff0f9991ba75ed0,",
+      "key": "8bf1a1eafda834ed4db3d8932ff0f9991ba75ed0",
+      "name": "text-5xl/leading-none/extralight",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Light"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:2c5f69f6a3990fc346b993cfa8dba158ec3a649d,",
+      "key": "2c5f69f6a3990fc346b993cfa8dba158ec3a649d",
+      "name": "text-5xl/leading-none/light",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:783a39a92d8c05078e347f04eaa36d7ea918135b,",
+      "key": "783a39a92d8c05078e347f04eaa36d7ea918135b",
+      "name": "text-5xl/leading-none/normal",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Medium"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:ea7ffe971b3d7a70025db793293154b95531c680,",
+      "key": "ea7ffe971b3d7a70025db793293154b95531c680",
+      "name": "text-5xl/leading-none/medium",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "SemiBold"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:5e552793e8983b9a8d1f2dfaa5f6f89b35c1aca0,",
+      "key": "5e552793e8983b9a8d1f2dfaa5f6f89b35c1aca0",
+      "name": "text-5xl/leading-none/semibold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Bold"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:8b687c10bf6db51d2602aa51cc01bd20e5327779,",
+      "key": "8b687c10bf6db51d2602aa51cc01bd20e5327779",
+      "name": "text-5xl/leading-none/bold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Black"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:c3ac8f96095e36f84307687822f349972a6392cd,",
+      "key": "c3ac8f96095e36f84307687822f349972a6392cd",
+      "name": "text-5xl/leading-none/extrabold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraBold"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:549466b4693482d58ea6a8e12d125f4493bb8056,",
+      "key": "549466b4693482d58ea6a8e12d125f4493bb8056",
+      "name": "text-5xl/leading-none/black",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE"
+      },
+      "id": "S:4d90e4f9b6cb192547819157e24884b210eaecbb,",
+      "key": "4d90e4f9b6cb192547819157e24884b210eaecbb",
+      "name": "text-5xl/leading-none/underlined",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 48,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "STRIKETHROUGH"
+      },
+      "id": "S:561782e94d7353c8ff844e27925cb8fb8bbb59e4,",
+      "key": "561782e94d7353c8ff844e27925cb8fb8bbb59e4",
+      "name": "text-5xl/leading-none/strikethrough",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:eecd45e7bda1d2013f604b734b029b9b3eba854d,",
+      "key": "eecd45e7bda1d2013f604b734b029b9b3eba854d",
+      "name": "text-6xl/leading-normal/thin",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:76029823bcb4a5539ca65be5474473ef928949f9,",
+      "key": "76029823bcb4a5539ca65be5474473ef928949f9",
+      "name": "text-6xl/leading-normal/extralight",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Light"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:617b81fe57f05705bf41ffe5ae5e69b4df154071,",
+      "key": "617b81fe57f05705bf41ffe5ae5e69b4df154071",
+      "name": "text-6xl/leading-normal/light",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:9ad205c814911a7e520f83c64b38713b56afbd96,",
+      "key": "9ad205c814911a7e520f83c64b38713b56afbd96",
+      "name": "text-6xl/leading-normal/normal",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Medium"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:fa7e53e0db3e946bb4e55d436c09224402123092,",
+      "key": "fa7e53e0db3e946bb4e55d436c09224402123092",
+      "name": "text-6xl/leading-normal/medium",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "SemiBold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:736737534aaf53b206dc4a2920d1fb683e4de2db,",
+      "key": "736737534aaf53b206dc4a2920d1fb683e4de2db",
+      "name": "text-6xl/leading-normal/semibold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Bold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:5d4c94e7fbbc72e7f3bd655becc4663d6ec7300a,",
+      "key": "5d4c94e7fbbc72e7f3bd655becc4663d6ec7300a",
+      "name": "text-6xl/leading-normal/bold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Black"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:8c1772b5d46f7351c1f7d061bf420de43b6fd401,",
+      "key": "8c1772b5d46f7351c1f7d061bf420de43b6fd401",
+      "name": "text-6xl/leading-normal/extrabold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraBold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:58a5b995a5472e7356812ba8e993f6a00478c8f5,",
+      "key": "58a5b995a5472e7356812ba8e993f6a00478c8f5",
+      "name": "text-6xl/leading-normal/black",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE"
+      },
+      "id": "S:871b0d9971110e966d69c3614e89de95cb4b1004,",
+      "key": "871b0d9971110e966d69c3614e89de95cb4b1004",
+      "name": "text-6xl/leading-normal/underlined",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 60
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "STRIKETHROUGH"
+      },
+      "id": "S:8ad4f52f56a20eb2e22c21b299898dea76aba909,",
+      "key": "8ad4f52f56a20eb2e22c21b299898dea76aba909",
+      "name": "text-6xl/leading-normal/strikethrough",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:27c6b96732079412e8256c604d7e51f93868967f,",
+      "key": "27c6b96732079412e8256c604d7e51f93868967f",
+      "name": "text-6xl/leading-none/thin",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:4da1cab4f929825d9c61db985815f4827b320354,",
+      "key": "4da1cab4f929825d9c61db985815f4827b320354",
+      "name": "text-6xl/leading-none/extralight",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:e938bae74423211bee9a13f5e51bb05923cd5cce,",
+      "key": "e938bae74423211bee9a13f5e51bb05923cd5cce",
+      "name": "text-6xl/leading-none/light",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:ab35bf7a193e3afad7394d5c22b9d0fcad5e394a,",
+      "key": "ab35bf7a193e3afad7394d5c22b9d0fcad5e394a",
+      "name": "text-6xl/leading-none/normal",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Medium"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:d877aa2d29c92555cff4f11151e6af63546c1d83,",
+      "key": "d877aa2d29c92555cff4f11151e6af63546c1d83",
+      "name": "text-6xl/leading-none/medium",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "SemiBold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:9ca753ea4f251f2ba32f75e0f5aa718aab755d29,",
+      "key": "9ca753ea4f251f2ba32f75e0f5aa718aab755d29",
+      "name": "text-6xl/leading-none/semibold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Bold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:78786d69c6983997310364c0140ae6c939879d49,",
+      "key": "78786d69c6983997310364c0140ae6c939879d49",
+      "name": "text-6xl/leading-none/bold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Black"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:f8380770bd079342159914b405441efdacc1c694,",
+      "key": "f8380770bd079342159914b405441efdacc1c694",
+      "name": "text-6xl/leading-none/extrabold",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraBold"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:82328543696683ed27400ab2310df083e08b4fdb,",
+      "key": "82328543696683ed27400ab2310df083e08b4fdb",
+      "name": "text-6xl/leading-none/black",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE"
+      },
+      "id": "S:7e96285ced5d79cf9512bdda13444ac475595e6b,",
+      "key": "7e96285ced5d79cf9512bdda13444ac475595e6b",
+      "name": "text-6xl/leading-none/untitled",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "Regular"
+        },
+        "fontSize": 60,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 100
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "STRIKETHROUGH"
+      },
+      "id": "S:31217bcb127401658cc730f970d142d1ba78038a,",
+      "key": "31217bcb127401658cc730f970d142d1ba78038a",
+      "name": "text-6xl/leading-none/strikethrough",
+      "styleType": "TEXT"
+    },
+    {
+      "description": "",
+      "details": {
+        "fontName": {
+          "family": "Geist",
+          "style": "ExtraLight"
+        },
+        "fontSize": 72,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 72
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "id": "S:5380249d2a027d132a76bb9ac237dbc6a6e9fb36,",
+      "key": "5380249d2a027d132a76bb9ac237dbc6a6e9fb36",
+      "name": "text-7xl/leading-normal/thin",
+      "styleType": "TEXT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 5,
+    "category": "text-styles",
+    "firstStableId": "S:5ebcd3720d1fb5475cdc374c6dc7197132982c5a,",
+    "hash": "dbedc106062a4ad55b1f0882220655e4da5b88c61a1ec01cfcc6371004f9fc99",
+    "ids": [
+      "S:5ebcd3720d1fb5475cdc374c6dc7197132982c5a,",
+      "S:3e57da9b4b3067f58efad5d2455c468b1ec149ad,",
+      "S:d5c391607b85e8c589b257ceaf8e49ac0e7bf3e5,",
+      "S:528d1061f7d341166d2eaf64724323ef6b84c3a1,",
+      "S:18d9d07ddcee21c355e0a943d5ae678b3977f26b,",
+      "S:07dc05e5f719718ab8c18ae214819625ddb90dd6,",
+      "S:6f2c2b3e159980ad2d5e9c4dd13bf1bdff885062,",
+      "S:8bf1a1eafda834ed4db3d8932ff0f9991ba75ed0,",
+      "S:2c5f69f6a3990fc346b993cfa8dba158ec3a649d,",
+      "S:783a39a92d8c05078e347f04eaa36d7ea918135b,",
+      "S:ea7ffe971b3d7a70025db793293154b95531c680,",
+      "S:5e552793e8983b9a8d1f2dfaa5f6f89b35c1aca0,",
+      "S:8b687c10bf6db51d2602aa51cc01bd20e5327779,",
+      "S:c3ac8f96095e36f84307687822f349972a6392cd,",
+      "S:549466b4693482d58ea6a8e12d125f4493bb8056,",
+      "S:4d90e4f9b6cb192547819157e24884b210eaecbb,",
+      "S:561782e94d7353c8ff844e27925cb8fb8bbb59e4,",
+      "S:eecd45e7bda1d2013f604b734b029b9b3eba854d,",
+      "S:76029823bcb4a5539ca65be5474473ef928949f9,",
+      "S:617b81fe57f05705bf41ffe5ae5e69b4df154071,",
+      "S:9ad205c814911a7e520f83c64b38713b56afbd96,",
+      "S:fa7e53e0db3e946bb4e55d436c09224402123092,",
+      "S:736737534aaf53b206dc4a2920d1fb683e4de2db,",
+      "S:5d4c94e7fbbc72e7f3bd655becc4663d6ec7300a,",
+      "S:8c1772b5d46f7351c1f7d061bf420de43b6fd401,",
+      "S:58a5b995a5472e7356812ba8e993f6a00478c8f5,",
+      "S:871b0d9971110e966d69c3614e89de95cb4b1004,",
+      "S:8ad4f52f56a20eb2e22c21b299898dea76aba909,",
+      "S:27c6b96732079412e8256c604d7e51f93868967f,",
+      "S:4da1cab4f929825d9c61db985815f4827b320354,",
+      "S:e938bae74423211bee9a13f5e51bb05923cd5cce,",
+      "S:ab35bf7a193e3afad7394d5c22b9d0fcad5e394a,",
+      "S:d877aa2d29c92555cff4f11151e6af63546c1d83,",
+      "S:9ca753ea4f251f2ba32f75e0f5aa718aab755d29,",
+      "S:78786d69c6983997310364c0140ae6c939879d49,",
+      "S:f8380770bd079342159914b405441efdacc1c694,",
+      "S:82328543696683ed27400ab2310df083e08b4fdb,",
+      "S:7e96285ced5d79cf9512bdda13444ac475595e6b,",
+      "S:31217bcb127401658cc730f970d142d1ba78038a,",
+      "S:5380249d2a027d132a76bb9ac237dbc6a6e9fb36,"
+    ],
+    "lastStableId": "S:5380249d2a027d132a76bb9ac237dbc6a6e9fb36,",
+    "receivedCount": 40,
+    "requestedCount": 40,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

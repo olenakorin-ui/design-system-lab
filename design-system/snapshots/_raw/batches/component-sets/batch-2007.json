@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Align": {
+          "defaultValue": "Left",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Left",
+            "Center"
+          ]
+        },
+        "Heading Size": {
+          "defaultValue": "XL",
+          "type": "VARIANT",
+          "variantOptions": [
+            "XL",
+            "LG",
+            "MD",
+            "SM"
+          ]
+        },
+        "Heading#17548:15": {
+          "defaultValue": "Feature-rich layout that captures attention",
+          "type": "TEXT"
+        },
+        "Paragraph#17548:16": {
+          "defaultValue": "Add a concise value statement that highlights your product's key features and benefits in a visually dynamic grid. Focus on creating balanced content blocks while keeping it under 2-3 lines. Align with your grid layout structure.",
+          "type": "TEXT"
+        },
+        "Show Paragraph#17548:17": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Show Tagline#17548:14": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        }
+      },
+      "defaultVariantId": "17548:88985",
+      "description": "",
+      "id": "17548:106638",
+      "key": "f6f44c97ea16874e032102815a106765fd75e19f",
+      "name": "Pro Blocks / Section Title",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:88985",
+          "key": "7db7b6ac6785ac54e4a5e8d66127b33852b82c03",
+          "name": "Heading Size=XL, Align=Left"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:116642",
+          "key": "9022365abaf50521b77c9b07bc4b8ffc6c0eafac",
+          "name": "Heading Size=LG, Align=Left"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:116674",
+          "key": "1d84f3e5551f76cf2fcb61273284b1beda38e756",
+          "name": "Heading Size=MD, Align=Left"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:106639",
+          "key": "3469718d711246071eb75fdcc6e4ce50fb38153f",
+          "name": "Heading Size=XL, Align=Center"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:116646",
+          "key": "8fd6a2ba761da54aabfa400ec7d81d9678c690c0",
+          "name": "Heading Size=LG, Align=Center"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:116678",
+          "key": "29999f68b2f05492365dd5056e32333d980424cf",
+          "name": "Heading Size=MD, Align=Center"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:117137",
+          "key": "12e1784a684884d4ac6350858848a872d46e73c0",
+          "name": "Heading Size=SM, Align=Left"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:117141",
+          "key": "3fd1c80029abc977491bbd364cd2857a8fe08a21",
+          "name": "Heading Size=SM, Align=Center"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Left Icon#17548:9": {
+          "defaultValue": "5197:4029",
+          "type": "INSTANCE_SWAP"
+        },
+        "Right Icon#17548:7": {
+          "defaultValue": "5197:4221",
+          "type": "INSTANCE_SWAP"
+        },
+        "Show Left Icon#17548:5": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "Show Right Icon#17548:6": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "Text#17548:8": {
+          "defaultValue": "Tagline",
+          "type": "TEXT"
+        },
+        "Variant": {
+          "defaultValue": "Outline",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Outline",
+            "Ghost"
+          ]
+        }
+      },
+      "defaultVariantId": "17548:88959",
+      "description": "",
+      "id": "17548:88962",
+      "key": "ad403070d42c0c569d5fd0e58828ffb847b01560",
+      "name": "Pro Blocks / Tagline",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:88959",
+          "key": "2d32564c755637b74b1635ad019caed52ffa2144",
+          "name": "Variant=Outline"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17548:88963",
+          "key": "69df0d53e33b4df160a9756f777c76d5d9ac48ad",
+          "name": "Variant=Ghost"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17753:32705",
+      "description": "",
+      "id": "17753:32704",
+      "key": "460c1aa3723eaab993271e87706acaa2f8244807",
+      "name": "Pro Blocks / Feature Section / 15.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17753:32705",
+          "key": "6156ad8a64666a3f2cf6cc959e14467efbe25b91",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17753:32737",
+          "key": "fd13c9c79fd2d08c0c1bc8e10ebbdfe96ffbb10a",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17761:210908",
+      "description": "",
+      "id": "17761:210907",
+      "key": "9ad11809fdd2f17a4c552882f1c6822f0301b60d",
+      "name": "Pro Blocks / Testimonials Section / 6.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17761:210908",
+          "key": "8bd2b4a8cce18f7eb4a55ca39c0d67f0e08ef945",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17761:210927",
+          "key": "2ca799d5557287d8b35c03f56428b36300b4e454",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17761:211014",
+      "description": "",
+      "id": "17761:211013",
+      "key": "d67d23995653f8b981d158bd66ed23c9103d1f4a",
+      "name": "Pro Blocks / Testimonials Section / 7.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17761:211014",
+          "key": "a4cf3cee82dfe4f04e23c5d5d8e13f13ad58df3c",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17761:211023",
+          "key": "86d71892c94c6e18fd0edd799efcf2da6bee5564",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2007,
+    "category": "component-sets",
+    "firstStableId": "17548:106638",
+    "hash": "792c2545f0078e7edad1780998265b06adea56c83d62e0d6a9f0e219685b6074",
+    "ids": [
+      "17548:106638",
+      "17548:88962",
+      "17753:32704",
+      "17761:210907",
+      "17761:211013"
+    ],
+    "lastStableId": "17761:211013",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

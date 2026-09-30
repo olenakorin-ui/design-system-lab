@@ -1,0 +1,817 @@
+{
+  "items": [
+    {
+      "description": "",
+      "id": "5197:3183",
+      "name": "Icon / SquareTerminal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3184",
+      "name": "Icon / SquareStack",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3185",
+      "name": "Icon / SquareSplitVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3186",
+      "name": "Icon / SquareSplitHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3187",
+      "name": "Icon / SquareSlash",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3188",
+      "name": "Icon / SquareSigma",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3189",
+      "name": "Icon / SquareScissors",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3190",
+      "name": "Icon / SquareRadical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3191",
+      "name": "Icon / SquarePower",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3192",
+      "name": "Icon / SquarePlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3193",
+      "name": "Icon / SquarePlay",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3194",
+      "name": "Icon / SquarePilcrow",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3195",
+      "name": "Icon / SquarePi",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3196",
+      "name": "Icon / SquarePercent",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3197",
+      "name": "Icon / SquarePen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3198",
+      "name": "Icon / SquareParking",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3199",
+      "name": "Icon / SquareParkingOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3200",
+      "name": "Icon / SquareMousePointer",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3201",
+      "name": "Icon / SquareMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3202",
+      "name": "Icon / SquareMenu",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3203",
+      "name": "Icon / SquareM",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3204",
+      "name": "Icon / SquareLibrary",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3205",
+      "name": "Icon / SquareKanban",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3206",
+      "name": "Icon / SquareGanttChart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3207",
+      "name": "Icon / SquareFunction",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3208",
+      "name": "Icon / SquareEqual",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3209",
+      "name": "Icon / SquareDot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3210",
+      "name": "Icon / SquareDivide",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3211",
+      "name": "Icon / SquareDashedMousePointer",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3212",
+      "name": "Icon / SquareDashedKanban",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3213",
+      "name": "Icon / SquareDashedBottom",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3214",
+      "name": "Icon / SquareDashedBottomCode",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3215",
+      "name": "Icon / SquareCode",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3216",
+      "name": "Icon / SquareChevronUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3217",
+      "name": "Icon / SquareChevronRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3218",
+      "name": "Icon / SquareChevronLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3219",
+      "name": "Icon / SquareChevronDown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3220",
+      "name": "Icon / SquareCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3221",
+      "name": "Icon / SquareCheckBig",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3222",
+      "name": "Icon / SquareBottomDashedScissors",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3223",
+      "name": "Icon / SquareAsterisk",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3224",
+      "name": "Icon / SquareArrowUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3225",
+      "name": "Icon / SquareArrowUpRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3226",
+      "name": "Icon / SquareArrowUpLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3227",
+      "name": "Icon / SquareArrowRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3228",
+      "name": "Icon / SquareArrowOutUpRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3229",
+      "name": "Icon / SquareArrowOutUpLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3230",
+      "name": "Icon / SquareArrowOutDownRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3231",
+      "name": "Icon / SquareArrowOutDownLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3232",
+      "name": "Icon / SquareArrowLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3233",
+      "name": "Icon / SquareArrowDown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3234",
+      "name": "Icon / SquareArrowDownRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3235",
+      "name": "Icon / SquareArrowDownLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3236",
+      "name": "Icon / SquareActivity",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3237",
+      "name": "Icon / Sprout",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3238",
+      "name": "Icon / SprayCan",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3239",
+      "name": "Icon / Split",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3240",
+      "name": "Icon / Spline",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3241",
+      "name": "Icon / SpellCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3242",
+      "name": "Icon / SpellCheck2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3243",
+      "name": "Icon / Speech",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3244",
+      "name": "Icon / Speaker",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3245",
+      "name": "Icon / Sparkles",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3246",
+      "name": "Icon / Sparkle",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3247",
+      "name": "Icon / Spade",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3248",
+      "name": "Icon / Space",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3249",
+      "name": "Icon / Soup",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3250",
+      "name": "Icon / Sofa",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3251",
+      "name": "Icon / Snowflake",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3252",
+      "name": "Icon / Snail",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3253",
+      "name": "Icon / Smile",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3254",
+      "name": "Icon / SmilePlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3255",
+      "name": "Icon / Smartphone",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3256",
+      "name": "Icon / SmartphoneNfc",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3257",
+      "name": "Icon / SmartphoneCharging",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3258",
+      "name": "Icon / SlidersVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3259",
+      "name": "Icon / SlidersHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3260",
+      "name": "Icon / Slice",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3261",
+      "name": "Icon / Slash",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3262",
+      "name": "Icon / Slack",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3263",
+      "name": "Icon / Skull",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3264",
+      "name": "Icon / SkipForward",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3265",
+      "name": "Icon / SkipBack",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3266",
+      "name": "Icon / Siren",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3267",
+      "name": "Icon / Signpost",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3268",
+      "name": "Icon / SignpostBig",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3269",
+      "name": "Icon / Signal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3270",
+      "name": "Icon / SignalZero",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3271",
+      "name": "Icon / SignalMedium",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3272",
+      "name": "Icon / SignalLow",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3273",
+      "name": "Icon / SignalHigh",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3274",
+      "name": "Icon / Sigma",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3275",
+      "name": "Icon / Shuffle",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3276",
+      "name": "Icon / Shrub",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3277",
+      "name": "Icon / Shrink",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3278",
+      "name": "Icon / ShowerHead",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3279",
+      "name": "Icon / Shovel",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3280",
+      "name": "Icon / ShoppingCart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3281",
+      "name": "Icon / ShoppingBasket",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3282",
+      "name": "Icon / ShoppingBag",
+      "page": "Icons",
+      "type": "COMPONENT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 2,
+    "category": "icons",
+    "firstStableId": "5197:3183",
+    "hash": "7c90f42b60d99bc61b706366e38b39b705cd32b398bf0eaa7536f782a9f5502c",
+    "ids": [
+      "5197:3183",
+      "5197:3184",
+      "5197:3185",
+      "5197:3186",
+      "5197:3187",
+      "5197:3188",
+      "5197:3189",
+      "5197:3190",
+      "5197:3191",
+      "5197:3192",
+      "5197:3193",
+      "5197:3194",
+      "5197:3195",
+      "5197:3196",
+      "5197:3197",
+      "5197:3198",
+      "5197:3199",
+      "5197:3200",
+      "5197:3201",
+      "5197:3202",
+      "5197:3203",
+      "5197:3204",
+      "5197:3205",
+      "5197:3206",
+      "5197:3207",
+      "5197:3208",
+      "5197:3209",
+      "5197:3210",
+      "5197:3211",
+      "5197:3212",
+      "5197:3213",
+      "5197:3214",
+      "5197:3215",
+      "5197:3216",
+      "5197:3217",
+      "5197:3218",
+      "5197:3219",
+      "5197:3220",
+      "5197:3221",
+      "5197:3222",
+      "5197:3223",
+      "5197:3224",
+      "5197:3225",
+      "5197:3226",
+      "5197:3227",
+      "5197:3228",
+      "5197:3229",
+      "5197:3230",
+      "5197:3231",
+      "5197:3232",
+      "5197:3233",
+      "5197:3234",
+      "5197:3235",
+      "5197:3236",
+      "5197:3237",
+      "5197:3238",
+      "5197:3239",
+      "5197:3240",
+      "5197:3241",
+      "5197:3242",
+      "5197:3243",
+      "5197:3244",
+      "5197:3245",
+      "5197:3246",
+      "5197:3247",
+      "5197:3248",
+      "5197:3249",
+      "5197:3250",
+      "5197:3251",
+      "5197:3252",
+      "5197:3253",
+      "5197:3254",
+      "5197:3255",
+      "5197:3256",
+      "5197:3257",
+      "5197:3258",
+      "5197:3259",
+      "5197:3260",
+      "5197:3261",
+      "5197:3262",
+      "5197:3263",
+      "5197:3264",
+      "5197:3265",
+      "5197:3266",
+      "5197:3267",
+      "5197:3268",
+      "5197:3269",
+      "5197:3270",
+      "5197:3271",
+      "5197:3272",
+      "5197:3273",
+      "5197:3274",
+      "5197:3275",
+      "5197:3276",
+      "5197:3277",
+      "5197:3278",
+      "5197:3279",
+      "5197:3280",
+      "5197:3281",
+      "5197:3282"
+    ],
+    "lastStableId": "5197:3282",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

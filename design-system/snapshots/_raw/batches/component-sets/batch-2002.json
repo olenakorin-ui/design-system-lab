@@ -1,0 +1,192 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:184871",
+      "description": "",
+      "id": "17014:184870",
+      "key": "06779f81edb50638a346e3569b32d3f491c17471",
+      "name": "Pro Blocks / Team Section / 3.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184871",
+          "key": "3815de23bccf4e2607150cb8c0bd7cef219f388e",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184886",
+          "key": "9d87aa1de1fa16784eb698e6cde29634a10dd828",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:184901",
+      "description": "",
+      "id": "17014:184900",
+      "key": "3a6b9e0be406aa793ec4331c0c062ef319097978",
+      "name": "Pro Blocks / Testimonials Section / 1.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184901",
+          "key": "180b1d79005249fe516795e1240d67da5d720dd6",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184910",
+          "key": "39a4b9009c6d91b0806798d3876c227b14861807",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:184920",
+      "description": "",
+      "id": "17014:184919",
+      "key": "371ff1b2a0ca30a289d1b5a92e4cf03834780d31",
+      "name": "Pro Blocks / Testimonials Section / 2.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184920",
+          "key": "1c488efc0f672cb2289d264f937f25326eee263f",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184938",
+          "key": "c8e679b0319b7fcae818225113c8be0289985275",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:184957",
+      "description": "",
+      "id": "17014:184956",
+      "key": "fb98f3178fe5ae9d1805319b90168c731f9adeed",
+      "name": "Pro Blocks / Testimonials Section / 3.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184957",
+          "key": "0061ff1cc8ca33b353c6982dfd2ab03ff5ef808e",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184976",
+          "key": "acc0f59500a02dff9e7d51895405b28b751059cc",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:184996",
+      "description": "",
+      "id": "17014:184995",
+      "key": "5088f0dc830fb300238044a5e68b92e9ac7552dd",
+      "name": "Pro Blocks / Testimonials Section / 4.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:184996",
+          "key": "d1844d3f190a29d395a3df50b632cd5130cd5472",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:185025",
+          "key": "d360b12a2f1c59cb90dc7ec72b6520944bdaf917",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2002,
+    "category": "component-sets",
+    "firstStableId": "17014:184870",
+    "hash": "99a79f84d78716b3c095218d89b168dc0e13ad525daa2453d01da2a656d986da",
+    "ids": [
+      "17014:184870",
+      "17014:184900",
+      "17014:184919",
+      "17014:184956",
+      "17014:184995"
+    ],
+    "lastStableId": "17014:184995",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

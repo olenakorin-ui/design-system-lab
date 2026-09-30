@@ -1,0 +1,1720 @@
+{
+  "items": [
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258167",
+      "name": "shadow/md/1/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258168",
+      "name": "shadow/md/2/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258169",
+      "name": "shadow/md/2/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258170",
+      "name": "shadow/md/2/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258171",
+      "name": "shadow/md/2/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258172",
+      "name": "shadow/md/2/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258173",
+      "name": "shadow/lg/1/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258174",
+      "name": "shadow/lg/1/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 10
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258175",
+      "name": "shadow/lg/1/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 15
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258176",
+      "name": "shadow/lg/1/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -3
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258177",
+      "name": "shadow/lg/1/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258178",
+      "name": "shadow/lg/2/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258179",
+      "name": "shadow/lg/2/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258180",
+      "name": "shadow/lg/2/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 6
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258181",
+      "name": "shadow/lg/2/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258182",
+      "name": "shadow/lg/2/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258183",
+      "name": "shadow/xl/1/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258184",
+      "name": "shadow/xl/1/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 20
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258185",
+      "name": "shadow/xl/1/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 25
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258186",
+      "name": "shadow/xl/1/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -5
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258187",
+      "name": "shadow/xl/1/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258188",
+      "name": "shadow/xl/2/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258189",
+      "name": "shadow/xl/2/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 8
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258190",
+      "name": "shadow/xl/2/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 10
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258191",
+      "name": "shadow/xl/2/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -6
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258192",
+      "name": "shadow/xl/2/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258193",
+      "name": "shadow/2xl/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258194",
+      "name": "shadow/2xl/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 25
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258195",
+      "name": "shadow/2xl/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 50
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258196",
+      "name": "shadow/2xl/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": -12
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258197",
+      "name": "shadow/2xl/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.25,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258198",
+      "name": "inset-shadow/2xs/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258199",
+      "name": "inset-shadow/2xs/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258200",
+      "name": "inset-shadow/2xs/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258201",
+      "name": "inset-shadow/2xs/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258202",
+      "name": "inset-shadow/2xs/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.05000000074505806,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258203",
+      "name": "inset-shadow/xs/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258204",
+      "name": "inset-shadow/xs/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258205",
+      "name": "inset-shadow/xs/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258206",
+      "name": "inset-shadow/xs/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258207",
+      "name": "inset-shadow/xs/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.05000000074505806,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258248",
+      "name": "inset-shadow/sm/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258249",
+      "name": "inset-shadow/sm/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258250",
+      "name": "inset-shadow/sm/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258251",
+      "name": "inset-shadow/sm/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258252",
+      "name": "inset-shadow/sm/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.05000000074505806,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258258",
+      "name": "drop-shadow/xs/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258259",
+      "name": "drop-shadow/xs/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258260",
+      "name": "drop-shadow/xs/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258261",
+      "name": "drop-shadow/xs/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258262",
+      "name": "drop-shadow/xs/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.05000000074505806,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258263",
+      "name": "drop-shadow/sm/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258264",
+      "name": "drop-shadow/sm/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258265",
+      "name": "drop-shadow/sm/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258266",
+      "name": "drop-shadow/sm/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258267",
+      "name": "drop-shadow/sm/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.15000000596046448,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258268",
+      "name": "drop-shadow/md/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258269",
+      "name": "drop-shadow/md/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 3
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258270",
+      "name": "drop-shadow/md/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 3
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258271",
+      "name": "drop-shadow/md/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258272",
+      "name": "drop-shadow/md/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.11999999731779099,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258273",
+      "name": "drop-shadow/lg/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258274",
+      "name": "drop-shadow/lg/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258275",
+      "name": "drop-shadow/lg/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 4
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258276",
+      "name": "drop-shadow/lg/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258277",
+      "name": "drop-shadow/lg/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.15000000596046448,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258278",
+      "name": "drop-shadow/xl/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258279",
+      "name": "drop-shadow/xl/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 9
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258280",
+      "name": "drop-shadow/xl/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 7
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258281",
+      "name": "drop-shadow/xl/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258282",
+      "name": "drop-shadow/xl/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.10000000149011612,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258283",
+      "name": "drop-shadow/2xl/offset-x",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258284",
+      "name": "drop-shadow/2xl/offset-y",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 25
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258285",
+      "name": "drop-shadow/2xl/blur-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 25
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258286",
+      "name": "drop-shadow/2xl/spread-radius",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17021:258287",
+      "name": "drop-shadow/2xl/color",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "EFFECT_COLOR"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "alpha": 0.15000000596046448,
+          "hex": "#000000"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:193969",
+      "name": "radius/2xl",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 16
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:194101",
+      "name": "radius/3xl",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 24
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:194102",
+      "name": "radius/4xl",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 32
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4965",
+      "name": "text/6xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 60
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4966",
+      "name": "text/6xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 60
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4967",
+      "name": "text/7xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 72
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4968",
+      "name": "text/7xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 72
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4969",
+      "name": "text/8xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 96
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4970",
+      "name": "text/8xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 96
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4971",
+      "name": "text/9xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 128
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:17027:4972",
+      "name": "text/9xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 128
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:481",
+      "name": "colors/primary-light",
+      "resolvedType": "COLOR",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "alias": true,
+          "id": "VariableID:1:322"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:516",
+      "name": "font/font-sans",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "string": "Geist"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:517",
+      "name": "font/font-serif",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "string": "Georgia"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:518",
+      "name": "font/font-mono",
+      "resolvedType": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "string": "Geist Mono"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:521",
+      "name": "radius/sm",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 6
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:522",
+      "name": "radius/xs",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:523",
+      "name": "radius/lg",
+      "resolvedType": "FLOAT",
+      "scopes": [],
+      "valuesByMode": {
+        "Default": {
+          "number": 10
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:217:3901",
+      "name": "text/xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 20
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:217:3902",
+      "name": "text/xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 28
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:217:3903",
+      "name": "text/2xl/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 24
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:217:3904",
+      "name": "text/2xl/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 32
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:22:11",
+      "name": "text/sm/font-size",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 14
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:22:12",
+      "name": "text/sm/line-height",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 20
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:412"
+    }
+  ],
+  "meta": {
+    "batchIndex": 5,
+    "category": "variables",
+    "firstStableId": "VariableID:17021:258167",
+    "hash": "c3d2ecc8312ac276e4467bdb3252e403215768e931a07c4af460a348db05602e",
+    "ids": [
+      "VariableID:17021:258167",
+      "VariableID:17021:258168",
+      "VariableID:17021:258169",
+      "VariableID:17021:258170",
+      "VariableID:17021:258171",
+      "VariableID:17021:258172",
+      "VariableID:17021:258173",
+      "VariableID:17021:258174",
+      "VariableID:17021:258175",
+      "VariableID:17021:258176",
+      "VariableID:17021:258177",
+      "VariableID:17021:258178",
+      "VariableID:17021:258179",
+      "VariableID:17021:258180",
+      "VariableID:17021:258181",
+      "VariableID:17021:258182",
+      "VariableID:17021:258183",
+      "VariableID:17021:258184",
+      "VariableID:17021:258185",
+      "VariableID:17021:258186",
+      "VariableID:17021:258187",
+      "VariableID:17021:258188",
+      "VariableID:17021:258189",
+      "VariableID:17021:258190",
+      "VariableID:17021:258191",
+      "VariableID:17021:258192",
+      "VariableID:17021:258193",
+      "VariableID:17021:258194",
+      "VariableID:17021:258195",
+      "VariableID:17021:258196",
+      "VariableID:17021:258197",
+      "VariableID:17021:258198",
+      "VariableID:17021:258199",
+      "VariableID:17021:258200",
+      "VariableID:17021:258201",
+      "VariableID:17021:258202",
+      "VariableID:17021:258203",
+      "VariableID:17021:258204",
+      "VariableID:17021:258205",
+      "VariableID:17021:258206",
+      "VariableID:17021:258207",
+      "VariableID:17021:258248",
+      "VariableID:17021:258249",
+      "VariableID:17021:258250",
+      "VariableID:17021:258251",
+      "VariableID:17021:258252",
+      "VariableID:17021:258258",
+      "VariableID:17021:258259",
+      "VariableID:17021:258260",
+      "VariableID:17021:258261",
+      "VariableID:17021:258262",
+      "VariableID:17021:258263",
+      "VariableID:17021:258264",
+      "VariableID:17021:258265",
+      "VariableID:17021:258266",
+      "VariableID:17021:258267",
+      "VariableID:17021:258268",
+      "VariableID:17021:258269",
+      "VariableID:17021:258270",
+      "VariableID:17021:258271",
+      "VariableID:17021:258272",
+      "VariableID:17021:258273",
+      "VariableID:17021:258274",
+      "VariableID:17021:258275",
+      "VariableID:17021:258276",
+      "VariableID:17021:258277",
+      "VariableID:17021:258278",
+      "VariableID:17021:258279",
+      "VariableID:17021:258280",
+      "VariableID:17021:258281",
+      "VariableID:17021:258282",
+      "VariableID:17021:258283",
+      "VariableID:17021:258284",
+      "VariableID:17021:258285",
+      "VariableID:17021:258286",
+      "VariableID:17021:258287",
+      "VariableID:17027:193969",
+      "VariableID:17027:194101",
+      "VariableID:17027:194102",
+      "VariableID:17027:4965",
+      "VariableID:17027:4966",
+      "VariableID:17027:4967",
+      "VariableID:17027:4968",
+      "VariableID:17027:4969",
+      "VariableID:17027:4970",
+      "VariableID:17027:4971",
+      "VariableID:17027:4972",
+      "VariableID:1:481",
+      "VariableID:1:516",
+      "VariableID:1:517",
+      "VariableID:1:518",
+      "VariableID:1:521",
+      "VariableID:1:522",
+      "VariableID:1:523",
+      "VariableID:217:3901",
+      "VariableID:217:3902",
+      "VariableID:217:3903",
+      "VariableID:217:3904",
+      "VariableID:22:11",
+      "VariableID:22:12"
+    ],
+    "lastStableId": "VariableID:22:12",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

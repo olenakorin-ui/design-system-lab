@@ -1,0 +1,237 @@
+{
+  "items": [
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 8,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:e4bf81cc0f4038fbcdc57da9f24a865320426ea5,",
+      "key": "e4bf81cc0f4038fbcdc57da9f24a865320426ea5",
+      "name": "backdrop-blur/sm",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 12,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:a0d09799fddb0d4dd46252760d621765b84fbaf5,",
+      "key": "a0d09799fddb0d4dd46252760d621765b84fbaf5",
+      "name": "backdrop-blur/md",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 16,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:27de6c0bf0acd65f7a9df03f6cc41b6282978cda,",
+      "key": "27de6c0bf0acd65f7a9df03f6cc41b6282978cda",
+      "name": "backdrop-blur/lg",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 24,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:185cc601ee58ee270c3e07201f83c118b6c162bd,",
+      "key": "185cc601ee58ee270c3e07201f83c118b6c162bd",
+      "name": "backdrop-blur/xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 40,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:53e6d6381bdb0476940437dc472682eb1db7d9b1,",
+      "key": "53e6d6381bdb0476940437dc472682eb1db7d9b1",
+      "name": "backdrop-blur/2xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "radius": 64,
+            "type": "BACKGROUND_BLUR",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:665db1cc087385bc783e6581f5a7c43cceed5b97,",
+      "key": "665db1cc087385bc783e6581f5a7c43cceed5b97",
+      "name": "backdrop-blur/3xl",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.5,
+              "b": 0.6392157077789307,
+              "g": 0.6392157077789307,
+              "r": 0.6392157077789307
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "radius": 0,
+            "showShadowBehindNode": false,
+            "spread": 3,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:310f460e4d0b3c3813ee600e63b3daedc3fadaa8,",
+      "key": "310f460e4d0b3c3813ee600e63b3daedc3fadaa8",
+      "name": "focus/default",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.20000000298023224,
+              "b": 0.14901961386203766,
+              "g": 0.14901961386203766,
+              "r": 0.8627451062202454
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "radius": 0,
+            "showShadowBehindNode": true,
+            "spread": 3,
+            "type": "DROP_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:8e02a86a5d96c99cd714076685f1132ed11c1a7e,",
+      "key": "8e02a86a5d96c99cd714076685f1132ed11c1a7e",
+      "name": "focus/destructive",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 1
+            },
+            "radius": 1,
+            "spread": 0,
+            "type": "INNER_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:f11405865557ce862a27d7ce3618611aa31e8d77,",
+      "key": "f11405865557ce862a27d7ce3618611aa31e8d77",
+      "name": "inset-shadow/xs",
+      "styleType": "EFFECT"
+    },
+    {
+      "description": "",
+      "details": {
+        "effects": [
+          {
+            "blendMode": "NORMAL",
+            "color": {
+              "a": 0.05000000074505806,
+              "b": 0,
+              "g": 0,
+              "r": 0
+            },
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "radius": 4,
+            "spread": 0,
+            "type": "INNER_SHADOW",
+            "visible": true
+          }
+        ]
+      },
+      "id": "S:8ceabe75537e6ff17a524c6be5617f3035c808a6,",
+      "key": "8ceabe75537e6ff17a524c6be5617f3035c808a6",
+      "name": "inset-shadow/sm",
+      "styleType": "EFFECT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 3,
+    "category": "effect-styles",
+    "firstStableId": "S:e4bf81cc0f4038fbcdc57da9f24a865320426ea5,",
+    "hash": "123098f1ba02d5d5c959bc81b5c6923547301fa81131420bf367cc889725927e",
+    "ids": [
+      "S:e4bf81cc0f4038fbcdc57da9f24a865320426ea5,",
+      "S:a0d09799fddb0d4dd46252760d621765b84fbaf5,",
+      "S:27de6c0bf0acd65f7a9df03f6cc41b6282978cda,",
+      "S:185cc601ee58ee270c3e07201f83c118b6c162bd,",
+      "S:53e6d6381bdb0476940437dc472682eb1db7d9b1,",
+      "S:665db1cc087385bc783e6581f5a7c43cceed5b97,",
+      "S:310f460e4d0b3c3813ee600e63b3daedc3fadaa8,",
+      "S:8e02a86a5d96c99cd714076685f1132ed11c1a7e,",
+      "S:f11405865557ce862a27d7ce3618611aa31e8d77,",
+      "S:8ceabe75537e6ff17a524c6be5617f3035c808a6,"
+    ],
+    "lastStableId": "S:8ceabe75537e6ff17a524c6be5617f3035c808a6,",
+    "receivedCount": 10,
+    "requestedCount": 10,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

@@ -1,0 +1,46 @@
+const INV = ["S:8555dd1b560282a4bc5f3907c3c28f4c53c28c03,", "S:4f70b86e24a2850c2345123c32288a3fd2658eb7,", "S:7c9d68a2405b0c1e54f65d4cf9453b69402efbfb,", "S:18da85ae4532c15e17a6ba9d4a3dfb8bb981025a,", "S:7a0ada631e9482a3268958df3a141ea86b635cfc,", "S:c0360ef8cdf6e347e2283068bf89f3a6cbb8f043,", "S:bcd4f5afb73a02eba469459548ac1e727aec3c48,", "S:2a990d74c228d1ecf35b8d5fac53e41d8f7b738d,", "S:6f039d4281d3dd0d0f6fc0c5eb5f6a48062bdd07,", "S:e23a225d564d2769ea491f375f44155010183cd5,", "S:f613dd7f6b2dc0ad00c4c36903818c7c1f0dd9b3,", "S:9c0fef6105117a92fa95cf51e040d8c1dd34218d,", "S:273b5881f90c77faed92e269f2217787fe522bdc,", "S:6e99d63b2bf12166e9f9a62e54ff718342a3b1e5,", "S:33f585c1495721311693ea9ad649d0e7f8f1c6ad,", "S:fcf551b5c04c5f50f5b0c811a95187d5db90ba1b,", "S:a94f15d5e6d113de68620634ee532d7cf7268eee,", "S:5981f291fc7aab18f06b3024e748cce14241d523,", "S:2df35b9eef89ab66b49099c589a47106f46a0d08,", "S:03cc62331d30f0aa57fb5781e304d13f0383aece,", "S:4cd30cd6d3314f04a0d3eb5a5ce5cd6082020e25,", "S:d285b38d8e89ee3ef5854f14a5bb43e508d0f250,", "S:e4f72a5c644d198cf4bc4770d0c9ce68c90a5063,", "S:86370a216f790e1d1da76f813dda77ccdd7a6254,", "S:d9bbb4e6fae33228aa081e7fc554ccb1d741945d,"];
+const start = 0;
+const requested = 25;
+const ids = INV.slice(0, requested);
+const styles = await figma.getLocalTextStylesAsync();
+const byId = Object.fromEntries(styles.map((s) => [s.id, s]));
+
+const packText = (s) => ({
+  id: s.id,
+  key: s.key,
+  name: s.name,
+  description: s.description || '',
+  styleType: 'TEXT',
+  details: {
+    fontSize: s.fontSize,
+    fontName: s.fontName,
+    lineHeight: s.lineHeight,
+    letterSpacing: s.letterSpacing,
+    textCase: s.textCase,
+    textDecoration: s.textDecoration,
+    paragraphSpacing: s.paragraphSpacing,
+    paragraphIndent: s.paragraphIndent,
+  },
+});
+
+const items = ids.map((id) => {
+  const s = byId[id];
+  if (!s) throw new Error('missing ' + id);
+  return packText(s);
+});
+const json = JSON.stringify(items);
+
+const b64 = btoa(unescape(encodeURIComponent(json)));
+const SLICE_SIZE = 8000;
+const partIndex = 0;
+const totalParts = Math.ceil(b64.length / SLICE_SIZE) || 1;
+return {
+  start,
+  end: start + items.length,
+  count: items.length,
+  total: 309,
+  partIndex,
+  totalParts,
+  expectedB64Len: b64.length,
+  slice: b64.slice(partIndex * SLICE_SIZE, (partIndex + 1) * SLICE_SIZE),
+};

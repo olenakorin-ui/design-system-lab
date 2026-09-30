@@ -1,0 +1,817 @@
+{
+  "items": [
+    {
+      "description": "",
+      "id": "5197:3583",
+      "name": "Icon / MessageCircleMore",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3584",
+      "name": "Icon / MessageCircleHeart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3585",
+      "name": "Icon / MessageCircleDashed",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3586",
+      "name": "Icon / MessageCircleCode",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3587",
+      "name": "Icon / Merge",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3588",
+      "name": "Icon / Menu",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3589",
+      "name": "Icon / MemoryStick",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3590",
+      "name": "Icon / Meh",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3591",
+      "name": "Icon / Megaphone",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3592",
+      "name": "Icon / MegaphoneOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3593",
+      "name": "Icon / Medal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3594",
+      "name": "Icon / Maximize",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3595",
+      "name": "Icon / Maximize2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3596",
+      "name": "Icon / Martini",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3597",
+      "name": "Icon / Map",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3598",
+      "name": "Icon / MapPinned",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3599",
+      "name": "Icon / MapPin",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3600",
+      "name": "Icon / MapPinOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3601",
+      "name": "Icon / Mails",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3602",
+      "name": "Icon / Mailbox",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3603",
+      "name": "Icon / Mail",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3604",
+      "name": "Icon / MailX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3605",
+      "name": "Icon / MailWarning",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3606",
+      "name": "Icon / MailSearch",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3607",
+      "name": "Icon / MailQuestion",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3608",
+      "name": "Icon / MailPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3609",
+      "name": "Icon / MailOpen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3610",
+      "name": "Icon / MailMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3611",
+      "name": "Icon / MailCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3612",
+      "name": "Icon / Magnet",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3613",
+      "name": "Icon / Luggage",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3614",
+      "name": "Icon / Lollipop",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3615",
+      "name": "Icon / LogOut",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3616",
+      "name": "Icon / LogIn",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3617",
+      "name": "Icon / Lock",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3618",
+      "name": "Icon / LockOpen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3619",
+      "name": "Icon / LockKeyhole",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3620",
+      "name": "Icon / LockKeyholeOpen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3621",
+      "name": "Icon / Locate",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3622",
+      "name": "Icon / LocateOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3623",
+      "name": "Icon / LocateFixed",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3624",
+      "name": "Icon / Loader",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3625",
+      "name": "Icon / LoaderPinwheel",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3626",
+      "name": "Icon / LoaderCircle",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3627",
+      "name": "Icon / List",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3628",
+      "name": "Icon / ListX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3629",
+      "name": "Icon / ListVideo",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3630",
+      "name": "Icon / ListTree",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3631",
+      "name": "Icon / ListTodo",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3632",
+      "name": "Icon / ListStart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3633",
+      "name": "Icon / ListRestart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3634",
+      "name": "Icon / ListPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3635",
+      "name": "Icon / ListOrdered",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3636",
+      "name": "Icon / ListMusic",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3637",
+      "name": "Icon / ListMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3638",
+      "name": "Icon / ListFilter",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3639",
+      "name": "Icon / ListEnd",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3640",
+      "name": "Icon / ListCollapse",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3641",
+      "name": "Icon / ListChecks",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3642",
+      "name": "Icon / Linkedin",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3643",
+      "name": "Icon / Link",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3644",
+      "name": "Icon / Link2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3645",
+      "name": "Icon / Link2Off",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3646",
+      "name": "Icon / LineChart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3647",
+      "name": "Icon / Lightbulb",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3648",
+      "name": "Icon / LightbulbOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3649",
+      "name": "Icon / Ligature",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3650",
+      "name": "Icon / LifeBuoy",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3651",
+      "name": "Icon / Library",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3652",
+      "name": "Icon / LibraryBig",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3653",
+      "name": "Icon / Lectern",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3654",
+      "name": "Icon / LeafyGreen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3655",
+      "name": "Icon / Leaf",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3656",
+      "name": "Icon / LayoutTemplate",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3657",
+      "name": "Icon / BarChart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3658",
+      "name": "Icon / LayoutPanelTop",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3659",
+      "name": "Icon / BarChartHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3660",
+      "name": "Icon / LayoutPanelLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3661",
+      "name": "Icon / LayoutList",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3662",
+      "name": "Icon / LayoutGrid",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3663",
+      "name": "Icon / BarChart4",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3664",
+      "name": "Icon / LayoutDashboard",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3665",
+      "name": "Icon / BarChart3",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3666",
+      "name": "Icon / Layers",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3667",
+      "name": "Icon / Baseline",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3668",
+      "name": "Icon / Layers3",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3669",
+      "name": "Icon / Barcode",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3670",
+      "name": "Icon / Layers2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3671",
+      "name": "Icon / GitCommitHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3672",
+      "name": "Icon / GitBranch",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3673",
+      "name": "Icon / GitBranchPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3674",
+      "name": "Icon / Gift",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3675",
+      "name": "Icon / Ghost",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3676",
+      "name": "Icon / Gem",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3677",
+      "name": "Icon / Gavel",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3678",
+      "name": "Icon / Gauge",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3679",
+      "name": "Icon / GanttChart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3680",
+      "name": "Icon / Gamepad",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3681",
+      "name": "Icon / Gamepad2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3682",
+      "name": "Icon / GalleryVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 6,
+    "category": "icons",
+    "firstStableId": "5197:3583",
+    "hash": "2b9694517064c010028ec010668abbdb05cafff598e326e90a2f0628fde2c45d",
+    "ids": [
+      "5197:3583",
+      "5197:3584",
+      "5197:3585",
+      "5197:3586",
+      "5197:3587",
+      "5197:3588",
+      "5197:3589",
+      "5197:3590",
+      "5197:3591",
+      "5197:3592",
+      "5197:3593",
+      "5197:3594",
+      "5197:3595",
+      "5197:3596",
+      "5197:3597",
+      "5197:3598",
+      "5197:3599",
+      "5197:3600",
+      "5197:3601",
+      "5197:3602",
+      "5197:3603",
+      "5197:3604",
+      "5197:3605",
+      "5197:3606",
+      "5197:3607",
+      "5197:3608",
+      "5197:3609",
+      "5197:3610",
+      "5197:3611",
+      "5197:3612",
+      "5197:3613",
+      "5197:3614",
+      "5197:3615",
+      "5197:3616",
+      "5197:3617",
+      "5197:3618",
+      "5197:3619",
+      "5197:3620",
+      "5197:3621",
+      "5197:3622",
+      "5197:3623",
+      "5197:3624",
+      "5197:3625",
+      "5197:3626",
+      "5197:3627",
+      "5197:3628",
+      "5197:3629",
+      "5197:3630",
+      "5197:3631",
+      "5197:3632",
+      "5197:3633",
+      "5197:3634",
+      "5197:3635",
+      "5197:3636",
+      "5197:3637",
+      "5197:3638",
+      "5197:3639",
+      "5197:3640",
+      "5197:3641",
+      "5197:3642",
+      "5197:3643",
+      "5197:3644",
+      "5197:3645",
+      "5197:3646",
+      "5197:3647",
+      "5197:3648",
+      "5197:3649",
+      "5197:3650",
+      "5197:3651",
+      "5197:3652",
+      "5197:3653",
+      "5197:3654",
+      "5197:3655",
+      "5197:3656",
+      "5197:3657",
+      "5197:3658",
+      "5197:3659",
+      "5197:3660",
+      "5197:3661",
+      "5197:3662",
+      "5197:3663",
+      "5197:3664",
+      "5197:3665",
+      "5197:3666",
+      "5197:3667",
+      "5197:3668",
+      "5197:3669",
+      "5197:3670",
+      "5197:3671",
+      "5197:3672",
+      "5197:3673",
+      "5197:3674",
+      "5197:3675",
+      "5197:3676",
+      "5197:3677",
+      "5197:3678",
+      "5197:3679",
+      "5197:3680",
+      "5197:3681",
+      "5197:3682"
+    ],
+    "lastStableId": "5197:3682",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

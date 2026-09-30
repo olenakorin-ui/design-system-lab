@@ -1,0 +1,448 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Badge Text#26:6": {
+          "defaultValue": "8",
+          "type": "TEXT"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus"
+          ]
+        },
+        "Variant": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Secondary",
+            "Outline",
+            "Destructive"
+          ]
+        }
+      },
+      "defaultVariantId": "17100:10135",
+      "description": "",
+      "id": "17100:10130",
+      "key": "02fcf0aa54ed9ade6ae849e2d34e31150b0b33f4",
+      "name": "Badge Number",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10135",
+          "key": "06ccbc12c4f0451c585bcecb31acfb557709dbcb",
+          "name": "Variant=Default, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10141",
+          "key": "e55fe3007c6d667cff759f06de752ea6eace8af0",
+          "name": "Variant=Default, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10147",
+          "key": "385143ebd6c7be1921efd1c60c305dcef903fe37",
+          "name": "Variant=Secondary, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10153",
+          "key": "238075729ba83bbe1de853b507336ed250709130",
+          "name": "Variant=Outline, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10159",
+          "key": "5829fce93fb5361f87c264db0e050ad1a446b0b2",
+          "name": "Variant=Destructive, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10165",
+          "key": "9aafb5282939f75c09d3192a30b475adec6390dc",
+          "name": "Variant=Destructive, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10173",
+          "key": "7fd7f1a1f145531938bc019f2137198585f53216",
+          "name": "Variant=Default, State=Focus"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10183",
+          "key": "d5f756c6dd3db4feb179f2f36d8d1b12465e785b",
+          "name": "Variant=Secondary, State=Focus"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10193",
+          "key": "86c9b5d00ec92c7c3167362dc4d8527aa58cf60d",
+          "name": "Variant=Outline, State=Focus"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:10203",
+          "key": "d068922006b306f01e8db60a780a4a8a366c4651",
+          "name": "Variant=Destructive, State=Focus"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Fallback Text#17100:44": {
+          "defaultValue": "CN",
+          "type": "TEXT"
+        },
+        "Size": {
+          "defaultValue": "12",
+          "type": "VARIANT",
+          "variantOptions": [
+            "12",
+            "10",
+            "8",
+            "6",
+            "5"
+          ]
+        },
+        "Type": {
+          "defaultValue": "Image",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Image",
+            "Fallback"
+          ]
+        }
+      },
+      "defaultVariantId": "23:994",
+      "description": "",
+      "id": "17100:29935",
+      "key": "6ca6cbd55ad928659e26b50abfef3292e4697fa2",
+      "name": "Avatar",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "23:994",
+          "key": "9fd01f7384b8ca7d12bd5ec752982a34696a7f2e",
+          "name": "Type=Image, Size=12"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17378:86686",
+          "key": "9e1151674ea3d6136c84d81372d8a36249399d5c",
+          "name": "Type=Image, Size=10"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17378:86689",
+          "key": "057675b96d35c81bda7bd8f2e079ce5ede5b5a6d",
+          "name": "Type=Image, Size=8"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199111",
+          "key": "437b4fb0ea050056caaa9e8c79ddc119607d6aa8",
+          "name": "Type=Image, Size=6"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199115",
+          "key": "ca51d9d02143c236e1156c5f56336fafb2102cc2",
+          "name": "Type=Image, Size=5"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17100:83054",
+          "key": "ea87200b307d61b3ce43183db0a44bd9bc0f06f8",
+          "name": "Type=Fallback, Size=12"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17378:86687",
+          "key": "20438279f5a67c330e2312076a9375dea1c272af",
+          "name": "Type=Fallback, Size=10"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17378:86690",
+          "key": "eb8ae16c0dcc1d70b1fb848c09764511887e517d",
+          "name": "Type=Fallback, Size=8"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199112",
+          "key": "08a7495404b868f836b3ed97d6923cd4fb11e6e4",
+          "name": "Type=Fallback, Size=6"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199118",
+          "key": "8f69ea70cb1ef957deedefdc55d50be1b9873607",
+          "name": "Type=Fallback, Size=5"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Side": {
+          "defaultValue": "Top",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Top",
+            "Bottom",
+            "Left",
+            "Right"
+          ]
+        },
+        "Tooltip Text#17103:0": {
+          "defaultValue": "This is a tooltip",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "122:13",
+      "description": "",
+      "id": "17103:809",
+      "key": "282235912528b31a27c76e997dc3cc25f14e97ca",
+      "name": "Tooltip",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "122:13",
+          "key": "842518c8c57c5b5e1d5332e91e546d5324008d48",
+          "name": "Side=Top"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17103:810",
+          "key": "eb3ca201dc8bbf38001fcededb5b0ed0e0a58b88",
+          "name": "Side=Bottom"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17103:817",
+          "key": "d33bd6182e14e16c003ce2939cd1d5e8a6fabff2",
+          "name": "Side=Left"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17103:820",
+          "key": "e3cbb26d3865d175f773498f665d72c91f34676a",
+          "name": "Side=Right"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Mobile": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        },
+        "Show Next Button#17179:1": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Show Previous Button#17179:2": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Type": {
+          "defaultValue": "Basic",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Month and Year Selector",
+            "Basic",
+            "Range Calendar",
+            "Range Calendar - 3 columns",
+            "Persian"
+          ]
+        }
+      },
+      "defaultVariantId": "17921:45929",
+      "description": "",
+      "id": "17179:197284",
+      "key": "f9404311a93b66690e07a329bde0f8cb3724dff2",
+      "name": "Calendar / Basic",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "236:205",
+          "key": "e5fdb92b9f0742e84bab01586672d8c807492e7e",
+          "name": "Type=Month and Year Selector, Mobile=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17921:45929",
+          "key": "46a4ead9751cf917061f6138d7b3413df7a70987",
+          "name": "Type=Basic, Mobile=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "18419:179245",
+          "key": "5db1e07376fb3912b281650668342568377bb63e",
+          "name": "Type=Persian, Mobile=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17179:197385",
+          "key": "544c5793fa6790b958c1280eac336d987a93d752",
+          "name": "Type=Range Calendar, Mobile=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17179:197386",
+          "key": "8e0aab8804b989334c1c2ec69263d6fd3c781f23",
+          "name": "Type=Range Calendar - 3 columns, Mobile=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "18385:216760",
+          "key": "8a5785ecf1727d1a1a9ab244e8f56dcea65d9118",
+          "name": "Type=Range Calendar, Mobile=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "18385:216868",
+          "key": "e8333c8d283d042a4e0a6056d8fdecef5bc08272",
+          "name": "Type=Range Calendar - 3 columns, Mobile=Yes"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Item 3#17375:27": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Item 4#17375:21": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Item 5#17375:15": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Item 6#17375:9": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Type": {
+          "defaultValue": "List",
+          "type": "VARIANT",
+          "variantOptions": [
+            "List",
+            "2 Column List",
+            "Simple List",
+            "Simple List with Icon",
+            "Custom"
+          ]
+        }
+      },
+      "defaultVariantId": "17375:179950",
+      "description": "",
+      "id": "17375:179953",
+      "key": "159b9de1873a683adc9a81313db3f2f0453e4d1c",
+      "name": "NavigationMenu / Popover",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179950",
+          "key": "9113ff335b590dbad2343b3ebc157bd80c39e7d5",
+          "name": "Type=List"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179952",
+          "key": "645a26601ecd636dd0295367942ad0fa6765c8be",
+          "name": "Type=2 Column List"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179949",
+          "key": "1cab84d5dc06f46846a25677a2bf706c96ca2428",
+          "name": "Type=Simple List"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179948",
+          "key": "824e257396f5b4d07efd7f32f4b043406a8d9ae9",
+          "name": "Type=Simple List with Icon"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179951",
+          "key": "80eca67c980258cba33ca03e47890b7bedc8c98e",
+          "name": "Type=Custom"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2004,
+    "category": "component-sets",
+    "firstStableId": "17100:10130",
+    "hash": "4232473c10409ebf0531c170f400625ec649e2a1a7365dad6d0f2919fcca7b8a",
+    "ids": [
+      "17100:10130",
+      "17100:29935",
+      "17103:809",
+      "17179:197284",
+      "17375:179953"
+    ],
+    "lastStableId": "17375:179953",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

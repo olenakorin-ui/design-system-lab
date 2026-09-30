@@ -1,0 +1,817 @@
+{
+  "items": [
+    {
+      "description": "",
+      "id": "5197:3683",
+      "name": "Icon / GalleryVerticalEnd",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3684",
+      "name": "Icon / GalleryThumbnails",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3685",
+      "name": "Icon / GalleryHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3686",
+      "name": "Icon / GalleryHorizontalEnd",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3687",
+      "name": "Icon / Fullscreen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3688",
+      "name": "Icon / Fuel",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3689",
+      "name": "Icon / Frown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3690",
+      "name": "Icon / Framer",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3691",
+      "name": "Icon / Frame",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3692",
+      "name": "Icon / Forward",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3693",
+      "name": "Icon / Forklift",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3694",
+      "name": "Icon / Footprints",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3695",
+      "name": "Icon / Folders",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3696",
+      "name": "Icon / Folder",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3697",
+      "name": "Icon / FolderX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3698",
+      "name": "Icon / FolderUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3699",
+      "name": "Icon / FolderTree",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3700",
+      "name": "Icon / FolderSync",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3701",
+      "name": "Icon / FolderSymlink",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3702",
+      "name": "Icon / FolderSearch",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3703",
+      "name": "Icon / FolderSearch2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3704",
+      "name": "Icon / FolderRoot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3705",
+      "name": "Icon / FolderPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3706",
+      "name": "Icon / FolderPen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3707",
+      "name": "Icon / FolderOutput",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3708",
+      "name": "Icon / FolderOpen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3709",
+      "name": "Icon / FolderOpenDot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3710",
+      "name": "Icon / FolderMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3711",
+      "name": "Icon / FolderLock",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3712",
+      "name": "Icon / FolderKey",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3713",
+      "name": "Icon / FolderKanban",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3714",
+      "name": "Icon / FolderInput",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3715",
+      "name": "Icon / FolderHeart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3716",
+      "name": "Icon / FolderGit",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3717",
+      "name": "Icon / FolderGit2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3718",
+      "name": "Icon / FolderDown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3719",
+      "name": "Icon / FolderDot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3720",
+      "name": "Icon / FolderCog",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3721",
+      "name": "Icon / FolderClosed",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3722",
+      "name": "Icon / FolderClock",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3723",
+      "name": "Icon / FolderCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3724",
+      "name": "Icon / FolderArchive",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3725",
+      "name": "Icon / FoldVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3726",
+      "name": "Icon / FoldHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3727",
+      "name": "Icon / Focus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3728",
+      "name": "Icon / Flower",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3729",
+      "name": "Icon / Flower2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3730",
+      "name": "Icon / FlipVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3731",
+      "name": "Icon / FlipVertical2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3732",
+      "name": "Icon / FlipHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3733",
+      "name": "Icon / FlipHorizontal2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3734",
+      "name": "Icon / FlaskRound",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3735",
+      "name": "Icon / FlaskConical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3736",
+      "name": "Icon / FlaskConicalOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3737",
+      "name": "Icon / Flashlight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3738",
+      "name": "Icon / FlashlightOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3739",
+      "name": "Icon / Flame",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3740",
+      "name": "Icon / FlameKindling",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3741",
+      "name": "Icon / Flag",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3742",
+      "name": "Icon / FlagTriangleRight",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3743",
+      "name": "Icon / FlagTriangleLeft",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3744",
+      "name": "Icon / FlagOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3745",
+      "name": "Icon / Fish",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3746",
+      "name": "Icon / FishSymbol",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3747",
+      "name": "Icon / FishOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3748",
+      "name": "Icon / FireExtinguisher",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3749",
+      "name": "Icon / Fingerprint",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3750",
+      "name": "Icon / Filter",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3751",
+      "name": "Icon / FilterX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3752",
+      "name": "Icon / Film",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3753",
+      "name": "Icon / Files",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3754",
+      "name": "Icon / File",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3755",
+      "name": "Icon / FileX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3756",
+      "name": "Icon / FileX2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3757",
+      "name": "Icon / FileWarning",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3758",
+      "name": "Icon / FileVolume",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3759",
+      "name": "Icon / FileVolume2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3760",
+      "name": "Icon / FileVideo",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3761",
+      "name": "Icon / FileVideo2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3762",
+      "name": "Icon / FileUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3763",
+      "name": "Icon / FileType",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3764",
+      "name": "Icon / FileType2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3765",
+      "name": "Icon / FileText",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3766",
+      "name": "Icon / FileTerminal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3767",
+      "name": "Icon / FileSymlink",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3768",
+      "name": "Icon / FileStack",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3769",
+      "name": "Icon / FileSpreadsheet",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3770",
+      "name": "Icon / FileSliders",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3771",
+      "name": "Icon / FileSearch",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3772",
+      "name": "Icon / FileSearch2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3773",
+      "name": "Icon / FileScan",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3774",
+      "name": "Icon / FileQuestion",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3775",
+      "name": "Icon / FilePlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3776",
+      "name": "Icon / FilePlus2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3777",
+      "name": "Icon / FilePieChart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3778",
+      "name": "Icon / FilePen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3779",
+      "name": "Icon / FilePenLine",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3780",
+      "name": "Icon / FileOutput",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3781",
+      "name": "Icon / FileMusic",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:3782",
+      "name": "Icon / FileMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 7,
+    "category": "icons",
+    "firstStableId": "5197:3683",
+    "hash": "81e460b82cd571942e976941b2d080569077095a811bc596dca8048f0c8e0140",
+    "ids": [
+      "5197:3683",
+      "5197:3684",
+      "5197:3685",
+      "5197:3686",
+      "5197:3687",
+      "5197:3688",
+      "5197:3689",
+      "5197:3690",
+      "5197:3691",
+      "5197:3692",
+      "5197:3693",
+      "5197:3694",
+      "5197:3695",
+      "5197:3696",
+      "5197:3697",
+      "5197:3698",
+      "5197:3699",
+      "5197:3700",
+      "5197:3701",
+      "5197:3702",
+      "5197:3703",
+      "5197:3704",
+      "5197:3705",
+      "5197:3706",
+      "5197:3707",
+      "5197:3708",
+      "5197:3709",
+      "5197:3710",
+      "5197:3711",
+      "5197:3712",
+      "5197:3713",
+      "5197:3714",
+      "5197:3715",
+      "5197:3716",
+      "5197:3717",
+      "5197:3718",
+      "5197:3719",
+      "5197:3720",
+      "5197:3721",
+      "5197:3722",
+      "5197:3723",
+      "5197:3724",
+      "5197:3725",
+      "5197:3726",
+      "5197:3727",
+      "5197:3728",
+      "5197:3729",
+      "5197:3730",
+      "5197:3731",
+      "5197:3732",
+      "5197:3733",
+      "5197:3734",
+      "5197:3735",
+      "5197:3736",
+      "5197:3737",
+      "5197:3738",
+      "5197:3739",
+      "5197:3740",
+      "5197:3741",
+      "5197:3742",
+      "5197:3743",
+      "5197:3744",
+      "5197:3745",
+      "5197:3746",
+      "5197:3747",
+      "5197:3748",
+      "5197:3749",
+      "5197:3750",
+      "5197:3751",
+      "5197:3752",
+      "5197:3753",
+      "5197:3754",
+      "5197:3755",
+      "5197:3756",
+      "5197:3757",
+      "5197:3758",
+      "5197:3759",
+      "5197:3760",
+      "5197:3761",
+      "5197:3762",
+      "5197:3763",
+      "5197:3764",
+      "5197:3765",
+      "5197:3766",
+      "5197:3767",
+      "5197:3768",
+      "5197:3769",
+      "5197:3770",
+      "5197:3771",
+      "5197:3772",
+      "5197:3773",
+      "5197:3774",
+      "5197:3775",
+      "5197:3776",
+      "5197:3777",
+      "5197:3778",
+      "5197:3779",
+      "5197:3780",
+      "5197:3781",
+      "5197:3782"
+    ],
+    "lastStableId": "5197:3782",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

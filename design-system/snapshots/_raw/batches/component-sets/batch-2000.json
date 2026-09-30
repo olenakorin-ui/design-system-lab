@@ -1,0 +1,192 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:183166",
+      "description": "",
+      "id": "17014:183165",
+      "key": "5042c6ab75b6559ed06548940cae88fa709d23fb",
+      "name": "Pro Blocks / Stats Section / 6.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183166",
+          "key": "36c8be8643b2422b0007657aef64816df678bdae",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183178",
+          "key": "ee24ce3c81992d114399e7bbe34657244da05036",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:183191",
+      "description": "",
+      "id": "17014:183190",
+      "key": "409b74d16569be9a22185d48e190b2b95f33d7a7",
+      "name": "Pro Blocks / Stats Section / 5.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183191",
+          "key": "9d2c70d8e246aa10c366946572646bdbb2afc8a6",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183208",
+          "key": "15e6abde296f6d1f822bcd1b23b34d8a67900fbc",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:183225",
+      "description": "",
+      "id": "17014:183224",
+      "key": "c8a3454a2c1d191628bd3ebb0a5d37e94604c1ad",
+      "name": "Pro Blocks / Rich Text Section / 1.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183225",
+          "key": "d44b91f638b4772ccd3d7c6c1c5480d5009bab60",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183242",
+          "key": "d51ddcd46c33e9b854c0e989aa4b4c96151196bd",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:183260",
+      "description": "",
+      "id": "17014:183259",
+      "key": "33acf4b9ef0c92c2f918e48754816552181425ba",
+      "name": "Pro Blocks / Rich Text Section / 2.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183260",
+          "key": "e1d87776e074dd061266c7ff977b8e6b20cba868",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183277",
+          "key": "af6bf89d81f2a2b273875b0fb6aa7ea275a80a9f",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17014:183295",
+      "description": "",
+      "id": "17014:183294",
+      "key": "3e7ca9661b3f039b6d006cc32979aea1bec9f74b",
+      "name": "Pro Blocks / Rich Text Section / 3.",
+      "page": "Pro Blocks (Landing Page) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183295",
+          "key": "091960d1ba4e8b69b0968e02233cfab3f4b8d613",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17014:183320",
+          "key": "b90a028f75ea2dca66412e25cb15307d4329442f",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2000,
+    "category": "component-sets",
+    "firstStableId": "17014:183165",
+    "hash": "654f64fed7878927ea4f6b14e90174f59512ddb88c2742449de83b3fe9afdcf0",
+    "ids": [
+      "17014:183165",
+      "17014:183190",
+      "17014:183224",
+      "17014:183259",
+      "17014:183294"
+    ],
+    "lastStableId": "17014:183294",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

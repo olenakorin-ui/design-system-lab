@@ -1,0 +1,342 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Even": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Variant": {
+          "defaultValue": "Cell",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Head",
+            "Cell"
+          ]
+        }
+      },
+      "defaultVariantId": "468:6578",
+      "description": "",
+      "id": "468:6579",
+      "key": "f44d01af87fce8aadd8e3796cce923307158cc54",
+      "name": "Typography / Table / Item",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "468:6578",
+          "key": "a7b9d86573d46d807c5df8607a5a045e9e94b716",
+          "name": "Variant=Cell, Even=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "468:6584",
+          "key": "f47c82fda6a0f728395d0cb395c087921c3bf85a",
+          "name": "Variant=Cell, Even=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "468:6577",
+          "key": "26808cedc52cb8423ce98a89d8dd1657cff2a612",
+          "name": "Variant=Head, Even=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "468:6586",
+          "key": "b4caadd13105b20be8164af6e51cb8517434870a",
+          "name": "Variant=Head, Even=Yes"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Icon#488:0": {
+          "defaultValue": "5197:3073",
+          "type": "INSTANCE_SWAP"
+        },
+        "State": {
+          "defaultValue": "Current",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focused",
+            "Current"
+          ]
+        }
+      },
+      "defaultVariantId": "488:2763",
+      "description": "",
+      "id": "488:2764",
+      "key": "5ffd338b8ddb5007f05904210f1eb7fde7dbe481",
+      "name": "Blocks / Nav / Nav Item / 1.",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "488:2763",
+          "key": "1f2c0a7bcb1e8acfa6ca8cf647f376f853ef08c5",
+          "name": "State=Current"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "488:2762",
+          "key": "05e6c1988dcfac7eb7265d221d80239229e0599e",
+          "name": "State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "488:2765",
+          "key": "9e0569849e7d50030944cf8e2dfa51d12e7dfc52",
+          "name": "State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "488:2761",
+          "key": "ba440013c94792427048e0f9b8b3a9697febe85b",
+          "name": "State=Focused"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Direction": {
+          "defaultValue": "Horizontal",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Horizontal",
+            "Vertical"
+          ]
+        },
+        "Icon#511:116": {
+          "defaultValue": "5197:4236",
+          "type": "INSTANCE_SWAP"
+        },
+        "Menu Text#505:73": {
+          "defaultValue": "Menu Item Text",
+          "type": "TEXT"
+        },
+        "Show Icon": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Yes",
+            "No"
+          ]
+        },
+        "State": {
+          "defaultValue": "Current",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Current"
+          ]
+        }
+      },
+      "defaultVariantId": "505:95794",
+      "description": "",
+      "id": "505:95795",
+      "key": "54db81336ce4f7452b6193044b4a829f6942aec8",
+      "name": "Blocks / Menu Item",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "505:95794",
+          "key": "c80f30ac0e4a72eb9477b513dd9dc520570f4f85",
+          "name": "State=Current, Direction=Horizontal, Show Icon=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:103627",
+          "key": "6be63803405ea232c2c67fb5e96b45340da0224b",
+          "name": "State=Current, Direction=Vertical, Show Icon=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:104069",
+          "key": "5a08ae50f6de61b05c2adcef49b95e759dbb050b",
+          "name": "State=Current, Direction=Vertical, Show Icon=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:103629",
+          "key": "b33022016e39d63d39b361a9db18a55ae4c5b72e",
+          "name": "State=Hover, Direction=Vertical, Show Icon=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "505:95793",
+          "key": "5db61ab85a8812431f41b635a4efd7edbeaac3db",
+          "name": "State=Hover, Direction=Horizontal, Show Icon=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:103631",
+          "key": "a0ab632801e0c88313a3bc17b0e1df4ed74d920a",
+          "name": "State=Default, Direction=Vertical, Show Icon=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:104072",
+          "key": "cb45bbcd4a864ccc83e4a5aefcda303aaa3d8318",
+          "name": "State=Hover, Direction=Vertical, Show Icon=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "505:95792",
+          "key": "8c24577a160c8b622790e2cf8f4147c8fb4ec572",
+          "name": "State=Default, Direction=Horizontal, Show Icon=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "511:104075",
+          "key": "5d9852ffb27d6d7ed9965c7f3be90c5b64fc2156",
+          "name": "State=Default, Direction=Vertical, Show Icon=No"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Open": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        },
+        "Type": {
+          "defaultValue": "1",
+          "type": "VARIANT",
+          "variantOptions": [
+            "1",
+            "2"
+          ]
+        }
+      },
+      "defaultVariantId": "505:98966",
+      "description": "",
+      "id": "505:98965",
+      "key": "4f9942e888ddb24e7334a0b82c84437dc98cbaa7",
+      "name": "Blocks / Menu / Mobile",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "505:98966",
+          "key": "2a7a45f27beed7fa20360f369b74689e19e085ac",
+          "name": "Open=No, Type=1"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "514:105253",
+          "key": "2e7f123bc6e1f74104a4b719e16c7c6eb7bf4d65",
+          "name": "Open=No, Type=2"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "505:99022",
+          "key": "d46072d04db20661d20c8a31b81f887446e00bd8",
+          "name": "Open=Yes, Type=1"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "514:105383",
+          "key": "d061ecffbd57961598dc098f7184e1a130ff39ba",
+          "name": "Open=Yes, Type=2"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Icon#488:0": {
+          "defaultValue": "5197:3073",
+          "type": "INSTANCE_SWAP"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Current",
+            "Hover",
+            "Default"
+          ]
+        }
+      },
+      "defaultVariantId": "507:100636",
+      "description": "",
+      "id": "507:100631",
+      "key": "0cf82e68b28b6f3466bf516b3cb47ef03fd41db2",
+      "name": "Blocks / Nav / Nav Item / 2.",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "507:100636",
+          "key": "28fb450d43974cf3f4daf9bbe7ae83e3a90f9d47",
+          "name": "State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "507:100638",
+          "key": "a22b3469db500d011858ffc369da017918e45f4d",
+          "name": "State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "507:100692",
+          "key": "b0abaae03945c91e6afa67fa06438bda5f1efd76",
+          "name": "State=Current"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2,
+    "category": "component-sets",
+    "firstStableId": "468:6579",
+    "hash": "0a389b1f94e4f7c67fdc25c6f30a42f5202c8fef027339182a7e6fad1d513043",
+    "ids": [
+      "468:6579",
+      "488:2764",
+      "505:95795",
+      "505:98965",
+      "507:100631"
+    ],
+    "lastStableId": "507:100631",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

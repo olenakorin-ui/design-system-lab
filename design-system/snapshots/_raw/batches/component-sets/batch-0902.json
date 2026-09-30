@@ -1,0 +1,484 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Breadcrumb 1#196:9": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Breadcrumb 2#196:0": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Breadcrumb 3#196:3": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Breadcrumb 4#196:6": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Breadcrumb 5#196:12": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Separator#109:13": {
+          "defaultValue": "5197:4021",
+          "type": "INSTANCE_SWAP"
+        },
+        "Size": {
+          "defaultValue": "md",
+          "type": "VARIANT",
+          "variantOptions": [
+            "md",
+            "sm"
+          ]
+        }
+      },
+      "defaultVariantId": "109:946",
+      "description": "",
+      "id": "109:947",
+      "key": "c4d78bb0244c51cd103757a9ad48401a1be67b38",
+      "name": "Breadcrumb",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "109:946",
+          "key": "cb44aef30f0e412821486bb46aa9228e6c76d090",
+          "name": "Size=md"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "109:945",
+          "key": "6750577fa4397d3f84febf07f937384d96be85a2",
+          "name": "Size=sm"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Active": {
+          "defaultValue": "Yes",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11002:8767",
+      "description": "",
+      "id": "11002:8766",
+      "key": "51353737df513c5e1520d1d3286358f41a71213a",
+      "name": "Pro Blocks / Integration Card",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8767",
+          "key": "3c82cd7f3f99fac15e551a439c7c8460fda15b30",
+          "name": "Active=Yes, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8776",
+          "key": "0aa276ef24d68cfc5aa1f42a2ed4e941c94ec151",
+          "name": "Active=Yes, Breakpoint=Mobile"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8785",
+          "key": "02e6f5684b24817845ee04f0a82b6861133aaea6",
+          "name": "Active=No, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8794",
+          "key": "d51132246f72fed9f1a5eba8b0cb5e5fb3bf2238",
+          "name": "Active=No, Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Badge#3013:0": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        },
+        "Current": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        },
+        "Dropdown Icon#3013:23": {
+          "defaultValue": "5197:4026",
+          "type": "INSTANCE_SWAP"
+        },
+        "Dropdown#3013:5": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        },
+        "Text#3013:14": {
+          "defaultValue": "Dashboard",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "11002:8804",
+      "description": "",
+      "id": "11002:8803",
+      "key": "5aa685224ad1962a7fc035f2cf2f17510a4b0c08",
+      "name": "Pro Blocks / Navbar Link",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8804",
+          "key": "ab786796419cb6bed55f1e1dfd69f17f2a21d152",
+          "name": "State=Default, Current=No, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8808",
+          "key": "b6d7d8750e729606d71c00593b90f408c399c39e",
+          "name": "State=Hover, Current=No, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8812",
+          "key": "6cd3936bb0902e91c8e29cb0632b246820f19638",
+          "name": "State=Default, Current=Yes, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8816",
+          "key": "2159290891cb452e5b70061647f881d7bc1fbfb6",
+          "name": "State=Hover, Current=Yes, Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8820",
+          "key": "ef690f2a55ac926ca4c3e5c62d9ee0dfe193f468",
+          "name": "State=Hover, Current=Yes, Breakpoint=Mobile"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8824",
+          "key": "64a00481362115756ebc42ab89e274e2e18cb346",
+          "name": "State=Default, Current=No, Breakpoint=Mobile"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8828",
+          "key": "71fa9e4cbb7bb78e5f8a4c3d1a9b4a1c8df2e7c5",
+          "name": "State=Default, Current=Yes, Breakpoint=Mobile"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8832",
+          "key": "9ddde332b33fab9f26388ac05b2efec59717a139",
+          "name": "State=Hover, Current=No, Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Icon#3013:11": {
+          "defaultValue": "5197:3588",
+          "type": "INSTANCE_SWAP"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Pressed",
+            "Hover"
+          ]
+        },
+        "Variant": {
+          "defaultValue": "Ghost",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Ghost",
+            "Primary"
+          ]
+        }
+      },
+      "defaultVariantId": "11002:8837",
+      "description": "",
+      "id": "11002:8836",
+      "key": "2736a088ae001e82536d282f75eb91b5c6cdf685",
+      "name": "Pro Blocks / Navbar Icon Button",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8837",
+          "key": "39e4a3aea179749191377bb6ce8a517657cb1356",
+          "name": "State=Default, Variant=Ghost"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8839",
+          "key": "d2c0ea30043759ecc5e7c00cb1cc5b00692a5d16",
+          "name": "State=Hover, Variant=Ghost"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8841",
+          "key": "f426403fde55fcab20fdf206fa511fd28e9a0d11",
+          "name": "State=Pressed, Variant=Ghost"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8843",
+          "key": "702fdc854581d3b0541bfa113a9581d7366e149d",
+          "name": "State=Default, Variant=Primary"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8845",
+          "key": "c69a54383f0dbdf2dee7dacd48431433419621ad",
+          "name": "State=Hover, Variant=Primary"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8847",
+          "key": "484affa4310cb27323d6076b2da1724e8fe80156",
+          "name": "State=Pressed, Variant=Primary"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Current": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Disabled"
+          ]
+        },
+        "Text#3020:0": {
+          "defaultValue": "Nav link",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "11002:8880",
+      "description": "",
+      "id": "11002:8879",
+      "key": "9e7a465c930e73a49055f60dc79eccf723925be5",
+      "name": "Pro Blocks / Tab Nav Link",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8880",
+          "key": "f7893138907d306ed3c7ced5a1954b67a278ac78",
+          "name": "State=Default, Current=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8883",
+          "key": "4cbe3e028976b95f0e9e49242c31ca12610aa174",
+          "name": "State=Hover, Current=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8886",
+          "key": "cf9640615d6b326793c4b54ae645a35ef00c73eb",
+          "name": "State=Disabled, Current=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8889",
+          "key": "65391863303e38ee61bbefd824bf36b4fc4466fc",
+          "name": "State=Default, Current=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8892",
+          "key": "47594e5a80bf0e695f8030eec2e7bd6caac498b2",
+          "name": "State=Hover, Current=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8895",
+          "key": "1712573d370a4e857c500a3657fc086cc3907f6f",
+          "name": "State=Disabled, Current=Yes"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        },
+        "Button 2#3028:6": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "Description Text#3028:3": {
+          "defaultValue": "Read and write directly to databases and stores from your projects.",
+          "type": "TEXT"
+        },
+        "Icon#3028:9": {
+          "defaultValue": "5197:4202",
+          "type": "INSTANCE_SWAP"
+        },
+        "Title Text#3028:0": {
+          "defaultValue": "No databases added",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "11002:8899",
+      "description": "",
+      "id": "11002:8898",
+      "key": "ed8e8374bacd7c676b166b533c6f50b38610641e",
+      "name": "Pro Blocks / Empty Content",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8899",
+          "key": "85ee2af1ec1ec994656d55fa48092ea27a3ec547",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8908",
+          "key": "63029e92e41e269f89a8694f5924844458c12b21",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Current": {
+          "defaultValue": "Yes",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Yes",
+            "No"
+          ]
+        },
+        "Text#3028:12": {
+          "defaultValue": "Profile",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "11002:8918",
+      "description": "",
+      "id": "11002:8917",
+      "key": "0f7b07d230d28c15959f3a0c764f656d34b6b3e9",
+      "name": "Pro Blocks / Sidebar Link",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8918",
+          "key": "9aaff150613647b0a86a7ac1b2c7d3d6a989c770",
+          "name": "Current=Yes"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11002:8920",
+          "key": "b6c22647810787f5799a634e3694ac77706b414a",
+          "name": "Current=No"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 902,
+    "category": "component-sets",
+    "firstStableId": "109:947",
+    "hash": "9174f625fba4e3ce4c6eb5e13257879e1eb21e8e028c583e410777586a72bc3a",
+    "ids": [
+      "109:947",
+      "11002:8766",
+      "11002:8803",
+      "11002:8836",
+      "11002:8879",
+      "11002:8898",
+      "11002:8917"
+    ],
+    "lastStableId": "11002:8917",
+    "receivedCount": 7,
+    "requestedCount": 7,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

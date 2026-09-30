@@ -1,0 +1,817 @@
+{
+  "items": [
+    {
+      "description": "",
+      "id": "5197:4083",
+      "name": "Icon / BringToFront",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4084",
+      "name": "Icon / Briefcase",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4085",
+      "name": "Icon / BriefcaseMedical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4086",
+      "name": "Icon / BriefcaseBusiness",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4087",
+      "name": "Icon / BrickWall",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4088",
+      "name": "Icon / Brain",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4089",
+      "name": "Icon / BrainCog",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4090",
+      "name": "Icon / BrainCircuit",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4091",
+      "name": "Icon / Brackets",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4092",
+      "name": "Icon / Braces",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4093",
+      "name": "Icon / Boxes",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4094",
+      "name": "Icon / Box",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4095",
+      "name": "Icon / BoxSelect",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4096",
+      "name": "Icon / Bot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4097",
+      "name": "Icon / BotOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4098",
+      "name": "Icon / BotMessageSquare",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4099",
+      "name": "Icon / BoomBox",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4100",
+      "name": "Icon / Bookmark",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4101",
+      "name": "Icon / BookmarkX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4102",
+      "name": "Icon / BookmarkPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4103",
+      "name": "Icon / BookmarkMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4104",
+      "name": "Icon / BookmarkCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4105",
+      "name": "Icon / Book",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4106",
+      "name": "Icon / BookX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4107",
+      "name": "Icon / BookUser",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4108",
+      "name": "Icon / BookUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4109",
+      "name": "Icon / BookUp2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4110",
+      "name": "Icon / BookType",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4111",
+      "name": "Icon / BookText",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4112",
+      "name": "Icon / BookPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4113",
+      "name": "Icon / BookOpen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4114",
+      "name": "Icon / BookOpenText",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4115",
+      "name": "Icon / BookOpenCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4116",
+      "name": "Icon / BellOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4117",
+      "name": "Icon / BellMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4118",
+      "name": "Icon / BellElectric",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4119",
+      "name": "Icon / Beer",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4120",
+      "name": "Icon / BeerOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4121",
+      "name": "Icon / Beef",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4122",
+      "name": "Icon / Bed",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4123",
+      "name": "Icon / BedSingle",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4124",
+      "name": "Icon / BedDouble",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4125",
+      "name": "Icon / Bean",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4126",
+      "name": "Icon / BeanOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4127",
+      "name": "Icon / Beaker",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4128",
+      "name": "Icon / Battery",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4129",
+      "name": "Icon / BatteryWarning",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4130",
+      "name": "Icon / BatteryMedium",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4131",
+      "name": "Icon / BatteryLow",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4132",
+      "name": "Icon / BatteryFull",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4133",
+      "name": "Icon / BatteryCharging",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4134",
+      "name": "Icon / Bath",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4135",
+      "name": "Icon / Banana",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4136",
+      "name": "Icon / Laugh",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4137",
+      "name": "Icon / Ban",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4138",
+      "name": "Icon / Lasso",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4139",
+      "name": "Icon / BarChartHorizontalBig",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4140",
+      "name": "Icon / LassoSelect",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4141",
+      "name": "Icon / BarChartBig",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4142",
+      "name": "Icon / Laptop",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4143",
+      "name": "Icon / BadgeX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4144",
+      "name": "Icon / LaptopMinimal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4145",
+      "name": "Icon / BadgeSwissFranc",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4146",
+      "name": "Icon / Languages",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4147",
+      "name": "Icon / BarChart2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4148",
+      "name": "Icon / Landmark",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4149",
+      "name": "Icon / Banknote",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4150",
+      "name": "Icon / LandPlot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4151",
+      "name": "Icon / BadgePlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4152",
+      "name": "Icon / Lamp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4153",
+      "name": "Icon / BadgePercent",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4154",
+      "name": "Icon / LampWallUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4155",
+      "name": "Icon / BaggageClaim",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4156",
+      "name": "Icon / LampWallDown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4157",
+      "name": "Icon / Badge",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4158",
+      "name": "Icon / LampFloor",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4159",
+      "name": "Icon / BadgeInfo",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4160",
+      "name": "Icon / LampDesk",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4161",
+      "name": "Icon / BadgeIndianRupee",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4162",
+      "name": "Icon / LampCeiling",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4163",
+      "name": "Icon / BadgeRussianRuble",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4164",
+      "name": "Icon / Keyboard",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4165",
+      "name": "Icon / BadgePoundSterling",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4166",
+      "name": "Icon / KeyboardOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4167",
+      "name": "Icon / BadgeDollarSign",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4168",
+      "name": "Icon / KeyboardMusic",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4169",
+      "name": "Icon / BadgeCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4170",
+      "name": "Icon / Key",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4171",
+      "name": "Icon / BadgeMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4172",
+      "name": "Icon / KeySquare",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4173",
+      "name": "Icon / BadgeJapaneseYen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4174",
+      "name": "Icon / KeyRound",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4175",
+      "name": "Icon / Backpack",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4176",
+      "name": "Icon / Kanban",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4177",
+      "name": "Icon / Baby",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4178",
+      "name": "Icon / Joystick",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4179",
+      "name": "Icon / BadgeHelp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4180",
+      "name": "Icon / JapaneseYen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4181",
+      "name": "Icon / BadgeEuro",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4182",
+      "name": "Icon / IterationCw",
+      "page": "Icons",
+      "type": "COMPONENT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 11,
+    "category": "icons",
+    "firstStableId": "5197:4083",
+    "hash": "019e3ca648589366f8134558203f031be8b299b3abde47363d2018750d27a3d9",
+    "ids": [
+      "5197:4083",
+      "5197:4084",
+      "5197:4085",
+      "5197:4086",
+      "5197:4087",
+      "5197:4088",
+      "5197:4089",
+      "5197:4090",
+      "5197:4091",
+      "5197:4092",
+      "5197:4093",
+      "5197:4094",
+      "5197:4095",
+      "5197:4096",
+      "5197:4097",
+      "5197:4098",
+      "5197:4099",
+      "5197:4100",
+      "5197:4101",
+      "5197:4102",
+      "5197:4103",
+      "5197:4104",
+      "5197:4105",
+      "5197:4106",
+      "5197:4107",
+      "5197:4108",
+      "5197:4109",
+      "5197:4110",
+      "5197:4111",
+      "5197:4112",
+      "5197:4113",
+      "5197:4114",
+      "5197:4115",
+      "5197:4116",
+      "5197:4117",
+      "5197:4118",
+      "5197:4119",
+      "5197:4120",
+      "5197:4121",
+      "5197:4122",
+      "5197:4123",
+      "5197:4124",
+      "5197:4125",
+      "5197:4126",
+      "5197:4127",
+      "5197:4128",
+      "5197:4129",
+      "5197:4130",
+      "5197:4131",
+      "5197:4132",
+      "5197:4133",
+      "5197:4134",
+      "5197:4135",
+      "5197:4136",
+      "5197:4137",
+      "5197:4138",
+      "5197:4139",
+      "5197:4140",
+      "5197:4141",
+      "5197:4142",
+      "5197:4143",
+      "5197:4144",
+      "5197:4145",
+      "5197:4146",
+      "5197:4147",
+      "5197:4148",
+      "5197:4149",
+      "5197:4150",
+      "5197:4151",
+      "5197:4152",
+      "5197:4153",
+      "5197:4154",
+      "5197:4155",
+      "5197:4156",
+      "5197:4157",
+      "5197:4158",
+      "5197:4159",
+      "5197:4160",
+      "5197:4161",
+      "5197:4162",
+      "5197:4163",
+      "5197:4164",
+      "5197:4165",
+      "5197:4166",
+      "5197:4167",
+      "5197:4168",
+      "5197:4169",
+      "5197:4170",
+      "5197:4171",
+      "5197:4172",
+      "5197:4173",
+      "5197:4174",
+      "5197:4175",
+      "5197:4176",
+      "5197:4177",
+      "5197:4178",
+      "5197:4179",
+      "5197:4180",
+      "5197:4181",
+      "5197:4182"
+    ],
+    "lastStableId": "5197:4182",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

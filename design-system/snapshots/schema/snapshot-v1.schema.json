@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://design-system-lab.local/snapshots/schema/snapshot-v1.schema.json",
+  "title": "Design System Snapshot v1",
+  "description": "Canonical machine-readable Design System V2 Figma snapshot (schema 1.0).",
+  "type": "object",
+  "required": ["schemaVersion", "file", "sourceCapabilities", "counts"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "file": {
+      "type": "object",
+      "required": ["key", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sourceCapabilities": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "enum": ["complete", "partial", "unsupported", "deferred"]
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "contentHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "capturedAt": {
+      "type": ["string", "null"],
+      "description": "Optional ISO-8601 extraction time. Excluded from content hash."
+    }
+  }
+}

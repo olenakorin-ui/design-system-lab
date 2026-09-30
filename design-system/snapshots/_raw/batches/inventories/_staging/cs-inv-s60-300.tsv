@@ -1,0 +1,60 @@
+37:931	Button	Button
+234:27	Calendar / Day Button	Calendar
+18380:30203	Calendar / Week Number	Calendar
+234:196	Calendar / Arrow Button	Calendar
+17921:42281	Calendar / Custom Day Button	Calendar
+17179:197284	Calendar / Basic	Calendar
+18394:31857	With Month and Year Dropdown / Item	Calendar
+18399:35018	With time presets / Item	Calendar
+17845:14104	Card / Example Content	Card
+17845:14105	Card / Example Footer	Card
+239:851	Carousel / Arrow Button	Carousel
+241:1368	Carousel	Carousel
+449:6300	Charts / Bar Chart / Rectangle	Chart
+449:6327	Charts / Bar Chart / Layer	Chart
+449:6858	Charts / Grid	Chart
+469:739	Charts / Legend Item	Chart
+523:8331	Charts / Tooltip / Tooltip Item	Chart
+482:6998	Charts / Dot	Chart
+523:2206	Charts / Dot on Stroke	Chart
+523:6805	Charts / Pie Chart / Pie	Chart
+524:2006	Charts / Radar Chart / Grid	Chart
+524:2212	Charts / Radar Chart / Label Wrapper	Chart
+449:7503	Chart / Bar Chart	Chart
+517:111675	Chart / Area Chart	Chart
+520:6888	Chart / Line Chart	Chart
+523:7181	Chart / Pie Chart / Full	Chart
+523:7880	Chart / Pie Chart / Donut	Chart
+524:3257	Chart / Radar Chart	Chart
+533:6153	Chart / Radial Chart 	Chart
+46:112	Checkbox	Checkbox
+18597:96515	Collapsible	Collapsible
+17379:199232	Combobox / Menu Item	Combobox
+430:4114	Combobox	Combobox
+204:1144	Command	Command
+260:4100	Command / Input	Command
+345:8657	Command / Item / Default	Command
+419:4521	ContextMenu / Item / Default	Context Menu
+419:4534	ContextMenu / Item / SubTrigger	Context Menu
+266:2929	Data Table / TableCell 	Data Table
+267:2755	Data Table / TableHead 	Data Table
+18403:8670	Date Picker  / Button	Date Picker
+18415:7484	Time Picker	Date Picker
+334:4051	Date Picker	Date Picker
+112:602	Dialog	Dialog
+5056:13504	Dialog / Close Icon	Dialog
+17375:198690	Dialog / Example Content	Dialog
+241:2426	Drawer / Example Content / Button	Drawer
+244:2831	Drawer	Drawer
+424:6782	Drawer / Example Content	Drawer
+330:8549	DropdownMenu / Item / Default	Dropdown Menu
+17398:40525	DropdownMenu / Item / Label	Dropdown Menu
+17402:26397	DropdownMenu Trigger / Avatar	Dropdown Menu
+330:24002	DropdownMenu / Item / SubTrigger	Dropdown Menu
+477:8653	Form / 6.	Form
+477:8880	Form / 7.	Form
+216:3085	Hover Card / Trigger	Hover Card
+216:3141	Hover Card	Hover Card
+65:533	Input	Input
+81:141	InputOTP	Input OTP
+81:122	InputOTP / Slot	Input OTP

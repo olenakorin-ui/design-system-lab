@@ -1,0 +1,1717 @@
+{
+  "items": [
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:29",
+      "name": "spacing/64",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 256
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:290",
+      "name": "tailwind colors/teal/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0f766e"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:291",
+      "name": "tailwind colors/teal/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#115e59"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:292",
+      "name": "tailwind colors/teal/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#134e4a"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:293",
+      "name": "tailwind colors/teal/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#042f2e"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:294",
+      "name": "tailwind colors/cyan/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#ecfeff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:295",
+      "name": "tailwind colors/cyan/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#cffafe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:296",
+      "name": "tailwind colors/cyan/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#a5f3fc"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:297",
+      "name": "tailwind colors/cyan/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#67e8f9"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:298",
+      "name": "tailwind colors/cyan/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#22d3ee"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:299",
+      "name": "tailwind colors/cyan/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#06b6d4"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:3",
+      "name": "spacing/0",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 0
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:30",
+      "name": "spacing/72",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 288
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:300",
+      "name": "tailwind colors/cyan/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0891b2"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:301",
+      "name": "tailwind colors/cyan/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0e7490"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:302",
+      "name": "tailwind colors/cyan/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#155e75"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:303",
+      "name": "tailwind colors/cyan/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#164e63"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:304",
+      "name": "tailwind colors/cyan/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#083344"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:305",
+      "name": "tailwind colors/sky/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f0f9ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:306",
+      "name": "tailwind colors/sky/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#e0f2fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:307",
+      "name": "tailwind colors/sky/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#bae6fd"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:308",
+      "name": "tailwind colors/sky/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#7dd3fc"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:309",
+      "name": "tailwind colors/sky/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#38bdf8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:31",
+      "name": "spacing/80",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 320
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:310",
+      "name": "tailwind colors/sky/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0ea5e9"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:311",
+      "name": "tailwind colors/sky/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0284c7"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:312",
+      "name": "tailwind colors/sky/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0369a1"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:313",
+      "name": "tailwind colors/sky/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#075985"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:314",
+      "name": "tailwind colors/sky/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#0c4a6e"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:315",
+      "name": "tailwind colors/sky/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#082f49"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:316",
+      "name": "tailwind colors/blue/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#eff6ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:317",
+      "name": "tailwind colors/blue/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#dbeafe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:318",
+      "name": "tailwind colors/blue/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#bfdbfe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:319",
+      "name": "tailwind colors/blue/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#93c5fd"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:32",
+      "name": "spacing/96",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 384
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:320",
+      "name": "tailwind colors/blue/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#60a5fa"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:321",
+      "name": "tailwind colors/blue/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#3b82f6"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:322",
+      "name": "tailwind colors/blue/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#2563eb"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:323",
+      "name": "tailwind colors/blue/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#1d4ed8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:324",
+      "name": "tailwind colors/blue/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#1e40af"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:325",
+      "name": "tailwind colors/blue/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#1e3a8a"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:326",
+      "name": "tailwind colors/blue/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#172554"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:327",
+      "name": "tailwind colors/indigo/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#eef2ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:328",
+      "name": "tailwind colors/indigo/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#e0e7ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:329",
+      "name": "tailwind colors/indigo/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#c7d2fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:33",
+      "name": "spacing/px",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 1
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:330",
+      "name": "tailwind colors/indigo/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#a5b4fc"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:331",
+      "name": "tailwind colors/indigo/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#818cf8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:332",
+      "name": "tailwind colors/indigo/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#6366f1"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:333",
+      "name": "tailwind colors/indigo/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#4f46e5"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:334",
+      "name": "tailwind colors/indigo/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#4338ca"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:335",
+      "name": "tailwind colors/indigo/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#3730a3"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:336",
+      "name": "tailwind colors/indigo/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#312e81"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:337",
+      "name": "tailwind colors/indigo/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#1e1b4b"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:338",
+      "name": "tailwind colors/violet/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f5f3ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:339",
+      "name": "tailwind colors/violet/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#ede9fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:34",
+      "name": "spacing/0-5",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 2
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:340",
+      "name": "tailwind colors/violet/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#ddd6fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:341",
+      "name": "tailwind colors/violet/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#c4b5fd"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:342",
+      "name": "tailwind colors/violet/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#a78bfa"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:343",
+      "name": "tailwind colors/violet/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#8b5cf6"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:344",
+      "name": "tailwind colors/violet/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#7c3aed"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:345",
+      "name": "tailwind colors/violet/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#6d28d9"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:346",
+      "name": "tailwind colors/violet/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#5b21b6"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:347",
+      "name": "tailwind colors/violet/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#4c1d95"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:348",
+      "name": "tailwind colors/violet/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#1e1b4b"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:349",
+      "name": "tailwind colors/purple/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#faf5ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:35",
+      "name": "spacing/1-5",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 6
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:350",
+      "name": "tailwind colors/purple/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f3e8ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:351",
+      "name": "tailwind colors/purple/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#e9d5ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:352",
+      "name": "tailwind colors/purple/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#d8b4fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:353",
+      "name": "tailwind colors/purple/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#c084fc"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:354",
+      "name": "tailwind colors/purple/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#a855f7"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:355",
+      "name": "tailwind colors/purple/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#9333ea"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:356",
+      "name": "tailwind colors/purple/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#7e22ce"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:357",
+      "name": "tailwind colors/purple/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#6b21a8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:358",
+      "name": "tailwind colors/purple/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#581c87"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:359",
+      "name": "tailwind colors/purple/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#3b0764"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:36",
+      "name": "spacing/2-5",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 10
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:360",
+      "name": "tailwind colors/fuchsia/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#fdf4ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:361",
+      "name": "tailwind colors/fuchsia/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#fae8ff"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:362",
+      "name": "tailwind colors/fuchsia/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f5d0fe"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:363",
+      "name": "tailwind colors/fuchsia/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f0abfc"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:364",
+      "name": "tailwind colors/fuchsia/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#e879f9"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:365",
+      "name": "tailwind colors/fuchsia/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#d946ef"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:366",
+      "name": "tailwind colors/fuchsia/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#c026d3"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:367",
+      "name": "tailwind colors/fuchsia/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#a21caf"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:368",
+      "name": "tailwind colors/fuchsia/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#86198f"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:369",
+      "name": "tailwind colors/fuchsia/900",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#701a75"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:37",
+      "name": "spacing/3-5",
+      "resolvedType": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "number": 14
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:370",
+      "name": "tailwind colors/fuchsia/950",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#4a044e"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:371",
+      "name": "tailwind colors/pink/50",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#fdf2f8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:372",
+      "name": "tailwind colors/pink/100",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#fce7f3"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:373",
+      "name": "tailwind colors/pink/200",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#fbcfe8"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:374",
+      "name": "tailwind colors/pink/300",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f9a8d4"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:375",
+      "name": "tailwind colors/pink/400",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#f472b6"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:376",
+      "name": "tailwind colors/pink/500",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#ec4899"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:377",
+      "name": "tailwind colors/pink/600",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#db2777"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:378",
+      "name": "tailwind colors/pink/700",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#be185d"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    },
+    {
+      "codeSyntax": {},
+      "description": "",
+      "id": "VariableID:1:379",
+      "name": "tailwind colors/pink/800",
+      "resolvedType": "COLOR",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "valuesByMode": {
+        "Default": {
+          "hex": "#9d174d"
+        }
+      },
+      "variableCollectionId": "VariableCollectionId:1:2"
+    }
+  ],
+  "meta": {
+    "batchIndex": 2,
+    "category": "variables",
+    "firstStableId": "VariableID:1:29",
+    "hash": "0af8af8d40028aa02a422eb29cfae3ef727984de2a681263030338dba5160baf",
+    "ids": [
+      "VariableID:1:29",
+      "VariableID:1:290",
+      "VariableID:1:291",
+      "VariableID:1:292",
+      "VariableID:1:293",
+      "VariableID:1:294",
+      "VariableID:1:295",
+      "VariableID:1:296",
+      "VariableID:1:297",
+      "VariableID:1:298",
+      "VariableID:1:299",
+      "VariableID:1:3",
+      "VariableID:1:30",
+      "VariableID:1:300",
+      "VariableID:1:301",
+      "VariableID:1:302",
+      "VariableID:1:303",
+      "VariableID:1:304",
+      "VariableID:1:305",
+      "VariableID:1:306",
+      "VariableID:1:307",
+      "VariableID:1:308",
+      "VariableID:1:309",
+      "VariableID:1:31",
+      "VariableID:1:310",
+      "VariableID:1:311",
+      "VariableID:1:312",
+      "VariableID:1:313",
+      "VariableID:1:314",
+      "VariableID:1:315",
+      "VariableID:1:316",
+      "VariableID:1:317",
+      "VariableID:1:318",
+      "VariableID:1:319",
+      "VariableID:1:32",
+      "VariableID:1:320",
+      "VariableID:1:321",
+      "VariableID:1:322",
+      "VariableID:1:323",
+      "VariableID:1:324",
+      "VariableID:1:325",
+      "VariableID:1:326",
+      "VariableID:1:327",
+      "VariableID:1:328",
+      "VariableID:1:329",
+      "VariableID:1:33",
+      "VariableID:1:330",
+      "VariableID:1:331",
+      "VariableID:1:332",
+      "VariableID:1:333",
+      "VariableID:1:334",
+      "VariableID:1:335",
+      "VariableID:1:336",
+      "VariableID:1:337",
+      "VariableID:1:338",
+      "VariableID:1:339",
+      "VariableID:1:34",
+      "VariableID:1:340",
+      "VariableID:1:341",
+      "VariableID:1:342",
+      "VariableID:1:343",
+      "VariableID:1:344",
+      "VariableID:1:345",
+      "VariableID:1:346",
+      "VariableID:1:347",
+      "VariableID:1:348",
+      "VariableID:1:349",
+      "VariableID:1:35",
+      "VariableID:1:350",
+      "VariableID:1:351",
+      "VariableID:1:352",
+      "VariableID:1:353",
+      "VariableID:1:354",
+      "VariableID:1:355",
+      "VariableID:1:356",
+      "VariableID:1:357",
+      "VariableID:1:358",
+      "VariableID:1:359",
+      "VariableID:1:36",
+      "VariableID:1:360",
+      "VariableID:1:361",
+      "VariableID:1:362",
+      "VariableID:1:363",
+      "VariableID:1:364",
+      "VariableID:1:365",
+      "VariableID:1:366",
+      "VariableID:1:367",
+      "VariableID:1:368",
+      "VariableID:1:369",
+      "VariableID:1:37",
+      "VariableID:1:370",
+      "VariableID:1:371",
+      "VariableID:1:372",
+      "VariableID:1:373",
+      "VariableID:1:374",
+      "VariableID:1:375",
+      "VariableID:1:376",
+      "VariableID:1:377",
+      "VariableID:1:378",
+      "VariableID:1:379"
+    ],
+    "lastStableId": "VariableID:1:379",
+    "receivedCount": 100,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

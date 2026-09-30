@@ -1,0 +1,17 @@
+[
+  {"key": "idx_0", "len": 18596, "size": 6000},
+  {"key": "idx_1", "len": 18908, "size": 6000},
+  {"key": "idx_2", "len": 18220, "size": 6000},
+  {"key": "idx_3", "len": 18932, "size": 6000},
+  {"key": "idx_4", "len": 17428, "size": 6000},
+  {"key": "txt_0", "len": 19868, "size": 6000},
+  {"key": "txt_1", "len": 19848, "size": 6000},
+  {"key": "txt_2", "len": 19884, "size": 6000},
+  {"key": "txt_3", "len": 19048, "size": 6000},
+  {"key": "effects", "len": 26796, "size": 6000},
+  {"key": "known_badge", "len": 3244, "size": 6000},
+  {"key": "known_checkbox", "len": 2220, "size": 6000},
+  {"key": "known_button_0", "len": 69660, "size": 6000},
+  {"key": "known_button_1", "len": 69316, "size": 6000},
+  {"key": "known_button_2", "len": 69496, "size": 6000}
+]

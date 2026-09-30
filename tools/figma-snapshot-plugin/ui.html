@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Design System Snapshot</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: var(--figma-color-bg, #ffffff);
+      --text: var(--figma-color-text, #111111);
+      --muted: var(--figma-color-text-secondary, #6b6b6b);
+      --border: var(--figma-color-border, #e5e5e5);
+      --accent: var(--figma-color-bg-brand, #0d99ff);
+      --accent-text: var(--figma-color-text-onbrand, #ffffff);
+      --danger: #c62828;
+      --ok: #2e7d32;
+      --warn-bg: #fff8e1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 12px/1.45 Inter, system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      padding: 16px;
+    }
+    h1 {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 0 12px;
+    }
+    .meta {
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .label {
+      color: var(--muted);
+      font-size: 11px;
+      margin-bottom: 2px;
+    }
+    .value {
+      font-weight: 500;
+      word-break: break-all;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 6px 4px;
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+    }
+    th { color: var(--muted); font-weight: 500; }
+    .count { font-variant-numeric: tabular-nums; }
+    button {
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 12px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button.primary {
+      background: var(--accent);
+      color: var(--accent-text);
+    }
+    button.primary:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    button.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      margin-top: 8px;
+    }
+    .progress {
+      margin: 12px 0;
+      display: none;
+    }
+    .progress.visible { display: block; }
+    .bar {
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+      margin-top: 6px;
+    }
+    .bar > span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: var(--accent);
+      transition: width 0.15s ease;
+    }
+    .status {
+      margin-top: 12px;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      display: none;
+    }
+    .status.visible { display: block; }
+    .status.ok { border-color: var(--ok); }
+    .status.bad { border-color: var(--danger); background: var(--warn-bg); }
+    .status h2 {
+      margin: 0 0 6px;
+      font-size: 13px;
+    }
+    .failures {
+      margin: 8px 0 0;
+      padding-left: 16px;
+      color: var(--danger);
+    }
+    .hint {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Design System Snapshot</h1>
+
+  <div class="meta">
+    <div class="label">Source</div>
+    <div class="value" id="fileName">—</div>
+    <div class="label" style="margin-top:8px">File key</div>
+    <div class="value" id="fileKey">—</div>
+  </div>
+
+  <div class="label">Inventory</div>
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Count</th></tr>
+    </thead>
+    <tbody id="inventoryBody">
+      <tr><td>Variables</td><td class="count" id="c-variables">—</td></tr>
+      <tr><td>Components</td><td class="count" id="c-components">—</td></tr>
+      <tr><td>Component sets</td><td class="count" id="c-componentSets">—</td></tr>
+      <tr><td>Icons</td><td class="count" id="c-icons">—</td></tr>
+      <tr><td>Text styles</td><td class="count" id="c-textStyles">—</td></tr>
+      <tr><td>Effect styles</td><td class="count" id="c-effectStyles">—</td></tr>
+    </tbody>
+  </table>
+
+  <button class="primary" id="exportBtn" type="button">Export snapshot</button>
+
+  <div class="progress" id="progress">
+    <div class="label" id="progressLabel">Working…</div>
+    <div class="bar"><span id="progressBar"></span></div>
+  </div>
+
+  <div class="status" id="status">
+    <h2 id="statusTitle"></h2>
+    <div id="statusBody"></div>
+    <button class="secondary" id="downloadBtn" type="button" style="display:none">Download JSON</button>
+  </div>
+
+  <p class="hint">
+    Read-only exporter v<span id="exporterVersion">0.1.0</span>.
+    Incomplete exports cannot be downloaded as a valid snapshot.
+  </p>
+
+  <script>
+    let pendingJson = null;
+    let pendingName = "figma-snapshot.raw.json";
+
+    const $ = (id) => document.getElementById(id);
+
+    parent.postMessage({ pluginMessage: { type: "ready" } }, "*");
+
+    $("exportBtn").onclick = () => {
+      pendingJson = null;
+      $("downloadBtn").style.display = "none";
+      $("status").className = "status";
+      $("progress").className = "progress visible";
+      $("exportBtn").disabled = true;
+      $("progressLabel").textContent = "Starting…";
+      $("progressBar").style.width = "2%";
+      parent.postMessage({ pluginMessage: { type: "export-snapshot" } }, "*");
+    };
+
+    $("downloadBtn").onclick = () => {
+      if (!pendingJson) return;
+      const blob = new Blob([pendingJson], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = pendingName;
+      a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    function setCounts(counts) {
+      if (!counts) return;
+      $("c-variables").textContent = counts.variables ?? "—";
+      $("c-components").textContent = counts.components ?? "—";
+      $("c-componentSets").textContent = counts.componentSets ?? "—";
+      $("c-icons").textContent = counts.icons ?? "—";
+      $("c-textStyles").textContent = counts.textStyles ?? "—";
+      $("c-effectStyles").textContent = counts.effectStyles ?? "—";
+    }
+
+    onmessage = (event) => {
+      const msg = event.data && event.data.pluginMessage;
+      if (!msg) return;
+
+      if (msg.type === "file-meta") {
+        $("fileName").textContent = msg.fileName || "—";
+        $("fileKey").textContent = msg.fileKey || "(unavailable — use private plugin API)";
+        if (msg.exporterVersion) $("exporterVersion").textContent = msg.exporterVersion;
+        return;
+      }
+
+      if (msg.type === "progress") {
+        $("progress").className = "progress visible";
+        const label = [msg.phase, msg.detail].filter(Boolean).join(" · ");
+        $("progressLabel").textContent = label || "Working…";
+        if (typeof msg.pct === "number") {
+          $("progressBar").style.width = Math.max(0, Math.min(100, msg.pct)) + "%";
+        }
+        return;
+      }
+
+      if (msg.type === "export-error") {
+        $("exportBtn").disabled = false;
+        $("progress").className = "progress";
+        $("status").className = "status visible bad";
+        $("statusTitle").textContent = "Snapshot incomplete";
+        $("statusBody").textContent = msg.message || "Export failed";
+        $("downloadBtn").style.display = "none";
+        pendingJson = null;
+        return;
+      }
+
+      if (msg.type === "export-result") {
+        $("exportBtn").disabled = false;
+        $("progress").className = "progress";
+        setCounts(msg.counts);
+        $("status").className = "status visible " + (msg.complete ? "ok" : "bad");
+        if (msg.complete && msg.json) {
+          $("statusTitle").textContent = "Snapshot ready";
+          $("statusBody").textContent =
+            "Raw export complete. Download and place at design-system/snapshots/_raw/figma-snapshot.raw.json";
+          pendingJson = msg.json;
+          pendingName = msg.suggestedName || "figma-snapshot.raw.json";
+          $("downloadBtn").style.display = "block";
+        } else {
+          $("statusTitle").textContent = "Snapshot incomplete";
+          const fails = (msg.failures || [])
+            .map((f) => `<li><strong>${f.category}</strong>: ${f.message}</li>`)
+            .join("");
+          const countsLine = msg.counts
+            ? `Counts — variables ${msg.counts.variables}, sets ${msg.counts.componentSets}, components ${msg.counts.components}, icons ${msg.counts.icons}, text ${msg.counts.textStyles}, effect ${msg.counts.effectStyles}.`
+            : "";
+          $("statusBody").innerHTML =
+            `<p>${countsLine}</p><p>Incomplete data cannot be downloaded as a valid snapshot.</p>` +
+            (fails ? `<ul class="failures">${fails}</ul>` : "");
+          pendingJson = null;
+          $("downloadBtn").style.display = "none";
+        }
+      }
+    };
+  </script>
+</body>
+</html>

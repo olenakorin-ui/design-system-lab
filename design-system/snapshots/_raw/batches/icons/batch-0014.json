@@ -1,0 +1,561 @@
+{
+  "items": [
+    {
+      "description": "",
+      "id": "5197:4383",
+      "name": "Icon / Bomb",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4384",
+      "name": "Icon / Bitcoin",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4385",
+      "name": "Icon / ShieldPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4386",
+      "name": "Icon / AlignHorizontalDistributeCenter",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4387",
+      "name": "Icon / Bluetooth",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4388",
+      "name": "Icon / ShieldOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4389",
+      "name": "Icon / AlignEndVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4390",
+      "name": "Icon / BluetoothSearching",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4391",
+      "name": "Icon / BluetoothOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4392",
+      "name": "Icon / Bike",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4393",
+      "name": "Icon / ShieldEllipsis",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4394",
+      "name": "Icon / AlignCenterVertical",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4395",
+      "name": "Icon / Blocks",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4396",
+      "name": "Icon / ShieldCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4397",
+      "name": "Icon / AlignCenterHorizontal",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4398",
+      "name": "Icon / Blinds",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4399",
+      "name": "Icon / ShieldX",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4400",
+      "name": "Icon / Album",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4401",
+      "name": "Icon / Blend",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4402",
+      "name": "Icon / ShieldQuestion",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4403",
+      "name": "Icon / AlarmSmoke",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4404",
+      "name": "Icon / BetweenHorizontalStart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4405",
+      "name": "Icon / Codepen",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4406",
+      "name": "Icon / Shell",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4407",
+      "name": "Icon / AlarmClock",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4408",
+      "name": "Icon / Bird",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4409",
+      "name": "Icon / Code",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4410",
+      "name": "Icon / Sheet",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4411",
+      "name": "Icon / AlarmClockPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4412",
+      "name": "Icon / Biohazard",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4413",
+      "name": "Icon / ShieldMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4414",
+      "name": "Icon / AlarmClockOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4415",
+      "name": "Icon / BellPlus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4416",
+      "name": "Icon / Clover",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4417",
+      "name": "Icon / Shapes",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4418",
+      "name": "Icon / AlarmClockCheck",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4419",
+      "name": "Icon / BicepsFlexed",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4420",
+      "name": "Icon / Cloudy",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4421",
+      "name": "Icon / Settings",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4422",
+      "name": "Icon / Airplay",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4423",
+      "name": "Icon / BetweenVerticalStart",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4424",
+      "name": "Icon / Coffee",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4425",
+      "name": "Icon / ShieldBan",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4426",
+      "name": "Icon / AirVent",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4427",
+      "name": "Icon / Binary",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4428",
+      "name": "Icon / ShieldHalf",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4429",
+      "name": "Icon / AlarmClockMinus",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4430",
+      "name": "Icon / Bolt",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4431",
+      "name": "Icon / BellDot",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4432",
+      "name": "Icon / CloudSun",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4433",
+      "name": "Icon / ServerOff",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4434",
+      "name": "Icon / Accessibility",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4435",
+      "name": "Icon / BetweenHorizontalEnd",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4436",
+      "name": "Icon / CloudSunRain",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4437",
+      "name": "Icon / ServerCrash",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4438",
+      "name": "Icon / ALargeSmall",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4439",
+      "name": "Icon / BetweenVerticalEnd",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4440",
+      "name": "Icon / Codesandbox",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4441",
+      "name": "Icon / ShieldAlert",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4442",
+      "name": "Icon / Activity",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4443",
+      "name": "Icon / Bell",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4444",
+      "name": "Icon / CodeXml",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4445",
+      "name": "Icon / Share",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4446",
+      "name": "Icon / AArrowUp",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4447",
+      "name": "Icon / BellRing",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4448",
+      "name": "Icon / Club",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4449",
+      "name": "Icon / Share2",
+      "page": "Icons",
+      "type": "COMPONENT"
+    },
+    {
+      "description": "",
+      "id": "5197:4450",
+      "name": "Icon / AArrowDown",
+      "page": "Icons",
+      "type": "COMPONENT"
+    }
+  ],
+  "meta": {
+    "batchIndex": 14,
+    "category": "icons",
+    "firstStableId": "5197:4383",
+    "hash": "f314bb396833dc8984e7b8a6b1e6092cf13b8a1ce4cf0ed3ebed08f6672fa514",
+    "ids": [
+      "5197:4383",
+      "5197:4384",
+      "5197:4385",
+      "5197:4386",
+      "5197:4387",
+      "5197:4388",
+      "5197:4389",
+      "5197:4390",
+      "5197:4391",
+      "5197:4392",
+      "5197:4393",
+      "5197:4394",
+      "5197:4395",
+      "5197:4396",
+      "5197:4397",
+      "5197:4398",
+      "5197:4399",
+      "5197:4400",
+      "5197:4401",
+      "5197:4402",
+      "5197:4403",
+      "5197:4404",
+      "5197:4405",
+      "5197:4406",
+      "5197:4407",
+      "5197:4408",
+      "5197:4409",
+      "5197:4410",
+      "5197:4411",
+      "5197:4412",
+      "5197:4413",
+      "5197:4414",
+      "5197:4415",
+      "5197:4416",
+      "5197:4417",
+      "5197:4418",
+      "5197:4419",
+      "5197:4420",
+      "5197:4421",
+      "5197:4422",
+      "5197:4423",
+      "5197:4424",
+      "5197:4425",
+      "5197:4426",
+      "5197:4427",
+      "5197:4428",
+      "5197:4429",
+      "5197:4430",
+      "5197:4431",
+      "5197:4432",
+      "5197:4433",
+      "5197:4434",
+      "5197:4435",
+      "5197:4436",
+      "5197:4437",
+      "5197:4438",
+      "5197:4439",
+      "5197:4440",
+      "5197:4441",
+      "5197:4442",
+      "5197:4443",
+      "5197:4444",
+      "5197:4445",
+      "5197:4446",
+      "5197:4447",
+      "5197:4448",
+      "5197:4449",
+      "5197:4450"
+    ],
+    "lastStableId": "5197:4450",
+    "receivedCount": 68,
+    "requestedCount": 100,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

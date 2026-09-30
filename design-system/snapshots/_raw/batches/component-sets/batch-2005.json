@@ -1,0 +1,310 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Type": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Secondary"
+          ]
+        }
+      },
+      "defaultVariantId": "17375:198043",
+      "description": "",
+      "id": "17375:198044",
+      "key": "c1a97c6ed992880f3513e36b68099c74b76a6460",
+      "name": "Sonner / Action",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198043",
+          "key": "b4652dc6992e269ace0c3413cf241455d5609636",
+          "name": "Type=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198042",
+          "key": "3eeac413864d1f436fadb34a60a49f2be232daef",
+          "name": "Type=Secondary"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Type": {
+          "defaultValue": "Success",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Error",
+            "Info",
+            "Success",
+            "Warning",
+            "Loading"
+          ]
+        }
+      },
+      "defaultVariantId": "17375:198093",
+      "description": "",
+      "id": "17375:198096",
+      "key": "33bf73380f5ad3a68c8b8e5c1a08d1b7c35f40d3",
+      "name": "Sonner / Icon",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198095",
+          "key": "b62d07ff8e6f983e0bd2029b16097f59b9f3665b",
+          "name": "Type=Error"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198092",
+          "key": "e38237ef5eb6315d1911d73b68071245e6c63e07",
+          "name": "Type=Warning"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198094",
+          "key": "dd352c707ae4ab40d43c7afda78ba844f0eb110d",
+          "name": "Type=Info"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198093",
+          "key": "6229f2bee36a999fcb5ad774428db2dee341afa7",
+          "name": "Type=Success"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17409:98936",
+          "key": "2d3ad91f240c6d783eeae12b2ce40f5b416747ed",
+          "name": "Type=Loading"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Type": {
+          "defaultValue": "Form",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Form",
+            "Text"
+          ]
+        }
+      },
+      "defaultVariantId": "424:6608",
+      "description": "",
+      "id": "17375:198690",
+      "key": "3b9f23ba4f1faf7416eee0d15fa0f4935d8b6397",
+      "name": "Dialog / Example Content",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "424:6608",
+          "key": "b350e6d186b20cc3e6e18302962278bd131d049a",
+          "name": "Type=Form"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:198689",
+          "key": "70213f3ebadfc4d3621db9182dab80897ec97fd4",
+          "name": "Type=Text"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Description Text#17375:0": {
+          "defaultValue": "This is a list item description.",
+          "type": "TEXT"
+        },
+        "Icon#17375:6": {
+          "defaultValue": "5197:3983",
+          "type": "INSTANCE_SWAP"
+        },
+        "Show Icon#17375:3": {
+          "defaultValue": true,
+          "type": "BOOLEAN"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        },
+        "Title Text#17375:2": {
+          "defaultValue": "Title Text",
+          "type": "TEXT"
+        },
+        "Type": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Simple"
+          ]
+        }
+      },
+      "defaultVariantId": "210:2044",
+      "description": "",
+      "id": "17375:2761",
+      "key": "5abf7475afabb1e5f6b1c90fe205b660b5b1c912",
+      "name": "NavigationMenu / Menu Link",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "210:2044",
+          "key": "db4327ee0c7d02c6e32e5b7f0d468ab1702f0348",
+          "name": "Type=Default, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179710",
+          "key": "3136f1ee28d17878398316f7196a1ce5f20e49d4",
+          "name": "Type=Default, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:2762",
+          "key": "6ac742813668b5e06637dfcf9a05acbf2f20aea2",
+          "name": "Type=Simple, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17375:179713",
+          "key": "d84d695752cfee18bbca2f4ffcb8035a6f3ba7d9",
+          "name": "Type=Simple, State=Hover"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Selected#17379:0": {
+          "defaultValue": false,
+          "type": "BOOLEAN"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover"
+          ]
+        },
+        "Type": {
+          "defaultValue": "Checkbox",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Simple",
+            "Icon",
+            "Avatar",
+            "Checkbox"
+          ]
+        }
+      },
+      "defaultVariantId": "17379:199231",
+      "description": "",
+      "id": "17379:199232",
+      "key": "e90c69405cf55be99644b6d944b339ea17d488e6",
+      "name": "Combobox / Menu Item",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199226",
+          "key": "5dcfc498fa96c5ada090eddc75d49aef100d3457",
+          "name": "Type=Avatar, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199229",
+          "key": "506df95d6bf3facb92e0e1de1825d67ff2a8e689",
+          "name": "Type=Avatar, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199231",
+          "key": "e1f071fcc281b828350394c76e63eb01cb018239",
+          "name": "Type=Checkbox, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199228",
+          "key": "4370dcf14d670ecb900860d837f2a8a2cd8931b5",
+          "name": "Type=Checkbox, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199227",
+          "key": "be51701d8521602487baf888b39efe5c58eecdb4",
+          "name": "Type=Simple, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199225",
+          "key": "d9aec1e6dd6196b0fb9aeee8c261d2fc2d0cfff4",
+          "name": "Type=Simple, State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199224",
+          "key": "4742a9bc5309fd03a5e488fc80928465ef492c93",
+          "name": "Type=Icon, State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17379:199223",
+          "key": "b9bad5c4f6217c2e410a51399ef7f16cb753206d",
+          "name": "Type=Icon, State=Hover"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2005,
+    "category": "component-sets",
+    "firstStableId": "17375:198044",
+    "hash": "730524e40c123aa32800fba8abd2e82a9018a0f9b23f581a26973c658d818374",
+    "ids": [
+      "17375:198044",
+      "17375:198096",
+      "17375:198690",
+      "17375:2761",
+      "17379:199232"
+    ],
+    "lastStableId": "17379:199232",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

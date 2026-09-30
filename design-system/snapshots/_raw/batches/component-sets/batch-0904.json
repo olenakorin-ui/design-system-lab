@@ -1,0 +1,297 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3430",
+      "description": "",
+      "id": "11005:3429",
+      "key": "c389b9f639a2591c85dd2ad633eee29e350a3bd1",
+      "name": "Pro Blocks / Settings / 6.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3430",
+          "key": "78e46ab26f2947817d239ea16560e7847dd48fb7",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3481",
+          "key": "da14f7095be350df9ca4038d209320266c80537c",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3523",
+      "description": "",
+      "id": "11005:3522",
+      "key": "322b92592357bdd357e60ff12a2e44910b74d7df",
+      "name": "Pro Blocks / Settings / 3.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3523",
+          "key": "405b03cb0cf93f56e329fffbdd64bbeea103e2b1",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3536",
+          "key": "7d5d511143d11d1870b8821f7696fe50547dd438",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3553",
+      "description": "",
+      "id": "11005:3552",
+      "key": "c67687b792dc78f4dc51eac0d865c4a33310bd0d",
+      "name": "Pro Blocks / App Shell / 2.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3553",
+          "key": "00a9dcc637949ea072bc26b0e3a8681247c25891",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3558",
+          "key": "64821cc80c80b0afc806143ce4164d0cb39092c4",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3564",
+      "description": "",
+      "id": "11005:3563",
+      "key": "813e13bdd2a392a4f7dbe370f8d922c76c9ab1be",
+      "name": "Pro Blocks / Settings / 4.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3564",
+          "key": "77f63ea9b3ce445832e2f1f03378df79b7d5324b",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3596",
+          "key": "b3eb000d1bf5aa8a3214fb3b3323dc311cf8289e",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3621",
+      "description": "",
+      "id": "11005:3620",
+      "key": "b51253a3cc7ae8f473f2e502ff762a81a0be3b5e",
+      "name": "Pro Blocks / Settings / 5.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3621",
+          "key": "56dd6656b54c02711d6cfeeccdfc4202a1622b68",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3717",
+          "key": "c0818e056c6e5fd8cc57d426317dec41f843dc0f",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3815",
+      "description": "",
+      "id": "11005:3814",
+      "key": "157b63d3c51f97fbeec2c5ac81ab3139376b10ee",
+      "name": "Pro Blocks / App Shell / 1.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3815",
+          "key": "5a9873162b9137ed47e01bf55f7b5533fd6d55e6",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3820",
+          "key": "d5f0f929bf8ee678ce43c797a90299cec204bbf3",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3826",
+      "description": "",
+      "id": "11005:3825",
+      "key": "ee95b73df01e45f2946e64d1e3a7beeb7d162dc3",
+      "name": "Pro Blocks / App Shell / 3.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3826",
+          "key": "509d5942b85109b540b18718f822f33a196490f0",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3831",
+          "key": "5bfaad8a37db688ed23f169fcdcb6cb9f53efad1",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Mobile",
+            "Desktop"
+          ]
+        }
+      },
+      "defaultVariantId": "11005:3837",
+      "description": "",
+      "id": "11005:3836",
+      "key": "aea5c6fbf8275355fee9e12ae3151f6cee7f69b8",
+      "name": "Pro Blocks / Sign Up / 7.",
+      "page": "Pro Blocks (Application) 🔷",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3837",
+          "key": "027baca6fd6d7063faca6ef7ce57a4f3f8908b55",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "11005:3856",
+          "key": "9650c947316be10b067d12414c8788762d335496",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 904,
+    "category": "component-sets",
+    "firstStableId": "11005:3429",
+    "hash": "d98b5388af898a513ec4505e2cb9d1fb18c24fd1abbd9808ef1120b4cfb23632",
+    "ids": [
+      "11005:3429",
+      "11005:3522",
+      "11005:3552",
+      "11005:3563",
+      "11005:3620",
+      "11005:3814",
+      "11005:3825",
+      "11005:3836"
+    ],
+    "lastStableId": "11005:3836",
+    "receivedCount": 8,
+    "requestedCount": 8,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

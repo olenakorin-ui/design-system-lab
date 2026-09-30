@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {},
+      "componentSetId": null,
+      "description": "",
+      "id": "17441:250613",
+      "key": null,
+      "name": "Custom Icon / Dashboard",
+      "page": "Utility Components"
+    },
+    {
+      "componentPropertyDefinitions": {},
+      "componentSetId": null,
+      "description": "",
+      "id": "17441:250612",
+      "key": null,
+      "name": "Custom Icon /List",
+      "page": "Utility Components"
+    },
+    {
+      "componentPropertyDefinitions": {},
+      "componentSetId": null,
+      "description": "",
+      "id": "17441:250610",
+      "key": null,
+      "name": "Custom Icon / Chartbar",
+      "page": "Utility Components"
+    },
+    {
+      "componentPropertyDefinitions": {},
+      "componentSetId": null,
+      "description": "",
+      "id": "17441:250611",
+      "key": null,
+      "name": "Custom Icon / CirclePlus",
+      "page": "Utility Components"
+    },
+    {
+      "componentPropertyDefinitions": {},
+      "componentSetId": null,
+      "description": "",
+      "id": "22065:2090",
+      "key": null,
+      "name": "Instance swap",
+      "page": "Utility Components"
+    }
+  ],
+  "meta": {
+    "batchIndex": 7,
+    "category": "components",
+    "firstStableId": "17441:250613",
+    "hash": "158af8bda744041045ebcff0f3fe445f3a43d2761e2b2b05848a7e107d8dde79",
+    "ids": [
+      "17441:250613",
+      "17441:250612",
+      "17441:250610",
+      "17441:250611",
+      "22065:2090"
+    ],
+    "lastStableId": "22065:2090",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

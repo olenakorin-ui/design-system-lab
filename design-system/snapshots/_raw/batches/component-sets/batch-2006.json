@@ -1,0 +1,228 @@
+{
+  "items": [
+    {
+      "componentPropertyDefinitions": {
+        "Range": {
+          "defaultValue": "No",
+          "type": "VARIANT",
+          "variantOptions": [
+            "No",
+            "Yes"
+          ]
+        }
+      },
+      "defaultVariantId": "64:176",
+      "description": "",
+      "id": "17382:13106",
+      "key": "60756ba816ade29abbea13f8d749e1ca62a6dcfa",
+      "name": "Slider",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "64:176",
+          "key": "d5b0c159e293d1477954b210a03aa2b9661d4b09",
+          "name": "Range=No"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17382:13107",
+          "key": "3ddd32c05f17bcc1c6668c898057dbb481c33965",
+          "name": "Range=Yes"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Label Text#17398:20": {
+          "defaultValue": "Label Text",
+          "type": "TEXT"
+        },
+        "Level": {
+          "defaultValue": "1",
+          "type": "VARIANT",
+          "variantOptions": [
+            "1",
+            "2"
+          ]
+        }
+      },
+      "defaultVariantId": "330:24589",
+      "description": "",
+      "id": "17398:40525",
+      "key": "ba3ef1fef9cb96321459c7d3bd0f8ab574763566",
+      "name": "DropdownMenu / Item / Label",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "330:24589",
+          "key": "ce9e8f5144066da93aa134d9a2ffa37a5a7d82bd",
+          "name": "Level=1"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17398:40526",
+          "key": "2cfb9311263eab93842c2e570221f348adcb977e",
+          "name": "Level=2"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Description Text#17402:6": {
+          "defaultValue": "Description Text",
+          "type": "TEXT"
+        },
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus",
+            "Disabled"
+          ]
+        },
+        "Text#17402:2": {
+          "defaultValue": "Placeholder",
+          "type": "TEXT"
+        }
+      },
+      "defaultVariantId": "17402:26396",
+      "description": "",
+      "id": "17402:26397",
+      "key": "65c90334214c8e0bc76a6e9e150baaa1957d87ca",
+      "name": "DropdownMenu Trigger / Avatar",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17402:26396",
+          "key": "8aafab42b343da11d5b57c851c95f1debd6cd51c",
+          "name": "State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17427:178537",
+          "key": "cf60f7ca95c9c140e6a7454163dd4c2ca654d6b4",
+          "name": "State=Focus"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17402:26395",
+          "key": "e4f4362fad2c20f8b63388be9973914cbd40105e",
+          "name": "State=Hover"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17402:26394",
+          "key": "8581177d1fea1c2095d181bbc4b8105206c0744d",
+          "name": "State=Disabled"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "State": {
+          "defaultValue": "Default",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Focus"
+          ]
+        }
+      },
+      "defaultVariantId": "17428:100437",
+      "description": "",
+      "id": "17428:100438",
+      "key": "48c01bbe4af351ed6296def30cd9e0e9cfeb0fc3",
+      "name": "Slider / Item",
+      "page": null,
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17428:100437",
+          "key": "002c38b73be1c415222801355680798c5f834070",
+          "name": "State=Default"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17428:100440",
+          "key": "c3edf3864f1dd1b4318fd33cf6e2b6430c93e8e1",
+          "name": "State=Focus"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17428:100441",
+          "key": "165a6c45b81f3c5dc464fa8fd7306f3eaf6d2c7f",
+          "name": "State=Hover"
+        }
+      ]
+    },
+    {
+      "componentPropertyDefinitions": {
+        "Breakpoint": {
+          "defaultValue": "Desktop",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Desktop",
+            "Mobile"
+          ]
+        }
+      },
+      "defaultVariantId": "17455:139009",
+      "description": "",
+      "id": "17455:139010",
+      "key": "ec6d9752f84e69d52d297e49f80c29f729a8b4fe",
+      "name": "Blocks / Dashboard-01",
+      "page": "Blocks (Official)",
+      "variants": [
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17455:139009",
+          "key": "2ee02c42a7b498795892687505b51e7a53d8af46",
+          "name": "Breakpoint=Desktop"
+        },
+        {
+          "componentProperties": {},
+          "description": "",
+          "id": "17455:139008",
+          "key": "36a0808cae34839c59bdd822a01e8b4d4b3e514b",
+          "name": "Breakpoint=Mobile"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "batchIndex": 2006,
+    "category": "component-sets",
+    "firstStableId": "17382:13106",
+    "hash": "d76f6bd03e202e4190270a3ab66bcb0edc8b194e9844ef001360f8713f2c9d73",
+    "ids": [
+      "17382:13106",
+      "17398:40525",
+      "17402:26397",
+      "17428:100438",
+      "17455:139010"
+    ],
+    "lastStableId": "17455:139010",
+    "receivedCount": 5,
+    "requestedCount": 5,
+    "retryCount": 0,
+    "status": "valid"
+  }
+}

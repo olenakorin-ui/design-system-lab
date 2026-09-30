@@ -1,0 +1,86 @@
+{
+  "allComplete": false,
+  "categories": {
+    "component-sets": {
+      "complete": false,
+      "completedBatches": 2,
+      "duplicates": 0,
+      "expected": 405,
+      "extracted": 7,
+      "incompleteBatches": 0,
+      "inventory": 405,
+      "missing": 398,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    },
+    "components": {
+      "complete": true,
+      "completedBatches": 8,
+      "duplicates": 0,
+      "expected": 285,
+      "extracted": 285,
+      "incompleteBatches": 0,
+      "inventory": 285,
+      "missing": 0,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    },
+    "effect-styles": {
+      "complete": true,
+      "completedBatches": 4,
+      "duplicates": 0,
+      "expected": 34,
+      "extracted": 34,
+      "incompleteBatches": 0,
+      "inventory": 34,
+      "missing": 0,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    },
+    "icons": {
+      "complete": true,
+      "completedBatches": 15,
+      "duplicates": 0,
+      "expected": 1468,
+      "extracted": 1468,
+      "incompleteBatches": 0,
+      "inventory": 1468,
+      "missing": 0,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    },
+    "text-styles": {
+      "complete": true,
+      "completedBatches": 8,
+      "duplicates": 0,
+      "expected": 309,
+      "extracted": 309,
+      "incompleteBatches": 0,
+      "inventory": 309,
+      "missing": 0,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    },
+    "variables": {
+      "complete": true,
+      "completedBatches": 8,
+      "duplicates": 0,
+      "expected": 760,
+      "extracted": 760,
+      "incompleteBatches": 0,
+      "inventory": 760,
+      "missing": 0,
+      "reducedSizeBatches": 0,
+      "retries": 0,
+      "truncatedRejections": 0
+    }
+  },
+  "fileKey": "ZllxQplWi5QJcNeUHeY8T3",
+  "fileName": "Design System V2",
+  "updatedAt": "2026-09-29T18:03:21.154215+00:00"
+}

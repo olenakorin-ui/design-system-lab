@@ -1,0 +1,1551 @@
+{
+  "category": "text-styles",
+  "count": 309,
+  "items": [
+    {
+      "id": "S:8555dd1b560282a4bc5f3907c3c28f4c53c28c03,",
+      "name": "custom/heading-lg",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4f70b86e24a2850c2345123c32288a3fd2658eb7,",
+      "name": "custom/heading-md",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7c9d68a2405b0c1e54f65d4cf9453b69402efbfb,",
+      "name": "custom/heading-sm",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:18da85ae4532c15e17a6ba9d4a3dfb8bb981025a,",
+      "name": "custom/heading-xl",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7a0ada631e9482a3268958df3a141ea86b635cfc,",
+      "name": "text-2xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c0360ef8cdf6e347e2283068bf89f3a6cbb8f043,",
+      "name": "text-2xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:bcd4f5afb73a02eba469459548ac1e727aec3c48,",
+      "name": "text-2xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2a990d74c228d1ecf35b8d5fac53e41d8f7b738d,",
+      "name": "text-2xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6f039d4281d3dd0d0f6fc0c5eb5f6a48062bdd07,",
+      "name": "text-2xl/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e23a225d564d2769ea491f375f44155010183cd5,",
+      "name": "text-2xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f613dd7f6b2dc0ad00c4c36903818c7c1f0dd9b3,",
+      "name": "text-2xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9c0fef6105117a92fa95cf51e040d8c1dd34218d,",
+      "name": "text-2xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:273b5881f90c77faed92e269f2217787fe522bdc,",
+      "name": "text-2xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6e99d63b2bf12166e9f9a62e54ff718342a3b1e5,",
+      "name": "text-2xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:33f585c1495721311693ea9ad649d0e7f8f1c6ad,",
+      "name": "text-2xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fcf551b5c04c5f50f5b0c811a95187d5db90ba1b,",
+      "name": "text-2xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:a94f15d5e6d113de68620634ee532d7cf7268eee,",
+      "name": "text-2xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5981f291fc7aab18f06b3024e748cce14241d523,",
+      "name": "text-2xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2df35b9eef89ab66b49099c589a47106f46a0d08,",
+      "name": "text-2xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:03cc62331d30f0aa57fb5781e304d13f0383aece,",
+      "name": "text-2xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4cd30cd6d3314f04a0d3eb5a5ce5cd6082020e25,",
+      "name": "text-2xl/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d285b38d8e89ee3ef5854f14a5bb43e508d0f250,",
+      "name": "text-2xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e4f72a5c644d198cf4bc4770d0c9ce68c90a5063,",
+      "name": "text-2xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:86370a216f790e1d1da76f813dda77ccdd7a6254,",
+      "name": "text-2xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d9bbb4e6fae33228aa081e7fc554ccb1d741945d,",
+      "name": "text-2xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f186899a4a4107c765c77f626af33b11fc84df0b,",
+      "name": "text-2xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:56ca5d699b772b07a43c726b4da00dde484b467e,",
+      "name": "text-2xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8b7b5125122db706b923c43ad397ea46c0a3eb58,",
+      "name": "text-2xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:868fe5aeab191299867a6e561c7365375aa7f41c,",
+      "name": "text-3xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5ce63dd2002465380aa9b10236a706be32472aea,",
+      "name": "text-3xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fbc7e9206b0fb7fb371c5d5afc6826650b7dd34c,",
+      "name": "text-3xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:129f312fa6749962afb9b97d62439248884afeab,",
+      "name": "text-3xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3eb500eac7595d13ba89ff0edf908f7bfe87ac02,",
+      "name": "text-3xl/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:50f5dd7fdb5c8ca7bd86678df4fdef728b89b4b0,",
+      "name": "text-3xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f7eb3fa8d8e903871c68eab543910fdb5b074ab0,",
+      "name": "text-3xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b59d6e55280e0975dee0d272374887f821314127,",
+      "name": "text-3xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:493be8723c746eec55a87ea1ce50fa8083ac719d,",
+      "name": "text-3xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c259596828b67fb6720507c2ae82d30ca683db2a,",
+      "name": "text-3xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0a34256c163562349c3e736209ea9e8b9ef8b67b,",
+      "name": "text-3xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:91352763a668f03734620fb598ef7cc89560cdef,",
+      "name": "text-3xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9409809f5a31f8f3132617ee5720b35ff56b0caa,",
+      "name": "text-3xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:bf17b6234e1d193d1d03e3c195f250e65386345a,",
+      "name": "text-3xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:21bbf3d8ba6c3f70b69113b4a1648dc949aced30,",
+      "name": "text-3xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:61a9c5e00d7ffc227a112cb0c01fd34baf43df99,",
+      "name": "text-3xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c2ff75258cc82ba2e9abf2bf3fab3b66b1529069,",
+      "name": "text-3xl/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4557c745cf460d6d6a05daa966efa6bd3e28a6f8,",
+      "name": "text-3xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9d61c51781defce26c3e2fa8c3922904e7dfd023,",
+      "name": "text-3xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:61fa89a3e2c712c7b3506721c595b2bca96351a0,",
+      "name": "text-3xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:20393663ebd7a3e3921201a8548c2d7d7bfa973c,",
+      "name": "text-3xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d8fdff5429cdc9d82175b9aed58be158fcacb4fa,",
+      "name": "text-3xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:320d0f5ff6a961e763b30edd7ce42fcd37711464,",
+      "name": "text-3xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:05e22a6991753c95a20c6a389a166c8f6c057549,",
+      "name": "text-3xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1cc01ca16df1a7824e5484402048c9dbe637ab1d,",
+      "name": "text-4xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f3cb7e105c90352b85d091324a6b9a088243dce7,",
+      "name": "text-4xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9cf4846bd595cbb32d7b336306d397547b51750c,",
+      "name": "text-4xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:bab4126e62b9ba0c9fca6666d7efa3527af432b8,",
+      "name": "text-4xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:14226d0b218a8543640d966ffe5cf77370d1a15b,",
+      "name": "text-4xl/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b8f533901e6bf06eb0b2e7980f060b3b4bc7c17d,",
+      "name": "text-4xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5a1f42f506cf0c7cb9fbdfd9dc70123e4f8cb0cc,",
+      "name": "text-4xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:385ac0c38fa00673eb8c5a40244e3b457464b1a3,",
+      "name": "text-4xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b8d02b59b0d1da962da5d25a66c782b75b9d88c1,",
+      "name": "text-4xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:11450db2a54590eba536bd88bbd166b5e3752cad,",
+      "name": "text-4xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5924fb7d700c12f8a0b13295aca79aebec054d88,",
+      "name": "text-4xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5fb0a845e9328116ad50d5d470c8c8173adf547a,",
+      "name": "text-4xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5d403b8b62ea97668e43bc05595c9f0d78ca2256,",
+      "name": "text-4xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:81ca51da4973b92e94fc0be827a89c8f8ab02d51,",
+      "name": "text-4xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:491d5f3269a8e882d5e172faa726642d7754e061,",
+      "name": "text-4xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d4b2a1bf18346ab77f6a928b6b823a6b54e13aa9,",
+      "name": "text-4xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c24db7ea966fd22332d446284b478e230f533557,",
+      "name": "text-4xl/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:035c9a7e40af29f886bf78e79e94d28daaf0cfff,",
+      "name": "text-4xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:564c9d1f061dc1e851addf583a7e7033eb06b9bf,",
+      "name": "text-4xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0eb6877c90d3c6c0000a9732f087b0bcb50a9e60,",
+      "name": "text-4xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:291d26f8482d9051a6a146a6adc3445de94d2389,",
+      "name": "text-4xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:73bf2fcb028fffa5ae9bf5a873ba151ec8451d09,",
+      "name": "text-4xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8cf5f41c09ff1db0485ec3a5da5ec1437a0546ee,",
+      "name": "text-4xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:067fa90fee3dadfc31020ee351f430623b2eec76,",
+      "name": "text-4xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:549466b4693482d58ea6a8e12d125f4493bb8056,",
+      "name": "text-5xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8b687c10bf6db51d2602aa51cc01bd20e5327779,",
+      "name": "text-5xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c3ac8f96095e36f84307687822f349972a6392cd,",
+      "name": "text-5xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8bf1a1eafda834ed4db3d8932ff0f9991ba75ed0,",
+      "name": "text-5xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2c5f69f6a3990fc346b993cfa8dba158ec3a649d,",
+      "name": "text-5xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ea7ffe971b3d7a70025db793293154b95531c680,",
+      "name": "text-5xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:783a39a92d8c05078e347f04eaa36d7ea918135b,",
+      "name": "text-5xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5e552793e8983b9a8d1f2dfaa5f6f89b35c1aca0,",
+      "name": "text-5xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:561782e94d7353c8ff844e27925cb8fb8bbb59e4,",
+      "name": "text-5xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6f2c2b3e159980ad2d5e9c4dd13bf1bdff885062,",
+      "name": "text-5xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4d90e4f9b6cb192547819157e24884b210eaecbb,",
+      "name": "text-5xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d5c391607b85e8c589b257ceaf8e49ac0e7bf3e5,",
+      "name": "text-5xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5ebcd3720d1fb5475cdc374c6dc7197132982c5a,",
+      "name": "text-5xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3e57da9b4b3067f58efad5d2455c468b1ec149ad,",
+      "name": "text-5xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4b189becb6876434c32ccebeab344160daec6662,",
+      "name": "text-5xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:528d1061f7d341166d2eaf64724323ef6b84c3a1,",
+      "name": "text-5xl/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fcc4bb65f0a10672f73b4d410ec63cb986c8282f,",
+      "name": "text-5xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1c2278cf4ecaf4519f23671de7a5c69e6286425b,",
+      "name": "text-5xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ae273b8d1d721864f3a2fcc46410bd027d2c26c8,",
+      "name": "text-5xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:568d722313492b57e7a306db5b11eb5c5141e473,",
+      "name": "text-5xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:07dc05e5f719718ab8c18ae214819625ddb90dd6,",
+      "name": "text-5xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2297c3c1a79c3b6af74e734cb092863d9f90dda2,",
+      "name": "text-5xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:18d9d07ddcee21c355e0a943d5ae678b3977f26b,",
+      "name": "text-5xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:82328543696683ed27400ab2310df083e08b4fdb,",
+      "name": "text-6xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:78786d69c6983997310364c0140ae6c939879d49,",
+      "name": "text-6xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f8380770bd079342159914b405441efdacc1c694,",
+      "name": "text-6xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4da1cab4f929825d9c61db985815f4827b320354,",
+      "name": "text-6xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e938bae74423211bee9a13f5e51bb05923cd5cce,",
+      "name": "text-6xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d877aa2d29c92555cff4f11151e6af63546c1d83,",
+      "name": "text-6xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ab35bf7a193e3afad7394d5c22b9d0fcad5e394a,",
+      "name": "text-6xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9ca753ea4f251f2ba32f75e0f5aa718aab755d29,",
+      "name": "text-6xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:31217bcb127401658cc730f970d142d1ba78038a,",
+      "name": "text-6xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:27c6b96732079412e8256c604d7e51f93868967f,",
+      "name": "text-6xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7e96285ced5d79cf9512bdda13444ac475595e6b,",
+      "name": "text-6xl/leading-none/untitled",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:58a5b995a5472e7356812ba8e993f6a00478c8f5,",
+      "name": "text-6xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5d4c94e7fbbc72e7f3bd655becc4663d6ec7300a,",
+      "name": "text-6xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8c1772b5d46f7351c1f7d061bf420de43b6fd401,",
+      "name": "text-6xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:76029823bcb4a5539ca65be5474473ef928949f9,",
+      "name": "text-6xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:617b81fe57f05705bf41ffe5ae5e69b4df154071,",
+      "name": "text-6xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fa7e53e0db3e946bb4e55d436c09224402123092,",
+      "name": "text-6xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9ad205c814911a7e520f83c64b38713b56afbd96,",
+      "name": "text-6xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:736737534aaf53b206dc4a2920d1fb683e4de2db,",
+      "name": "text-6xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8ad4f52f56a20eb2e22c21b299898dea76aba909,",
+      "name": "text-6xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:eecd45e7bda1d2013f604b734b029b9b3eba854d,",
+      "name": "text-6xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:871b0d9971110e966d69c3614e89de95cb4b1004,",
+      "name": "text-6xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e06eb6c62a5e82dd59883354d82bcb903cdfc745,",
+      "name": "text-7xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fc4d9163cee4e4ce37fb5c12fc54a5033ee3edbd,",
+      "name": "text-7xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6de7d68124c2461f9ccc397c35a6b746591ec009,",
+      "name": "text-7xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:67648a9ec38640829ad7db35a339e0e2e6110708,",
+      "name": "text-7xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5d4f31597ef833a04e4bec0a5ecab6883348e9d2,",
+      "name": "text-7xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2d710fb8c18fabaac8683c638de57c2b38d7132d,",
+      "name": "text-7xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ef23e90e27a334b3d446d265e469e65fc700d64b,",
+      "name": "text-7xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:031f0d4c252d0173da2781ac356c4d27b8f87bf0,",
+      "name": "text-7xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8195599736e1ffe4515775c1ef261d38ce1091ef,",
+      "name": "text-7xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:dc69165398d471feca7e70dc14107fdd2d97a721,",
+      "name": "text-7xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0e238873041e5112cb9c9e1d4a2d31f75ddc5834,",
+      "name": "text-7xl/leading-none/untitled",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b6953cc38b4701d8c03f06f5fc81fe1fc8da8f92,",
+      "name": "text-7xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ccfc2c147dc876331da2aafe262812906ae5e7b7,",
+      "name": "text-7xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:eb0b8a11e47408d316457a7fb6d46d06d49ee614,",
+      "name": "text-7xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:92f617f6dc763d9afa58e865c4ea2731c159778c,",
+      "name": "text-7xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5162fd4171c272f08f88d5e5e41d9e70cbfbcc06,",
+      "name": "text-7xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:37f5dcd97a342f59a91aa598b74f8453a89551b4,",
+      "name": "text-7xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c03fcd651d7bc3423aeb309e9a88ae558380231d,",
+      "name": "text-7xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8664aca2c52c7dce7862f13f30fe44e81e2bc519,",
+      "name": "text-7xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e29da78305f990d73463888edd91d995baf592cb,",
+      "name": "text-7xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5380249d2a027d132a76bb9ac237dbc6a6e9fb36,",
+      "name": "text-7xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:97aaf44bfb3840e102cd84bf71f55c7275bebea6,",
+      "name": "text-7xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b7014a3f595ff0b547aea2c0011eaa344d257621,",
+      "name": "text-8xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e9718fabc024fd5fbe82c6ae2cf458f65f4cf284,",
+      "name": "text-8xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5ce40fab8f28012e280692fffa92ca432b868e91,",
+      "name": "text-8xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fdaa8aa923f8b0c615a46264a83f0fe855a60d0b,",
+      "name": "text-8xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2602073c23a5cce069300cfed9e9bc6dfe0a9fbf,",
+      "name": "text-8xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:66f887867c5d9afa183b0a6037ee902779eba04c,",
+      "name": "text-8xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7c3ee5d8418df150d3f17decac4785aba92d980c,",
+      "name": "text-8xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3ae680ceb5ef072e1a728a85b5aa873b15247157,",
+      "name": "text-8xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1fcda16567b8be9113c2250fc53c4c21f2dde4bf,",
+      "name": "text-8xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:230814fea31004bf23b5bf91780a9393b543d0fd,",
+      "name": "text-8xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:20f8686f4ea91ae92efd440a0b093220e5f48181,",
+      "name": "text-8xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1ca215a51a8adfb25fc22ebfbda016f4fe541e2d,",
+      "name": "text-8xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2ac79d3ac7310e0e86c44d75ce8fde3729ab4b74,",
+      "name": "text-8xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:10d41ba505aef618b3b91046602705efea3b3d2c,",
+      "name": "text-8xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:a073c4b3cf39f8851fc1e1fbca129106c64d1aba,",
+      "name": "text-8xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c6ef8790d82703e7f71194ec7ecff8e4d936e739,",
+      "name": "text-8xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e460930f687e3d85bf6612c3ba1d388c326f6e44,",
+      "name": "text-8xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b568f34cdeddd4f474121e4a2f923ff3bc058bdb,",
+      "name": "text-8xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d26bf6b85a6a344de719b5a5449ab3d6fbbe6cfe,",
+      "name": "text-8xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ee041564086205cf1b50fd0e69b6fac68465c5ae,",
+      "name": "text-8xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5f57a511bfacb70ce72b80defa9e18b7ebe15308,",
+      "name": "text-8xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6f7c840f9eceec8ad02751f95082358df68962d7,",
+      "name": "text-8xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6869a871ae30b9bc45094e699ec1d06403a73cf1,",
+      "name": "text-9xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:aa9e5b63f986bd3aec2a1239510108538d41f5b6,",
+      "name": "text-9xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f89798d61a29b9584abb6a552f58a3b2bc278fa5,",
+      "name": "text-9xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:996b0e230f9416fbcac9525e0c00899e26ac4ed6,",
+      "name": "text-9xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fda6327e19af70358d79a7ce9a152be6c46d6b21,",
+      "name": "text-9xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5e33af523bafb9e9ee74c331fbf75cfb6654bcc4,",
+      "name": "text-9xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1a5cd560779084efab7297b550dbf2a1c2136e4b,",
+      "name": "text-9xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:199ef7d052a59d2af3370dcabc3a94671bac11d9,",
+      "name": "text-9xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:cdbe8921b453e387925acd83aea7ca91285ac61f,",
+      "name": "text-9xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ed7c5a7e187c10dfc4f889fa9742ae2e6c71b846,",
+      "name": "text-9xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:52b0d059d14dc9d63e85e154db5e9a6c42b9f8fe,",
+      "name": "text-9xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:51ff1ffc8f4c87d881f2d90cb477ab51267f9926,",
+      "name": "text-9xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1ef90ce0281cb7cc7f66837e3b027d00c1d370a0,",
+      "name": "text-9xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:15335d512a8419486016106efe2abdc2c6ea2a3a,",
+      "name": "text-9xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:996b6734ed62af595f1758380d932ab4b7476f22,",
+      "name": "text-9xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f36ac77e14bc07671d88e62e80737e1cdb162308,",
+      "name": "text-9xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:29ff28e6fec818b07a4bac7135131511fdb8d5b6,",
+      "name": "text-9xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c8c055761c08c708d0daf12bb9b93b6a3ebf6904,",
+      "name": "text-9xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:afaed875bd0f9906bf2fa950401abe174e49a573,",
+      "name": "text-9xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5a070773503a8e70d4993d3ae90cc1f034fffcc4,",
+      "name": "text-9xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0f4f9ed0ba425ea2ff3296a875807fd908983f82,",
+      "name": "text-9xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:fd7ded94aef3bb9b2b42d78854b64ae6925daaec,",
+      "name": "text-9xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c51ab3eea6e3c5ea828143db9eeec2fb73f59fa2,",
+      "name": "text-base/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ea53f2e7dbf4abbef5f0a85aeb58b0058aef8dd5,",
+      "name": "text-base/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4d683a9c618c1531987a93e69edc3548d2c5c3d6,",
+      "name": "text-base/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b6ed102b02915ec5fffd81a761f9ff27198f1374,",
+      "name": "text-base/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:dcd6fa865c3d476c7e1e0d6694e6108b3bdd927d,",
+      "name": "text-base/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4823eb5992ad5726bcc0680d6ff694492445bc90,",
+      "name": "text-base/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:03c6ced118d6eeefc1301ed7b06a830e343b8c7a,",
+      "name": "text-base/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4ef4bffd1d0a7f07804e31e3d6bb4b8c21e7f2c4,",
+      "name": "text-base/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1d24c5e8c12a2f74ba8ff86cffee2685bd323a52,",
+      "name": "text-base/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:857d6cf67f976142d188445a3dcf6ab6fe13479e,",
+      "name": "text-base/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:bc435f78992333a6bce9874e4bdbc90faca30b54,",
+      "name": "text-base/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:36e86bc5113cd31671f933130ee40d0bb2adf29f,",
+      "name": "text-base/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8cffa2b9fb119af47c0e624f8e2366a7c7ed7e3e,",
+      "name": "text-base/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f4d3d80f119a71b34065361c323f9e30d23b843f,",
+      "name": "text-base/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:54cce1daddf885c8a5d6fe0ac24feaa95f01f7a3,",
+      "name": "text-base/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2715079d8c4bdccede9fbb4ca80ad8ab07963cf7,",
+      "name": "text-base/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1dacd54b18988ff690a6974ba0831191e275213c,",
+      "name": "text-base/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f2145fb8d4edb4c78a9e785c9f3ea54e084cd77f,",
+      "name": "text-base/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4ead759d6f7754c35b9e8731518a4ca77f7aa970,",
+      "name": "text-base/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5b4e291b1b54060aec30dc877c5e0ed998131b93,",
+      "name": "text-base/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3a476aa76b52180bbfb1670813c4cdc9d5222b8f,",
+      "name": "text-base/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2802520d499c6e2eca54eee4047b81dbef11e9fe,",
+      "name": "text-base/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:aca731f83d150299357685773cb459d2e459c08c,",
+      "name": "text-base/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:558bf33756df4f6fcc523913d1333885999f5d3d,",
+      "name": "text-base/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ad966a5c5d2445107b72133991e4793608e02765,",
+      "name": "text-base/leading-normal/underlined (medium)",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f14f0d13aba1b16d5794defbc6d3c8ab02ae0a12,",
+      "name": "text-lg/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:106252d5465d6066dee4a34714f34d8c4e0f3210,",
+      "name": "text-lg/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:851691f87ef64439f5c2077088fae766e2b750a3,",
+      "name": "text-lg/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1c502ae66248d85d1d1dbe5ef18f0e542126ef9e,",
+      "name": "text-lg/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d785aafcc4ff4c7ee30901da7ddfd96c8b8b7581,",
+      "name": "text-lg/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c6ada774bb17fbe8193a7115dbec5ce3996d5c64,",
+      "name": "text-lg/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0c698e561783a1311213fc5388d5d0a7c1640c3c,",
+      "name": "text-lg/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:42c7066e767b3b447c97a07f6832b939734351f9,",
+      "name": "text-lg/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:944f4589842424f6d40b7c2a11be2133b1c2fc0e,",
+      "name": "text-lg/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d575ba0630ec31165712119112639470769175b1,",
+      "name": "text-lg/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2b034b13372040a48bf8b158f0317b9a0d656afa,",
+      "name": "text-lg/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4030846db09cfbfbe3d646090d129b4337fe9c4a,",
+      "name": "text-lg/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:22dc1964269fdb1023dbf6675672f5e36bba6ca5,",
+      "name": "text-lg/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f270a92552a95243ef85cce2c3f37a39a379a715,",
+      "name": "text-lg/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:cbace5458b1328ae67849c68ea7ac2976e0e6514,",
+      "name": "text-lg/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:26b3d434e172a59b5c71c8e972c47ef6462819a8,",
+      "name": "text-lg/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8fd96be553f0ec144bd95f3c9e9d322fbcfd5ba6,",
+      "name": "text-lg/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:dfcc498c1b561e030501dcfe7926802cb92af395,",
+      "name": "text-lg/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:cc4554fbc9f1922009cf89013086ccdc084aa5f5,",
+      "name": "text-lg/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4e1f738684acf8f76e07e411819ac2a36b9f17ec,",
+      "name": "text-lg/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:096099a0c304c12a0cc0c212c902aa5991130b51,",
+      "name": "text-lg/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1b5e685c3f83f4aa7bc5ee4fe921348563b03338,",
+      "name": "text-lg/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c267ea6b95e039b937a331e43fcd5c1e3d10ad01,",
+      "name": "text-lg/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:dca8f5bfb5da0415b29cbeca4c3568c8a2132900,",
+      "name": "text-lg/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:d71e4d462824e7c98715f5c6d8548bebf6bf9524,",
+      "name": "text-sm/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ea389e548d87bacc0dd1958a0da6146198220533,",
+      "name": "text-sm/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9349744ae41f59f0f2c1c61fb18b0fb62e564f61,",
+      "name": "text-sm/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8d650851dc6a32b3f0095cdebf7267743ecfa33f,",
+      "name": "text-sm/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c4c8be4ddb7286f553ff11bea639b294651c549c,",
+      "name": "text-sm/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7062b405aec83eeec5143987db0210eb617701fb,",
+      "name": "text-sm/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e7cd8e8664afcaa8a5d5282d02e47d677a53f588,",
+      "name": "text-sm/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9229b5e2763f3e555fe23f5c9790c162e6deef8d,",
+      "name": "text-sm/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:aaa60b5f0854d51a683b981e775362e694268b77,",
+      "name": "text-sm/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ba1e72cdb8f4b6bb79c132bd666ec043f7963d90,",
+      "name": "text-sm/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3510b591def72efe214759f5817a2a56fc792573,",
+      "name": "text-sm/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0e635d385a8efe561e5d24772fab2437b2ceb1ef,",
+      "name": "text-sm/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9288dda55e6ae93b93361d14962b650b65e1017b,",
+      "name": "text-sm/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:58999b491af3c02b0430cd8a63a8f9c0db9df0f4,",
+      "name": "text-sm/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8eccf0af381214c28841152be9b3d3e233bcb452,",
+      "name": "text-sm/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:51aa89d4916823801f63f54395bfe645db0dd295,",
+      "name": "text-sm/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c47ca56b38b1cb4434587adc0da1f2a8177af41d,",
+      "name": "text-sm/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1d4e2ce43887b88bda86cc329107671f12fdd477,",
+      "name": "text-sm/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:95067756b94073e2e9b15fb0c5a559a57ff5996c,",
+      "name": "text-sm/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:54e30ed87e3bf552902408aea4609ce6eb9cba1a,",
+      "name": "text-sm/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:20a6ad4c6aee881c8c9ffa4c68eb8e3b12e424c8,",
+      "name": "text-sm/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7e5b4f8d950daad978351896046c0ec751b2fbe0,",
+      "name": "text-sm/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:88bf2752611d6517aefba47cb98d2f385eb3b39d,",
+      "name": "text-sm/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c1278c3ba7e3cec5d3dc3be82e3b8b689a3ed74a,",
+      "name": "text-sm/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:91b84574971bddf15d5427a340316571e9a16233,",
+      "name": "text-sm/leading-normal/underlined (medium)",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ab9b0117f2ecea50ff12d98258af0889535fe8ee,",
+      "name": "text-xl/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0c20dea72342b29e1cec8b42530e4df7465b373b,",
+      "name": "text-xl/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9ac0589a0880257b2b71f9f59e14586834bdb771,",
+      "name": "text-xl/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:03fac192ba1ad0d3ae4ab584a324d8abd47f5856,",
+      "name": "text-xl/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:54f1e2f21bdc765fd8095724795a54feb4dcc2fe,",
+      "name": "text-xl/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:32ad8439716dccb56851508cb4f2ad22b5fe0165,",
+      "name": "text-xl/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e64cb2fd563e5844f2887a51cc03b433c72e77dd,",
+      "name": "text-xl/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:08217fe5f19ddb0cb31676c5a05d68b141015fbb,",
+      "name": "text-xl/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:7aeda837f3a50329eb217868ef75c4de2ed6fc66,",
+      "name": "text-xl/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4ba54756a4b1bc2299f38162a5c8934e386fc385,",
+      "name": "text-xl/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:145bf56d32fad390611c3c1c132366e166f8ed47,",
+      "name": "text-xl/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:3c8d71c04c7b8a3ec1d79a36625625cd89943a50,",
+      "name": "text-xl/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b16209598db97098bf902351f60e0655a96261b4,",
+      "name": "text-xl/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f9f37a8f8beb10b7ab4183aed580845c46ed9297,",
+      "name": "text-xl/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:93c794eb98ee80e749d5c76e54e6778517ffc776,",
+      "name": "text-xl/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:74b5586ea7bf8c54fc4ddc6c25ca3e728e41c2b4,",
+      "name": "text-xl/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e565c79569bbed9dc7f8922ce307d488fee3417a,",
+      "name": "text-xl/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ec146f276cb52aeb3ade68ab29c18b1790b03015,",
+      "name": "text-xl/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e1c9a8e39582571df689ddccd8b3ebea48115fc6,",
+      "name": "text-xl/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0e7ac1520ab48d1afc1802bc0fe16a003c6e4862,",
+      "name": "text-xl/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e7c88d71baeae200820d0f672a28224008235d5f,",
+      "name": "text-xl/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:630619ae20af8eff8edf5eb5e83f23928ab52ded,",
+      "name": "text-xl/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:caa2a9017e558fc19476305c8e0112eb61d0c940,",
+      "name": "text-xl/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6fa7df8e51eeda47c2e75e387dc9f9df85b55b5e,",
+      "name": "text-xl/leading-normal/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:722fa2ec4907e93c9f56e49736fe64fbdbda3c5e,",
+      "name": "text-xs/leading-none/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:9c7e7d76ffdb6651d4dc998c93f979b04ed5ef75,",
+      "name": "text-xs/leading-none/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c466de42c93ffbeb13e797fb67822a51238cb1fb,",
+      "name": "text-xs/leading-none/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b169e4f25e6a13a192f6a009e7b551d9c36daddb,",
+      "name": "text-xs/leading-none/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:6b4c7ba7717b3c0943a7c692e8d2edfaebfaf9ef,",
+      "name": "text-xs/leading-none/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f27eda7c1b71d0ae1bc70eb37730d3eb82fd27b9,",
+      "name": "text-xs/leading-none/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:140ea603a0741bdb429d7bbdbdf0fdd7176a07be,",
+      "name": "text-xs/leading-none/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:2fb87a13c1152b7a42775dacb2551332e8a52e46,",
+      "name": "text-xs/leading-none/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:c7198def00757ca7e713b69538612a5761e1371d,",
+      "name": "text-xs/leading-none/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:e4680551b6310d6efcf50ce12a085c185ff9c191,",
+      "name": "text-xs/leading-none/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:f443690fcddd9cc797fd23ef778de3e75554af24,",
+      "name": "text-xs/leading-none/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:b7e44944a410f8595534f57534ee5878e22ea8e4,",
+      "name": "text-xs/leading-none/underlined",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:637d32d1ee34e3f222036cd5c6383a140bc12d66,",
+      "name": "text-xs/leading-normal/black",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:870cb40b252d772d6f9f7733c2286da465e30e68,",
+      "name": "text-xs/leading-normal/bold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:5e013c460c05b9fe1357dd00ccf687f7125b4b31,",
+      "name": "text-xs/leading-normal/extrabold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:8f71dcb8476a4b4282342e4769c588f8bcb3135e,",
+      "name": "text-xs/leading-normal/extralight",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:211f227e4b643af4fb8fcdb7aebc34803e8ce798,",
+      "name": "text-xs/leading-normal/italic",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4c6f9494f94909ae0a73f2e01c1cf11e6dcb5c7c,",
+      "name": "text-xs/leading-normal/light",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:0c1cd24f5fbbddbe5c2c4e564613eab5827b6288,",
+      "name": "text-xs/leading-normal/medium",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:ab127c8f8961dbc6df7f413c42c30332f2e8a544,",
+      "name": "text-xs/leading-normal/normal",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:895cf7ece823a1382cf8ef82ef626a6d47cbc084,",
+      "name": "text-xs/leading-normal/semibold",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:21818c257f879dc5d842d65731e942e83d68d4a1,",
+      "name": "text-xs/leading-normal/strikethrough",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:4920aaeca2fb03b0b76f80d734242d4838c47fb6,",
+      "name": "text-xs/leading-normal/thin",
+      "type": "TEXT"
+    },
+    {
+      "id": "S:1e8c12aecaee86a32af05ff074e2918a711d7ed7,",
+      "name": "text-xs/leading-normal/underlined",
+      "type": "TEXT"
+    }
+  ]
+}
